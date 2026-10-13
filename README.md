@@ -1,6 +1,6 @@
 # PokéDB - Pokémon Data Collector
 
-[![Update Pokémon Data](https://github.com/pokelitee/pokedb/actions/workflows/update-data.yaml/badge.svg)](https://github.com/pokelitee/pokedb/actions/workflows/update-data.yaml)
+[![Update Pokémon Data](https://github.com/pokelitee/pokedb/actions/workflows/update-data.yml/badge.svg)](https://github.com/pokelitee/pokedb/actions/workflows/update-data.yml)
 ![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 

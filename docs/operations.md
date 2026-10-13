@@ -66,7 +66,7 @@ The scheduled and manual update workflow only publishes from `main`. It runs the
 
 Consumers can pin a dataset tag or full data commit in raw GitHub URLs instead of using the mutable `data` branch. Preserve published dataset tags. Schema changes require a schema-version increment, migration documentation, and complete regeneration; partial updates cannot mix schema versions.
 
-Like `leak-duck`, GitHub Pages serves the published `data` snapshot as JSON endpoints at `https://pokelitee.github.io/pokedb/`. `.github/workflows/deploy-pages.yaml` deploys after a successful data update, when its deployment code changes on `main`, or on manual dispatch. It exports the data branch without changing resource files and adds a discovery page showing each generation's actual schema and the published data commit. Deployment does not regenerate data; older snapshots retain their existing schema. Raw GitHub URLs remain supported. The Pages source is configured as GitHub Actions.
+Like `leak-duck`, GitHub Pages serves the published `data` snapshot as JSON endpoints at `https://pokelitee.github.io/pokedb/`. `.github/workflows/deploy-pages.yml` deploys after a successful data update, when its deployment code changes on `main`, or on manual dispatch. It exports the data branch without changing resource files and adds a discovery page showing each generation's actual schema and the published data commit. Deployment does not regenerate data; older snapshots retain their existing schema. Raw GitHub URLs remain supported. The Pages source is configured as GitHub Actions.
 
 Each index identifies generated catalogs, target game versions, a SHA-256 digest of canonical resource files, and generator/dependency provenance for each catalog. Partial regeneration retains provenance for untouched catalogs. CI supplies the full source commit through `POKEDB_GENERATOR_COMMIT`; local runs may supply it too. Without that variable the commit is `null`. Identical resource contents and provenance retain the previous snapshot timestamp.
 
@@ -85,11 +85,11 @@ Repository administrators can create a missing ruleset with `gh api --method POS
 
 ## Scheduling and manual runs
 
-`.github/workflows/update-data.yaml` is scheduled for Sunday at 00:00 UTC and supports manual dispatch from `main`. GitHub schedules can be delayed. Publishers are serialized by the workflow concurrency group.
+`.github/workflows/update-data.yml` is scheduled for Sunday at 00:00 UTC and supports manual dispatch from `main`. GitHub schedules can be delayed. Publishers are serialized by the workflow concurrency group.
 
 ```sh
-gh workflow run update-data.yaml --repo pokelitee/pokedb --ref main
-gh run list --repo pokelitee/pokedb --workflow update-data.yaml
+gh workflow run update-data.yml --repo pokelitee/pokedb --ref main
+gh run list --repo pokelitee/pokedb --workflow update-data.yml
 ```
 
 The workflow validates every generation before the write job starts. Local `--gen all` runs publish each generation independently as it succeeds; a later generation failure can leave earlier local generations updated. The remote workflow publishes none of that partial local output when generation fails.
@@ -99,6 +99,6 @@ The workflow validates every generation before the write job starts. Local `--ge
 - **API or validation failure:** inspect the failed generation and resource in the logs. Capture a representative upstream response, reproduce offline, and fix the parser or contract before rerunning. Do not bypass validation to publish a snapshot.
 - **Existing output or schema mismatch:** use a complete regeneration with `--force` when upgrading schema. Do not combine old and new resources in a partial run.
 - **Writer already running:** wait for the process holding the generation lock. Locks are released by the OS when the process exits; do not remove files to work around a live writer.
-- **Stale Pages content:** check both the data-update and `deploy-pages.yaml` runs. Compare the discovery page's data commit with the latest `data` commit. A successful deploy alone does not regenerate data.
+- **Stale Pages content:** check both the data-update and `deploy-pages.yml` runs. Compare the discovery page's data commit with the latest `data` commit. A successful deploy alone does not regenerate data.
 
 To serve an older immutable dataset, consumers can pin its tag or commit in raw GitHub URLs. Changing the current Pages snapshot requires a reviewed workflow or publishing change; never force-push `data` or modify an existing dataset tag.

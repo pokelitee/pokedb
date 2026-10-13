@@ -52,4 +52,4 @@ Keep resource paths, parser dependencies, and the schema version centralized in 
 
 Changes to fields or generation semantics must update the [data contract](data-contract.md), its migration section, validation, and representative fixtures. Before publishing a contract change, verify complete generation against current PokéAPI as described in [Operations](operations.md).
 
-The required PR check is `CI gate`. The reusable matrix in `.github/workflows/checks.yaml` supplies its result; a failed or cancelled matrix must not allow merging.
+The required PR check is `CI gate`. The reusable matrix in `.github/workflows/checks.yml` supplies its result; a failed or cancelled matrix must not allow merging.
