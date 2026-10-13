@@ -128,7 +128,6 @@ def test_historical_item_current_only_fields_are_flagged_unverified():
         is_historical=True,
     )
     cleaned_data = {
-        "cost": 100,
         "fling_power": 30,
         "fling_effect": "damage",
         "attributes": ["holdable"],
@@ -152,7 +151,7 @@ def test_referenced_item_without_game_indices_is_included(tmp_path):
         "id": 82,
         "name": "fire-stone",
         "game_indices": [],
-        "cost": 3000,
+        "prices": [],
         "fling_power": 30,
         "fling_effect": None,
         "attributes": [],

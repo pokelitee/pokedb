@@ -154,7 +154,7 @@ historical output, current-only Pokémon values such as base experience,
 friendship, capture rate, breeding fields, growth rate, and form switching are
 backfilled with their current PokéAPI value rather than discarded, as are
 current-only move fields (`priority`, `target`, `metadata`, `stat_changes`) and
-item fields (`cost`, `fling_power`, `fling_effect`, `attributes`, `category`,
+item fields (`fling_power`, `fling_effect`, `attributes`, `category`,
 `effect`, `short_effect`, `sprite`). Every move, item, and Pokémon record
 carries an `unverified_historical_fields` array (empty for the latest
 generation) naming exactly which of its fields are this best-effort backfill
@@ -196,6 +196,8 @@ validate_generation_output(Path(".output/gen9"))
 ## Schema v5 migration
 
 Schema version 5 changes `move.machine` from a scalar into an object keyed by every target version group. Each value is an item identifier or `null` when no assignment is recorded for that game. Item catalogs include every referenced machine assignment.
+
+Items replace the removed `cost` field with `prices`, an object keyed by every target version group. A game's value is `null` when PokéAPI has no price record. Otherwise it maps currency identifiers to `purchase_price` and `sell_price`, each a non-negative integer or `null` when the item cannot be bought or sold. Prices are not inferred across games or currencies. These values come from versioned PokéAPI price records and are not listed as unverified historical fields.
 
 Historical `evolves_from_species` is derived from the same reconstructed chain as `evolution_chain`. Historical cosmetic records contain only form-specific generation assets; when PokéAPI has no such assets, their `sprites` object is empty rather than borrowing another form's images.
 

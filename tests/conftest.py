@@ -200,7 +200,7 @@ def offline_api():
             "id": number,
             "name": name,
             "game_indices": [],
-            "cost": 100,
+            "prices": [],
             "fling_power": None,
             "fling_effect": None,
         }
