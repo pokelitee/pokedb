@@ -117,7 +117,6 @@ class ItemParser(BaseParser):
         self._flag_unverified_historical_fields(
             cleaned_data,
             [
-                "cost",
                 "fling_power",
                 "fling_effect",
                 "attributes",
@@ -127,6 +126,28 @@ class ItemParser(BaseParser):
                 "sprite",
             ],
         )
+
+    def _get_prices_for_generation(
+        self, prices: list[dict[str, Any]]
+    ) -> dict[str, Any]:
+        """Keeps observed prices for each target game and currency."""
+        if not isinstance(prices, list):
+            raise ValueError("Item prices must be a list")
+        groups = self.generation_version_groups.get(self.target_gen, [])
+        result: dict[str, Any] = dict.fromkeys(groups)
+        for price in prices:
+            group = price["version_group"]["name"]
+            if group not in result:
+                continue
+            currency = price["currency"]["name"]
+            amounts = {key: price[key] for key in ("purchase_price", "sell_price")}
+            currencies = result[group]
+            if currencies is None:
+                currencies = result[group] = {}
+            if currency in currencies and currencies[currency] != amounts:
+                raise ValueError(f"Conflicting prices for {group}/{currency}")
+            currencies[currency] = amounts
+        return result
 
     def process(self, resource_ref: dict[str, str]) -> dict[str, Any] | str | None:
         """
@@ -169,7 +190,7 @@ class ItemParser(BaseParser):
                     "id": data["id"],
                     "name": data["name"],
                     "source_url": resource_ref["url"],
-                    "cost": data["cost"],
+                    "prices": self._get_prices_for_generation(data.get("prices", [])),
                     "fling_power": data["fling_power"],
                     "fling_effect": fling_effect_name,
                     "attributes": [attr["name"] for attr in data.get("attributes", [])],

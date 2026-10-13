@@ -68,6 +68,11 @@ Machine assignments are objects keyed by version group, with item identifiers or
 chain. Historical cosmetic sprites are empty when no form-specific historical
 assets are available.
 
+Item `prices` maps each version group to currency-specific `purchase_price` and
+`sell_price` values. A version-group value of `null` means no price record is
+available; a price value of `null` means the item cannot be bought or sold in
+that record. The old scalar `cost` field is no longer present.
+
 For reproducible consumption, use the raw GitHub base URL and replace `data` with an immutable
 `data-v<schema>-<run-id>-<attempt>` tag or a full data commit SHA.
 

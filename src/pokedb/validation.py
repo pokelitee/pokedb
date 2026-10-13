@@ -241,7 +241,7 @@ def _validate_move(
 
 def _validate_item(
     data: dict[str, Any],
-    _version_groups: set[str],
+    version_groups: set[str],
     _generation: int,
     is_historical: bool,
     path: Path,
@@ -249,7 +249,7 @@ def _validate_item(
     _require_fields(
         data,
         {
-            "cost",
+            "prices",
             "fling_power",
             "fling_effect",
             "attributes",
@@ -266,7 +266,6 @@ def _validate_item(
         data,
         is_historical,
         {
-            "cost",
             "fling_power",
             "fling_effect",
             "attributes",
@@ -277,8 +276,25 @@ def _validate_item(
         },
         path,
     )
-    if not _is_int(data.get("cost")) or data["cost"] < 0:
-        raise DataValidationError(f"{path}: cost must be a non-negative integer")
+    _validate_version_map(data, "prices", version_groups, path)
+    for currencies in data["prices"].values():
+        if currencies is None:
+            continue
+        if not isinstance(currencies, dict) or not currencies:
+            raise DataValidationError(
+                f"{path}: item prices must contain currencies or null"
+            )
+        for currency, amounts in currencies.items():
+            if (
+                not _is_identifier(currency)
+                or not isinstance(amounts, dict)
+                or set(amounts) != {"purchase_price", "sell_price"}
+                or any(
+                    amount is not None and (not _is_int(amount) or amount < 0)
+                    for amount in amounts.values()
+                )
+            ):
+                raise DataValidationError(f"{path}: invalid item prices")
     if data["fling_power"] is not None and not _is_int(data["fling_power"]):
         raise DataValidationError(f"{path}: fling_power must be an integer or null")
     if not all(
