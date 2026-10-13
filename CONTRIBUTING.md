@@ -1,5 +1,7 @@
 # Contributing
 
+The [organization contribution guide](https://github.com/pokelitee/.github/blob/main/CONTRIBUTING.md) supplies shared guidance; the project-specific checks and data contract below also apply.
+
 Use short-lived feature or fix branches and open pull requests into `main`. All changes to `main` require a pull request and a passing `CI gate`, including changes by administrators. Resolve review conversations before merging. Squash merging focused changes is recommended; merge and rebase remain available, matching the other organization repositories. GitHub automatically deletes merged branches.
 
 The `data` branch contains generated artifacts only; do not merge it into source branches or edit its datasets by hand. Like `leak-duck`, it accepts normal automated data updates while its history is protected against deletion and force pushes. It does not require a pull request for every generated snapshot. There is no permanent `dev` branch. Unmerged work from the retired branch is preserved at the annotated `archive/dev-2026-10-13` tag; that artwork change has not been merged into `main`.
