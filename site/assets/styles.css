@@ -35,7 +35,8 @@ button:hover { border-color: var(--accent); }
 .results button { text-align: left; display: flex; justify-content: space-between; gap: 12px; }
 .results button[aria-pressed="true"] { border-color: var(--accent); background: var(--code); }
 .results span, #status, footer { color: var(--muted); }
-#more { margin-top: 12px; }
+.pagination { align-items: center; justify-content: space-between; gap: 8px; margin-top: 12px; font-size: .875rem; }
+button:disabled { cursor: default; opacity: .5; }
 #error { color: light-dark(#a12d25, #ff9e95); }
 pre { background: var(--code); border: 1px solid var(--border); border-radius: 8px; padding: 16px; overflow: auto; font-size: .85rem; }
 code { font-family: ui-monospace, Consolas, monospace; overflow-wrap: anywhere; }
