@@ -136,7 +136,9 @@ class EvolutionResolver:
                 signature = repr(cleaned)
                 if signature not in merged_details:
                     merged_details[signature] = cleaned
-                merged_details[signature]["version_groups"].append(target_group)
+                groups = merged_details[signature]["version_groups"]
+                if target_group not in groups:
+                    groups.append(target_group)
 
         return list(merged_details.values())
 
