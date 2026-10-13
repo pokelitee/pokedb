@@ -7,10 +7,24 @@ import pytest
 from pokedb.config import load_config
 from pokedb.parsers.item import ItemParser
 from pokedb.utils.exceptions import DataValidationError
-from pokedb.validation import _validate_item
+from pokedb.validation import _validate_common, _validate_item
 
 FIXTURES = Path(__file__).parent / "fixtures/items"
 GROUPS = {1: ["red-blue", "yellow"], 2: ["gold-silver"]}
+
+
+def test_upstream_item_identifier_preserves_repeated_hyphens(tmp_path):
+    item = parse_fixture(tmp_path, "xtransceiver--red")
+    _validate_common(item, "xtransceiver--red", "https://pokeapi.co/api/v2/", tmp_path)
+    assert item["name"] == "xtransceiver--red"
+
+
+@pytest.mark.parametrize(
+    "name", ["../item", "item/name", "item_name", "-item", "item-"]
+)
+def test_item_identifiers_reject_unsafe_or_rewritten_names(tmp_path, name):
+    with pytest.raises(DataValidationError, match="filename"):
+        _validate_common({"name": name}, name, "https://pokeapi.co/api/v2/", tmp_path)
 
 
 def parse_fixture(tmp_path, name, generation=1):
