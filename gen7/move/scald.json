@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user shoots boiling hot water at its target. This may also leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": "tm29",
+    "machine": {
+        "sun-moon": "tm55",
+        "ultra-sun-ultra-moon": "tm55",
+        "lets-go-pikachu-lets-go-eevee": "tm29"
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

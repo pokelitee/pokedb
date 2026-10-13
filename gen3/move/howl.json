@@ -35,11 +35,11 @@
     "target": "user-and-allies",
     "generation": "generation-iii",
     "effect_chance": {
-        "ruby-sapphire": 7,
-        "emerald": 7,
-        "firered-leafgreen": 7,
-        "colosseum": 7,
-        "xd": 7
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
     },
     "effect": {
         "ruby-sapphire": "Raises the user’s Attack by one stage.",
@@ -66,7 +66,13 @@
             "stat": "attack"
         }
     ],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

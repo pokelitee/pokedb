@@ -41,34 +41,55 @@
     },
     "sprites": {
         "versions": {
-            "diamond-pearl": {
-                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/364.png",
+            "icons": {
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/icons/364.png"
+            },
+            "platinum": {
+                "animated": {
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/animated/shiny/364.png",
+                    "front_female": null,
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/animated/364.png",
+                    "front_shiny_female": null
+                },
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/364.png",
                 "back_female": null,
-                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/364.png",
-                "back_shiny_female": null,
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/364.png",
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/364.png",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/364.png",
                 "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/364.png",
+                "back_shiny_female": null,
+                "front_shiny_female": null
+            },
+            "diamond-pearl": {
+                "animated": {
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/animated/shiny/364.png",
+                    "front_female": null,
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/animated/364.png",
+                    "front_shiny_female": null
+                },
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/shiny/364.png",
+                "back_female": null,
                 "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/364.png",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/back/364.png",
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/364.png",
+                "back_shiny_female": null,
                 "front_shiny_female": null
             },
             "heartgold-soulsilver": {
-                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/364.png",
-                "back_female": null,
+                "animated": {
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/animated/shiny/364.png",
+                    "front_female": null,
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/animated/364.png",
+                    "front_shiny_female": null
+                },
                 "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/shiny/364.png",
-                "back_shiny_female": null,
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/364.png",
-                "front_female": null,
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/364.png",
-                "front_shiny_female": null
-            },
-            "platinum": {
-                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/364.png",
                 "back_female": null,
-                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/back/shiny/364.png",
-                "back_shiny_female": null,
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/364.png",
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/364.png",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/back/364.png",
                 "front_female": null,
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/364.png",
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/364.png",
+                "back_shiny_female": null,
                 "front_shiny_female": null
             }
         }
@@ -588,11 +609,11 @@
         "ground"
     ],
     "flavor_text": {
-        "heartgold": "It has a very sensitive nose. It touches new things with its nose to examine them.",
-        "soulsilver": "It has a very sensitive nose. It touches new things with its nose to examine them.",
         "diamond": "It habitually spins things on its nose. By doing so, it learns textures and odors.",
         "pearl": "It habitually spins things on its nose. By doing so, it learns textures and odors.",
-        "platinum": "It habitually spins things on its nose. By doing so, it learns textures and odors."
+        "platinum": "It habitually spins things on its nose. By doing so, it learns textures and odors.",
+        "heartgold": "It has a very sensitive nose. It touches new things with its nose to examine them.",
+        "soulsilver": "It has a very sensitive nose. It touches new things with its nose to examine them."
     },
     "genus": "Ball Roll Pokémon",
     "generation": "generation-iii",

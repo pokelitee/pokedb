@@ -39,7 +39,10 @@
         "black-2-white-2": "The user shoots boiling hot water at its target. It may also leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": "tm55",
+    "machine": {
+        "black-white": "tm55",
+        "black-2-white-2": "tm55"
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

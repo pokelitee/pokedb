@@ -59,7 +59,13 @@
         "sword-shield": "The user summons a hailstorm lasting five turns. It damages all Pokémon except Ice types."
     },
     "stat_changes": [],
-    "machine": "tm35",
+    "machine": {
+        "sword-shield": "tm35",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

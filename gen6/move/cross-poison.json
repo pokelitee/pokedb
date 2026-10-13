@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

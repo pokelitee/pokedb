@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "Any Pokémon that hears this song faints in three turns, unless it switches out of battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "perish-song",
         "category": "ailment",

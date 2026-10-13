@@ -47,26 +47,33 @@
         "champions": null
     },
     "effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes.",
+        "the-teal-mask": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes.",
+        "the-indigo-disk": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes.",
+        "legends-za": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes.",
+        "mega-dimension": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes.",
+        "champions": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes."
     },
     "short_effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes.",
+        "the-teal-mask": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes.",
+        "the-indigo-disk": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes.",
+        "legends-za": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes.",
+        "mega-dimension": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes.",
+        "champions": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes."
     },
     "flavor_text": {
         "scarlet-violet": "The user attacks by slamming its body into the target. The higher the user's Defense stat, the greater the damage this move deals."
     },
     "stat_changes": [],
-    "machine": "tm89",
+    "machine": {
+        "scarlet-violet": "tm89",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm89",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

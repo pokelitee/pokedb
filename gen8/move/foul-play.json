@@ -60,7 +60,13 @@
         "legends-arceus": "The user turns the target's power against it. The higher the target's Attack stat, the greater the damage it deals."
     },
     "stat_changes": [],
-    "machine": "tr81",
+    "machine": {
+        "sword-shield": "tr81",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

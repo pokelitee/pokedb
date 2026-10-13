@@ -39,7 +39,10 @@
         "black-2-white-2": "The user looses a ground-shaking quake affecting everyone around the user. Its power varies."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -66,7 +66,14 @@
         "scarlet-violet": "The user attacks the target using its angelic voice. This also confuses the target if its stats have been boosted during the turn."
     },
     "stat_changes": [],
-    "machine": "tm227",
+    "machine": {
+        "scarlet-violet": "tm227",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm227",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": null,
         "category": null,

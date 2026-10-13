@@ -39,7 +39,10 @@
         "crystal": "An attack that always paralyzes."
     },
     "stat_changes": [],
-    "machine": "tm07",
+    "machine": {
+        "gold-silver": "tm07",
+        "crystal": "tm07"
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

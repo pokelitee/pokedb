@@ -70,7 +70,13 @@
             "stat": "special-defense"
         }
     ],
-    "machine": "tm04",
+    "machine": {
+        "ruby-sapphire": "tm04",
+        "emerald": "tm04",
+        "firered-leafgreen": "tm04",
+        "colosseum": "tm04",
+        "xd": "tm04"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

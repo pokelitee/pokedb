@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is punched with an icy fist. It may leave the target frozen."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

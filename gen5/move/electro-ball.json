@@ -39,7 +39,10 @@
         "black-2-white-2": "The user hurls an electric orb at the target. The faster the user is than the target, the greater the damage."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -60,7 +60,13 @@
         "legends-arceus": "The target is blasted by a huge volume of water launched under great pressure."
     },
     "stat_changes": [],
-    "machine": "tr03",
+    "machine": {
+        "sword-shield": "tr03",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -39,6 +39,32 @@
     "target": "selected-pokemon-me-first",
     "generation": "generation-viii",
     "effect_chance": {
+        "scarlet-violet": 100,
+        "the-teal-mask": 100,
+        "the-indigo-disk": 100,
+        "legends-za": 100,
+        "mega-dimension": 100,
+        "champions": 100
+    },
+    "effect": {
+        "scarlet-violet": "Changes the weather to a sandstorm for five turns. Pokémon that are not Ground, Rock, or Steel take 1/16 their max HP at the end of every turn. Every Rock Pokémon’s original Special Defense is raised by 50% for the duration of this effect. Solar Beam’s power is halved. Moonlight, Morning Sun, and Synthesis only heal 1/4 the user’s max HP.",
+        "the-teal-mask": "Changes the weather to a sandstorm for five turns. Pokémon that are not Ground, Rock, or Steel take 1/16 their max HP at the end of every turn. Every Rock Pokémon’s original Special Defense is raised by 50% for the duration of this effect. Solar Beam’s power is halved. Moonlight, Morning Sun, and Synthesis only heal 1/4 the user’s max HP.",
+        "the-indigo-disk": "Changes the weather to a sandstorm for five turns. Pokémon that are not Ground, Rock, or Steel take 1/16 their max HP at the end of every turn. Every Rock Pokémon’s original Special Defense is raised by 50% for the duration of this effect. Solar Beam’s power is halved. Moonlight, Morning Sun, and Synthesis only heal 1/4 the user’s max HP.",
+        "legends-za": "Changes the weather to a sandstorm for five turns. Pokémon that are not Ground, Rock, or Steel take 1/16 their max HP at the end of every turn. Every Rock Pokémon’s original Special Defense is raised by 50% for the duration of this effect. Solar Beam’s power is halved. Moonlight, Morning Sun, and Synthesis only heal 1/4 the user’s max HP.",
+        "mega-dimension": "Changes the weather to a sandstorm for five turns. Pokémon that are not Ground, Rock, or Steel take 1/16 their max HP at the end of every turn. Every Rock Pokémon’s original Special Defense is raised by 50% for the duration of this effect. Solar Beam’s power is halved. Moonlight, Morning Sun, and Synthesis only heal 1/4 the user’s max HP.",
+        "champions": "Changes the weather to a sandstorm for five turns. Pokémon that are not Ground, Rock, or Steel take 1/16 their max HP at the end of every turn. Every Rock Pokémon’s original Special Defense is raised by 50% for the duration of this effect. Solar Beam’s power is halved. Moonlight, Morning Sun, and Synthesis only heal 1/4 the user’s max HP."
+    },
+    "short_effect": {
+        "scarlet-violet": "Changes the weather to a sandstorm for five turns.",
+        "the-teal-mask": "Changes the weather to a sandstorm for five turns.",
+        "the-indigo-disk": "Changes the weather to a sandstorm for five turns.",
+        "legends-za": "Changes the weather to a sandstorm for five turns.",
+        "mega-dimension": "Changes the weather to a sandstorm for five turns.",
+        "champions": "Changes the weather to a sandstorm for five turns."
+    },
+    "flavor_text": {},
+    "stat_changes": [],
+    "machine": {
         "scarlet-violet": null,
         "the-teal-mask": null,
         "the-indigo-disk": null,
@@ -46,25 +72,6 @@
         "mega-dimension": null,
         "champions": null
     },
-    "effect": {
-        "scarlet-violet": "Inflicts regular damage.",
-        "the-teal-mask": "Inflicts regular damage.",
-        "the-indigo-disk": "Inflicts regular damage.",
-        "legends-za": "Inflicts regular damage.",
-        "mega-dimension": "Inflicts regular damage.",
-        "champions": "Inflicts regular damage."
-    },
-    "short_effect": {
-        "scarlet-violet": "Inflicts regular damage with no additional effect.",
-        "the-teal-mask": "Inflicts regular damage with no additional effect.",
-        "the-indigo-disk": "Inflicts regular damage with no additional effect.",
-        "legends-za": "Inflicts regular damage with no additional effect.",
-        "mega-dimension": "Inflicts regular damage with no additional effect.",
-        "champions": "Inflicts regular damage with no additional effect."
-    },
-    "flavor_text": {},
-    "stat_changes": [],
-    "machine": null,
     "metadata": {
         "ailment": "none",
         "category": "damage",

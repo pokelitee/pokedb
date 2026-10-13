@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "A long body, vines, or the like are used to wrap and squeeze the target for four to five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

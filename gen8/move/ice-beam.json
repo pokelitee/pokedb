@@ -60,7 +60,13 @@
         "legends-arceus": "The target is struck with an icy-cold beam of energy. This may also leave the target with frostbite."
     },
     "stat_changes": [],
-    "machine": "tr05",
+    "machine": {
+        "sword-shield": "tr05",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

@@ -66,7 +66,14 @@
         "scarlet-violet": "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy."
     },
     "stat_changes": [],
-    "machine": "tm103",
+    "machine": {
+        "scarlet-violet": "tm103",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm103",
+        "legends-za": "tm85",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

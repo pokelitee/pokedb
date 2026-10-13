@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "This move enables the user to attack first. It fails if the foe is not readying an attack, however."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -60,7 +60,13 @@
         "legends-arceus": "The user attacks with a ray of light that sparkles as if it were made of gemstones."
     },
     "stat_changes": [],
-    "machine": "tr63",
+    "machine": {
+        "sword-shield": "tr63",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

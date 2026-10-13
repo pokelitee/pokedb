@@ -39,7 +39,10 @@
         "black-2-white-2": "The user slams the target with a long tail, vines, or tentacle. The target is hit twice in a row."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

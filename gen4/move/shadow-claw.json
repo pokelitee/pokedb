@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user slashes with a sharp claw made from shadows. It has a high critical-hit ratio."
     },
     "stat_changes": [],
-    "machine": "tm65",
+    "machine": {
+        "diamond-pearl": "tm65",
+        "platinum": "tm65",
+        "heartgold-soulsilver": "tm65"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

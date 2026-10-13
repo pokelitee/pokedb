@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user attacks using a sound wave based on words it has learned. It may also confuse the foe."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "damage-ailment",

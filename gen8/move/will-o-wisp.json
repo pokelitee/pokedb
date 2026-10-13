@@ -60,7 +60,13 @@
         "legends-arceus": "The user shoots a sinister flame at the target to inflict a burn."
     },
     "stat_changes": [],
-    "machine": "tm38",
+    "machine": {
+        "sword-shield": "tm38",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "ailment",

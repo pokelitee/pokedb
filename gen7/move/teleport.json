@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user switches places with a different Pokémon instantly, using telekinetic power."
     },
     "stat_changes": [],
-    "machine": "tm04",
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": "tm04"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move’s power."
     },
     "stat_changes": [],
-    "machine": "tm74",
+    "machine": {
+        "x-y": "tm74",
+        "omega-ruby-alpha-sapphire": "tm74"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

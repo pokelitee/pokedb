@@ -48,7 +48,10 @@
             "stat": "accuracy"
         }
     ],
-    "machine": "tm01",
+    "machine": {
+        "black-white": "tm01",
+        "black-2-white-2": "tm01"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

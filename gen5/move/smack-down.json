@@ -39,7 +39,10 @@
         "black-2-white-2": "The user throws a stone or projectile to attack an opponent. A flying Pokémon will fall to the ground when hit."
     },
     "stat_changes": [],
-    "machine": "tm23",
+    "machine": {
+        "black-white": "tm23",
+        "black-2-white-2": "tm23"
+    },
     "metadata": {
         "ailment": "unknown",
         "category": "damage",

@@ -59,7 +59,13 @@
         "sword-shield": "The user sets a shell trap. If the user is hit by a physical move, the trap will explode and inflict damage on opposing Pokémon."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

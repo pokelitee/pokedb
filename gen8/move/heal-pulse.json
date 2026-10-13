@@ -60,7 +60,13 @@
         "legends-arceus": "The user emits a healing pulse that restores the target's HP by up to half of its max HP."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "heal",

@@ -45,16 +45,28 @@
     },
     "sprites": {
         "versions": {
-            "omegaruby-alphasapphire": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/677.png",
+            "x-y": {
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/back/shiny/677.png",
+                "back_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/677.png",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/back/677.png",
                 "front_female": null,
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/677.png",
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/677.png",
+                "back_shiny_female": null,
                 "front_shiny_female": null
             },
-            "x-y": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/677.png",
+            "icons": {
                 "front_female": null,
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/677.png",
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/icons/677.png"
+            },
+            "omega-ruby-alpha-sapphire": {
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omega-ruby-alpha-sapphire/back/shiny/677.png",
+                "back_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omega-ruby-alpha-sapphire/shiny/677.png",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omega-ruby-alpha-sapphire/back/677.png",
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omega-ruby-alpha-sapphire/677.png",
+                "back_shiny_female": null,
                 "front_shiny_female": null
             }
         }
@@ -621,7 +633,41 @@
                         "evolved_form": null,
                         "item": null,
                         "trigger": "level-up",
-                        "gender": null,
+                        "gender": 2,
+                        "held_item": null,
+                        "known_move": null,
+                        "known_move_type": null,
+                        "location": null,
+                        "min_level": 25,
+                        "min_happiness": null,
+                        "min_beauty": null,
+                        "min_affection": null,
+                        "min_damage_taken": null,
+                        "min_move_count": null,
+                        "min_steps": null,
+                        "near_special_rock": false,
+                        "needs_multiplayer": false,
+                        "needs_overworld_rain": false,
+                        "party_species": null,
+                        "party_type": null,
+                        "relative_physical_stats": null,
+                        "region": null,
+                        "time_of_day": null,
+                        "trade_species": null,
+                        "turn_upside_down": false,
+                        "used_move": null
+                    },
+                    {
+                        "introduced_in_version_group": "x-y",
+                        "version_groups": [
+                            "x-y",
+                            "omega-ruby-alpha-sapphire"
+                        ],
+                        "base_form": null,
+                        "evolved_form": null,
+                        "item": null,
+                        "trigger": "level-up",
+                        "gender": 1,
                         "held_item": null,
                         "known_move": null,
                         "known_move_type": null,

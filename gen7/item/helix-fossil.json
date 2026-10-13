@@ -2,7 +2,11 @@
     "id": 101,
     "name": "helix-fossil",
     "source_url": "https://pokeapi.co/api/v2/item/101/",
-    "cost": 7000,
+    "prices": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "fling_power": 100,
     "fling_effect": null,
     "attributes": [
@@ -18,7 +22,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/helix-fossil.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

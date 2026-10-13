@@ -39,7 +39,10 @@
         "black-2-white-2": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

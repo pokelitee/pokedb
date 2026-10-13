@@ -47,13 +47,30 @@
     "sprites": {
         "versions": {
             "icons": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/675.png",
-                "front_female": null
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/675.png"
             },
             "ultra-sun-ultra-moon": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/675.png",
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/back/shiny/675.gif",
+                "back_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/675.gif",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/back/675.gif",
                 "front_female": null,
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/675.png",
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/675.gif",
+                "back_shiny_female": null,
+                "front_shiny_female": null
+            },
+            "lets-go-pikachu-lets-go-eevee": {
+                "icons": {
+                    "front_default": null
+                },
+                "back_shiny": null,
+                "back_female": null,
+                "front_shiny": null,
+                "back_default": null,
+                "front_female": null,
+                "front_default": null,
+                "back_shiny_female": null,
                 "front_shiny_female": null
             }
         }
@@ -873,8 +890,8 @@
         "humanshape"
     ],
     "flavor_text": {
-        "moon": "From the slight twitches of its bamboo leaf, it deduces its opponent’s movements. It’s eager to tussle but kindhearted toward its companions.",
         "sun": "It boasts superb physical strength. Those who wish to become Pangoro’s Trainer have no choice but to converse with their fists.",
+        "moon": "From the slight twitches of its bamboo leaf, it deduces its opponent’s movements. It’s eager to tussle but kindhearted toward its companions.",
         "ultra-sun": "This rowdy Pokémon boasts great physical strength. Many Trainers are also smitten by its lively character.",
         "ultra-moon": "Pangoro is the type to talk with its fists. It doesn’t say much as it pummels opponents with enough force to send a dump truck flying."
     },

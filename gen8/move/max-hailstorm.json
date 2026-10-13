@@ -35,31 +35,37 @@
     "target": "selected-pokemon-me-first",
     "generation": "generation-viii",
     "effect_chance": {
+        "sword-shield": 100,
+        "the-isle-of-armor": 100,
+        "the-crown-tundra": 100,
+        "brilliant-diamond-shining-pearl": 100,
+        "legends-arceus": 100
+    },
+    "effect": {
+        "sword-shield": "Changes the weather to hail for five turns, during which non-Ice Pokémon are damaged for 1/16 their max HP at the end of every turn. If the user is holding Icy Rock, this effect lasts for eight turns. Blizzard has 100% accuracy. If the target has used Detect or Protect, Blizzard has a (100 - accuracy)% chance to break through the protection. Moonlight, Morning Sun, and Synthesis heal only 1/4 of the user’s max HP. Pokémon with Snow Cloak are exempt from this effect’s damage.",
+        "the-isle-of-armor": "Changes the weather to hail for five turns, during which non-Ice Pokémon are damaged for 1/16 their max HP at the end of every turn. If the user is holding Icy Rock, this effect lasts for eight turns. Blizzard has 100% accuracy. If the target has used Detect or Protect, Blizzard has a (100 - accuracy)% chance to break through the protection. Moonlight, Morning Sun, and Synthesis heal only 1/4 of the user’s max HP. Pokémon with Snow Cloak are exempt from this effect’s damage.",
+        "the-crown-tundra": "Changes the weather to hail for five turns, during which non-Ice Pokémon are damaged for 1/16 their max HP at the end of every turn. If the user is holding Icy Rock, this effect lasts for eight turns. Blizzard has 100% accuracy. If the target has used Detect or Protect, Blizzard has a (100 - accuracy)% chance to break through the protection. Moonlight, Morning Sun, and Synthesis heal only 1/4 of the user’s max HP. Pokémon with Snow Cloak are exempt from this effect’s damage.",
+        "brilliant-diamond-shining-pearl": "Changes the weather to hail for five turns, during which non-Ice Pokémon are damaged for 1/16 their max HP at the end of every turn. If the user is holding Icy Rock, this effect lasts for eight turns. Blizzard has 100% accuracy. If the target has used Detect or Protect, Blizzard has a (100 - accuracy)% chance to break through the protection. Moonlight, Morning Sun, and Synthesis heal only 1/4 of the user’s max HP. Pokémon with Snow Cloak are exempt from this effect’s damage.",
+        "legends-arceus": "Changes the weather to hail for five turns, during which non-Ice Pokémon are damaged for 1/16 their max HP at the end of every turn. If the user is holding Icy Rock, this effect lasts for eight turns. Blizzard has 100% accuracy. If the target has used Detect or Protect, Blizzard has a (100 - accuracy)% chance to break through the protection. Moonlight, Morning Sun, and Synthesis heal only 1/4 of the user’s max HP. Pokémon with Snow Cloak are exempt from this effect’s damage."
+    },
+    "short_effect": {
+        "sword-shield": "Changes the weather to a hailstorm for five turns.",
+        "the-isle-of-armor": "Changes the weather to a hailstorm for five turns.",
+        "the-crown-tundra": "Changes the weather to a hailstorm for five turns.",
+        "brilliant-diamond-shining-pearl": "Changes the weather to a hailstorm for five turns.",
+        "legends-arceus": "Changes the weather to a hailstorm for five turns."
+    },
+    "flavor_text": {
+        "sword-shield": "This is an Ice-type attack Dynamax Pokémon use. The user summons a hailstorm lasting five turns."
+    },
+    "stat_changes": [],
+    "machine": {
         "sword-shield": null,
         "the-isle-of-armor": null,
         "the-crown-tundra": null,
         "brilliant-diamond-shining-pearl": null,
         "legends-arceus": null
     },
-    "effect": {
-        "sword-shield": "Inflicts regular damage.",
-        "the-isle-of-armor": "Inflicts regular damage.",
-        "the-crown-tundra": "Inflicts regular damage.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage.",
-        "legends-arceus": "Inflicts regular damage."
-    },
-    "short_effect": {
-        "sword-shield": "Inflicts regular damage with no additional effect.",
-        "the-isle-of-armor": "Inflicts regular damage with no additional effect.",
-        "the-crown-tundra": "Inflicts regular damage with no additional effect.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage with no additional effect.",
-        "legends-arceus": "Inflicts regular damage with no additional effect."
-    },
-    "flavor_text": {
-        "sword-shield": "This is an Ice-type attack Dynamax Pokémon use. The user summons a hailstorm lasting five turns."
-    },
-    "stat_changes": [],
-    "machine": null,
     "metadata": {
         "ailment": "none",
         "category": "damage",

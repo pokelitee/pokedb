@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user pecks the foe. If the foe is holding a Berry, the user plucks it and gains its effect."
     },
     "stat_changes": [],
-    "machine": "tm88",
+    "machine": {
+        "diamond-pearl": "tm88",
+        "platinum": "tm88",
+        "heartgold-soulsilver": "tm88"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

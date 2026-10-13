@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "A sleeping target sees a nightmare that inflicts some damage every turn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "nightmare",
         "category": "ailment",

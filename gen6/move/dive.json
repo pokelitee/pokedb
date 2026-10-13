@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "Diving on the first turn, the user floats up and attacks on the next turn. It can be used to dive deep in the ocean."
     },
     "stat_changes": [],
-    "machine": "hm07",
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": "hm07"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

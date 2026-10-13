@@ -39,7 +39,10 @@
         "black-2-white-2": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage."
     },
     "stat_changes": [],
-    "machine": "tm62",
+    "machine": {
+        "black-white": "tm62",
+        "black-2-white-2": "tm62"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

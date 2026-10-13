@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A restrained attack that prevents the foe from fainting. The target is left with at least 1 HP."
     },
     "stat_changes": [],
-    "machine": "tm54",
+    "machine": {
+        "diamond-pearl": "tm54",
+        "platinum": "tm54",
+        "heartgold-soulsilver": "tm54"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

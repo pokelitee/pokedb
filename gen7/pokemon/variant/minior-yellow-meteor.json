@@ -1,9 +1,9 @@
 {
-    "id": 10134,
-    "name": "minior-indigo-meteor",
+    "id": 10131,
+    "name": "minior-yellow-meteor",
     "species": "minior",
     "is_default": false,
-    "source_url": "https://pokeapi.co/api/v2/pokemon/10134/",
+    "source_url": "https://pokeapi.co/api/v2/pokemon/10131/",
     "types": [
         "rock",
         "flying"
@@ -36,428 +36,523 @@
     "height": 3,
     "weight": 400,
     "cries": {
-        "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10134.ogg"
+        "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10131.ogg"
     },
     "sprites": {
-        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10134.png",
-        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10134.png",
-        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10134.png",
-        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10134.png",
-        "other": {
-            "dream_world": {
-                "front_default": null,
-                "front_female": null
-            },
-            "home": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10134.png",
-                "front_female": null,
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/10134.png",
-                "front_shiny_female": null
-            },
-            "official-artwork": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10134.png",
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10134.png"
-            },
-            "showdown": {
-                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/10134.gif",
-                "back_female": null,
-                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/10134.gif",
-                "back_shiny_female": null,
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10134.gif",
-                "front_female": null,
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/10134.gif",
-                "front_shiny_female": null
-            }
-        },
         "versions": {
-            "scarlet-violet": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/10134.png",
-                "front_female": null
+            "icons": {
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10131.png"
+            },
+            "ultra-sun-ultra-moon": {
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/back/shiny/10131.gif",
+                "back_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10131.gif",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/back/10131.gif",
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10131.gif",
+                "back_shiny_female": null,
+                "front_shiny_female": null
+            },
+            "lets-go-pikachu-lets-go-eevee": {
+                "icons": {
+                    "front_default": null
+                },
+                "back_shiny": null,
+                "back_female": null,
+                "front_shiny": null,
+                "back_default": null,
+                "front_female": null,
+                "front_default": null,
+                "back_shiny_female": null,
+                "front_shiny_female": null
             }
         }
     },
     "base_experience": 154,
-    "held_items": {},
+    "held_items": {
+        "star-piece": {
+            "sun": 5,
+            "moon": 5,
+            "ultra-sun": 5,
+            "ultra-moon": 5
+        }
+    },
     "moves": {
         "level-up": [
             {
                 "name": "tackle",
                 "level_learned_at": 1,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "take-down",
                 "level_learned_at": 29,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "double-edge",
                 "level_learned_at": 43,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "confuse-ray",
                 "level_learned_at": 10,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "defense-curl",
                 "level_learned_at": 3,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "self-destruct",
                 "level_learned_at": 22,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "swift",
                 "level_learned_at": 15,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "explosion",
                 "level_learned_at": 50,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "rollout",
                 "level_learned_at": 8,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "ancient-power",
                 "level_learned_at": 17,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "cosmic-power",
                 "level_learned_at": 36,
                 "version_groups": [
-                    "scarlet-violet"
-                ]
-            },
-            {
-                "name": "rock-polish",
-                "level_learned_at": 31,
-                "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "power-gem",
                 "level_learned_at": 38,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "stealth-rock",
                 "level_learned_at": 24,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
+                ]
+            },
+            {
+                "name": "autotomize",
+                "level_learned_at": 31,
+                "version_groups": [
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "shell-smash",
                 "level_learned_at": 45,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             }
         ],
         "machine": [
             {
-                "name": "take-down",
-                "level_learned_at": 0,
-                "version_groups": [
-                    "scarlet-violet"
-                ]
-            },
-            {
-                "name": "double-edge",
-                "level_learned_at": 0,
-                "version_groups": [
-                    "scarlet-violet"
-                ]
-            },
-            {
                 "name": "hyper-beam",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "solar-beam",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "earthquake",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
+                ]
+            },
+            {
+                "name": "toxic",
+                "level_learned_at": 0,
+                "version_groups": [
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "psychic",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
-                "name": "confuse-ray",
+                "name": "double-team",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "light-screen",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "reflect",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
-                "name": "swift",
+                "name": "explosion",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "rest",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "rock-slide",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "substitute",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "protect",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "sandstorm",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
-                "name": "endure",
+                "name": "swagger",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
+                ]
+            },
+            {
+                "name": "attract",
+                "level_learned_at": 0,
+                "version_groups": [
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "sleep-talk",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
+                ]
+            },
+            {
+                "name": "return",
+                "level_learned_at": 0,
+                "version_groups": [
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
+                ]
+            },
+            {
+                "name": "frustration",
+                "level_learned_at": 0,
+                "version_groups": [
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
+                ]
+            },
+            {
+                "name": "safeguard",
+                "level_learned_at": 0,
+                "version_groups": [
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
+                ]
+            },
+            {
+                "name": "hidden-power",
+                "level_learned_at": 0,
+                "version_groups": [
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
+                ]
+            },
+            {
+                "name": "psych-up",
+                "level_learned_at": 0,
+                "version_groups": [
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "facade",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
-                ]
-            },
-            {
-                "name": "endeavor",
-                "level_learned_at": 0,
-                "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "rock-tomb",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "calm-mind",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
-                ]
-            },
-            {
-                "name": "rock-blast",
-                "level_learned_at": 0,
-                "version_groups": [
-                    "scarlet-violet"
-                ]
-            },
-            {
-                "name": "gravity",
-                "level_learned_at": 0,
-                "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "gyro-ball",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "u-turn",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
-                "name": "power-gem",
+                "name": "rock-polish",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
-                ]
-            },
-            {
-                "name": "earth-power",
-                "level_learned_at": 0,
-                "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "giga-impact",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
-                ]
-            },
-            {
-                "name": "zen-headbutt",
-                "level_learned_at": 0,
-                "version_groups": [
-                    "scarlet-violet"
-                ]
-            },
-            {
-                "name": "iron-head",
-                "level_learned_at": 0,
-                "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "stone-edge",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
-                ]
-            },
-            {
-                "name": "stealth-rock",
-                "level_learned_at": 0,
-                "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "charge-beam",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
+                ]
+            },
+            {
+                "name": "round",
+                "level_learned_at": 0,
+                "version_groups": [
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "acrobatics",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "bulldoze",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
+                ]
+            },
+            {
+                "name": "confide",
+                "level_learned_at": 0,
+                "version_groups": [
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
                 "name": "dazzling-gleam",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "sun-moon",
+                    "ultra-sun-ultra-moon"
+                ]
+            }
+        ],
+        "tutor": [
+            {
+                "name": "snore",
+                "level_learned_at": 0,
+                "version_groups": [
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
-                "name": "meteor-beam",
+                "name": "endeavor",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
-                "name": "scorching-sands",
+                "name": "gravity",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "ultra-sun-ultra-moon"
                 ]
             },
             {
-                "name": "tera-blast",
+                "name": "last-resort",
                 "level_learned_at": 0,
                 "version_groups": [
-                    "scarlet-violet"
+                    "ultra-sun-ultra-moon"
+                ]
+            },
+            {
+                "name": "magnet-rise",
+                "level_learned_at": 0,
+                "version_groups": [
+                    "ultra-sun-ultra-moon"
+                ]
+            },
+            {
+                "name": "zen-headbutt",
+                "level_learned_at": 0,
+                "version_groups": [
+                    "ultra-sun-ultra-moon"
+                ]
+            },
+            {
+                "name": "iron-head",
+                "level_learned_at": 0,
+                "version_groups": [
+                    "ultra-sun-ultra-moon"
+                ]
+            },
+            {
+                "name": "stealth-rock",
+                "level_learned_at": 0,
+                "version_groups": [
+                    "ultra-sun-ultra-moon"
+                ]
+            },
+            {
+                "name": "telekinesis",
+                "level_learned_at": 0,
+                "version_groups": [
+                    "ultra-sun-ultra-moon"
                 ]
             }
         ]
@@ -476,21 +571,36 @@
     "habitat": null,
     "evolves_from_species": null,
     "pokedex_numbers": {
-        "national": 774
+        "national": 774,
+        "original-alola": 213
     },
     "color": "brown",
     "shape": "ball",
     "egg_groups": [
         "mineral"
     ],
-    "flavor_text": {},
+    "flavor_text": {
+        "sun": "Originally making its home in the ozone layer, it hurtles to the ground when the shell enclosing its body grows too heavy.",
+        "moon": "Strong impacts can knock it out of its shell. This Pokémon was born from mutated nanoparticles.",
+        "ultra-sun": "It lives in the ozone layer, where it becomes food for stronger Pokémon. When it tries to run away, it falls to the ground.",
+        "ultra-moon": "Although its outer shell is uncommonly durable, the shock of falling to the ground smashes the shell to smithereens."
+    },
     "genus": "Meteor Pokémon",
     "generation": "generation-vii",
     "evolution_chain": {
         "species_name": "minior",
         "evolves_to": []
     },
-    "unverified_historical_fields": [],
+    "unverified_historical_fields": [
+        "base_happiness",
+        "capture_rate",
+        "hatch_counter",
+        "gender_rate",
+        "egg_groups",
+        "growth_rate",
+        "forms_switchable",
+        "base_experience"
+    ],
     "forms": [
         {
             "name": "minior-blue",
@@ -498,7 +608,7 @@
         },
         {
             "name": "minior-blue-meteor",
-            "category": "transformation"
+            "category": "variant"
         },
         {
             "name": "minior-green",
@@ -506,7 +616,7 @@
         },
         {
             "name": "minior-green-meteor",
-            "category": "transformation"
+            "category": "variant"
         },
         {
             "name": "minior-indigo",
@@ -514,7 +624,7 @@
         },
         {
             "name": "minior-indigo-meteor",
-            "category": "transformation"
+            "category": "variant"
         },
         {
             "name": "minior-orange",
@@ -522,7 +632,7 @@
         },
         {
             "name": "minior-orange-meteor",
-            "category": "transformation"
+            "category": "variant"
         },
         {
             "name": "minior-red",
@@ -538,7 +648,7 @@
         },
         {
             "name": "minior-violet-meteor",
-            "category": "transformation"
+            "category": "variant"
         },
         {
             "name": "minior-yellow",
@@ -546,7 +656,7 @@
         },
         {
             "name": "minior-yellow-meteor",
-            "category": "transformation"
+            "category": "variant"
         }
     ]
 }

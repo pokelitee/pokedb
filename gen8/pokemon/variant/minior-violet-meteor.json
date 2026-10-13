@@ -1,9 +1,9 @@
 {
-    "id": 10134,
-    "name": "minior-indigo-meteor",
+    "id": 10135,
+    "name": "minior-violet-meteor",
     "species": "minior",
     "is_default": false,
-    "source_url": "https://pokeapi.co/api/v2/pokemon/10134/",
+    "source_url": "https://pokeapi.co/api/v2/pokemon/10135/",
     "types": [
         "rock",
         "flying"
@@ -36,17 +36,56 @@
     "height": 3,
     "weight": 400,
     "cries": {
-        "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10134.ogg"
+        "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10135.ogg"
     },
     "sprites": {
         "versions": {
-            "brilliant-diamond-shining-pearl": {
-                "front_default": null,
-                "front_female": null
-            },
             "icons": {
+                "front_female": null,
+                "front_default": null
+            },
+            "sword-shield": {
+                "icons": {
+                    "front_female": null,
+                    "front_default": null
+                },
+                "back_shiny": null,
+                "back_female": null,
+                "front_shiny": null,
+                "back_default": null,
+                "front_female": null,
                 "front_default": null,
-                "front_female": null
+                "back_shiny_female": null,
+                "front_shiny_female": null
+            },
+            "legends-arceus": {
+                "icons": {
+                    "front_shiny": null,
+                    "front_female": null,
+                    "front_default": null,
+                    "front_shiny_female": null
+                },
+                "back_shiny": null,
+                "back_female": null,
+                "front_shiny": null,
+                "back_default": null,
+                "front_female": null,
+                "front_default": null,
+                "back_shiny_female": null,
+                "front_shiny_female": null
+            },
+            "brilliant-diamond-shining-pearl": {
+                "icons": {
+                    "front_default": null
+                },
+                "back_shiny": null,
+                "back_female": null,
+                "front_shiny": null,
+                "back_default": null,
+                "front_female": null,
+                "front_default": null,
+                "back_shiny_female": null,
+                "front_shiny_female": null
             }
         }
     },
@@ -98,7 +137,7 @@
         },
         {
             "name": "minior-blue-meteor",
-            "category": "transformation"
+            "category": "variant"
         },
         {
             "name": "minior-green",
@@ -106,7 +145,7 @@
         },
         {
             "name": "minior-green-meteor",
-            "category": "transformation"
+            "category": "variant"
         },
         {
             "name": "minior-indigo",
@@ -114,7 +153,7 @@
         },
         {
             "name": "minior-indigo-meteor",
-            "category": "transformation"
+            "category": "variant"
         },
         {
             "name": "minior-orange",
@@ -122,7 +161,7 @@
         },
         {
             "name": "minior-orange-meteor",
-            "category": "transformation"
+            "category": "variant"
         },
         {
             "name": "minior-red",
@@ -138,7 +177,7 @@
         },
         {
             "name": "minior-violet-meteor",
-            "category": "transformation"
+            "category": "variant"
         },
         {
             "name": "minior-yellow",
@@ -146,7 +185,7 @@
         },
         {
             "name": "minior-yellow-meteor",
-            "category": "transformation"
+            "category": "variant"
         }
     ]
 }

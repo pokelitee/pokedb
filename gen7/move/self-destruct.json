@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user attacks everything around it by causing an explosion. The user faints upon using this move."
     },
     "stat_changes": [],
-    "machine": "tm42",
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": "tm42"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

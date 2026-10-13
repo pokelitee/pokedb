@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user makes a soothing bell chime to heal the status conditions of all the party Pokémon."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

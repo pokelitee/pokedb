@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user charges at the foe rapidly, and may make it flinch. It can also be used to climb a waterfall."
     },
     "stat_changes": [],
-    "machine": "hm07",
+    "machine": {
+        "diamond-pearl": "hm07",
+        "platinum": "hm07",
+        "heartgold-soulsilver": "hm07"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

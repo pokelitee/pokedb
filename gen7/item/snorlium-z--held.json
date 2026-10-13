@@ -2,7 +2,11 @@
     "id": 845,
     "name": "snorlium-z--held",
     "source_url": "https://pokeapi.co/api/v2/item/845/",
-    "cost": 0,
+    "prices": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -16,7 +20,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/snorlium-z--held.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user stabs the target with a sharp horn. This attack never misses."
     },
     "stat_changes": [],
-    "machine": "tm67",
+    "machine": {
+        "sun-moon": "tm67",
+        "ultra-sun-ultra-moon": "tm67",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

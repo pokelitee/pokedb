@@ -47,20 +47,20 @@
         "champions": 100
     },
     "effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type. Fails unless the user is Hangry Mode or Full Belly Mode Morpeko.",
+        "the-teal-mask": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type. Fails unless the user is Hangry Mode or Full Belly Mode Morpeko.",
+        "the-indigo-disk": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type. Fails unless the user is Hangry Mode or Full Belly Mode Morpeko.",
+        "legends-za": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type. Fails unless the user is Hangry Mode or Full Belly Mode Morpeko.",
+        "mega-dimension": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type. Fails unless the user is Hangry Mode or Full Belly Mode Morpeko.",
+        "champions": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type. Fails unless the user is Hangry Mode or Full Belly Mode Morpeko."
     },
     "short_effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type.",
+        "the-teal-mask": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type.",
+        "the-indigo-disk": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type.",
+        "legends-za": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type.",
+        "mega-dimension": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type.",
+        "champions": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type."
     },
     "flavor_text": {
         "scarlet-violet": "Morpeko attacks and boosts its Speed stat with the energy stored in its cheeks. This move's type changes depending on the user's form."
@@ -71,7 +71,14 @@
             "stat": "speed"
         }
     ],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

@@ -46,7 +46,11 @@
         "lets-go-pikachu-lets-go-eevee": "This attack inflicts Attack or Sp. Atk damage— whichever stat is higher for the user, Necrozma. This move ignores the target’s Ability."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

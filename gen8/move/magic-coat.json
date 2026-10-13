@@ -59,7 +59,13 @@
         "sword-shield": "Moves like Leech Seed and moves that inflict status conditions are blocked by a barrier and reflected back to the user of those moves."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "When this move is used, if the user faints, the Pokémon that landed the knockout hit also faints."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

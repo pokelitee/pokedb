@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

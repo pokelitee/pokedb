@@ -23,23 +23,26 @@
     "target": "selected-pokemon",
     "generation": "generation-i",
     "effect_chance": {
-        "gold-silver": null,
-        "crystal": null
+        "gold-silver": 30,
+        "crystal": 30
     },
     "effect": {
-        "gold-silver": "Inflicts regular damage. Power increases with the target’s weight in kilograms, to a maximum of 120. Target’s weight | Power --------------- | ----: Up to 10kg | 20 Up to 25kg | 40 Up to 50kg | 60 Up to 100kg | 80 Up to 200kg | 100 Above 200kg | 120",
-        "crystal": "Inflicts regular damage. Power increases with the target’s weight in kilograms, to a maximum of 120. Target’s weight | Power --------------- | ----: Up to 10kg | 20 Up to 25kg | 40 Up to 50kg | 60 Up to 100kg | 80 Up to 200kg | 100 Above 200kg | 120"
+        "gold-silver": "Inflicts regular damage. Has a chance to make the target flinch.",
+        "crystal": "Inflicts regular damage. Has a chance to make the target flinch."
     },
     "short_effect": {
-        "gold-silver": "Inflicts more damage to heavier targets, with a maximum of 120 power.",
-        "crystal": "Inflicts more damage to heavier targets, with a maximum of 120 power."
+        "gold-silver": "Has a chance to make the target flinch.",
+        "crystal": "Has a chance to make the target flinch."
     },
     "flavor_text": {
         "gold-silver": "An attack that may cause flinching.",
         "crystal": "An attack that may cause flinching."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

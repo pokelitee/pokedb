@@ -39,7 +39,10 @@
         "black-2-white-2": "A slashing attack with a poisonous blade that may also leave the target poisoned. Critical hits land more easily."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

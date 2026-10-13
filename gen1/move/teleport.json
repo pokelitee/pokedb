@@ -50,7 +50,12 @@
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": "tm30",
+    "machine": {
+        "red-blue": "tm30",
+        "yellow": "tm30",
+        "red-green-japan": "tm30",
+        "blue-japan": "tm30"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

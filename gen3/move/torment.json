@@ -61,7 +61,13 @@
         "firered-leafgreen": "It enrages the foe, making it incapable of using the same move successively."
     },
     "stat_changes": [],
-    "machine": "tm41",
+    "machine": {
+        "ruby-sapphire": "tm41",
+        "emerald": "tm41",
+        "firered-leafgreen": "tm41",
+        "colosseum": "tm41",
+        "xd": "tm41"
+    },
     "metadata": {
         "ailment": "torment",
         "category": "ailment",

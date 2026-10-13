@@ -45,16 +45,28 @@
     },
     "sprites": {
         "versions": {
-            "omegaruby-alphasapphire": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/106.png",
+            "x-y": {
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/back/shiny/106.png",
+                "back_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/106.png",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/back/106.png",
                 "front_female": null,
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/106.png",
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/106.png",
+                "back_shiny_female": null,
                 "front_shiny_female": null
             },
-            "x-y": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/106.png",
+            "icons": {
                 "front_female": null,
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/106.png",
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/icons/106.png"
+            },
+            "omega-ruby-alpha-sapphire": {
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omega-ruby-alpha-sapphire/back/shiny/106.png",
+                "back_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omega-ruby-alpha-sapphire/shiny/106.png",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omega-ruby-alpha-sapphire/back/106.png",
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omega-ruby-alpha-sapphire/106.png",
+                "back_shiny_female": null,
                 "front_shiny_female": null
             }
         }
@@ -592,7 +604,7 @@
                 "availability": "available",
                 "evolution_details": [
                     {
-                        "introduced_in_version_group": "red-blue",
+                        "introduced_in_version_group": "gold-silver",
                         "version_groups": [
                             "x-y",
                             "omega-ruby-alpha-sapphire"
@@ -633,7 +645,7 @@
                 "availability": "available",
                 "evolution_details": [
                     {
-                        "introduced_in_version_group": "red-blue",
+                        "introduced_in_version_group": "gold-silver",
                         "version_groups": [
                             "x-y",
                             "omega-ruby-alpha-sapphire"

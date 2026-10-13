@@ -52,7 +52,11 @@
             "stat": "attack"
         }
     ],
-    "machine": "tm87",
+    "machine": {
+        "diamond-pearl": "tm87",
+        "platinum": "tm87",
+        "heartgold-soulsilver": "tm87"
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "swagger",

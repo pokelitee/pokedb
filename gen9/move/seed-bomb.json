@@ -66,7 +66,14 @@
         "scarlet-violet": "The user attacks by slamming a barrage of hard-shelled seeds down on the target from above."
     },
     "stat_changes": [],
-    "machine": "tm71",
+    "machine": {
+        "scarlet-violet": "tm71",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": "tm128",
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

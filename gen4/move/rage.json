@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "While this move is in use, it gains attack power each time the user is hit in battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user powerfully wrings the foe. The more HP the foe has, the greater this attack’s power."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

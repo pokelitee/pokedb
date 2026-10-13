@@ -60,7 +60,13 @@
         "legends-arceus": "The power of this attack move is doubled if the user has been hurt by the target in the same turn."
     },
     "stat_changes": [],
-    "machine": "tm64",
+    "machine": {
+        "sword-shield": "tm64",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -41,24 +41,30 @@
     },
     "sprites": {
         "versions": {
+            "icons": {
+                "animated": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/icons/animated/345.png"
+                },
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/icons/345.png"
+            },
             "black-white": {
                 "animated": {
-                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/345.gif",
-                    "back_female": null,
                     "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/345.gif",
-                    "back_shiny_female": null,
-                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/345.gif",
-                    "front_female": null,
+                    "back_female": null,
                     "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/345.gif",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/345.gif",
+                    "front_female": null,
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/345.gif",
+                    "back_shiny_female": null,
                     "front_shiny_female": null
                 },
-                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/345.png",
-                "back_female": null,
                 "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/345.png",
-                "back_shiny_female": null,
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/345.png",
-                "front_female": null,
+                "back_female": null,
                 "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/345.png",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/345.png",
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/345.png",
+                "back_shiny_female": null,
                 "front_shiny_female": null
             }
         }
@@ -549,10 +555,10 @@
         "water3"
     ],
     "flavor_text": {
-        "black-2": "It lived on the seafloor 100 million years ago and was reanimated scientifically.",
-        "white-2": "It lived on the seafloor 100 million years ago and was reanimated scientifically.",
         "black": "It lived on the seafloor 100 million years ago and was reanimated scientifically.",
-        "white": "It lived on the seafloor 100 million years ago and was reanimated scientifically."
+        "white": "It lived on the seafloor 100 million years ago and was reanimated scientifically.",
+        "black-2": "It lived on the seafloor 100 million years ago and was reanimated scientifically.",
+        "white-2": "It lived on the seafloor 100 million years ago and was reanimated scientifically."
     },
     "genus": "Sea Lily Pokémon",
     "generation": "generation-iii",

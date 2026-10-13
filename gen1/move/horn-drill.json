@@ -50,7 +50,12 @@
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": "tm07",
+    "machine": {
+        "red-blue": "tm07",
+        "yellow": "tm07",
+        "red-green-japan": "tm07",
+        "blue-japan": "tm07"
+    },
     "metadata": {
         "ailment": "none",
         "category": "ohko",

@@ -66,7 +66,14 @@
         "scarlet-violet": "The user launches a weak jolt of electricity that paralyzes the target."
     },
     "stat_changes": [],
-    "machine": "tm82",
+    "machine": {
+        "scarlet-violet": "tm82",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm82",
+        "legends-za": "tm08",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "ailment",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "An attack that hits a foe using Protect or Detect. It also lifts the effects of those moves."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

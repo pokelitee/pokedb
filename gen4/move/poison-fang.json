@@ -27,9 +27,9 @@
     "target": "selected-pokemon",
     "generation": "generation-iii",
     "effect_chance": {
-        "diamond-pearl": 50,
-        "platinum": 50,
-        "heartgold-soulsilver": 50
+        "diamond-pearl": 30,
+        "platinum": 30,
+        "heartgold-soulsilver": 30
     },
     "effect": {
         "diamond-pearl": "Inflicts regular damage. Has a chance to badly poison the target.",
@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user bites the foe with toxic fangs. It may also leave the foe badly poisoned."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

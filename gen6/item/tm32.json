@@ -2,7 +2,10 @@
     "id": 336,
     "name": "tm32",
     "source_url": "https://pokeapi.co/api/v2/item/336/",
-    "cost": 10000,
+    "prices": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -14,7 +17,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

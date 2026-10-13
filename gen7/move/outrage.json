@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The Pokémon rampages and attacks for two to three turns. It then becomes confused."
     },
     "stat_changes": [],
-    "machine": "tm39",
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": "tm39"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

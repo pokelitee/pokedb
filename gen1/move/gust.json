@@ -37,20 +37,25 @@
         "blue-japan": null
     },
     "effect": {
-        "red-blue": "Inflicts regular damage. If the target is under the effect of Bounce, Fly, or Sky Drop, this move will hit with double power.",
-        "yellow": "Inflicts regular damage. If the target is under the effect of Bounce, Fly, or Sky Drop, this move will hit with double power.",
-        "red-green-japan": "Inflicts regular damage. If the target is under the effect of Bounce, Fly, or Sky Drop, this move will hit with double power.",
-        "blue-japan": "Inflicts regular damage. If the target is under the effect of Bounce, Fly, or Sky Drop, this move will hit with double power."
+        "red-blue": "Inflicts regular damage.",
+        "yellow": "Inflicts regular damage.",
+        "red-green-japan": "Inflicts regular damage.",
+        "blue-japan": "Inflicts regular damage."
     },
     "short_effect": {
-        "red-blue": "Inflicts regular damage and can hit Pokémon in the air.",
-        "yellow": "Inflicts regular damage and can hit Pokémon in the air.",
-        "red-green-japan": "Inflicts regular damage and can hit Pokémon in the air.",
-        "blue-japan": "Inflicts regular damage and can hit Pokémon in the air."
+        "red-blue": "Inflicts regular damage with no additional effect.",
+        "yellow": "Inflicts regular damage with no additional effect.",
+        "red-green-japan": "Inflicts regular damage with no additional effect.",
+        "blue-japan": "Inflicts regular damage with no additional effect."
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "red-blue": null,
+        "yellow": null,
+        "red-green-japan": null,
+        "blue-japan": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user attacks the target with an echoing voice. If this move is used every turn, it does greater damage."
     },
     "stat_changes": [],
-    "machine": "tm49",
+    "machine": {
+        "x-y": "tm49",
+        "omega-ruby-alpha-sapphire": "tm49"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

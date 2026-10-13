@@ -47,26 +47,33 @@
         "champions": 20
     },
     "effect": {
-        "scarlet-violet": "Inflicts regular damage.",
-        "the-teal-mask": "Inflicts regular damage.",
-        "the-indigo-disk": "Inflicts regular damage.",
-        "legends-za": "Inflicts regular damage.",
-        "mega-dimension": "Inflicts regular damage.",
-        "champions": "Inflicts regular damage."
+        "scarlet-violet": "Has a chance to poison the target. This switches categories between physical and special, depending on which would deal more damage to the target. If the damage is tied, it is randomly chosen. This calculation ignores any modifiers other than stat stages.",
+        "the-teal-mask": "Has a chance to poison the target. This switches categories between physical and special, depending on which would deal more damage to the target. If the damage is tied, it is randomly chosen. This calculation ignores any modifiers other than stat stages.",
+        "the-indigo-disk": "Has a chance to poison the target. This switches categories between physical and special, depending on which would deal more damage to the target. If the damage is tied, it is randomly chosen. This calculation ignores any modifiers other than stat stages.",
+        "legends-za": "Has a chance to poison the target. This switches categories between physical and special, depending on which would deal more damage to the target. If the damage is tied, it is randomly chosen. This calculation ignores any modifiers other than stat stages.",
+        "mega-dimension": "Has a chance to poison the target. This switches categories between physical and special, depending on which would deal more damage to the target. If the damage is tied, it is randomly chosen. This calculation ignores any modifiers other than stat stages.",
+        "champions": "Has a chance to poison the target. This switches categories between physical and special, depending on which would deal more damage to the target. If the damage is tied, it is randomly chosen. This calculation ignores any modifiers other than stat stages."
     },
     "short_effect": {
-        "scarlet-violet": "Inflicts regular damage with no additional effect.",
-        "the-teal-mask": "Inflicts regular damage with no additional effect.",
-        "the-indigo-disk": "Inflicts regular damage with no additional effect.",
-        "legends-za": "Inflicts regular damage with no additional effect.",
-        "mega-dimension": "Inflicts regular damage with no additional effect.",
-        "champions": "Inflicts regular damage with no additional effect."
+        "scarlet-violet": "Has a chance to poison the target. This switches categories between physical and special, depending on which would deal more damage to the target.",
+        "the-teal-mask": "Has a chance to poison the target. This switches categories between physical and special, depending on which would deal more damage to the target.",
+        "the-indigo-disk": "Has a chance to poison the target. This switches categories between physical and special, depending on which would deal more damage to the target.",
+        "legends-za": "Has a chance to poison the target. This switches categories between physical and special, depending on which would deal more damage to the target.",
+        "mega-dimension": "Has a chance to poison the target. This switches categories between physical and special, depending on which would deal more damage to the target.",
+        "champions": "Has a chance to poison the target. This switches categories between physical and special, depending on which would deal more damage to the target."
     },
     "flavor_text": {
         "scarlet-violet": "This move is either physical or special—whichever will inflict more damage. This may also poison the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

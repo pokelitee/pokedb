@@ -39,7 +39,10 @@
         "crystal": "Attacks 5 turns with rising power."
     },
     "stat_changes": [],
-    "machine": "tm04",
+    "machine": {
+        "gold-silver": "tm04",
+        "crystal": "tm04"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

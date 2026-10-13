@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "A strong electric blast crashes down on the target. This may also leave the target with paralysis."
     },
     "stat_changes": [],
-    "machine": "tm24",
+    "machine": {
+        "sun-moon": "tm24",
+        "ultra-sun-ultra-moon": "tm24",
+        "lets-go-pikachu-lets-go-eevee": "tm36"
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

@@ -60,7 +60,13 @@
         "legends-arceus": "The user launches a kick that lands a critical hit more easily. This may also leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": "tr41",
+    "machine": {
+        "sword-shield": "tr41",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

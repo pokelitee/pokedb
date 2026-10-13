@@ -61,7 +61,13 @@
         "firered-leafgreen": "A 2nd-turn attack move with a high critical-hit ratio. The foe may flinch."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "A unique attack that varies in type depending on the Pokémon using it."
     },
     "stat_changes": [],
-    "machine": "tm10",
+    "machine": {
+        "sun-moon": "tm10",
+        "ultra-sun-ultra-moon": "tm10",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

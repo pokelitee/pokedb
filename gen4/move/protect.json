@@ -47,9 +47,13 @@
         "heartgold-soulsilver": "It enables the user to evade all attacks. Its chance of failing rises if it is used in succession."
     },
     "stat_changes": [],
-    "machine": "tm17",
+    "machine": {
+        "diamond-pearl": "tm17",
+        "platinum": "tm17",
+        "heartgold-soulsilver": "tm17"
+    },
     "metadata": {
-        "ailment": "none",
+        "ailment": "protect",
         "category": "unique",
         "min_hits": null,
         "max_hits": null,

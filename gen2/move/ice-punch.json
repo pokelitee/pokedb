@@ -39,7 +39,10 @@
         "crystal": "An icy punch. May cause freezing."
     },
     "stat_changes": [],
-    "machine": "tm33",
+    "machine": {
+        "gold-silver": "tm33",
+        "crystal": "tm33"
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

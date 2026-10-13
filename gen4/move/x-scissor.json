@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user slashes at the foe by crossing its scythes or claws as if they were a pair of scissors."
     },
     "stat_changes": [],
-    "machine": "tm81",
+    "machine": {
+        "diamond-pearl": "tm81",
+        "platinum": "tm81",
+        "heartgold-soulsilver": "tm81"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -2,7 +2,11 @@
     "id": 687,
     "name": "sachet",
     "source_url": "https://pokeapi.co/api/v2/item/687/",
-    "cost": 2000,
+    "prices": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "fling_power": 80,
     "fling_effect": null,
     "attributes": [],
@@ -16,7 +20,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sachet.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

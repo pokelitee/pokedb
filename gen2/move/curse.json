@@ -39,7 +39,10 @@
         "crystal": "Works differently for ghost-types."
     },
     "stat_changes": [],
-    "machine": "tm03",
+    "machine": {
+        "gold-silver": "tm03",
+        "crystal": "tm03"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

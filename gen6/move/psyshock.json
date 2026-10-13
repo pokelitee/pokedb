@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user materializes an odd psychic wave to attack the target. This attack does physical damage."
     },
     "stat_changes": [],
-    "machine": "tm03",
+    "machine": {
+        "x-y": "tm03",
+        "omega-ruby-alpha-sapphire": "tm03"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

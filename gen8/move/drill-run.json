@@ -60,7 +60,13 @@
         "legends-arceus": "The user crashes into its target while rotating its body like a drill. Critical hits land more easily."
     },
     "stat_changes": [],
-    "machine": "tr87",
+    "machine": {
+        "sword-shield": "tr87",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

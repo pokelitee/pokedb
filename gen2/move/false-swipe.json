@@ -39,7 +39,10 @@
         "crystal": "Leaves the foe with at least 1HP."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

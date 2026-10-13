@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal its own HP."
     },
     "stat_changes": [],
-    "machine": "tm85",
+    "machine": {
+        "x-y": "tm85",
+        "omega-ruby-alpha-sapphire": "tm85"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-heal",

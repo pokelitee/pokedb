@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A move that leaves the target badly poisoned. Its poison damage worsens every turn."
     },
     "stat_changes": [],
-    "machine": "tm06",
+    "machine": {
+        "diamond-pearl": "tm06",
+        "platinum": "tm06",
+        "heartgold-soulsilver": "tm06"
+    },
     "metadata": {
         "ailment": "poison",
         "category": "ailment",

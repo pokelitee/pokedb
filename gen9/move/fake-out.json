@@ -66,7 +66,14 @@
         "scarlet-violet": "This attack hits first and makes the target flinch. It works only on the first turn each time the user enters battle."
     },
     "stat_changes": [],
-    "machine": "tm141",
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": "tm141",
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

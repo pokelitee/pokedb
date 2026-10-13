@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The target is cut with a scythe or claw. This can also be used to cut down thin trees."
     },
     "stat_changes": [],
-    "machine": "hm01",
+    "machine": {
+        "x-y": "hm01",
+        "omega-ruby-alpha-sapphire": "hm01"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

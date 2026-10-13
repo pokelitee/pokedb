@@ -39,7 +39,10 @@
         "black-2-white-2": "The user drenches the target in a special poisonous liquid. Its power is doubled if the target is poisoned."
     },
     "stat_changes": [],
-    "machine": "tm09",
+    "machine": {
+        "black-white": "tm09",
+        "black-2-white-2": "tm09"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

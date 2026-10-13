@@ -42,18 +42,18 @@
         "legends-arceus": 100
     },
     "effect": {
-        "sword-shield": "Inflicts regular damage. Lowers the target’s Defense by one stage.",
-        "the-isle-of-armor": "Inflicts regular damage. Lowers the target’s Defense by one stage.",
-        "the-crown-tundra": "Inflicts regular damage. Lowers the target’s Defense by one stage.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage. Lowers the target’s Defense by one stage.",
-        "legends-arceus": "Inflicts regular damage. Lowers the target’s Defense by one stage."
+        "sword-shield": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect.",
+        "the-isle-of-armor": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect.",
+        "the-crown-tundra": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect.",
+        "brilliant-diamond-shining-pearl": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect.",
+        "legends-arceus": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect."
     },
     "short_effect": {
-        "sword-shield": "Lowers the target’s Defense by one stage after inflicting damage.",
-        "the-isle-of-armor": "Lowers the target’s Defense by one stage after inflicting damage.",
-        "the-crown-tundra": "Lowers the target’s Defense by one stage after inflicting damage.",
-        "brilliant-diamond-shining-pearl": "Lowers the target’s Defense by one stage after inflicting damage.",
-        "legends-arceus": "Lowers the target’s Defense by one stage after inflicting damage."
+        "sword-shield": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect.",
+        "the-isle-of-armor": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect.",
+        "the-crown-tundra": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect.",
+        "brilliant-diamond-shining-pearl": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect.",
+        "legends-arceus": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect."
     },
     "flavor_text": {
         "sword-shield": "The user inflicts damage by dropping an apple from high above. This also lowers the target’s Defense stat.",
@@ -65,7 +65,13 @@
             "stat": "defense"
         }
     ],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

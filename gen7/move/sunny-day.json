@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user intensifies the sun for five turns, powering up Fire-type moves. It lowers the power of Water-type moves."
     },
     "stat_changes": [],
-    "machine": "tm11",
+    "machine": {
+        "sun-moon": "tm11",
+        "ultra-sun-ultra-moon": "tm11",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

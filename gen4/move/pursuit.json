@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "An attack move that inflicts double damage if used on a foe that is switching out of battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

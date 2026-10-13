@@ -48,7 +48,10 @@
             "stat": "special-attack"
         }
     ],
-    "machine": "tm83",
+    "machine": {
+        "black-white": "tm83",
+        "black-2-white-2": "tm83"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

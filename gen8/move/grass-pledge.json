@@ -60,7 +60,13 @@
         "legends-arceus": "A column of grass hits the target. When used with its water equivalent, its power increases and a vast swamp appears."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

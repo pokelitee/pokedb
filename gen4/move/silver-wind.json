@@ -68,7 +68,11 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm62",
+    "machine": {
+        "diamond-pearl": "tm62",
+        "platinum": "tm62",
+        "heartgold-soulsilver": "tm62"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

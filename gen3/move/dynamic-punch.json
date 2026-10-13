@@ -61,7 +61,13 @@
         "firered-leafgreen": "The foe is punched with the user’s full power. It confuses the foe if it hits."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "damage-ailment",

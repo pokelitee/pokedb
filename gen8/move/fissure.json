@@ -60,7 +60,13 @@
         "legends-arceus": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "ohko",

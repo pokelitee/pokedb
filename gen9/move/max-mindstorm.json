@@ -39,6 +39,32 @@
     "target": "selected-pokemon-me-first",
     "generation": "generation-viii",
     "effect_chance": {
+        "scarlet-violet": 100,
+        "the-teal-mask": 100,
+        "the-indigo-disk": 100,
+        "legends-za": 100,
+        "mega-dimension": 100,
+        "champions": 100
+    },
+    "effect": {
+        "scarlet-violet": "Changes the terrain to Psychic Terrain for 5 turns. Overrides Electric Terrain, Grassy Terrain, and Misty Terrain. All Pokémon on the ground are immune to moves with priority greater than 0. (Moves that target the field rather than individual Pokémon, such as Spikes, are not affected.) Additionally, when a Pokémon on the ground uses a Psychic-type move, that move’s power is increased to 1.5×. If a Pokémon is holding a Terrain Extender when creating Psychic Terrain (by any means), the effect lasts for 8 turns instead of 5.",
+        "the-teal-mask": "Changes the terrain to Psychic Terrain for 5 turns. Overrides Electric Terrain, Grassy Terrain, and Misty Terrain. All Pokémon on the ground are immune to moves with priority greater than 0. (Moves that target the field rather than individual Pokémon, such as Spikes, are not affected.) Additionally, when a Pokémon on the ground uses a Psychic-type move, that move’s power is increased to 1.5×. If a Pokémon is holding a Terrain Extender when creating Psychic Terrain (by any means), the effect lasts for 8 turns instead of 5.",
+        "the-indigo-disk": "Changes the terrain to Psychic Terrain for 5 turns. Overrides Electric Terrain, Grassy Terrain, and Misty Terrain. All Pokémon on the ground are immune to moves with priority greater than 0. (Moves that target the field rather than individual Pokémon, such as Spikes, are not affected.) Additionally, when a Pokémon on the ground uses a Psychic-type move, that move’s power is increased to 1.5×. If a Pokémon is holding a Terrain Extender when creating Psychic Terrain (by any means), the effect lasts for 8 turns instead of 5.",
+        "legends-za": "Changes the terrain to Psychic Terrain for 5 turns. Overrides Electric Terrain, Grassy Terrain, and Misty Terrain. All Pokémon on the ground are immune to moves with priority greater than 0. (Moves that target the field rather than individual Pokémon, such as Spikes, are not affected.) Additionally, when a Pokémon on the ground uses a Psychic-type move, that move’s power is increased to 1.5×. If a Pokémon is holding a Terrain Extender when creating Psychic Terrain (by any means), the effect lasts for 8 turns instead of 5.",
+        "mega-dimension": "Changes the terrain to Psychic Terrain for 5 turns. Overrides Electric Terrain, Grassy Terrain, and Misty Terrain. All Pokémon on the ground are immune to moves with priority greater than 0. (Moves that target the field rather than individual Pokémon, such as Spikes, are not affected.) Additionally, when a Pokémon on the ground uses a Psychic-type move, that move’s power is increased to 1.5×. If a Pokémon is holding a Terrain Extender when creating Psychic Terrain (by any means), the effect lasts for 8 turns instead of 5.",
+        "champions": "Changes the terrain to Psychic Terrain for 5 turns. Overrides Electric Terrain, Grassy Terrain, and Misty Terrain. All Pokémon on the ground are immune to moves with priority greater than 0. (Moves that target the field rather than individual Pokémon, such as Spikes, are not affected.) Additionally, when a Pokémon on the ground uses a Psychic-type move, that move’s power is increased to 1.5×. If a Pokémon is holding a Terrain Extender when creating Psychic Terrain (by any means), the effect lasts for 8 turns instead of 5."
+    },
+    "short_effect": {
+        "scarlet-violet": "Protects Pokémon on the ground from priority moves and increases the power of their Psychic moves by 50%.",
+        "the-teal-mask": "Protects Pokémon on the ground from priority moves and increases the power of their Psychic moves by 50%.",
+        "the-indigo-disk": "Protects Pokémon on the ground from priority moves and increases the power of their Psychic moves by 50%.",
+        "legends-za": "Protects Pokémon on the ground from priority moves and increases the power of their Psychic moves by 50%.",
+        "mega-dimension": "Protects Pokémon on the ground from priority moves and increases the power of their Psychic moves by 50%.",
+        "champions": "Protects Pokémon on the ground from priority moves and increases the power of their Psychic moves by 50%."
+    },
+    "flavor_text": {},
+    "stat_changes": [],
+    "machine": {
         "scarlet-violet": null,
         "the-teal-mask": null,
         "the-indigo-disk": null,
@@ -46,25 +72,6 @@
         "mega-dimension": null,
         "champions": null
     },
-    "effect": {
-        "scarlet-violet": "Inflicts regular damage.",
-        "the-teal-mask": "Inflicts regular damage.",
-        "the-indigo-disk": "Inflicts regular damage.",
-        "legends-za": "Inflicts regular damage.",
-        "mega-dimension": "Inflicts regular damage.",
-        "champions": "Inflicts regular damage."
-    },
-    "short_effect": {
-        "scarlet-violet": "Inflicts regular damage with no additional effect.",
-        "the-teal-mask": "Inflicts regular damage with no additional effect.",
-        "the-indigo-disk": "Inflicts regular damage with no additional effect.",
-        "legends-za": "Inflicts regular damage with no additional effect.",
-        "mega-dimension": "Inflicts regular damage with no additional effect.",
-        "champions": "Inflicts regular damage with no additional effect."
-    },
-    "flavor_text": {},
-    "stat_changes": [],
-    "machine": null,
     "metadata": {
         "ailment": "none",
         "category": "damage",

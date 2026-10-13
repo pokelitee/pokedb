@@ -35,11 +35,11 @@
     "target": "all-pokemon",
     "generation": "generation-ii",
     "effect_chance": {
-        "ruby-sapphire": 12,
-        "emerald": 12,
-        "firered-leafgreen": 12,
-        "colosseum": 12,
-        "xd": 12
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
     },
     "effect": {
         "ruby-sapphire": "Every Pokémon is given a counter that starts at 3 and decreases by 1 at the end of every turn, including this one. When a Pokémon’s counter reaches zero, that Pokémon faints. A Pokémon that leaves the field will lose its counter; its replacement does not inherit the effect, and other Pokémon’s counters remain. This effect is passed on by Baton Pass. This move cannot be copied by Mirror Move.",
@@ -61,7 +61,13 @@
         "firered-leafgreen": "Any battler that hears this faints in three turns unless it switches."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "perish-song",
         "category": "ailment",

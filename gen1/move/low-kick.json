@@ -31,26 +31,31 @@
     "target": "selected-pokemon",
     "generation": "generation-i",
     "effect_chance": {
+        "red-blue": 30,
+        "yellow": 30,
+        "red-green-japan": 30,
+        "blue-japan": 30
+    },
+    "effect": {
+        "red-blue": "Inflicts regular damage. Has a chance to make the target flinch.",
+        "yellow": "Inflicts regular damage. Has a chance to make the target flinch.",
+        "red-green-japan": "Inflicts regular damage. Has a chance to make the target flinch.",
+        "blue-japan": "Inflicts regular damage. Has a chance to make the target flinch."
+    },
+    "short_effect": {
+        "red-blue": "Has a chance to make the target flinch.",
+        "yellow": "Has a chance to make the target flinch.",
+        "red-green-japan": "Has a chance to make the target flinch.",
+        "blue-japan": "Has a chance to make the target flinch."
+    },
+    "flavor_text": {},
+    "stat_changes": [],
+    "machine": {
         "red-blue": null,
         "yellow": null,
         "red-green-japan": null,
         "blue-japan": null
     },
-    "effect": {
-        "red-blue": "Inflicts regular damage. Power increases with the target’s weight in kilograms, to a maximum of 120. Target’s weight | Power --------------- | ----: Up to 10kg | 20 Up to 25kg | 40 Up to 50kg | 60 Up to 100kg | 80 Up to 200kg | 100 Above 200kg | 120",
-        "yellow": "Inflicts regular damage. Power increases with the target’s weight in kilograms, to a maximum of 120. Target’s weight | Power --------------- | ----: Up to 10kg | 20 Up to 25kg | 40 Up to 50kg | 60 Up to 100kg | 80 Up to 200kg | 100 Above 200kg | 120",
-        "red-green-japan": "Inflicts regular damage. Power increases with the target’s weight in kilograms, to a maximum of 120. Target’s weight | Power --------------- | ----: Up to 10kg | 20 Up to 25kg | 40 Up to 50kg | 60 Up to 100kg | 80 Up to 200kg | 100 Above 200kg | 120",
-        "blue-japan": "Inflicts regular damage. Power increases with the target’s weight in kilograms, to a maximum of 120. Target’s weight | Power --------------- | ----: Up to 10kg | 20 Up to 25kg | 40 Up to 50kg | 60 Up to 100kg | 80 Up to 200kg | 100 Above 200kg | 120"
-    },
-    "short_effect": {
-        "red-blue": "Inflicts more damage to heavier targets, with a maximum of 120 power.",
-        "yellow": "Inflicts more damage to heavier targets, with a maximum of 120 power.",
-        "red-green-japan": "Inflicts more damage to heavier targets, with a maximum of 120 power.",
-        "blue-japan": "Inflicts more damage to heavier targets, with a maximum of 120 power."
-    },
-    "flavor_text": {},
-    "stat_changes": [],
-    "machine": null,
     "metadata": {
         "ailment": "none",
         "category": "damage",

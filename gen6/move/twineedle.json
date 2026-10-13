@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user damages the target twice in succession by jabbing it with two spikes. This may also poison the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

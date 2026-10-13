@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user throws the bone it holds. The bone loops to hit the foe twice, coming and going."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

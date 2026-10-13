@@ -65,7 +65,13 @@
             "stat": "special-attack"
         }
     ],
-    "machine": "tm92",
+    "machine": {
+        "sword-shield": "tm92",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A wondrous wall of light is put up to suppress damage from physical attacks for five turns."
     },
     "stat_changes": [],
-    "machine": "tm33",
+    "machine": {
+        "diamond-pearl": "tm33",
+        "platinum": "tm33",
+        "heartgold-soulsilver": "tm33"
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

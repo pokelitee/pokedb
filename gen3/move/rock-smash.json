@@ -66,7 +66,13 @@
             "stat": "defense"
         }
     ],
-    "machine": "hm06",
+    "machine": {
+        "ruby-sapphire": "hm06",
+        "emerald": "hm06",
+        "firered-leafgreen": "hm06",
+        "colosseum": "hm06",
+        "xd": "hm06"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

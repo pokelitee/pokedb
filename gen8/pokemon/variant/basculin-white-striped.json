@@ -45,13 +45,52 @@
     },
     "sprites": {
         "versions": {
-            "brilliant-diamond-shining-pearl": {
-                "front_default": null,
-                "front_female": null
-            },
             "icons": {
+                "front_female": null,
+                "front_default": null
+            },
+            "sword-shield": {
+                "icons": {
+                    "front_female": null,
+                    "front_default": null
+                },
+                "back_shiny": null,
+                "back_female": null,
+                "front_shiny": null,
+                "back_default": null,
+                "front_female": null,
                 "front_default": null,
-                "front_female": null
+                "back_shiny_female": null,
+                "front_shiny_female": null
+            },
+            "legends-arceus": {
+                "icons": {
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/legends-arceus/icons/shiny/10247.png",
+                    "front_female": null,
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/legends-arceus/icons/10247.png",
+                    "front_shiny_female": null
+                },
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/legends-arceus/back/shiny/10247.webp",
+                "back_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/legends-arceus/shiny/10247.webp",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/legends-arceus/back/10247.webp",
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/legends-arceus/10247.webp",
+                "back_shiny_female": null,
+                "front_shiny_female": null
+            },
+            "brilliant-diamond-shining-pearl": {
+                "icons": {
+                    "front_default": null
+                },
+                "back_shiny": null,
+                "back_female": null,
+                "front_shiny": null,
+                "back_default": null,
+                "front_female": null,
+                "front_default": null,
+                "back_shiny_female": null,
+                "front_shiny_female": null
             }
         }
     },
@@ -202,11 +241,44 @@
                         "version_groups": [
                             "legends-arceus"
                         ],
-                        "base_form": "basculin-white-striped",
+                        "base_form": null,
                         "evolved_form": null,
                         "item": null,
                         "trigger": "recoil-damage",
-                        "gender": null,
+                        "gender": 2,
+                        "held_item": null,
+                        "known_move": null,
+                        "known_move_type": null,
+                        "location": null,
+                        "min_level": null,
+                        "min_happiness": null,
+                        "min_beauty": null,
+                        "min_affection": null,
+                        "min_damage_taken": 294,
+                        "min_move_count": null,
+                        "min_steps": null,
+                        "near_special_rock": false,
+                        "needs_multiplayer": false,
+                        "needs_overworld_rain": false,
+                        "party_species": null,
+                        "party_type": null,
+                        "relative_physical_stats": null,
+                        "region": null,
+                        "time_of_day": null,
+                        "trade_species": null,
+                        "turn_upside_down": false,
+                        "used_move": null
+                    },
+                    {
+                        "introduced_in_version_group": "legends-arceus",
+                        "version_groups": [
+                            "legends-arceus"
+                        ],
+                        "base_form": null,
+                        "evolved_form": null,
+                        "item": null,
+                        "trigger": "recoil-damage",
+                        "gender": 1,
                         "held_item": null,
                         "known_move": null,
                         "known_move_type": null,

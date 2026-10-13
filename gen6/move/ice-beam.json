@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen."
     },
     "stat_changes": [],
-    "machine": "tm13",
+    "machine": {
+        "x-y": "tm13",
+        "omega-ruby-alpha-sapphire": "tm13"
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

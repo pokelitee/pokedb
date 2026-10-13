@@ -1,6 +1,74 @@
 {
     "metadata": {
-        "schema_version": 4,
+        "schema_version": 5,
+        "generated_resources": [
+            "ability",
+            "cosmetic",
+            "item",
+            "move",
+            "pokemon",
+            "transformation",
+            "variant"
+        ],
+        "resource_provenance": {
+            "variant": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            },
+            "ability": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            },
+            "transformation": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            },
+            "pokemon": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            },
+            "move": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            },
+            "item": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            },
+            "cosmetic": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            }
+        },
+        "content_sha256": "3ed656286778f6177d4a366f626f6f8ac5c6995fcbf60e832fa9b085ecb41f79",
         "source": "pokeapi",
         "api_base_url": "https://pokeapi.co/api/v2/",
         "is_historical": true,
@@ -11,7 +79,15 @@
             "red-green-japan",
             "blue-japan"
         ],
-        "created_at": "2026-08-02T00:38:52.202211+00:00",
+        "versions": [
+            "blue",
+            "blue-japan",
+            "green-japan",
+            "red",
+            "red-japan",
+            "yellow"
+        ],
+        "created_at": "2026-10-13T17:53:39.620721+00:00",
         "counts": {
             "ability": 0,
             "move": 165,

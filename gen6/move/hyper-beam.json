@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The target is attacked with a powerful beam. The user can’t move on the next turn."
     },
     "stat_changes": [],
-    "machine": "tm15",
+    "machine": {
+        "x-y": "tm15",
+        "omega-ruby-alpha-sapphire": "tm15"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

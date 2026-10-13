@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem."
     },
     "stat_changes": [],
-    "machine": "tm44",
+    "machine": {
+        "diamond-pearl": "tm44",
+        "platinum": "tm44",
+        "heartgold-soulsilver": "tm44"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

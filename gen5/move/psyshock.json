@@ -39,7 +39,10 @@
         "black-2-white-2": "The user materializes an odd psychic wave to attack the target. This attack does physical damage."
     },
     "stat_changes": [],
-    "machine": "tm03",
+    "machine": {
+        "black-white": "tm03",
+        "black-2-white-2": "tm03"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

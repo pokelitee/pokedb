@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user throws down a giant lightning bolt. This move’s power is increased when influenced by an enormous flame."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

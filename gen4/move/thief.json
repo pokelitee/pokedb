@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user attacks and steals the foe’s held item simultaneously. It can’t steal if the user holds an item."
     },
     "stat_changes": [],
-    "machine": "tm46",
+    "machine": {
+        "diamond-pearl": "tm46",
+        "platinum": "tm46",
+        "heartgold-soulsilver": "tm46"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

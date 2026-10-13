@@ -2,7 +2,14 @@
     "id": 1158,
     "name": "fried-food",
     "source_url": "https://pokeapi.co/api/v2/item/1158/",
-    "cost": 150,
+    "prices": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "fling_power": 10,
     "fling_effect": null,
     "attributes": [],

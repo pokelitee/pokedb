@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user burrows into the ground, then attacks on the next turn."
     },
     "stat_changes": [],
-    "machine": "tm10",
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": "tm10"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

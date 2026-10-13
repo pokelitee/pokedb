@@ -39,7 +39,10 @@
         "black-2-white-2": "The user waggles a finger and stimulates its brain into randomly using nearly any move."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

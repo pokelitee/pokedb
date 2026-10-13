@@ -39,7 +39,10 @@
         "black-2-white-2": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP."
     },
     "stat_changes": [],
-    "machine": "tm54",
+    "machine": {
+        "black-white": "tm54",
+        "black-2-white-2": "tm54"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

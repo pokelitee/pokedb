@@ -52,7 +52,11 @@
             "stat": "special-attack"
         }
     ],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "swagger",

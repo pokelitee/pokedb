@@ -60,7 +60,13 @@
         "legends-arceus": "While it is asleep, the user randomly uses one of the moves it knows."
     },
     "stat_changes": [],
-    "machine": "tr27",
+    "machine": {
+        "sword-shield": "tr27",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

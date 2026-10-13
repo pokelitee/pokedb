@@ -47,13 +47,30 @@
     "sprites": {
         "versions": {
             "icons": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10110.png",
-                "front_female": null
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/10110.png"
             },
             "ultra-sun-ultra-moon": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10110.png",
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/back/shiny/10110.gif",
+                "back_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10110.gif",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/back/10110.gif",
                 "front_female": null,
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10110.png",
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10110.gif",
+                "back_shiny_female": null,
+                "front_shiny_female": null
+            },
+            "lets-go-pikachu-lets-go-eevee": {
+                "icons": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/lets-go-pikachu-lets-go-eevee/icons/10110.png"
+                },
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/lets-go-pikachu-lets-go-eevee/back/shiny/10110.gif",
+                "back_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/lets-go-pikachu-lets-go-eevee/shiny/10110.gif",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/lets-go-pikachu-lets-go-eevee/back/10110.gif",
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/lets-go-pikachu-lets-go-eevee/10110.gif",
+                "back_shiny_female": null,
                 "front_shiny_female": null
             }
         }
@@ -804,8 +821,8 @@
                             "ultra-sun-ultra-moon",
                             "lets-go-pikachu-lets-go-eevee"
                         ],
-                        "base_form": "geodude-alola",
-                        "evolved_form": "graveler-alola",
+                        "base_form": null,
+                        "evolved_form": null,
                         "item": null,
                         "trigger": "level-up",
                         "gender": null,
@@ -845,8 +862,8 @@
                                     "ultra-sun-ultra-moon",
                                     "lets-go-pikachu-lets-go-eevee"
                                 ],
-                                "base_form": "graveler-alola",
-                                "evolved_form": "golem-alola",
+                                "base_form": null,
+                                "evolved_form": null,
                                 "item": null,
                                 "trigger": "trade",
                                 "gender": null,

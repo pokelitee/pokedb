@@ -59,7 +59,13 @@
         "sword-shield": "The target is cut with a scythe or claw."
     },
     "stat_changes": [],
-    "machine": "hm01",
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": "hm01",
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -39,7 +39,10 @@
         "crystal": "An attack useable only while asleep."
     },
     "stat_changes": [],
-    "machine": "tm13",
+    "machine": {
+        "gold-silver": "tm13",
+        "crystal": "tm13"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

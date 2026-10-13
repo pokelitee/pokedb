@@ -61,7 +61,13 @@
         "firered-leafgreen": "A rapid jolt of electricity strikes the foe. It can’t be evaded."
     },
     "stat_changes": [],
-    "machine": "tm34",
+    "machine": {
+        "ruby-sapphire": "tm34",
+        "emerald": "tm34",
+        "firered-leafgreen": "tm34",
+        "colosseum": "tm34",
+        "xd": "tm34"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

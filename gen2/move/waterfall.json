@@ -39,7 +39,10 @@
         "crystal": "An aquatic charge attack."
     },
     "stat_changes": [],
-    "machine": "hm07",
+    "machine": {
+        "gold-silver": "hm07",
+        "crystal": "hm07"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

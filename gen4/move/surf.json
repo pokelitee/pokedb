@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "It swamps the entire battlefield with a giant wave. It can also be used for crossing water."
     },
     "stat_changes": [],
-    "machine": "hm03",
+    "machine": {
+        "diamond-pearl": "hm03",
+        "platinum": "hm03",
+        "heartgold-soulsilver": "hm03"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

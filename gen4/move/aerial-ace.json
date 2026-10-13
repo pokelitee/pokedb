@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user confounds the foe with speed, then slashes. The attack lands without fail."
     },
     "stat_changes": [],
-    "machine": "tm40",
+    "machine": {
+        "diamond-pearl": "tm40",
+        "platinum": "tm40",
+        "heartgold-soulsilver": "tm40"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

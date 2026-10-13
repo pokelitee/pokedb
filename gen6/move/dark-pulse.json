@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch."
     },
     "stat_changes": [],
-    "machine": "tm97",
+    "machine": {
+        "x-y": "tm97",
+        "omega-ruby-alpha-sapphire": "tm97"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

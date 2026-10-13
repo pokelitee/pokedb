@@ -47,20 +47,20 @@
         "champions": 100
     },
     "effect": {
-        "scarlet-violet": "Inflicts regular damage. Lowers the target’s Defense by one stage.",
-        "the-teal-mask": "Inflicts regular damage. Lowers the target’s Defense by one stage.",
-        "the-indigo-disk": "Inflicts regular damage. Lowers the target’s Defense by one stage.",
-        "legends-za": "Inflicts regular damage. Lowers the target’s Defense by one stage.",
-        "mega-dimension": "Inflicts regular damage. Lowers the target’s Defense by one stage.",
-        "champions": "Inflicts regular damage. Lowers the target’s Defense by one stage."
+        "scarlet-violet": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect.",
+        "the-teal-mask": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect.",
+        "the-indigo-disk": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect.",
+        "legends-za": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect.",
+        "mega-dimension": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect.",
+        "champions": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect."
     },
     "short_effect": {
-        "scarlet-violet": "Lowers the target’s Defense by one stage after inflicting damage.",
-        "the-teal-mask": "Lowers the target’s Defense by one stage after inflicting damage.",
-        "the-indigo-disk": "Lowers the target’s Defense by one stage after inflicting damage.",
-        "legends-za": "Lowers the target’s Defense by one stage after inflicting damage.",
-        "mega-dimension": "Lowers the target’s Defense by one stage after inflicting damage.",
-        "champions": "Lowers the target’s Defense by one stage after inflicting damage."
+        "scarlet-violet": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect.",
+        "the-teal-mask": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect.",
+        "the-indigo-disk": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect.",
+        "legends-za": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect.",
+        "mega-dimension": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect.",
+        "champions": "Lower the targets Defense by 1 stage. Damage is increased by 50% during Gravitys effect."
     },
     "flavor_text": {
         "scarlet-violet": "The user inflicts damage by dropping an apple from high above. This also lowers the target's Defense stat."
@@ -71,7 +71,14 @@
             "stat": "defense"
         }
     ],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

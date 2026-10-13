@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch."
     },
     "stat_changes": [],
-    "machine": "tm01",
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": "tm01"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

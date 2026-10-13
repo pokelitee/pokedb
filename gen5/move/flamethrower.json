@@ -39,7 +39,10 @@
         "black-2-white-2": "The target is scorched with an intense blast of fire. It may also leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": "tm35",
+    "machine": {
+        "black-white": "tm35",
+        "black-2-white-2": "tm35"
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

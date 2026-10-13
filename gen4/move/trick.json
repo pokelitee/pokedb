@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user catches the foe off guard and swaps the foe’s held item with its own."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

@@ -60,7 +60,13 @@
         "legends-arceus": "This attack move doubles its power if the user is poisoned, burned, or paralyzed."
     },
     "stat_changes": [],
-    "machine": "tm39",
+    "machine": {
+        "sword-shield": "tm39",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

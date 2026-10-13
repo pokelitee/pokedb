@@ -61,7 +61,13 @@
         "firered-leafgreen": "An attack that is executed last. The user flinches if hit beforehand."
     },
     "stat_changes": [],
-    "machine": "tm01",
+    "machine": {
+        "ruby-sapphire": "tm01",
+        "emerald": "tm01",
+        "firered-leafgreen": "tm01",
+        "colosseum": "tm01",
+        "xd": "tm01"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -66,7 +66,14 @@
         "scarlet-violet": "The user flails about aimlessly to attack. The less HP the user has, the greater the move's power."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

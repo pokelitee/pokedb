@@ -65,7 +65,13 @@
             "stat": "defense"
         }
     ],
-    "machine": "hm06",
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": "hm06",
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user bounces up high, then drops on the foe on the second turn. It may also paralyze the foe."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

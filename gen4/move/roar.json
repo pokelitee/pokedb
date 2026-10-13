@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is scared off, to be replaced by another Pokémon in its party. In the wild, the battle ends."
     },
     "stat_changes": [],
-    "machine": "tm05",
+    "machine": {
+        "diamond-pearl": "tm05",
+        "platinum": "tm05",
+        "heartgold-soulsilver": "tm05"
+    },
     "metadata": {
         "ailment": "none",
         "category": "force-switch",

@@ -60,7 +60,13 @@
         "legends-arceus": "The user traps the target in a violent swirling whirlpool for four to five turns."
     },
     "stat_changes": [],
-    "machine": "tm36",
+    "machine": {
+        "sword-shield": "tm36",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

@@ -39,7 +39,10 @@
         "crystal": "An attack that never misses."
     },
     "stat_changes": [],
-    "machine": "tm39",
+    "machine": {
+        "gold-silver": "tm39",
+        "crystal": "tm39"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

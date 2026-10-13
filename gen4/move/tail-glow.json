@@ -32,14 +32,14 @@
         "heartgold-soulsilver": null
     },
     "effect": {
-        "diamond-pearl": "Raises the user’s Special Attack by three stages.",
-        "platinum": "Raises the user’s Special Attack by three stages.",
-        "heartgold-soulsilver": "Raises the user’s Special Attack by three stages."
+        "diamond-pearl": "Raises the user’s Special Attack by two stages.",
+        "platinum": "Raises the user’s Special Attack by two stages.",
+        "heartgold-soulsilver": "Raises the user’s Special Attack by two stages."
     },
     "short_effect": {
-        "diamond-pearl": "Raises the user’s Special Attack by three stages.",
-        "platinum": "Raises the user’s Special Attack by three stages.",
-        "heartgold-soulsilver": "Raises the user’s Special Attack by three stages."
+        "diamond-pearl": "Raises the user’s Special Attack by two stages.",
+        "platinum": "Raises the user’s Special Attack by two stages.",
+        "heartgold-soulsilver": "Raises the user’s Special Attack by two stages."
     },
     "flavor_text": {
         "diamond-pearl": "The user stares at flashing lights to focus its mind, sharply raising its Sp. Atk stat.",
@@ -52,7 +52,11 @@
             "stat": "special-attack"
         }
     ],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

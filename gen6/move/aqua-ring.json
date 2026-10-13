@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user envelops itself in a veil made of water. It regains some HP every turn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

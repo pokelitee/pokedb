@@ -39,7 +39,10 @@
         "crystal": "A strong breath attack."
     },
     "stat_changes": [],
-    "machine": "tm24",
+    "machine": {
+        "gold-silver": "tm24",
+        "crystal": "tm24"
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

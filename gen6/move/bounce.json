@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user bounces up high, then drops on the target on the second turn. This may also leave the target with paralysis."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

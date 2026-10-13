@@ -39,7 +39,10 @@
         "black-2-white-2": "The target is razed by a fiery explosion. The user must rest on the next turn, however."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

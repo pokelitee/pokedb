@@ -60,7 +60,13 @@
         "legends-arceus": "The user creates a bizarre area in which Pokémon's held items lose their effects for five turns."
     },
     "stat_changes": [],
-    "machine": "tm72",
+    "machine": {
+        "sword-shield": "tm72",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

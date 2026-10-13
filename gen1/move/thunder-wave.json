@@ -50,7 +50,12 @@
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": "tm45",
+    "machine": {
+        "red-blue": "tm45",
+        "yellow": "tm45",
+        "red-green-japan": "tm45",
+        "blue-japan": "tm45"
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "ailment",

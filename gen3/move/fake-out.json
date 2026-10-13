@@ -61,7 +61,13 @@
         "firered-leafgreen": "An attack that hits first and causes flinching. Usable only on 1st turn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

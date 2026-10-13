@@ -66,7 +66,14 @@
         "scarlet-violet": "The user slams into the target with its flame-covered body. The more the user outweighs the target, the greater the move's power."
     },
     "stat_changes": [],
-    "machine": "tm189",
+    "machine": {
+        "scarlet-violet": "tm189",
+        "the-teal-mask": "tm189",
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

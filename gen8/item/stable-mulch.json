@@ -2,7 +2,13 @@
     "id": 97,
     "name": "stable-mulch",
     "source_url": "https://pokeapi.co/api/v2/item/97/",
-    "cost": 200,
+    "prices": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "fling_power": 30,
     "fling_effect": null,
     "attributes": [],
@@ -14,7 +20,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/stable-mulch.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

@@ -39,7 +39,10 @@
         "black-2-white-2": "The target is scared off and switched. In the wild, a battle against a single Pokémon ends."
     },
     "stat_changes": [],
-    "machine": "tm05",
+    "machine": {
+        "black-white": "tm05",
+        "black-2-white-2": "tm05"
+    },
     "metadata": {
         "ailment": "none",
         "category": "force-switch",

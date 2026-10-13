@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user weaves a sticky net around the opposing team, which lowers their Speed stat upon switching into battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

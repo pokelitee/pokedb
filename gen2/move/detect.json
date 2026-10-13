@@ -39,9 +39,12 @@
         "crystal": "Evades attack that turn. It may fail."
     },
     "stat_changes": [],
-    "machine": "tm43",
+    "machine": {
+        "gold-silver": "tm43",
+        "crystal": "tm43"
+    },
     "metadata": {
-        "ailment": "none",
+        "ailment": "protect",
         "category": "unique",
         "min_hits": null,
         "max_hits": null,

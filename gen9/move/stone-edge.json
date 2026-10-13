@@ -66,7 +66,14 @@
         "scarlet-violet": "The user stabs the target with sharpened stones. This move has a heightened chance of landing a critical hit."
     },
     "stat_changes": [],
-    "machine": "tm150",
+    "machine": {
+        "scarlet-violet": "tm150",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm150",
+        "legends-za": "tm65",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

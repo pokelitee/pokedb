@@ -2,7 +2,14 @@
     "id": 1500,
     "name": "dynamax-crystal-sco6084",
     "source_url": "https://pokeapi.co/api/v2/item/1500/",
-    "cost": 20,
+    "prices": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],

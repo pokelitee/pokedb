@@ -2,7 +2,20 @@
     "id": 12,
     "name": "premier-ball",
     "source_url": "https://pokeapi.co/api/v2/item/12/",
-    "cost": 20,
+    "prices": {
+        "x-y": {
+            "poke-dollar": {
+                "purchase_price": 200,
+                "sell_price": 100
+            }
+        },
+        "omega-ruby-alpha-sapphire": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 100
+            }
+        }
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [
@@ -19,7 +32,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/premier-ball.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

@@ -39,7 +39,10 @@
         "crystal": "Randomly uses any POKéMON move."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

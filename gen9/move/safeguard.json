@@ -66,7 +66,14 @@
         "scarlet-violet": "The user creates a protective field that prevents status conditions for five turns."
     },
     "stat_changes": [],
-    "machine": "tm51",
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": "tm51",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

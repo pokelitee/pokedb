@@ -2,7 +2,24 @@
     "id": 13,
     "name": "dusk-ball",
     "source_url": "https://pokeapi.co/api/v2/item/13/",
-    "cost": 1000,
+    "prices": {
+        "scarlet-violet": {
+            "poke-dollar": {
+                "purchase_price": 1000,
+                "sell_price": 250
+            }
+        },
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": {
+            "poke-dollar": {
+                "purchase_price": 1000,
+                "sell_price": 250
+            }
+        },
+        "mega-dimension": null,
+        "champions": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user endearingly approaches the foe, then steals the item the foe is holding."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

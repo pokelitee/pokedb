@@ -66,7 +66,14 @@
         "scarlet-violet": "The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target's Ability."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

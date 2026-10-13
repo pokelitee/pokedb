@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy."
     },
     "stat_changes": [],
-    "machine": "tm90",
+    "machine": {
+        "x-y": "tm90",
+        "omega-ruby-alpha-sapphire": "tm90"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

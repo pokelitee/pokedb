@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user kicks up mud on the battlefield. This weakens Electric-type moves for five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

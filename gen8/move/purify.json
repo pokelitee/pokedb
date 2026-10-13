@@ -59,7 +59,13 @@
         "sword-shield": "The user heals the target’s status condition. If the move succeeds, it also restores the user’s own HP."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

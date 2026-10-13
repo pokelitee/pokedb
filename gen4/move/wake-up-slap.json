@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "This attack inflicts high damage on a sleeping foe. It also wakes the foe up, however."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

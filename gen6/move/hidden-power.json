@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "A unique attack that varies in type depending on the Pokémon using it."
     },
     "stat_changes": [],
-    "machine": "tm10",
+    "machine": {
+        "x-y": "tm10",
+        "omega-ruby-alpha-sapphire": "tm10"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

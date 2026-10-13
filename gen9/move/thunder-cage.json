@@ -47,26 +47,33 @@
         "champions": 100
     },
     "effect": {
-        "scarlet-violet": "Inflicts regular damage.",
-        "the-teal-mask": "Inflicts regular damage.",
-        "the-indigo-disk": "Inflicts regular damage.",
-        "legends-za": "Inflicts regular damage.",
-        "mega-dimension": "Inflicts regular damage.",
-        "champions": "Inflicts regular damage."
+        "scarlet-violet": "Inflicts regular damage. For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn. The user continues to use other moves during this time. If the user leaves the field, this effect ends. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times. Averages to 3 hits per use. Rapid Spin cancels this effect.",
+        "the-teal-mask": "Inflicts regular damage. For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn. The user continues to use other moves during this time. If the user leaves the field, this effect ends. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times. Averages to 3 hits per use. Rapid Spin cancels this effect.",
+        "the-indigo-disk": "Inflicts regular damage. For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn. The user continues to use other moves during this time. If the user leaves the field, this effect ends. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times. Averages to 3 hits per use. Rapid Spin cancels this effect.",
+        "legends-za": "Inflicts regular damage. For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn. The user continues to use other moves during this time. If the user leaves the field, this effect ends. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times. Averages to 3 hits per use. Rapid Spin cancels this effect.",
+        "mega-dimension": "Inflicts regular damage. For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn. The user continues to use other moves during this time. If the user leaves the field, this effect ends. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times. Averages to 3 hits per use. Rapid Spin cancels this effect.",
+        "champions": "Inflicts regular damage. For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn. The user continues to use other moves during this time. If the user leaves the field, this effect ends. Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times. Averages to 3 hits per use. Rapid Spin cancels this effect."
     },
     "short_effect": {
-        "scarlet-violet": "Inflicts regular damage with no additional effect.",
-        "the-teal-mask": "Inflicts regular damage with no additional effect.",
-        "the-indigo-disk": "Inflicts regular damage with no additional effect.",
-        "legends-za": "Inflicts regular damage with no additional effect.",
-        "mega-dimension": "Inflicts regular damage with no additional effect.",
-        "champions": "Inflicts regular damage with no additional effect."
+        "scarlet-violet": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "the-teal-mask": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "the-indigo-disk": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "legends-za": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "mega-dimension": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "champions": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
     },
     "flavor_text": {
         "scarlet-violet": "The user traps the target inside a cage of sparking electricity that inflicts damage for four to five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

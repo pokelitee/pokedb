@@ -66,7 +66,14 @@
         "scarlet-violet": "The user reacts to the target's movement and strikes with the heel of its palm, making the target flinch. This move fails if the target is not readying a priority move."
     },
     "stat_changes": [],
-    "machine": "tm229",
+    "machine": {
+        "scarlet-violet": "tm229",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm229",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": null,
         "category": null,

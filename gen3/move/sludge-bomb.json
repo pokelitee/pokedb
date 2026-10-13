@@ -61,7 +61,13 @@
         "firered-leafgreen": "Filthy sludge is hurled at the foe. It may poison the target."
     },
     "stat_changes": [],
-    "machine": "tm36",
+    "machine": {
+        "ruby-sapphire": "tm36",
+        "emerald": "tm36",
+        "firered-leafgreen": "tm36",
+        "colosseum": "tm36",
+        "xd": "tm36"
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

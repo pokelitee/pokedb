@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user slams into the target with the force of a meteor. This move can be used on the target regardless of its Abilities."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

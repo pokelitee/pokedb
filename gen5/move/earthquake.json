@@ -39,7 +39,10 @@
         "black-2-white-2": "The user sets off an earthquake that strikes those around it."
     },
     "stat_changes": [],
-    "machine": "tm26",
+    "machine": {
+        "black-white": "tm26",
+        "black-2-white-2": "tm26"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

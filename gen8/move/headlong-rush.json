@@ -59,7 +59,13 @@
         "legends-arceus": "The user smashes into the target in a full-body tackle. This also lowers the user’s defensive stats."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": null,
         "category": null,

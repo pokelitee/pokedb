@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "If it is the opposite gender of the user, the foe becomes infatuated and less likely to attack."
     },
     "stat_changes": [],
-    "machine": "tm45",
+    "machine": {
+        "diamond-pearl": "tm45",
+        "platinum": "tm45",
+        "heartgold-soulsilver": "tm45"
+    },
     "metadata": {
         "ailment": "infatuation",
         "category": "ailment",

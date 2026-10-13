@@ -39,7 +39,10 @@
         "black-2-white-2": "The user intensifies the sun for five turns, powering up Fire-type moves."
     },
     "stat_changes": [],
-    "machine": "tm11",
+    "machine": {
+        "black-white": "tm11",
+        "black-2-white-2": "tm11"
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

@@ -42,18 +42,18 @@
         "legends-arceus": 100
     },
     "effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Lower the targets Special Defense by 1 stage.",
+        "the-isle-of-armor": "Lower the targets Special Defense by 1 stage.",
+        "the-crown-tundra": "Lower the targets Special Defense by 1 stage.",
+        "brilliant-diamond-shining-pearl": "Lower the targets Special Defense by 1 stage.",
+        "legends-arceus": "Lower the targets Special Defense by 1 stage."
     },
     "short_effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Lower the targets Special Defense by 1 stage.",
+        "the-isle-of-armor": "Lower the targets Special Defense by 1 stage.",
+        "the-crown-tundra": "Lower the targets Special Defense by 1 stage.",
+        "brilliant-diamond-shining-pearl": "Lower the targets Special Defense by 1 stage.",
+        "legends-arceus": "Lower the targets Special Defense by 1 stage."
     },
     "flavor_text": {
         "sword-shield": "The user attacks the target with an acidic liquid created from tart apples. This also lowers the target’s Sp. Def stat.",
@@ -65,7 +65,13 @@
             "stat": "special-defense"
         }
     ],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

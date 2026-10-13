@@ -52,7 +52,11 @@
             "stat": "attack"
         }
     ],
-    "machine": "tm75",
+    "machine": {
+        "sun-moon": "tm75",
+        "ultra-sun-ultra-moon": "tm75",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

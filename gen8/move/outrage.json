@@ -60,7 +60,13 @@
         "legends-arceus": "The user attacks by going on a rampage, then becomes fixated on using this move."
     },
     "stat_changes": [],
-    "machine": "tr24",
+    "machine": {
+        "sword-shield": "tr24",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

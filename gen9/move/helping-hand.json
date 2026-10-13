@@ -66,7 +66,14 @@
         "scarlet-violet": "The user assists an ally by boosting the power of that ally's attack."
     },
     "stat_changes": [],
-    "machine": "tm130",
+    "machine": {
+        "scarlet-violet": "tm130",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm130",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

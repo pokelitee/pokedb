@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is slugged with a punch thrown at maximum power. It can also be used to move boulders."
     },
     "stat_changes": [],
-    "machine": "hm04",
+    "machine": {
+        "diamond-pearl": "hm04",
+        "platinum": "hm04",
+        "heartgold-soulsilver": "hm04"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -37,16 +37,16 @@
         "blue-japan": null
     },
     "effect": {
-        "red-blue": "Lowers the target’s Speed by two stages.",
-        "yellow": "Lowers the target’s Speed by two stages.",
-        "red-green-japan": "Lowers the target’s Speed by two stages.",
-        "blue-japan": "Lowers the target’s Speed by two stages."
+        "red-blue": "Lowers the target’s Speed by one stage.",
+        "yellow": "Lowers the target’s Speed by one stage.",
+        "red-green-japan": "Lowers the target’s Speed by one stage.",
+        "blue-japan": "Lowers the target’s Speed by one stage."
     },
     "short_effect": {
-        "red-blue": "Lowers the target’s Speed by two stages.",
-        "yellow": "Lowers the target’s Speed by two stages.",
-        "red-green-japan": "Lowers the target’s Speed by two stages.",
-        "blue-japan": "Lowers the target’s Speed by two stages."
+        "red-blue": "Lowers the target’s Speed by one stage.",
+        "yellow": "Lowers the target’s Speed by one stage.",
+        "red-green-japan": "Lowers the target’s Speed by one stage.",
+        "blue-japan": "Lowers the target’s Speed by one stage."
     },
     "flavor_text": {},
     "stat_changes": [
@@ -55,7 +55,12 @@
             "stat": "speed"
         }
     ],
-    "machine": null,
+    "machine": {
+        "red-blue": null,
+        "yellow": null,
+        "red-green-japan": null,
+        "blue-japan": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

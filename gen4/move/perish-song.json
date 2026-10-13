@@ -27,9 +27,9 @@
     "target": "all-pokemon",
     "generation": "generation-ii",
     "effect_chance": {
-        "diamond-pearl": 12,
-        "platinum": 12,
-        "heartgold-soulsilver": 12
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
     },
     "effect": {
         "diamond-pearl": "Every Pokémon is given a counter that starts at 3 and decreases by 1 at the end of every turn, including this one. When a Pokémon’s counter reaches zero, that Pokémon faints. A Pokémon that leaves the field will lose its counter; its replacement does not inherit the effect, and other Pokémon’s counters remain. This effect is passed on by Baton Pass. This move cannot be copied by Mirror Move.",
@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "Any Pokémon that hears this song faints in three turns, unless it switches out of battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "perish-song",
         "category": "ailment",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user attacks the target by dancing very hard. The user’s type determines the type of this move."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

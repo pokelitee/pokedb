@@ -39,7 +39,10 @@
         "crystal": "Ups SPCL.DEF with a wall of light."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

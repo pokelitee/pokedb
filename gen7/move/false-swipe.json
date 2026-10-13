@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP."
     },
     "stat_changes": [],
-    "machine": "tm54",
+    "machine": {
+        "sun-moon": "tm54",
+        "ultra-sun-ultra-moon": "tm54",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

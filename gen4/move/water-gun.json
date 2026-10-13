@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is blasted with a forceful shot of water."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

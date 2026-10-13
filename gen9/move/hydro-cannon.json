@@ -66,7 +66,14 @@
         "scarlet-violet": "The target is hit with a watery blast. The user can't move on the next turn."
     },
     "stat_changes": [],
-    "machine": "tm154",
+    "machine": {
+        "scarlet-violet": "tm154",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm154",
+        "legends-za": null,
+        "mega-dimension": "tm159",
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

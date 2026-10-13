@@ -47,20 +47,20 @@
         "champions": 100
     },
     "effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage. Fails if the user would faint, or if its Attack, Defense, Special Attack, Special Defense, or Speed stat cannot go any higher.",
+        "the-teal-mask": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage. Fails if the user would faint, or if its Attack, Defense, Special Attack, Special Defense, or Speed stat cannot go any higher.",
+        "the-indigo-disk": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage. Fails if the user would faint, or if its Attack, Defense, Special Attack, Special Defense, or Speed stat cannot go any higher.",
+        "legends-za": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage. Fails if the user would faint, or if its Attack, Defense, Special Attack, Special Defense, or Speed stat cannot go any higher.",
+        "mega-dimension": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage. Fails if the user would faint, or if its Attack, Defense, Special Attack, Special Defense, or Speed stat cannot go any higher.",
+        "champions": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage. Fails if the user would faint, or if its Attack, Defense, Special Attack, Special Defense, or Speed stat cannot go any higher."
     },
     "short_effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage.",
+        "the-teal-mask": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage.",
+        "the-indigo-disk": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage.",
+        "legends-za": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage.",
+        "mega-dimension": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage.",
+        "champions": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage."
     },
     "flavor_text": {
         "scarlet-violet": "The user boosts all its stats by using some of its own HP."
@@ -87,7 +87,14 @@
             "stat": "speed"
         }
     ],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

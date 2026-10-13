@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user extends its shadow and attacks the target from behind. This move always goes first."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -39,7 +39,10 @@
         "black-2-white-2": "The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

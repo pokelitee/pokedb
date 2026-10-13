@@ -66,7 +66,14 @@
         "scarlet-violet": "The user stabs the target with a poisonous stinger to inflict damage. This may also poison the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

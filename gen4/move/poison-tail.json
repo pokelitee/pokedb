@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "An attack with a high critical-hit ratio. This tail attack may also poison the foe."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

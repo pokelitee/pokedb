@@ -66,7 +66,14 @@
         "scarlet-violet": "The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself."
     },
     "stat_changes": [],
-    "machine": "tm151",
+    "machine": {
+        "scarlet-violet": "tm151",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

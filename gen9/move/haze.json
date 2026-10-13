@@ -66,7 +66,14 @@
         "scarlet-violet": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle."
     },
     "stat_changes": [],
-    "machine": "tm174",
+    "machine": {
+        "scarlet-violet": "tm174",
+        "the-teal-mask": "tm174",
+        "the-indigo-disk": "tm174",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

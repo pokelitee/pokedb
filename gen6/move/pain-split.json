@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user adds its HP to the target’s HP, then equally shares the combined HP with the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

@@ -41,13 +41,30 @@
     "sprites": {
         "versions": {
             "icons": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/132.png",
-                "front_female": null
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/132.png"
             },
             "ultra-sun-ultra-moon": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/132.png",
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/back/shiny/132.gif",
+                "back_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/132.gif",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/back/132.gif",
                 "front_female": null,
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/132.png",
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/132.gif",
+                "back_shiny_female": null,
+                "front_shiny_female": null
+            },
+            "lets-go-pikachu-lets-go-eevee": {
+                "icons": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/lets-go-pikachu-lets-go-eevee/icons/132.png"
+                },
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/lets-go-pikachu-lets-go-eevee/back/shiny/132.gif",
+                "back_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/lets-go-pikachu-lets-go-eevee/shiny/132.gif",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/lets-go-pikachu-lets-go-eevee/back/132.gif",
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/lets-go-pikachu-lets-go-eevee/132.gif",
+                "back_shiny_female": null,
                 "front_shiny_female": null
             }
         }
@@ -103,11 +120,11 @@
         "ditto"
     ],
     "flavor_text": {
-        "lets-go-pikachu": "When it spots an enemy, its body transfigures into an almost-perfect copy of its opponent.",
         "sun": "It can reorganize its cells to make itself into a duplicate of anything it sees. The quality of the duplicate depends on the individual.",
         "moon": "With its astonishing capacity for metamorphosis, it can get along with anything. It does not get along well with its fellow Ditto.",
         "ultra-sun": "While it can transform into anything, each Ditto apparently has its own strengths and weaknesses when it comes to transformations.",
         "ultra-moon": "It transforms into whatever it sees. If the thing it’s transforming into isn’t right in front of it, Ditto relies on its memory—so sometimes it fails.",
+        "lets-go-pikachu": "When it spots an enemy, its body transfigures into an almost-perfect copy of its opponent.",
         "lets-go-eevee": "When it spots an enemy, its body transfigures into an almost-perfect copy of its opponent."
     },
     "genus": "Transform Pokémon",

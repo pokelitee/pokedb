@@ -2,7 +2,13 @@
     "id": 222,
     "name": "poison-barb",
     "source_url": "https://pokeapi.co/api/v2/item/222/",
-    "cost": 1000,
+    "prices": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "fling_power": 70,
     "fling_effect": "poison",
     "attributes": [
@@ -19,7 +25,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poison-barb.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

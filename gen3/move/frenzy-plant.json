@@ -61,7 +61,13 @@
         "firered-leafgreen": "The foe is hit with an enormous branch. The user can’t move on the next turn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

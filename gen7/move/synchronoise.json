@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "Using an odd shock wave, the user inflicts damage on any Pokémon of the same type in the area around it."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

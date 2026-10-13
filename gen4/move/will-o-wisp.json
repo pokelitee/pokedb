@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user shoots a sinister, bluish white flame at the foe to inflict a burn."
     },
     "stat_changes": [],
-    "machine": "tm61",
+    "machine": {
+        "diamond-pearl": "tm61",
+        "platinum": "tm61",
+        "heartgold-soulsilver": "tm61"
+    },
     "metadata": {
         "ailment": "burn",
         "category": "ailment",

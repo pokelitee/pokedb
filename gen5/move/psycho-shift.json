@@ -39,7 +39,10 @@
         "black-2-white-2": "Using its psychic power of suggestion, the user transfers its status problems to the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

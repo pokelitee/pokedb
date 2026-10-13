@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user hurriedly and randomly uses a move among those known by other Pokémon in the party."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

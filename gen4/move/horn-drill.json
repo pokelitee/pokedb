@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is stabbed with a horn rotating like a drill. The foe instantly faints if it hits."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "ohko",

@@ -60,7 +60,13 @@
         "legends-arceus": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks."
     },
     "stat_changes": [],
-    "machine": "tm37",
+    "machine": {
+        "sword-shield": "tm37",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -61,7 +61,13 @@
         "firered-leafgreen": "A long body or tentacles are used to bind the foe for two to five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

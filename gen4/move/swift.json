@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "Star-shaped rays are shot at the foe. This attack never misses."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

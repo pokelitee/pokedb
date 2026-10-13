@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "Numerous coins are hurled at the foe to inflict damage. Money is earned after battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

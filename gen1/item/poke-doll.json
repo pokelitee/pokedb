@@ -2,7 +2,12 @@
     "id": 63,
     "name": "poke-doll",
     "source_url": "https://pokeapi.co/api/v2/item/63/",
-    "cost": 300,
+    "prices": {
+        "red-blue": null,
+        "yellow": null,
+        "red-green-japan": null,
+        "blue-japan": null
+    },
     "fling_power": 30,
     "fling_effect": null,
     "attributes": [
@@ -17,7 +22,6 @@
     "flavor_text": {},
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-doll.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

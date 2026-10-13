@@ -39,7 +39,10 @@
         "crystal": "Jabs the foe twice using stingers."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

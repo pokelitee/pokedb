@@ -66,7 +66,14 @@
         "scarlet-violet": "The user attacks the target with stored power. The more the user's stats are boosted, the greater the move's power."
     },
     "stat_changes": [],
-    "machine": "tm41",
+    "machine": {
+        "scarlet-violet": "tm41",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm41",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

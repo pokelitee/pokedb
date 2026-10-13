@@ -2,7 +2,13 @@
     "id": 180,
     "name": "salac-berry",
     "source_url": "https://pokeapi.co/api/v2/item/180/",
-    "cost": 80,
+    "prices": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "fling_power": 10,
     "fling_effect": "berry-effect",
     "attributes": [
@@ -12,13 +18,12 @@
     "effect": "Held in battle : When the holder has 1/4 its max HP remaining or less, it consumes this item to raise its Speed by one stage.",
     "short_effect": "Held: Consumed at 1/4 max HP to boost Speed.",
     "flavor_text": {
-        "emerald": "A hold item that raises SPEED in a pinch.",
         "ruby-sapphire": "A hold item that raises SPEED in a pinch.",
+        "emerald": "A hold item that raises SPEED in a pinch.",
         "firered-leafgreen": "When held by a POKéMON, it raises the SPEED stat in a pinch."
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/salac-berry.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

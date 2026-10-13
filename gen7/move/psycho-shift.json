@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "Using its psychic power of suggestion, the user transfers its status conditions to the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

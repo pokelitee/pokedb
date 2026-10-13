@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user covers itself with mud. It weakens Electric- type moves while the user is in the battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

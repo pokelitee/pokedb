@@ -39,7 +39,10 @@
         "black-2-white-2": "The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -71,7 +71,14 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm211",
+    "machine": {
+        "scarlet-violet": "tm211",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm211",
+        "legends-za": "tm101",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

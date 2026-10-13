@@ -44,13 +44,52 @@
     },
     "sprites": {
         "versions": {
-            "brilliant-diamond-shining-pearl": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/38.png",
-                "front_female": null
-            },
             "icons": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/38.png",
-                "front_female": null
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/38.png"
+            },
+            "sword-shield": {
+                "icons": {
+                    "front_female": null,
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/sword-shield/icons/38.png"
+                },
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/sword-shield/back/shiny/38.webp",
+                "back_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/sword-shield/shiny/38.webp",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/sword-shield/back/38.webp",
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/sword-shield/38.webp",
+                "back_shiny_female": null,
+                "front_shiny_female": null
+            },
+            "legends-arceus": {
+                "icons": {
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/legends-arceus/icons/shiny/38.png",
+                    "front_female": null,
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/legends-arceus/icons/38.png",
+                    "front_shiny_female": null
+                },
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/legends-arceus/back/shiny/38.webp",
+                "back_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/legends-arceus/shiny/38.webp",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/legends-arceus/back/38.webp",
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/legends-arceus/38.webp",
+                "back_shiny_female": null,
+                "front_shiny_female": null
+            },
+            "brilliant-diamond-shining-pearl": {
+                "icons": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/icons/38.png"
+                },
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/back/shiny/38.webp",
+                "back_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/shiny/38.webp",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/back/38.webp",
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/38.webp",
+                "back_shiny_female": null,
+                "front_shiny_female": null
             }
         }
     },
@@ -766,48 +805,16 @@
                 "availability": "available",
                 "evolution_details": [
                     {
-                        "introduced_in_version_group": "red-blue",
+                        "introduced_in_version_group": "sun-moon",
                         "version_groups": [
-                            "sword-shield"
-                        ],
-                        "base_form": null,
-                        "evolved_form": null,
-                        "item": "fire-stone",
-                        "trigger": "use-item",
-                        "gender": null,
-                        "held_item": null,
-                        "known_move": null,
-                        "known_move_type": null,
-                        "location": null,
-                        "min_level": null,
-                        "min_happiness": null,
-                        "min_beauty": null,
-                        "min_affection": null,
-                        "min_damage_taken": null,
-                        "min_move_count": null,
-                        "min_steps": null,
-                        "near_special_rock": false,
-                        "needs_multiplayer": false,
-                        "needs_overworld_rain": false,
-                        "party_species": null,
-                        "party_type": null,
-                        "relative_physical_stats": null,
-                        "region": null,
-                        "time_of_day": null,
-                        "trade_species": null,
-                        "turn_upside_down": false,
-                        "used_move": null
-                    },
-                    {
-                        "introduced_in_version_group": "the-isle-of-armor",
-                        "version_groups": [
+                            "sword-shield",
                             "the-isle-of-armor",
                             "the-crown-tundra",
                             "brilliant-diamond-shining-pearl",
                             "legends-arceus"
                         ],
-                        "base_form": "vulpix-alola",
-                        "evolved_form": "ninetales-alola",
+                        "base_form": null,
+                        "evolved_form": null,
                         "item": "ice-stone",
                         "trigger": "use-item",
                         "gender": null,

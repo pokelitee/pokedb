@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The target is punched with an icy fist. This may also leave the target frozen."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

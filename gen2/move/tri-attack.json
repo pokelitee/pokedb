@@ -39,7 +39,10 @@
         "crystal": "Fires three kinds of beams at once."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "unknown",
         "category": "damage-ailment",

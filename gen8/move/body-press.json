@@ -42,25 +42,31 @@
         "legends-arceus": null
     },
     "effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes.",
+        "the-isle-of-armor": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes.",
+        "the-crown-tundra": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes.",
+        "brilliant-diamond-shining-pearl": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes.",
+        "legends-arceus": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes."
     },
     "short_effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes.",
+        "the-isle-of-armor": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes.",
+        "the-crown-tundra": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes.",
+        "brilliant-diamond-shining-pearl": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes.",
+        "legends-arceus": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes."
     },
     "flavor_text": {
         "sword-shield": "The user attacks by slamming its body into the target. The higher the user’s Defense, the more damage it can inflict on the target.",
         "legends-arceus": "The user attacks by slamming its body into the target. The higher the user's Defense, the more damage it can inflict on the target."
     },
     "stat_changes": [],
-    "machine": "tr99",
+    "machine": {
+        "sword-shield": "tr99",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -23,8 +23,8 @@
     "target": "user-and-allies",
     "generation": "generation-ii",
     "effect_chance": {
-        "black-white": 4,
-        "black-2-white-2": 4
+        "black-white": null,
+        "black-2-white-2": null
     },
     "effect": {
         "black-white": "Removes major status effects and confusion from every Pokémon in the user’s party.",
@@ -39,7 +39,10 @@
         "black-2-white-2": "The user makes a soothing bell chime to heal the status problems of all the party Pokémon."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

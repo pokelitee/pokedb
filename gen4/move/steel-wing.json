@@ -52,7 +52,11 @@
             "stat": "defense"
         }
     ],
-    "machine": "tm47",
+    "machine": {
+        "diamond-pearl": "tm47",
+        "platinum": "tm47",
+        "heartgold-soulsilver": "tm47"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

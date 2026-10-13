@@ -66,7 +66,14 @@
         "scarlet-violet": "The user strikes with a simultaneous three-beam attack. This may also burn, freeze, or paralyze the target."
     },
     "stat_changes": [],
-    "machine": "tm147",
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": "tm147",
+        "champions": null
+    },
     "metadata": {
         "ailment": "unknown",
         "category": "damage-ailment",

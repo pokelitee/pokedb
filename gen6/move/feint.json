@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "An attack that hits a target using Protect or Detect. This also lifts the effects of those moves."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

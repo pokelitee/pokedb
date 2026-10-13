@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is stomped with a big foot. It may also make the target flinch."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

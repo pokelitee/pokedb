@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user confounds the target with speed, then slashes. This attack never misses."
     },
     "stat_changes": [],
-    "machine": "tm40",
+    "machine": {
+        "sun-moon": "tm40",
+        "ultra-sun-ultra-moon": "tm40",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

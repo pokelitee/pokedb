@@ -39,7 +39,10 @@
         "black-2-white-2": "The user slaps down the target’s held item, preventing that item from being used in the battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

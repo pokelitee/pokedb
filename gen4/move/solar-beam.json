@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn."
     },
     "stat_changes": [],
-    "machine": "tm22",
+    "machine": {
+        "diamond-pearl": "tm22",
+        "platinum": "tm22",
+        "heartgold-soulsilver": "tm22"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

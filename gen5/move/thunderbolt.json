@@ -39,7 +39,10 @@
         "black-2-white-2": "A strong electric blast is loosed at the target. It may also leave the target with paralysis."
     },
     "stat_changes": [],
-    "machine": "tm24",
+    "machine": {
+        "black-white": "tm24",
+        "black-2-white-2": "tm24"
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

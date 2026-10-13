@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user punches the target with full, concentrated power. This confuses the target if it hits."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "damage-ailment",

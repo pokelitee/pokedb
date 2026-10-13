@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user trades held items with the target faster than the eye can follow."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

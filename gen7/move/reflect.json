@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "A wondrous wall of light is put up to reduce damage from physical attacks for five turns."
     },
     "stat_changes": [],
-    "machine": "tm09",
+    "machine": {
+        "sun-moon": "tm33",
+        "ultra-sun-ultra-moon": "tm33",
+        "lets-go-pikachu-lets-go-eevee": "tm09"
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

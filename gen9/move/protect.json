@@ -66,9 +66,16 @@
         "scarlet-violet": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession."
     },
     "stat_changes": [],
-    "machine": "tm07",
+    "machine": {
+        "scarlet-violet": "tm07",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm07",
+        "legends-za": "tm17",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
-        "ailment": "none",
+        "ailment": "protect",
         "category": "unique",
         "min_hits": null,
         "max_hits": null,

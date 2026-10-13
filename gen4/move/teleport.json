@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "Use it to flee from any wild Pokémon. It can also warp to the last Pokémon Center visited."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

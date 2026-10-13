@@ -39,7 +39,10 @@
         "black-2-white-2": "The target is jabbed with a sharply pointed beak or horn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

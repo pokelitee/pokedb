@@ -71,7 +71,14 @@
             "stat": "attack"
         }
     ],
-    "machine": "tm127",
+    "machine": {
+        "scarlet-violet": "tm127",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm127",
+        "legends-za": "tm20",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

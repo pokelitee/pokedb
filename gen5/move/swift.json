@@ -39,7 +39,10 @@
         "black-2-white-2": "Star-shaped rays are shot at the opposing team. This attack never misses."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user maximizes its Attack stat in exchange for HP equal to half its max HP."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

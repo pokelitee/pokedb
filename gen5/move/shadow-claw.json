@@ -39,7 +39,10 @@
         "black-2-white-2": "The user slashes with a sharp claw made from shadows. Critical hits land more easily."
     },
     "stat_changes": [],
-    "machine": "tm65",
+    "machine": {
+        "black-white": "tm65",
+        "black-2-white-2": "tm65"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

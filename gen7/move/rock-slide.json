@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "Large boulders are hurled at the opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch."
     },
     "stat_changes": [],
-    "machine": "tm22",
+    "machine": {
+        "sun-moon": "tm80",
+        "ultra-sun-ultra-moon": "tm80",
+        "lets-go-pikachu-lets-go-eevee": "tm22"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

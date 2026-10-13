@@ -2,7 +2,13 @@
     "id": 528,
     "name": "acro-bike",
     "source_url": "https://pokeapi.co/api/v2/item/528/",
-    "cost": 0,
+    "prices": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -16,7 +22,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/acro-bike.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

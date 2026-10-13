@@ -39,7 +39,10 @@
         "crystal": "A sleeper loses 1/4 HP every turn."
     },
     "stat_changes": [],
-    "machine": "tm50",
+    "machine": {
+        "gold-silver": "tm50",
+        "crystal": "tm50"
+    },
     "metadata": {
         "ailment": "nightmare",
         "category": "ailment",

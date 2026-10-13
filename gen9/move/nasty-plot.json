@@ -71,7 +71,14 @@
             "stat": "special-attack"
         }
     ],
-    "machine": "tm140",
+    "machine": {
+        "scarlet-violet": "tm140",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm140",
+        "legends-za": "tm83",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

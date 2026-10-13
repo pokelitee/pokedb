@@ -2,7 +2,38 @@
     "id": 306,
     "name": "tm02",
     "source_url": "https://pokeapi.co/api/v2/item/306/",
-    "cost": 1000,
+    "prices": {
+        "ruby-sapphire": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 1500
+            }
+        },
+        "emerald": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 1500
+            }
+        },
+        "firered-leafgreen": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 1500
+            }
+        },
+        "colosseum": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 1500
+            }
+        },
+        "xd": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 1500
+            }
+        }
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -16,7 +47,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

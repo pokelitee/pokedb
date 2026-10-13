@@ -42,12 +42,16 @@
         "lets-go-pikachu-lets-go-eevee": "Power increases when this move has less PP, up to a maximum of 200."
     },
     "flavor_text": {
-        "lets-go-pikachu-lets-go-eevee": "The fewer PP this move has, the greater its power.",
         "sun-moon": "The fewer PP this move has, the greater its power.",
-        "ultra-sun-ultra-moon": "The fewer PP this move has, the greater its power."
+        "ultra-sun-ultra-moon": "The fewer PP this move has, the greater its power.",
+        "lets-go-pikachu-lets-go-eevee": "The fewer PP this move has, the greater its power."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

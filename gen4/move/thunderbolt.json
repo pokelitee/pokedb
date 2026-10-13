@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A strong electric blast is loosed at the foe. It may also leave the foe paralyzed."
     },
     "stat_changes": [],
-    "machine": "tm24",
+    "machine": {
+        "diamond-pearl": "tm24",
+        "platinum": "tm24",
+        "heartgold-soulsilver": "tm24"
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

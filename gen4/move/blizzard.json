@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A howling blizzard is summoned to strike the foe. It may also freeze the target solid."
     },
     "stat_changes": [],
-    "machine": "tm14",
+    "machine": {
+        "diamond-pearl": "tm14",
+        "platinum": "tm14",
+        "heartgold-soulsilver": "tm14"
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

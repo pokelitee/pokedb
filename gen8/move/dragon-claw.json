@@ -60,7 +60,13 @@
         "legends-arceus": "The user slashes the target with huge, sharp claws. This move has a heightened chance of landing a critical hit."
     },
     "stat_changes": [],
-    "machine": "tr47",
+    "machine": {
+        "sword-shield": "tr47",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

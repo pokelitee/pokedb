@@ -61,7 +61,13 @@
         "firered-leafgreen": "This attack move grows more powerful the more the user likes its TRAINER."
     },
     "stat_changes": [],
-    "machine": "tm27",
+    "machine": {
+        "ruby-sapphire": "tm27",
+        "emerald": "tm27",
+        "firered-leafgreen": "tm27",
+        "colosseum": "tm27",
+        "xd": "tm27"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "Large boulders are hurled at the opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch."
     },
     "stat_changes": [],
-    "machine": "tm80",
+    "machine": {
+        "x-y": "tm80",
+        "omega-ruby-alpha-sapphire": "tm80"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

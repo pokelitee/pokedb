@@ -61,7 +61,13 @@
         "firered-leafgreen": "The foe is trapped in an intense spiral of fire that rages two to five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

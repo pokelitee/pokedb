@@ -61,7 +61,13 @@
         "firered-leafgreen": "An attack that also breaks any barrier like LIGHT SCREEN and REFLECT."
     },
     "stat_changes": [],
-    "machine": "tm31",
+    "machine": {
+        "ruby-sapphire": "tm31",
+        "emerald": "tm31",
+        "firered-leafgreen": "tm31",
+        "colosseum": "tm31",
+        "xd": "tm31"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

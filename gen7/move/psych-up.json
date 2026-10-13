@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user hypnotizes itself into copying any stat change made by the target."
     },
     "stat_changes": [],
-    "machine": "tm77",
+    "machine": {
+        "sun-moon": "tm77",
+        "ultra-sun-ultra-moon": "tm77",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

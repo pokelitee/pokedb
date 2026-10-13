@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user tucks in its head to raise its Defense stat on the first turn, then rams the target on the next turn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

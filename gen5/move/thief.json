@@ -39,7 +39,10 @@
         "black-2-white-2": "The user attacks and steals the target’s held item simultaneously. It can’t steal if the user holds an item."
     },
     "stat_changes": [],
-    "machine": "tm46",
+    "machine": {
+        "black-white": "tm46",
+        "black-2-white-2": "tm46"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -66,7 +66,14 @@
         "scarlet-violet": "The user throws a punch from the shadows. This attack never misses."
     },
     "stat_changes": [],
-    "machine": "tm118",
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": "tm118",
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

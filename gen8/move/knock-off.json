@@ -60,7 +60,13 @@
         "legends-arceus": "The user slaps down the target's held item, and that item can't be used in that battle. The move does more damage if the target has a held item."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

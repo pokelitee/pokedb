@@ -61,7 +61,13 @@
         "firered-leafgreen": "The sun blazes for five turns, powering up FIRE-type moves."
     },
     "stat_changes": [],
-    "machine": "tm11",
+    "machine": {
+        "ruby-sapphire": "tm11",
+        "emerald": "tm11",
+        "firered-leafgreen": "tm11",
+        "colosseum": "tm11",
+        "xd": "tm11"
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

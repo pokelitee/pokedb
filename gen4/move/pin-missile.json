@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "Sharp pins are shot at the foe in rapid succession. They hit two to five times in a row."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

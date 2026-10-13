@@ -39,32 +39,39 @@
     "target": "selected-pokemon",
     "generation": "generation-viii",
     "effect_chance": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": 100,
+        "the-teal-mask": 100,
+        "the-indigo-disk": 100,
+        "legends-za": 100,
+        "mega-dimension": 100,
+        "champions": 100
     },
     "effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage. The target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. This effect ends if either Pokemon leave the field.",
+        "the-teal-mask": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage. The target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. This effect ends if either Pokemon leave the field.",
+        "the-indigo-disk": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage. The target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. This effect ends if either Pokemon leave the field.",
+        "legends-za": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage. The target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. This effect ends if either Pokemon leave the field.",
+        "mega-dimension": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage. The target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. This effect ends if either Pokemon leave the field.",
+        "champions": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage. The target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. This effect ends if either Pokemon leave the field."
     },
     "short_effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage.",
+        "the-teal-mask": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage.",
+        "the-indigo-disk": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage.",
+        "legends-za": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage.",
+        "mega-dimension": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage.",
+        "champions": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage."
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

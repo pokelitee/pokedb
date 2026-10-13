@@ -39,7 +39,10 @@
         "black-2-white-2": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal the user’s HP."
     },
     "stat_changes": [],
-    "machine": "tm85",
+    "machine": {
+        "black-white": "tm85",
+        "black-2-white-2": "tm85"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-heal",

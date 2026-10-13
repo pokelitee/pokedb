@@ -31,26 +31,31 @@
     "target": "selected-pokemon",
     "generation": "generation-i",
     "effect_chance": {
-        "red-blue": 20,
-        "yellow": 20,
-        "red-green-japan": 20,
-        "blue-japan": 20
+        "red-blue": 0,
+        "yellow": 0,
+        "red-green-japan": 0,
+        "blue-japan": 0
     },
     "effect": {
-        "red-blue": "Inflicts regular damage. Has a chance to burn, freeze, or paralyze the target. One of these effects is selected at random; they do not each have independent chances to occur.",
-        "yellow": "Inflicts regular damage. Has a chance to burn, freeze, or paralyze the target. One of these effects is selected at random; they do not each have independent chances to occur.",
-        "red-green-japan": "Inflicts regular damage. Has a chance to burn, freeze, or paralyze the target. One of these effects is selected at random; they do not each have independent chances to occur.",
-        "blue-japan": "Inflicts regular damage. Has a chance to burn, freeze, or paralyze the target. One of these effects is selected at random; they do not each have independent chances to occur."
+        "red-blue": "Inflicts regular damage.",
+        "yellow": "Inflicts regular damage.",
+        "red-green-japan": "Inflicts regular damage.",
+        "blue-japan": "Inflicts regular damage."
     },
     "short_effect": {
-        "red-blue": "Has a chance to burn, freeze, or paralyze the target.",
-        "yellow": "Has a chance to burn, freeze, or paralyze the target.",
-        "red-green-japan": "Has a chance to burn, freeze, or paralyze the target.",
-        "blue-japan": "Has a chance to burn, freeze, or paralyze the target."
+        "red-blue": "Inflicts regular damage with no additional effect.",
+        "yellow": "Inflicts regular damage with no additional effect.",
+        "red-green-japan": "Inflicts regular damage with no additional effect.",
+        "blue-japan": "Inflicts regular damage with no additional effect."
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": "tm49",
+    "machine": {
+        "red-blue": "tm49",
+        "yellow": "tm49",
+        "red-green-japan": "tm49",
+        "blue-japan": "tm49"
+    },
     "metadata": {
         "ailment": "unknown",
         "category": "damage-ailment",

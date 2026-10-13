@@ -39,7 +39,10 @@
         "black-2-white-2": "The user senses the target’s movements with its mind to ensure its next attack does not miss the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

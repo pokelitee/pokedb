@@ -39,7 +39,10 @@
         "crystal": "Traps foe in fire for 2-5 turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

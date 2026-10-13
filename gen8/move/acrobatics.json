@@ -60,7 +60,13 @@
         "legends-arceus": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage."
     },
     "stat_changes": [],
-    "machine": "tm78",
+    "machine": {
+        "sword-shield": "tm78",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

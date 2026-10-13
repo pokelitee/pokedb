@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "When the user knocks out a target with this move, the user’s Attack stat rises sharply."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

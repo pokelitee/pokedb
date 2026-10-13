@@ -44,7 +44,10 @@
             "stat": "special-attack"
         }
     ],
-    "machine": "tm76",
+    "machine": {
+        "x-y": "tm76",
+        "omega-ruby-alpha-sapphire": "tm76"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

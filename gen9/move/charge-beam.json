@@ -71,7 +71,14 @@
             "stat": "special-attack"
         }
     ],
-    "machine": "tm23",
+    "machine": {
+        "scarlet-violet": "tm23",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": "tm130",
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

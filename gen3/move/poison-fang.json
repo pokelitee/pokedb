@@ -35,11 +35,11 @@
     "target": "selected-pokemon",
     "generation": "generation-iii",
     "effect_chance": {
-        "ruby-sapphire": 50,
-        "emerald": 50,
-        "firered-leafgreen": 50,
-        "colosseum": 50,
-        "xd": 50
+        "ruby-sapphire": 30,
+        "emerald": 30,
+        "firered-leafgreen": 30,
+        "colosseum": 30,
+        "xd": 30
     },
     "effect": {
         "ruby-sapphire": "Inflicts regular damage. Has a chance to badly poison the target.",
@@ -61,7 +61,13 @@
         "firered-leafgreen": "The foe is bitten with toxic fangs. It may also badly poison the foe."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

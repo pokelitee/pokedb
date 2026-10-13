@@ -39,7 +39,10 @@
         "black-2-white-2": "A retaliation move that counters any special attack, inflicting double the damage taken."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

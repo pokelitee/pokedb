@@ -60,7 +60,13 @@
         "legends-arceus": "The user attacks by exhaling hot breath on opposing Pokémon. This may also leave those Pokémon with a burn."
     },
     "stat_changes": [],
-    "machine": "tr36",
+    "machine": {
+        "sword-shield": "tr36",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

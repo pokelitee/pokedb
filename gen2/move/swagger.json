@@ -44,7 +44,10 @@
             "stat": "attack"
         }
     ],
-    "machine": "tm34",
+    "machine": {
+        "gold-silver": "tm34",
+        "crystal": "tm34"
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "swagger",

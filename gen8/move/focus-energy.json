@@ -60,7 +60,13 @@
         "legends-arceus": "The user takes a deep breath and focuses so that its future attacks have a heightened chance of landing critical hits."
     },
     "stat_changes": [],
-    "machine": "tr13",
+    "machine": {
+        "sword-shield": "tr13",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

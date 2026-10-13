@@ -66,7 +66,14 @@
         "scarlet-violet": "The user torments and enrages the target, making it incapable of using the same move twice in a row."
     },
     "stat_changes": [],
-    "machine": "tm121",
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": "tm121",
+        "champions": null
+    },
     "metadata": {
         "ailment": "torment",
         "category": "ailment",

@@ -39,7 +39,10 @@
         "black-2-white-2": "The user performs a wobbly dance that confuses the Pokémon around it."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "ailment",

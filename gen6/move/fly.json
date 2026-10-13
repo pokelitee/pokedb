@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user soars and then strikes its target on the next turn. This can also be used to fly to any familiar town."
     },
     "stat_changes": [],
-    "machine": "hm02",
+    "machine": {
+        "x-y": "hm02",
+        "omega-ruby-alpha-sapphire": "hm02"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

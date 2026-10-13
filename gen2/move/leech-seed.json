@@ -39,7 +39,10 @@
         "crystal": "Steals HP from the foe on every turn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "leech-seed",
         "category": "ailment",

@@ -71,7 +71,14 @@
             "stat": "attack"
         }
     ],
-    "machine": "tm31",
+    "machine": {
+        "scarlet-violet": "tm31",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

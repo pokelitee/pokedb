@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user electrifies the ground for five turns, powering up Electric-type moves. Pokémon on the ground no longer fall asleep."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

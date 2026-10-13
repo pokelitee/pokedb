@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A jolt of electricity is hurled at the foe to inflict damage. It may also leave the foe paralyzed."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

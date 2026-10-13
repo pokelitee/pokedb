@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user attacks opposing Pokémon with countless beams of light that glow a deep and brilliant blue."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

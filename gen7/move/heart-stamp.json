@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user unleashes a vicious blow after its cute act makes the target less wary. This may also make the target flinch."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

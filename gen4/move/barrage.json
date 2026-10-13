@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "Round objects are hurled at the foe to strike two to five times in a row."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

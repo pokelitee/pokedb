@@ -2,7 +2,24 @@
     "id": 11,
     "name": "luxury-ball",
     "source_url": "https://pokeapi.co/api/v2/item/11/",
-    "cost": 3000,
+    "prices": {
+        "scarlet-violet": {
+            "poke-dollar": {
+                "purchase_price": 3000,
+                "sell_price": 750
+            }
+        },
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": {
+            "poke-dollar": {
+                "purchase_price": 3000,
+                "sell_price": 750
+            }
+        },
+        "mega-dimension": null,
+        "champions": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [

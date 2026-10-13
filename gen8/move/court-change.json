@@ -35,32 +35,38 @@
     "target": "entire-field",
     "generation": "generation-viii",
     "effect_chance": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": 100,
+        "the-isle-of-armor": 100,
+        "the-crown-tundra": 100,
+        "brilliant-diamond-shining-pearl": 100,
+        "legends-arceus": 100
     },
     "effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Switches the Mist, Light Screen, Reflect, Spikes, Safeguard, Tailwind, Toxic Spikes, Stealth Rock, Water Pledge, Fire Pledge, Grass Pledge, Sticky Web, Aurora Veil, G-Max Steelsurge, G-Max Cannonade, G-Max Vine Lash, and G-Max Wildfire effects from the user's side to the opposing side and vice versa.",
+        "the-isle-of-armor": "Switches the Mist, Light Screen, Reflect, Spikes, Safeguard, Tailwind, Toxic Spikes, Stealth Rock, Water Pledge, Fire Pledge, Grass Pledge, Sticky Web, Aurora Veil, G-Max Steelsurge, G-Max Cannonade, G-Max Vine Lash, and G-Max Wildfire effects from the user's side to the opposing side and vice versa.",
+        "the-crown-tundra": "Switches the Mist, Light Screen, Reflect, Spikes, Safeguard, Tailwind, Toxic Spikes, Stealth Rock, Water Pledge, Fire Pledge, Grass Pledge, Sticky Web, Aurora Veil, G-Max Steelsurge, G-Max Cannonade, G-Max Vine Lash, and G-Max Wildfire effects from the user's side to the opposing side and vice versa.",
+        "brilliant-diamond-shining-pearl": "Switches the Mist, Light Screen, Reflect, Spikes, Safeguard, Tailwind, Toxic Spikes, Stealth Rock, Water Pledge, Fire Pledge, Grass Pledge, Sticky Web, Aurora Veil, G-Max Steelsurge, G-Max Cannonade, G-Max Vine Lash, and G-Max Wildfire effects from the user's side to the opposing side and vice versa.",
+        "legends-arceus": "Switches the Mist, Light Screen, Reflect, Spikes, Safeguard, Tailwind, Toxic Spikes, Stealth Rock, Water Pledge, Fire Pledge, Grass Pledge, Sticky Web, Aurora Veil, G-Max Steelsurge, G-Max Cannonade, G-Max Vine Lash, and G-Max Wildfire effects from the user's side to the opposing side and vice versa."
     },
     "short_effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Switches single sided field effects from the users side to the targets side and vice versa.",
+        "the-isle-of-armor": "Switches single sided field effects from the users side to the targets side and vice versa.",
+        "the-crown-tundra": "Switches single sided field effects from the users side to the targets side and vice versa.",
+        "brilliant-diamond-shining-pearl": "Switches single sided field effects from the users side to the targets side and vice versa.",
+        "legends-arceus": "Switches single sided field effects from the users side to the targets side and vice versa."
     },
     "flavor_text": {
         "sword-shield": "With its mysterious power, the user swaps the effects on either side of the field.",
         "legends-arceus": "With its mysterious power, the user swaps the effects on either side of the field."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user attacks with its head. It may make the foe flinch. To find Pokémon, hit trees."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

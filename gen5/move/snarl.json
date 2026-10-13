@@ -44,7 +44,10 @@
             "stat": "special-attack"
         }
     ],
-    "machine": "tm95",
+    "machine": {
+        "black-white": "tm95",
+        "black-2-white-2": "tm95"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

@@ -39,34 +39,41 @@
     "target": "entire-field",
     "generation": "generation-viii",
     "effect_chance": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": 100,
+        "the-teal-mask": 100,
+        "the-indigo-disk": 100,
+        "legends-za": 100,
+        "mega-dimension": 100,
+        "champions": 100
     },
     "effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "Switches the Mist, Light Screen, Reflect, Spikes, Safeguard, Tailwind, Toxic Spikes, Stealth Rock, Water Pledge, Fire Pledge, Grass Pledge, Sticky Web, Aurora Veil, G-Max Steelsurge, G-Max Cannonade, G-Max Vine Lash, and G-Max Wildfire effects from the user's side to the opposing side and vice versa.",
+        "the-teal-mask": "Switches the Mist, Light Screen, Reflect, Spikes, Safeguard, Tailwind, Toxic Spikes, Stealth Rock, Water Pledge, Fire Pledge, Grass Pledge, Sticky Web, Aurora Veil, G-Max Steelsurge, G-Max Cannonade, G-Max Vine Lash, and G-Max Wildfire effects from the user's side to the opposing side and vice versa.",
+        "the-indigo-disk": "Switches the Mist, Light Screen, Reflect, Spikes, Safeguard, Tailwind, Toxic Spikes, Stealth Rock, Water Pledge, Fire Pledge, Grass Pledge, Sticky Web, Aurora Veil, G-Max Steelsurge, G-Max Cannonade, G-Max Vine Lash, and G-Max Wildfire effects from the user's side to the opposing side and vice versa.",
+        "legends-za": "Switches the Mist, Light Screen, Reflect, Spikes, Safeguard, Tailwind, Toxic Spikes, Stealth Rock, Water Pledge, Fire Pledge, Grass Pledge, Sticky Web, Aurora Veil, G-Max Steelsurge, G-Max Cannonade, G-Max Vine Lash, and G-Max Wildfire effects from the user's side to the opposing side and vice versa.",
+        "mega-dimension": "Switches the Mist, Light Screen, Reflect, Spikes, Safeguard, Tailwind, Toxic Spikes, Stealth Rock, Water Pledge, Fire Pledge, Grass Pledge, Sticky Web, Aurora Veil, G-Max Steelsurge, G-Max Cannonade, G-Max Vine Lash, and G-Max Wildfire effects from the user's side to the opposing side and vice versa.",
+        "champions": "Switches the Mist, Light Screen, Reflect, Spikes, Safeguard, Tailwind, Toxic Spikes, Stealth Rock, Water Pledge, Fire Pledge, Grass Pledge, Sticky Web, Aurora Veil, G-Max Steelsurge, G-Max Cannonade, G-Max Vine Lash, and G-Max Wildfire effects from the user's side to the opposing side and vice versa."
     },
     "short_effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "Switches single sided field effects from the users side to the targets side and vice versa.",
+        "the-teal-mask": "Switches single sided field effects from the users side to the targets side and vice versa.",
+        "the-indigo-disk": "Switches single sided field effects from the users side to the targets side and vice versa.",
+        "legends-za": "Switches single sided field effects from the users side to the targets side and vice versa.",
+        "mega-dimension": "Switches single sided field effects from the users side to the targets side and vice versa.",
+        "champions": "Switches single sided field effects from the users side to the targets side and vice versa."
     },
     "flavor_text": {
         "scarlet-violet": "With its mysterious power, the user swaps the effects on either side of the field."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

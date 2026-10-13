@@ -2,7 +2,11 @@
     "id": 114,
     "name": "grass-mail",
     "source_url": "https://pokeapi.co/api/v2/item/114/",
-    "cost": 50,
+    "prices": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -16,7 +20,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/grass-mail.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

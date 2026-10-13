@@ -39,7 +39,10 @@
         "black-2-white-2": "The user ensnares the target with thin, gooey silk so it can’t flee from battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

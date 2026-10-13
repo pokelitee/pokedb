@@ -27,9 +27,9 @@
     "target": "user-and-allies",
     "generation": "generation-iii",
     "effect_chance": {
-        "diamond-pearl": 4,
-        "platinum": 4,
-        "heartgold-soulsilver": 4
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
     },
     "effect": {
         "diamond-pearl": "Removes major status effects and confusion from every Pokémon in the user’s party.",
@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user releases a soothing scent that heals all status problems affecting the user’s party."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

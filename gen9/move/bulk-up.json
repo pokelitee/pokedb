@@ -75,7 +75,14 @@
             "stat": "defense"
         }
     ],
-    "machine": "tm64",
+    "machine": {
+        "scarlet-violet": "tm64",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm64",
+        "legends-za": "tm11",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

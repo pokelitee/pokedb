@@ -52,7 +52,11 @@
             "stat": "special-attack"
         }
     ],
-    "machine": "tm95",
+    "machine": {
+        "sun-moon": "tm95",
+        "ultra-sun-ultra-moon": "tm95",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

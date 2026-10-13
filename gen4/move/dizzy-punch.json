@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is hit with rhythmically launched punches that may also leave it confused."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "damage-ailment",

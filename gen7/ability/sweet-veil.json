@@ -15,8 +15,8 @@
         "lets-go-pikachu-lets-go-eevee": "Prevents friendly Pokémon from sleeping."
     },
     "flavor_text": {
-        "ultra-sun-ultra-moon": "Prevents itself and ally Pokémon from falling asleep.",
         "sun-moon": "Prevents itself and ally Pokémon from falling asleep.",
+        "ultra-sun-ultra-moon": "Prevents itself and ally Pokémon from falling asleep.",
         "lets-go-pikachu-lets-go-eevee": "Prevents itself and ally Pokémon from falling asleep."
     }
 }

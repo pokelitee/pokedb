@@ -39,7 +39,10 @@
         "black-2-white-2": "The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem."
     },
     "stat_changes": [],
-    "machine": "tm44",
+    "machine": {
+        "black-white": "tm44",
+        "black-2-white-2": "tm44"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

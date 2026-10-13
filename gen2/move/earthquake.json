@@ -39,7 +39,10 @@
         "crystal": "Tough but useless vs. flying foes."
     },
     "stat_changes": [],
-    "machine": "tm26",
+    "machine": {
+        "gold-silver": "tm26",
+        "crystal": "tm26"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

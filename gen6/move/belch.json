@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user lets out a damaging belch at the target. The user must eat a held Berry to use this move."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

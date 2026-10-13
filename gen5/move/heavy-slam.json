@@ -39,7 +39,10 @@
         "black-2-white-2": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater its damage."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

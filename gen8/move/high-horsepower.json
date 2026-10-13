@@ -60,7 +60,13 @@
         "legends-arceus": "The user fiercely attacks the target using its entire body."
     },
     "stat_changes": [],
-    "machine": "tr94",
+    "machine": {
+        "sword-shield": "tr94",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

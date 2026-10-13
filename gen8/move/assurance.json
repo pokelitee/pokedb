@@ -60,7 +60,13 @@
         "legends-arceus": "If the target has already taken some damage in the same turn, this attack's power is doubled."
     },
     "stat_changes": [],
-    "machine": "tm58",
+    "machine": {
+        "sword-shield": "tm58",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

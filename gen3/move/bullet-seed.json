@@ -61,7 +61,13 @@
         "firered-leafgreen": "The user shoots seeds at the foe. Two to five seeds are shot at once."
     },
     "stat_changes": [],
-    "machine": "tm09",
+    "machine": {
+        "ruby-sapphire": "tm09",
+        "emerald": "tm09",
+        "firered-leafgreen": "tm09",
+        "colosseum": "tm09",
+        "xd": "tm09"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

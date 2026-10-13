@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The fewer PP this move has, the more power it has for attack."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

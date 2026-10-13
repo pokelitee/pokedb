@@ -39,7 +39,10 @@
         "black-2-white-2": "The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target’s Ability."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

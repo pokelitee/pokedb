@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user lays roots that restore HP on every turn. Because it is rooted, it can’t switch out."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "ingrain",
         "category": "ailment",

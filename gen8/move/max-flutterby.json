@@ -35,31 +35,37 @@
     "target": "selected-pokemon-me-first",
     "generation": "generation-viii",
     "effect_chance": {
+        "sword-shield": 100,
+        "the-isle-of-armor": 100,
+        "the-crown-tundra": 100,
+        "brilliant-diamond-shining-pearl": 100,
+        "legends-arceus": 100
+    },
+    "effect": {
+        "sword-shield": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage.",
+        "the-isle-of-armor": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage.",
+        "the-crown-tundra": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage.",
+        "brilliant-diamond-shining-pearl": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage.",
+        "legends-arceus": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage."
+    },
+    "short_effect": {
+        "sword-shield": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage.",
+        "the-isle-of-armor": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage.",
+        "the-crown-tundra": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage.",
+        "brilliant-diamond-shining-pearl": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage.",
+        "legends-arceus": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage."
+    },
+    "flavor_text": {
+        "sword-shield": "This is a Bug-type attack Dynamax Pokémon use. This lowers the target’s Sp. Atk stat."
+    },
+    "stat_changes": [],
+    "machine": {
         "sword-shield": null,
         "the-isle-of-armor": null,
         "the-crown-tundra": null,
         "brilliant-diamond-shining-pearl": null,
         "legends-arceus": null
     },
-    "effect": {
-        "sword-shield": "Inflicts regular damage.",
-        "the-isle-of-armor": "Inflicts regular damage.",
-        "the-crown-tundra": "Inflicts regular damage.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage.",
-        "legends-arceus": "Inflicts regular damage."
-    },
-    "short_effect": {
-        "sword-shield": "Inflicts regular damage with no additional effect.",
-        "the-isle-of-armor": "Inflicts regular damage with no additional effect.",
-        "the-crown-tundra": "Inflicts regular damage with no additional effect.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage with no additional effect.",
-        "legends-arceus": "Inflicts regular damage with no additional effect."
-    },
-    "flavor_text": {
-        "sword-shield": "This is a Bug-type attack Dynamax Pokémon use. This lowers the target’s Sp. Atk stat."
-    },
-    "stat_changes": [],
-    "machine": null,
     "metadata": {
         "ailment": "none",
         "category": "damage",

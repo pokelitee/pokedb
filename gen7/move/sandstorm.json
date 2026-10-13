@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types. It raises the Sp. Def stat of Rock types."
     },
     "stat_changes": [],
-    "machine": "tm37",
+    "machine": {
+        "sun-moon": "tm37",
+        "ultra-sun-ultra-moon": "tm37",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is attacked with an odd, hot energy wave. The attack varies in intensity."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

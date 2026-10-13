@@ -66,7 +66,14 @@
         "scarlet-violet": "Coins are hurled at the target to inflict damage. Money is earned after the battle."
     },
     "stat_changes": [],
-    "machine": "tm116",
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": "tm116",
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

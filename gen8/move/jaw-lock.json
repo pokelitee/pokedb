@@ -35,32 +35,38 @@
     "target": "selected-pokemon",
     "generation": "generation-viii",
     "effect_chance": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": 100,
+        "the-isle-of-armor": 100,
+        "the-crown-tundra": 100,
+        "brilliant-diamond-shining-pearl": 100,
+        "legends-arceus": 100
     },
     "effect": {
-        "sword-shield": "Inflicts regular damage, then (if successful) sets Leech Seed on the target.",
-        "the-isle-of-armor": "Inflicts regular damage, then (if successful) sets Leech Seed on the target.",
-        "the-crown-tundra": "Inflicts regular damage, then (if successful) sets Leech Seed on the target.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage, then (if successful) sets Leech Seed on the target.",
-        "legends-arceus": "Inflicts regular damage, then (if successful) sets Leech Seed on the target."
+        "sword-shield": "Inflicts damage, then prevents you and the target from switching out. The user or target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. If they do, the effect ends.",
+        "the-isle-of-armor": "Inflicts damage, then prevents you and the target from switching out. The user or target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. If they do, the effect ends.",
+        "the-crown-tundra": "Inflicts damage, then prevents you and the target from switching out. The user or target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. If they do, the effect ends.",
+        "brilliant-diamond-shining-pearl": "Inflicts damage, then prevents you and the target from switching out. The user or target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. If they do, the effect ends.",
+        "legends-arceus": "Inflicts damage, then prevents you and the target from switching out. The user or target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. If they do, the effect ends."
     },
     "short_effect": {
-        "sword-shield": "Seeds the target after inflicting damage.",
-        "the-isle-of-armor": "Seeds the target after inflicting damage.",
-        "the-crown-tundra": "Seeds the target after inflicting damage.",
-        "brilliant-diamond-shining-pearl": "Seeds the target after inflicting damage.",
-        "legends-arceus": "Seeds the target after inflicting damage."
+        "sword-shield": "Prevents you and the target from switching out.",
+        "the-isle-of-armor": "Prevents you and the target from switching out.",
+        "the-crown-tundra": "Prevents you and the target from switching out.",
+        "brilliant-diamond-shining-pearl": "Prevents you and the target from switching out.",
+        "legends-arceus": "Prevents you and the target from switching out."
     },
     "flavor_text": {
         "sword-shield": "This move prevents the user and the target from switching out until either of them faints. The effect goes away if either of the Pokémon leaves the field.",
         "legends-arceus": "This move prevents the user and the target from switching out until either of them faints. The effect goes away if either of the Pokémon leaves the field."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

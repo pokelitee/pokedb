@@ -44,7 +44,10 @@
             "stat": "special-defense"
         }
     ],
-    "machine": "tm30",
+    "machine": {
+        "gold-silver": "tm30",
+        "crystal": "tm30"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

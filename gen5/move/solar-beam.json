@@ -39,7 +39,10 @@
         "black-2-white-2": "A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn."
     },
     "stat_changes": [],
-    "machine": "tm22",
+    "machine": {
+        "black-white": "tm22",
+        "black-2-white-2": "tm22"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

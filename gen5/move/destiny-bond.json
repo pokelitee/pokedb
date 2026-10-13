@@ -39,7 +39,10 @@
         "black-2-white-2": "When this move is used, if the user faints, the Pokémon that landed the knockout hit also faints."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

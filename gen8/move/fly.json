@@ -60,7 +60,13 @@
         "legends-arceus": "The user flies up into the sky and then strikes its target on the next turn."
     },
     "stat_changes": [],
-    "machine": "tm06",
+    "machine": {
+        "sword-shield": "tm06",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": "hm02",
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

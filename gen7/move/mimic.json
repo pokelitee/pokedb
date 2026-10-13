@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

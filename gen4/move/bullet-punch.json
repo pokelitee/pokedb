@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user strikes with a tough punch as fast as a bullet. This move always goes first."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

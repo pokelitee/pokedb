@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user turns the target’s power against it. The higher the target’s Attack stat, the greater the damage it deals."
     },
     "stat_changes": [],
-    "machine": "tm21",
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": "tm21"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

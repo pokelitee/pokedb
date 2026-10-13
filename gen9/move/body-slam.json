@@ -66,7 +66,14 @@
         "scarlet-violet": "The user attacks by dropping onto the target with its full body weight. This may also leave the target with paralysis."
     },
     "stat_changes": [],
-    "machine": "tm66",
+    "machine": {
+        "scarlet-violet": "tm66",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": "tm33",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

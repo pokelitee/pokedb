@@ -39,7 +39,10 @@
         "black-2-white-2": "The user opens up a fissure in the ground and drops the target in. The target instantly faints if it hits."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "ohko",

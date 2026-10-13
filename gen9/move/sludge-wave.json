@@ -66,7 +66,14 @@
         "scarlet-violet": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those it hits."
     },
     "stat_changes": [],
-    "machine": "tm214",
+    "machine": {
+        "scarlet-violet": "tm214",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm214",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

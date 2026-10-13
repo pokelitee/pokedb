@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user draws power to attack by using its held Berry. The Berry determines the move’s type and power."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

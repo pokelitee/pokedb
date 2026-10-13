@@ -39,7 +39,10 @@
         "black-2-white-2": "A full-power attack that grows more powerful the less the user likes its Trainer."
     },
     "stat_changes": [],
-    "machine": "tm21",
+    "machine": {
+        "black-white": "tm21",
+        "black-2-white-2": "tm21"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

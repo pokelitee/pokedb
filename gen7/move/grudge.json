@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "If the user faints, the user’s grudge fully depletes the PP of the opponent’s move that knocked it out."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

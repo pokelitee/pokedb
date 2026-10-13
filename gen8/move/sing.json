@@ -60,7 +60,13 @@
         "legends-arceus": "A soothing lullaby is sung in a calming voice that puts the target into a deep slumber."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "sleep",
         "category": "ailment",

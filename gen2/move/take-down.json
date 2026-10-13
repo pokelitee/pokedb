@@ -39,7 +39,10 @@
         "crystal": "A tackle that also hurts the user."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

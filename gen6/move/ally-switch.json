@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user teleports using a strange power and switches places with one of its allies."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

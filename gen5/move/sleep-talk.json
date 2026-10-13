@@ -39,7 +39,10 @@
         "black-2-white-2": "While it is asleep, the user randomly uses one of the moves it knows."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

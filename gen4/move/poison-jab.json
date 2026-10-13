@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is stabbed with a tentacle or arm steeped in poison. It may also poison the foe."
     },
     "stat_changes": [],
-    "machine": "tm84",
+    "machine": {
+        "diamond-pearl": "tm84",
+        "platinum": "tm84",
+        "heartgold-soulsilver": "tm84"
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

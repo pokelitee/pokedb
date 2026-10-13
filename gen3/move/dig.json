@@ -61,7 +61,13 @@
         "firered-leafgreen": "An attack that hits on the 2nd turn. Can also be used to exit dungeons."
     },
     "stat_changes": [],
-    "machine": "tm28",
+    "machine": {
+        "ruby-sapphire": "tm28",
+        "emerald": "tm28",
+        "firered-leafgreen": "tm28",
+        "colosseum": "tm28",
+        "xd": "tm28"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

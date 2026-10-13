@@ -66,7 +66,14 @@
         "scarlet-violet": "The user compels the target to keep using the move it encored for three turns."
     },
     "stat_changes": [],
-    "machine": "tm122",
+    "machine": {
+        "scarlet-violet": "tm122",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

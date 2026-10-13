@@ -61,7 +61,13 @@
         "firered-leafgreen": "An attack that varies in type and intensity depending on the user."
     },
     "stat_changes": [],
-    "machine": "tm10",
+    "machine": {
+        "ruby-sapphire": "tm10",
+        "emerald": "tm10",
+        "firered-leafgreen": "tm10",
+        "colosseum": "tm10",
+        "xd": "tm10"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

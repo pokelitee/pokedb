@@ -31,10 +31,10 @@
     "target": "selected-pokemon",
     "generation": "generation-i",
     "effect_chance": {
-        "red-blue": 10,
-        "yellow": 10,
-        "red-green-japan": 10,
-        "blue-japan": 10
+        "red-blue": 30,
+        "yellow": 30,
+        "red-green-japan": 30,
+        "blue-japan": 30
     },
     "effect": {
         "red-blue": "Inflicts regular damage. Has a chance to lower the target’s Special Defense by one stage.",
@@ -55,7 +55,12 @@
             "stat": "special-defense"
         }
     ],
-    "machine": "tm29",
+    "machine": {
+        "red-blue": "tm29",
+        "yellow": "tm29",
+        "red-green-japan": "tm29",
+        "blue-japan": "tm29"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

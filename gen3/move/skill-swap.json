@@ -61,7 +61,13 @@
         "firered-leafgreen": "The user employs its psychic power to swap abilities with the foe."
     },
     "stat_changes": [],
-    "machine": "tm48",
+    "machine": {
+        "ruby-sapphire": "tm48",
+        "emerald": "tm48",
+        "firered-leafgreen": "tm48",
+        "colosseum": "tm48",
+        "xd": "tm48"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

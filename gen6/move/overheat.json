@@ -44,7 +44,10 @@
             "stat": "special-attack"
         }
     ],
-    "machine": "tm50",
+    "machine": {
+        "x-y": "tm50",
+        "omega-ruby-alpha-sapphire": "tm50"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

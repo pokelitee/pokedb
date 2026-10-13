@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user intensifies the sun for five turns, powering up Fire-type moves."
     },
     "stat_changes": [],
-    "machine": "tm11",
+    "machine": {
+        "x-y": "tm11",
+        "omega-ruby-alpha-sapphire": "tm11"
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

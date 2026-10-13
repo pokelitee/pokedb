@@ -44,7 +44,10 @@
             "stat": "attack"
         }
     ],
-    "machine": "tm98",
+    "machine": {
+        "x-y": "tm98",
+        "omega-ruby-alpha-sapphire": "tm98"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

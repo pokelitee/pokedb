@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": "tm38",
+    "machine": {
+        "sun-moon": "tm38",
+        "ultra-sun-ultra-moon": "tm38",
+        "lets-go-pikachu-lets-go-eevee": "tm46"
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

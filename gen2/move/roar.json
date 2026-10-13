@@ -39,7 +39,10 @@
         "crystal": "Scares wild foes to end battle."
     },
     "stat_changes": [],
-    "machine": "tm05",
+    "machine": {
+        "gold-silver": "tm05",
+        "crystal": "tm05"
+    },
     "metadata": {
         "ailment": "none",
         "category": "force-switch",

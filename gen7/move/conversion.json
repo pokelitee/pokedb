@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user changes its type to become the same type as the move at the top of the list of moves it knows."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

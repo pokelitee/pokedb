@@ -60,7 +60,13 @@
         "legends-arceus": "The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect."
     },
     "stat_changes": [],
-    "machine": "tm43",
+    "machine": {
+        "sword-shield": "tm43",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

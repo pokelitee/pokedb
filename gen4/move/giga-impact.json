@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user charges at the foe using every bit of its power. The user must rest on the next turn."
     },
     "stat_changes": [],
-    "machine": "tm68",
+    "machine": {
+        "diamond-pearl": "tm68",
+        "platinum": "tm68",
+        "heartgold-soulsilver": "tm68"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

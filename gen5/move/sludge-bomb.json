@@ -39,7 +39,10 @@
         "black-2-white-2": "Unsanitary sludge is hurled at the target. It may also poison the target."
     },
     "stat_changes": [],
-    "machine": "tm36",
+    "machine": {
+        "black-white": "tm36",
+        "black-2-white-2": "tm36"
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

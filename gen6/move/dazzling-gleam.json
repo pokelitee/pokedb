@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user damages opposing Pokémon by emitting a powerful flash."
     },
     "stat_changes": [],
-    "machine": "tm99",
+    "machine": {
+        "x-y": "tm99",
+        "omega-ruby-alpha-sapphire": "tm99"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

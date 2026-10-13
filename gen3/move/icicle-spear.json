@@ -61,7 +61,13 @@
         "firered-leafgreen": "Sharp icicles are fired at the foe. It strikes two to five times."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

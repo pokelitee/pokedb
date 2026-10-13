@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "This protects Pokémon on the ground from priority moves and powers up Psychic-type moves for five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

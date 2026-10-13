@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors."
     },
     "stat_changes": [],
-    "machine": "tm24",
+    "machine": {
+        "sun-moon": "tm81",
+        "ultra-sun-ultra-moon": "tm81",
+        "lets-go-pikachu-lets-go-eevee": "tm24"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

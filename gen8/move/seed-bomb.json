@@ -60,7 +60,13 @@
         "legends-arceus": "The user slams a barrage of hard-shelled seeds down on the target from above."
     },
     "stat_changes": [],
-    "machine": "tr59",
+    "machine": {
+        "sword-shield": "tr59",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -39,12 +39,12 @@
     "target": "selected-pokemon",
     "generation": "generation-viii",
     "effect_chance": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": 100,
+        "the-teal-mask": 100,
+        "the-indigo-disk": 100,
+        "legends-za": 100,
+        "mega-dimension": 100,
+        "champions": 100
     },
     "effect": {
         "scarlet-violet": "Inflicts damage, and the user takes damage equal to half of its max HP, rounded up. The user still takes damage if the move is blocked by Protect or Substitute, misses, or if the target has Flash Fire.",
@@ -66,7 +66,14 @@
         "scarlet-violet": "The user fires a beam of steel that it collected from its entire body. This also damages the user."
     },
     "stat_changes": [],
-    "machine": "tm170",
+    "machine": {
+        "scarlet-violet": "tm170",
+        "the-teal-mask": "tm170",
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": "tm157",
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -39,7 +39,10 @@
         "black-2-white-2": "Gravity is intensified for five turns, making moves involving flying unusable and negating Levitate."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

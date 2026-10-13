@@ -39,7 +39,10 @@
         "black-2-white-2": "The user charges at the target using every bit of its power. The user must rest on the next turn."
     },
     "stat_changes": [],
-    "machine": "tm68",
+    "machine": {
+        "black-white": "tm68",
+        "black-2-white-2": "tm68"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

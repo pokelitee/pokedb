@@ -71,7 +71,14 @@
             "stat": "special-defense"
         }
     ],
-    "machine": "tm158",
+    "machine": {
+        "scarlet-violet": "tm158",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm158",
+        "legends-za": "tm102",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

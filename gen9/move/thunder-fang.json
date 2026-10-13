@@ -66,7 +66,14 @@
         "scarlet-violet": "The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis."
     },
     "stat_changes": [],
-    "machine": "tm09",
+    "machine": {
+        "scarlet-violet": "tm09",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": "tm21",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

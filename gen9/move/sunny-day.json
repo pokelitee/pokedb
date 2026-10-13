@@ -66,7 +66,14 @@
         "scarlet-violet": "The user intensifies the sun for five turns, powering up Fire-type attacks. The sunlight also lowers the power of Water-type attacks."
     },
     "stat_changes": [],
-    "machine": "tm49",
+    "machine": {
+        "scarlet-violet": "tm49",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm49",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

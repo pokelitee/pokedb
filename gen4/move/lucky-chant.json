@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user chants an incantation toward the sky, preventing the foe from landing critical hits."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

@@ -39,7 +39,10 @@
         "black-2-white-2": "With a scary face, the user tries to force a kiss on the target. If it succeeds, the target falls asleep."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "sleep",
         "category": "ailment",

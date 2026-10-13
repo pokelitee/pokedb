@@ -66,7 +66,14 @@
         "scarlet-violet": "This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns."
     },
     "stat_changes": [],
-    "machine": "tm139",
+    "machine": {
+        "scarlet-violet": "tm139",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm139",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

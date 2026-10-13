@@ -27,9 +27,9 @@
     "target": "user-and-allies",
     "generation": "generation-iii",
     "effect_chance": {
-        "diamond-pearl": 7,
-        "platinum": 7,
-        "heartgold-soulsilver": 7
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
     },
     "effect": {
         "diamond-pearl": "Raises the user’s Attack by one stage.",
@@ -52,7 +52,11 @@
             "stat": "attack"
         }
     ],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

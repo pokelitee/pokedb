@@ -65,7 +65,13 @@
             "stat": "speed"
         }
     ],
-    "machine": "tr12",
+    "machine": {
+        "sword-shield": "tr12",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

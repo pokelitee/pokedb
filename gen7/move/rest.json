@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user goes to sleep for two turns. This fully restores the user’s HP and heals any status conditions."
     },
     "stat_changes": [],
-    "machine": "tm05",
+    "machine": {
+        "sun-moon": "tm44",
+        "ultra-sun-ultra-moon": "tm44",
+        "lets-go-pikachu-lets-go-eevee": "tm05"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

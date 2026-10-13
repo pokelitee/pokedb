@@ -2,7 +2,14 @@
     "id": 1218,
     "name": "tr30",
     "source_url": "https://pokeapi.co/api/v2/item/1218/",
-    "cost": 4000,
+    "prices": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "fling_power": 10,
     "fling_effect": null,
     "attributes": [],

@@ -39,7 +39,10 @@
         "black-2-white-2": "The user chants an incantation toward the sky, preventing opposing Pokémon from landing critical hits."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user launches a huge boulder at the target to attack. The user can’t move on the next turn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

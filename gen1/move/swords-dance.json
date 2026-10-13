@@ -55,7 +55,12 @@
             "stat": "attack"
         }
     ],
-    "machine": "tm03",
+    "machine": {
+        "red-blue": "tm03",
+        "yellow": "tm03",
+        "red-green-japan": "tm03",
+        "blue-japan": "tm03"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

@@ -27,12 +27,12 @@
         "black-2-white-2": null
     },
     "effect": {
-        "black-white": "Lowers the target’s Speed by two stages.",
-        "black-2-white-2": "Lowers the target’s Speed by two stages."
+        "black-white": "Lowers the target’s Speed by one stage.",
+        "black-2-white-2": "Lowers the target’s Speed by one stage."
     },
     "short_effect": {
-        "black-white": "Lowers the target’s Speed by two stages.",
-        "black-2-white-2": "Lowers the target’s Speed by two stages."
+        "black-white": "Lowers the target’s Speed by one stage.",
+        "black-2-white-2": "Lowers the target’s Speed by one stage."
     },
     "flavor_text": {
         "black-white": "The targets are bound with silk blown from the user’s mouth. This silk reduces the targets’ Speed stat.",
@@ -44,7 +44,10 @@
             "stat": "speed"
         }
     ],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

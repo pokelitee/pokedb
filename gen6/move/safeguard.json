@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user creates a protective field that prevents status conditions for five turns."
     },
     "stat_changes": [],
-    "machine": "tm20",
+    "machine": {
+        "x-y": "tm20",
+        "omega-ruby-alpha-sapphire": "tm20"
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

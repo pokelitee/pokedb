@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect."
     },
     "stat_changes": [],
-    "machine": "tm13",
+    "machine": {
+        "sun-moon": "tm31",
+        "ultra-sun-ultra-moon": "tm31",
+        "lets-go-pikachu-lets-go-eevee": "tm13"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

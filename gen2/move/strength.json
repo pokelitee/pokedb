@@ -39,7 +39,10 @@
         "crystal": "A powerful physi­ cal attack."
     },
     "stat_changes": [],
-    "machine": "hm04",
+    "machine": {
+        "gold-silver": "hm04",
+        "crystal": "hm04"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

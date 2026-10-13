@@ -1,0 +1,26 @@
+{
+    "id": 314,
+    "name": "aura-guard",
+    "source_url": "https://pokeapi.co/api/v2/ability/314/",
+    "is_main_series": true,
+    "generation": "generation-ix",
+    "effect": {
+        "scarlet-violet": "A Pokémon with Aura Guard takes half damage from moves that make contact. Moves affected by Long Reach which make contact will deal regular damage.",
+        "the-teal-mask": "A Pokémon with Aura Guard takes half damage from moves that make contact. Moves affected by Long Reach which make contact will deal regular damage.",
+        "the-indigo-disk": "A Pokémon with Aura Guard takes half damage from moves that make contact. Moves affected by Long Reach which make contact will deal regular damage.",
+        "legends-za": "A Pokémon with Aura Guard takes half damage from moves that make contact. Moves affected by Long Reach which make contact will deal regular damage.",
+        "mega-dimension": "A Pokémon with Aura Guard takes half damage from moves that make contact. Moves affected by Long Reach which make contact will deal regular damage.",
+        "champions": "A Pokémon with Aura Guard takes half damage from moves that make contact. Moves affected by Long Reach which make contact will deal regular damage."
+    },
+    "short_effect": {
+        "scarlet-violet": "A Pokémon with Aura Guard takes half damage from moves that make contact.",
+        "the-teal-mask": "A Pokémon with Aura Guard takes half damage from moves that make contact.",
+        "the-indigo-disk": "A Pokémon with Aura Guard takes half damage from moves that make contact.",
+        "legends-za": "A Pokémon with Aura Guard takes half damage from moves that make contact.",
+        "mega-dimension": "A Pokémon with Aura Guard takes half damage from moves that make contact.",
+        "champions": "A Pokémon with Aura Guard takes half damage from moves that make contact."
+    },
+    "flavor_text": {
+        "champions": "A Pokémon with Aura Guard takes half damage from moves that make contact. Moves affected by Long Reach which make contact will deal regular damage."
+    }
+}

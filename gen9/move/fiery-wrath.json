@@ -47,26 +47,33 @@
         "champions": 20
     },
     "effect": {
-        "scarlet-violet": "Inflicts regular damage.",
-        "the-teal-mask": "Inflicts regular damage.",
-        "the-indigo-disk": "Inflicts regular damage.",
-        "legends-za": "Inflicts regular damage.",
-        "mega-dimension": "Inflicts regular damage.",
-        "champions": "Inflicts regular damage."
+        "scarlet-violet": "Inflicts regular damage. Has a chance to make the target flinch.",
+        "the-teal-mask": "Inflicts regular damage. Has a chance to make the target flinch.",
+        "the-indigo-disk": "Inflicts regular damage. Has a chance to make the target flinch.",
+        "legends-za": "Inflicts regular damage. Has a chance to make the target flinch.",
+        "mega-dimension": "Inflicts regular damage. Has a chance to make the target flinch.",
+        "champions": "Inflicts regular damage. Has a chance to make the target flinch."
     },
     "short_effect": {
-        "scarlet-violet": "Inflicts regular damage with no additional effect.",
-        "the-teal-mask": "Inflicts regular damage with no additional effect.",
-        "the-indigo-disk": "Inflicts regular damage with no additional effect.",
-        "legends-za": "Inflicts regular damage with no additional effect.",
-        "mega-dimension": "Inflicts regular damage with no additional effect.",
-        "champions": "Inflicts regular damage with no additional effect."
+        "scarlet-violet": "Has a chance to make the target flinch.",
+        "the-teal-mask": "Has a chance to make the target flinch.",
+        "the-indigo-disk": "Has a chance to make the target flinch.",
+        "legends-za": "Has a chance to make the target flinch.",
+        "mega-dimension": "Has a chance to make the target flinch.",
+        "champions": "Has a chance to make the target flinch."
     },
     "flavor_text": {
         "scarlet-violet": "The user transforms its wrath into a fire-like aura to attack. This may also make opposing Pokémon flinch."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

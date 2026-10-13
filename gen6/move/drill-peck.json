@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "A corkscrewing attack with a sharp beak acting as a drill."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

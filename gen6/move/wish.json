@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "One turn after this move is used, the target’s HP is restored by half the user’s max HP."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user continually rolls into the foe over five turns. It becomes stronger each time it hits."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

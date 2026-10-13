@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "An inferno of scarlet flames washes over all Pokémon in battle. It may also inflict burns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

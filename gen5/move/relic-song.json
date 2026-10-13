@@ -39,7 +39,10 @@
         "black-2-white-2": "The user sings an ancient song and attacks by appealing to the hearts of those listening. It may also induce sleep."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "sleep",
         "category": "damage-ailment",

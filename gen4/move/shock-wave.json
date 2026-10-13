@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user strikes the foe with a quick jolt of electricity. This attack cannot be evaded."
     },
     "stat_changes": [],
-    "machine": "tm34",
+    "machine": {
+        "diamond-pearl": "tm34",
+        "platinum": "tm34",
+        "heartgold-soulsilver": "tm34"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

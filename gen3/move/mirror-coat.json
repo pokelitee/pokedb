@@ -61,7 +61,13 @@
         "firered-leafgreen": "A retaliation move that pays back the foe’s special attack double."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

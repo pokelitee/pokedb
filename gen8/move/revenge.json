@@ -59,7 +59,13 @@
         "sword-shield": "This attack move’s power is doubled if the user has been hurt by the opponent in the same turn."
     },
     "stat_changes": [],
-    "machine": "tm42",
+    "machine": {
+        "sword-shield": "tm42",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

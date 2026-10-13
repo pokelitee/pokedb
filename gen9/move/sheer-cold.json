@@ -66,7 +66,14 @@
         "scarlet-violet": "The target faints instantly. This move is less likely to hit the target if used by Pokémon other than Ice types."
     },
     "stat_changes": [],
-    "machine": "tm155",
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": "tm155",
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "ohko",

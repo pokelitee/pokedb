@@ -2,7 +2,32 @@
     "id": 1,
     "name": "master-ball",
     "source_url": "https://pokeapi.co/api/v2/item/1/",
-    "cost": 0,
+    "prices": {
+        "red-blue": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 0
+            }
+        },
+        "yellow": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 0
+            }
+        },
+        "red-green-japan": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 0
+            }
+        },
+        "blue-japan": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 0
+            }
+        }
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [
@@ -17,7 +42,6 @@
     "flavor_text": {},
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/master-ball.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

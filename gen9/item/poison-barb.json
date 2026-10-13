@@ -2,7 +2,14 @@
     "id": 222,
     "name": "poison-barb",
     "source_url": "https://pokeapi.co/api/v2/item/222/",
-    "cost": 1000,
+    "prices": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "fling_power": 70,
     "fling_effect": "poison",
     "attributes": [

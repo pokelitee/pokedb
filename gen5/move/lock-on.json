@@ -39,7 +39,10 @@
         "black-2-white-2": "The user takes sure aim at the target. It ensures the next attack does not fail to hit the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

@@ -39,9 +39,12 @@
         "black-2-white-2": "It enables the user to evade all attacks. Its chance of failing rises if it is used in succession."
     },
     "stat_changes": [],
-    "machine": "tm17",
+    "machine": {
+        "black-white": "tm17",
+        "black-2-white-2": "tm17"
+    },
     "metadata": {
-        "ailment": "none",
+        "ailment": "protect",
         "category": "unique",
         "min_hits": null,
         "max_hits": null,

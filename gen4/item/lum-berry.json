@@ -2,7 +2,11 @@
     "id": 134,
     "name": "lum-berry",
     "source_url": "https://pokeapi.co/api/v2/item/134/",
-    "cost": 80,
+    "prices": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "fling_power": 10,
     "fling_effect": "berry-effect",
     "attributes": [
@@ -18,7 +22,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lum-berry.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

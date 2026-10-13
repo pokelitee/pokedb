@@ -66,7 +66,14 @@
         "scarlet-violet": "The user flies up into the sky on the first turn, then attacks on the next turn."
     },
     "stat_changes": [],
-    "machine": "tm97",
+    "machine": {
+        "scarlet-violet": "tm97",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": "tm43",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

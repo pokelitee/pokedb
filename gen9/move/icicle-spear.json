@@ -66,7 +66,14 @@
         "scarlet-violet": "The user attacks by launching sharp icicles at the target. This move hits two to five times in a row."
     },
     "stat_changes": [],
-    "machine": "tm187",
+    "machine": {
+        "scarlet-violet": "tm187",
+        "the-teal-mask": "tm187",
+        "the-indigo-disk": "tm187",
+        "legends-za": null,
+        "mega-dimension": "tm149",
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -60,7 +60,13 @@
         "legends-arceus": "The user switches places with a party Pokémon in waiting and passes along any stat changes."
     },
     "stat_changes": [],
-    "machine": "tr29",
+    "machine": {
+        "sword-shield": "tr29",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

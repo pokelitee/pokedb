@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user senses the target’s movements with its mind to ensure its next attack does not miss the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

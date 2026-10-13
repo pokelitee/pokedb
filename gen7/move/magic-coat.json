@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "A barrier reflects back to the target moves like Leech Seed and moves that damage status."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target’s Ability."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

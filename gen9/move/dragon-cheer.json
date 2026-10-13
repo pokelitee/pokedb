@@ -66,7 +66,14 @@
         "scarlet-violet": "The user raises its allies’ morale with a draconic cry so that their future attacks have a heightened chance of landing critical hits. This rouses Dragon types more."
     },
     "stat_changes": [],
-    "machine": "tm226",
+    "machine": {
+        "scarlet-violet": "tm226",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm226",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": null,
         "category": null,

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "Enables the user to hit a Dark type with any type of move. It also enables the user to hit an evasive foe."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "no-type-immunity",
         "category": "ailment",

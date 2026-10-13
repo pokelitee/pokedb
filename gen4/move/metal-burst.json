@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user retaliates against the foe that last inflicted damage on it with much greater power."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

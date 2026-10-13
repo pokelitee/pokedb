@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user envelops itself in a veil made of water. It regains some HP every turn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

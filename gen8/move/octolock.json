@@ -35,31 +35,37 @@
     "target": "selected-pokemon",
     "generation": "generation-viii",
     "effect_chance": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": 100,
+        "the-isle-of-armor": 100,
+        "the-crown-tundra": 100,
+        "brilliant-diamond-shining-pearl": 100,
+        "legends-arceus": 100
     },
     "effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage. The target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. This effect ends if either Pokemon leave the field.",
+        "the-isle-of-armor": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage. The target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. This effect ends if either Pokemon leave the field.",
+        "the-crown-tundra": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage. The target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. This effect ends if either Pokemon leave the field.",
+        "brilliant-diamond-shining-pearl": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage. The target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. This effect ends if either Pokemon leave the field.",
+        "legends-arceus": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage. The target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. This effect ends if either Pokemon leave the field."
     },
     "short_effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage.",
+        "the-isle-of-armor": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage.",
+        "the-crown-tundra": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage.",
+        "brilliant-diamond-shining-pearl": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage.",
+        "legends-arceus": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage."
     },
     "flavor_text": {
         "sword-shield": "The user locks the target in and prevents it from fleeing. This move also lowers the target’s Defense and Sp. Def every turn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

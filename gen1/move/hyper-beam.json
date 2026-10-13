@@ -50,7 +50,12 @@
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": "tm15",
+    "machine": {
+        "red-blue": "tm15",
+        "yellow": "tm15",
+        "red-green-japan": "tm15",
+        "blue-japan": "tm15"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

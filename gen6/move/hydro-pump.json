@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The target is blasted by a huge volume of water launched under great pressure."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

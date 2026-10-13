@@ -61,7 +61,13 @@
         "firered-leafgreen": "The foe is slugged at maximum power. Can also be used to move boulders."
     },
     "stat_changes": [],
-    "machine": "hm04",
+    "machine": {
+        "ruby-sapphire": "hm04",
+        "emerald": "hm04",
+        "firered-leafgreen": "hm04",
+        "colosseum": "hm04",
+        "xd": "hm04"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

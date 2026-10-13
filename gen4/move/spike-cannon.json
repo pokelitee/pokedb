@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "Sharp spikes are fired at the foe to strike two to five times in rapid succession."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

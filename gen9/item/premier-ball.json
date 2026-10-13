@@ -2,7 +2,24 @@
     "id": 12,
     "name": "premier-ball",
     "source_url": "https://pokeapi.co/api/v2/item/12/",
-    "cost": 20,
+    "prices": {
+        "scarlet-violet": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 5
+            }
+        },
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": {
+            "poke-dollar": {
+                "purchase_price": 200,
+                "sell_price": 50
+            }
+        },
+        "mega-dimension": null,
+        "champions": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [

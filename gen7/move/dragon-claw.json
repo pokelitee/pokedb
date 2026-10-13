@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user slashes the target with huge sharp claws."
     },
     "stat_changes": [],
-    "machine": "tm02",
+    "machine": {
+        "sun-moon": "tm02",
+        "ultra-sun-ultra-moon": "tm02",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

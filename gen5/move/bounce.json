@@ -39,7 +39,10 @@
         "black-2-white-2": "The user bounces up high, then drops on the target on the second turn. It may also leave the target with paralysis."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

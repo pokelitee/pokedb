@@ -39,7 +39,10 @@
         "black-2-white-2": "The user tackles the target with a high-speed spin. The slower the user, the greater the damage."
     },
     "stat_changes": [],
-    "machine": "tm74",
+    "machine": {
+        "black-white": "tm74",
+        "black-2-white-2": "tm74"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -2,7 +2,20 @@
     "id": 6,
     "name": "net-ball",
     "source_url": "https://pokeapi.co/api/v2/item/6/",
-    "cost": 1000,
+    "prices": {
+        "black-white": {
+            "poke-dollar": {
+                "purchase_price": 1000,
+                "sell_price": 500
+            }
+        },
+        "black-2-white-2": {
+            "poke-dollar": {
+                "purchase_price": 1000,
+                "sell_price": 500
+            }
+        }
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [
@@ -20,7 +33,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/net-ball.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

@@ -44,7 +44,10 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm69",
+    "machine": {
+        "black-white": "tm69",
+        "black-2-white-2": "tm69"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

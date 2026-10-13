@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "It prevents the foe from using its held item. Its Trainer is also prevented from using items on it."
     },
     "stat_changes": [],
-    "machine": "tm63",
+    "machine": {
+        "diamond-pearl": "tm63",
+        "platinum": "tm63",
+        "heartgold-soulsilver": "tm63"
+    },
     "metadata": {
         "ailment": "embargo",
         "category": "ailment",

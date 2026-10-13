@@ -39,7 +39,10 @@
         "crystal": "Hurts foes when they switch out."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

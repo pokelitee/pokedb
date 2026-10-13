@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A physical attack in which the user charges and slams into the foe with its whole body."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

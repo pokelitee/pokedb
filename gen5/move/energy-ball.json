@@ -44,7 +44,10 @@
             "stat": "special-defense"
         }
     ],
-    "machine": "tm53",
+    "machine": {
+        "black-white": "tm53",
+        "black-2-white-2": "tm53"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

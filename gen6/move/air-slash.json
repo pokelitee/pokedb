@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user attacks with a blade of air that slices even the sky. This may also make the target flinch."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

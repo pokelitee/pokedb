@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The target is clamped and squeezed by the user’s very thick and sturdy shell for four to five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

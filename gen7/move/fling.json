@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user flings its held item at the target to attack. This move’s power and effects depend on the item."
     },
     "stat_changes": [],
-    "machine": "tm56",
+    "machine": {
+        "sun-moon": "tm56",
+        "ultra-sun-ultra-moon": "tm56",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

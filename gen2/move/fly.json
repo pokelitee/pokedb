@@ -39,7 +39,10 @@
         "crystal": "1st turn: Fly 2nd turn: Attack"
     },
     "stat_changes": [],
-    "machine": "hm02",
+    "machine": {
+        "gold-silver": "hm02",
+        "crystal": "hm02"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

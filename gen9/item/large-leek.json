@@ -2,7 +2,14 @@
     "id": 1152,
     "name": "large-leek",
     "source_url": "https://pokeapi.co/api/v2/item/1152/",
-    "cost": 2200,
+    "prices": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "fling_power": 20,
     "fling_effect": null,
     "attributes": [],

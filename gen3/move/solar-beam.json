@@ -61,7 +61,13 @@
         "firered-leafgreen": "A 2-turn move that blasts the foe with absorbed energy in the 2nd turn."
     },
     "stat_changes": [],
-    "machine": "tm22",
+    "machine": {
+        "ruby-sapphire": "tm22",
+        "emerald": "tm22",
+        "firered-leafgreen": "tm22",
+        "colosseum": "tm22",
+        "xd": "tm22"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -2,7 +2,10 @@
     "id": 55,
     "name": "guard-spec",
     "source_url": "https://pokeapi.co/api/v2/item/55/",
-    "cost": 1500,
+    "prices": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "fling_power": 30,
     "fling_effect": null,
     "attributes": [
@@ -17,7 +20,6 @@
     "flavor_text": {},
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/guard-spec.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

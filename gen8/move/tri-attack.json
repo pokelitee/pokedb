@@ -60,7 +60,13 @@
         "legends-arceus": "The user strikes with a simultaneous three-beam attack. This may also leave the target with a burn, paralysis, or frostbite."
     },
     "stat_changes": [],
-    "machine": "tr19",
+    "machine": {
+        "sword-shield": "tr19",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "unknown",
         "category": "damage-ailment",

@@ -35,31 +35,37 @@
     "target": "selected-pokemon",
     "generation": "generation-viii",
     "effect_chance": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": 100,
+        "the-isle-of-armor": 100,
+        "the-crown-tundra": 100,
+        "brilliant-diamond-shining-pearl": 100,
+        "legends-arceus": 100
     },
     "effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Power doubles if the user moves before the target.",
+        "the-isle-of-armor": "Power doubles if the user moves before the target.",
+        "the-crown-tundra": "Power doubles if the user moves before the target.",
+        "brilliant-diamond-shining-pearl": "Power doubles if the user moves before the target.",
+        "legends-arceus": "Power doubles if the user moves before the target."
     },
     "short_effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Power doubles if the user moves before the target.",
+        "the-isle-of-armor": "Power doubles if the user moves before the target.",
+        "the-crown-tundra": "Power doubles if the user moves before the target.",
+        "brilliant-diamond-shining-pearl": "Power doubles if the user moves before the target.",
+        "legends-arceus": "Power doubles if the user moves before the target."
     },
     "flavor_text": {
         "sword-shield": "The user stabs the target with its electrified beak. If the user attacks before the target, the power of this move is doubled."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

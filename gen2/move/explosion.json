@@ -39,7 +39,10 @@
         "crystal": "Very powerful but makes user faint."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

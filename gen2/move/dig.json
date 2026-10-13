@@ -39,7 +39,10 @@
         "crystal": "1st turn: Burrow 2nd turn: Attack"
     },
     "stat_changes": [],
-    "machine": "tm28",
+    "machine": {
+        "gold-silver": "tm28",
+        "crystal": "tm28"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

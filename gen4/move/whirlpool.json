@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "Traps the foe inside a whirlpool that lasts for two to five turns. The user can pass through whirlpools."
     },
     "stat_changes": [],
-    "machine": "hm05",
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": "hm05"
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

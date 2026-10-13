@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The target becomes trapped within a fierce vortex of fire that rages for four to five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

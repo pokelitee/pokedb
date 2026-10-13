@@ -39,7 +39,10 @@
         "black-2-white-2": "The target is thrown using the power of gravity. It inflicts damage equal to the user’s level."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

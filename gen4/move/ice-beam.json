@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is struck with an icy-cold beam of energy. It may also freeze the target solid."
     },
     "stat_changes": [],
-    "machine": "tm13",
+    "machine": {
+        "diamond-pearl": "tm13",
+        "platinum": "tm13",
+        "heartgold-soulsilver": "tm13"
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

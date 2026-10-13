@@ -39,7 +39,10 @@
         "crystal": "A one-hit KO, pincer attack."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "ohko",

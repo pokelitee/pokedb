@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user opens up a fissure in the ground and drops the foe in. The target instantly faints if it hits."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "ohko",

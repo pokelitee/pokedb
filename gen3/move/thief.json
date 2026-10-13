@@ -61,7 +61,13 @@
         "firered-leafgreen": "An attack that may take the foe’s held item if the user isn’t holding one."
     },
     "stat_changes": [],
-    "machine": "tm46",
+    "machine": {
+        "ruby-sapphire": "tm46",
+        "emerald": "tm46",
+        "firered-leafgreen": "tm46",
+        "colosseum": "tm46",
+        "xd": "tm46"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

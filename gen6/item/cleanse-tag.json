@@ -2,7 +2,10 @@
     "id": 201,
     "name": "cleanse-tag",
     "source_url": "https://pokeapi.co/api/v2/item/201/",
-    "cost": 5000,
+    "prices": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "fling_power": 30,
     "fling_effect": null,
     "attributes": [
@@ -16,7 +19,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cleanse-tag.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

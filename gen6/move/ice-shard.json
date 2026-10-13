@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user flash-freezes chunks of ice and hurls them at the target. This move always goes first."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

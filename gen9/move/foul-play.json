@@ -66,7 +66,14 @@
         "scarlet-violet": "The user turns the target's strength against it. The higher the target's Attack stat, the greater the damage this move inflicts."
     },
     "stat_changes": [],
-    "machine": "tm62",
+    "machine": {
+        "scarlet-violet": "tm62",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

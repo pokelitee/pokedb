@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack."
     },
     "stat_changes": [],
-    "machine": "tm45",
+    "machine": {
+        "x-y": "tm45",
+        "omega-ruby-alpha-sapphire": "tm45"
+    },
     "metadata": {
         "ailment": "infatuation",
         "category": "ailment",

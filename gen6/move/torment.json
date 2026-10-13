@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user torments and enrages the target, making it incapable of using the same move twice in a row."
     },
     "stat_changes": [],
-    "machine": "tm41",
+    "machine": {
+        "x-y": "tm41",
+        "omega-ruby-alpha-sapphire": "tm41"
+    },
     "metadata": {
         "ailment": "torment",
         "category": "ailment",

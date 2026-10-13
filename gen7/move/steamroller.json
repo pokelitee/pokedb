@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user crushes its target by rolling over the target with its rolled-up body. This may also make the target flinch."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

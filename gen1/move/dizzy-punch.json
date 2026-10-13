@@ -31,26 +31,31 @@
     "target": "selected-pokemon",
     "generation": "generation-i",
     "effect_chance": {
-        "red-blue": 20,
-        "yellow": 20,
-        "red-green-japan": 20,
-        "blue-japan": 20
+        "red-blue": 0,
+        "yellow": 0,
+        "red-green-japan": 0,
+        "blue-japan": 0
     },
     "effect": {
-        "red-blue": "Inflicts regular damage. Has a chance to confuse the target.",
-        "yellow": "Inflicts regular damage. Has a chance to confuse the target.",
-        "red-green-japan": "Inflicts regular damage. Has a chance to confuse the target.",
-        "blue-japan": "Inflicts regular damage. Has a chance to confuse the target."
+        "red-blue": "Inflicts regular damage.",
+        "yellow": "Inflicts regular damage.",
+        "red-green-japan": "Inflicts regular damage.",
+        "blue-japan": "Inflicts regular damage."
     },
     "short_effect": {
-        "red-blue": "Has a chance to confuse the target.",
-        "yellow": "Has a chance to confuse the target.",
-        "red-green-japan": "Has a chance to confuse the target.",
-        "blue-japan": "Has a chance to confuse the target."
+        "red-blue": "Inflicts regular damage with no additional effect.",
+        "yellow": "Inflicts regular damage with no additional effect.",
+        "red-green-japan": "Inflicts regular damage with no additional effect.",
+        "blue-japan": "Inflicts regular damage with no additional effect."
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "red-blue": null,
+        "yellow": null,
+        "red-green-japan": null,
+        "blue-japan": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "damage-ailment",

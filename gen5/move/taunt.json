@@ -39,7 +39,10 @@
         "black-2-white-2": "The target is taunted into a rage that allows it to use only attack moves for three turns."
     },
     "stat_changes": [],
-    "machine": "tm12",
+    "machine": {
+        "black-white": "tm12",
+        "black-2-white-2": "tm12"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

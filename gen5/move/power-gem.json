@@ -39,7 +39,10 @@
         "black-2-white-2": "The user attacks with a ray of light that sparkles as if it were made of gemstones."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

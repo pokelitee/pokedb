@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user shrouds itself in electricity and smashes into its target. This also damages the user a little."
     },
     "stat_changes": [],
-    "machine": "tm93",
+    "machine": {
+        "sun-moon": "tm93",
+        "ultra-sun-ultra-moon": "tm93",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

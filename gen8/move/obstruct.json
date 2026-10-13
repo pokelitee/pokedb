@@ -35,31 +35,37 @@
     "target": "user",
     "generation": "generation-viii",
     "effect_chance": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": 100,
+        "the-isle-of-armor": 100,
+        "the-crown-tundra": 100,
+        "brilliant-diamond-shining-pearl": 100,
+        "legends-arceus": 100
     },
     "effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+        "the-isle-of-armor": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+        "the-crown-tundra": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+        "brilliant-diamond-shining-pearl": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+        "legends-arceus": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages."
     },
     "short_effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+        "the-isle-of-armor": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+        "the-crown-tundra": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+        "brilliant-diamond-shining-pearl": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+        "legends-arceus": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages."
     },
     "flavor_text": {
         "sword-shield": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession. Direct contact harshly lowers the attacker’s Defense stat."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

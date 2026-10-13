@@ -71,7 +71,14 @@
             "stat": "attack"
         }
     ],
-    "machine": "tm216",
+    "machine": {
+        "scarlet-violet": "tm216",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm216",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

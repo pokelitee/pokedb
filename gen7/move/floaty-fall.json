@@ -45,7 +45,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user floats in the air, and then dives at a steep angle to attack the target. This may also make the target flinch."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user electrifies itself, then charges at the foe. It causes considerable damage to the user as well."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

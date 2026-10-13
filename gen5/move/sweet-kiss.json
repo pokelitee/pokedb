@@ -39,7 +39,10 @@
         "black-2-white-2": "The user kisses the target with a sweet, angelic cuteness that causes confusion."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "ailment",

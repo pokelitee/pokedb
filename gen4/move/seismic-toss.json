@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is thrown using the power of gravity. It inflicts damage equal to the user’s level."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

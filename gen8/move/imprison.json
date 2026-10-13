@@ -60,7 +60,13 @@
         "legends-arceus": "If opposing Pokémon know any move also known by the user, they are prevented from using it."
     },
     "stat_changes": [],
-    "machine": "tm44",
+    "machine": {
+        "sword-shield": "tm44",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

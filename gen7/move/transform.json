@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user transforms into a copy of the target right down to having the same move set."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "Using Happy Hour doubles the amount of prize money received after battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

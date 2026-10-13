@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user charges at the target using every bit of its power. The user can’t move on the next turn."
     },
     "stat_changes": [],
-    "machine": "tm68",
+    "machine": {
+        "x-y": "tm68",
+        "omega-ruby-alpha-sapphire": "tm68"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

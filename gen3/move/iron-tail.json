@@ -66,7 +66,13 @@
             "stat": "defense"
         }
     ],
-    "machine": "tm23",
+    "machine": {
+        "ruby-sapphire": "tm23",
+        "emerald": "tm23",
+        "firered-leafgreen": "tm23",
+        "colosseum": "tm23",
+        "xd": "tm23"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

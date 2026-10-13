@@ -2,7 +2,10 @@
     "id": 34,
     "name": "energy-powder",
     "source_url": "https://pokeapi.co/api/v2/item/34/",
-    "cost": 500,
+    "prices": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "fling_power": 30,
     "fling_effect": null,
     "attributes": [
@@ -20,7 +23,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/energy-powder.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

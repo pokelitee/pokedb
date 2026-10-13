@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user dances with an odd rhythm that compels the target to mimic it, making the target’s Ability the same as the user’s."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

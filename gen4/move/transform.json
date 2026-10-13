@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user transforms into a copy of the foe right down to having the same move set."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

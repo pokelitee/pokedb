@@ -60,7 +60,13 @@
         "legends-arceus": "The user waggles a finger and stimulates its brain into randomly using nearly any move."
     },
     "stat_changes": [],
-    "machine": "tr14",
+    "machine": {
+        "sword-shield": "tr14",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

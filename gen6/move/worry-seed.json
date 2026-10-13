@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "A seed that causes worry is planted on the target. It prevents sleep by making the target’s Ability Insomnia."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

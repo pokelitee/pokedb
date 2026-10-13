@@ -66,7 +66,14 @@
         "scarlet-violet": "The user attacks and steals the target's held item simultaneously. The user can't steal anything if it already holds an item."
     },
     "stat_changes": [],
-    "machine": "tm18",
+    "machine": {
+        "scarlet-violet": "tm18",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

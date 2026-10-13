@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "This move also hits opposing Pokémon that are in the air. Those Pokémon are knocked down to the ground."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "unknown",
         "category": "damage",

@@ -66,7 +66,14 @@
         "scarlet-violet": "Cloaking itself in psychic energy, the user slams into the target. This also boosts the user’s Defense stat."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": null,
         "category": null,

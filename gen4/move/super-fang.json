@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user chomps hard on the foe with its sharp front fangs. It cuts the target’s HP to half."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

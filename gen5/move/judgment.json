@@ -39,7 +39,10 @@
         "black-2-white-2": "The user releases countless shots of light at the target. Its type varies with the kind of Plate the user is holding."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

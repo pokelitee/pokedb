@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user violently whirls its vines or tentacles to harshly lash the foe."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user’s type is changed depending on its environment, such as at water’s edge, in grass, or in a cave."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

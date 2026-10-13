@@ -27,12 +27,12 @@
         "crystal": null
     },
     "effect": {
-        "gold-silver": "Raises the user’s Attack and Special Attack by one stage each. During Sunny Day, raises both stats by two stages.",
-        "crystal": "Raises the user’s Attack and Special Attack by one stage each. During Sunny Day, raises both stats by two stages."
+        "gold-silver": "Raises the user’s Special Attack by one stage.",
+        "crystal": "Raises the user’s Special Attack by one stage."
     },
     "short_effect": {
-        "gold-silver": "Raises the user’s Attack and Special Attack by one stage.",
-        "crystal": "Raises the user’s Attack and Special Attack by one stage."
+        "gold-silver": "Raises the user’s Special Attack by one stage.",
+        "crystal": "Raises the user’s Special Attack by one stage."
     },
     "flavor_text": {
         "gold-silver": "Raises the SPCL. ATK rating.",
@@ -48,7 +48,10 @@
             "stat": "special-attack"
         }
     ],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user creates a bizarre area in which Pokémon’s Defense and Sp. Def stats are swapped for five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

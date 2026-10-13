@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user fires a beam of light at its target. The move’s type changes depending on the Drive the user holds."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -39,7 +39,10 @@
         "crystal": "An attack that may poison the foe."
     },
     "stat_changes": [],
-    "machine": "tm36",
+    "machine": {
+        "gold-silver": "tm36",
+        "crystal": "tm36"
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

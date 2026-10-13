@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": "tm38",
+    "machine": {
+        "diamond-pearl": "tm38",
+        "platinum": "tm38",
+        "heartgold-soulsilver": "tm38"
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

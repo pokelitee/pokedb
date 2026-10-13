@@ -66,7 +66,14 @@
         "scarlet-violet": "The target is scorched with an intense blast of fire. This may also leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": "tm125",
+    "machine": {
+        "scarlet-violet": "tm125",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm125",
+        "legends-za": "tm62",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

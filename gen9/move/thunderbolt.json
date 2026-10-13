@@ -66,7 +66,14 @@
         "scarlet-violet": "The user attacks the target with a strong electric blast. This may also leave the target with paralysis."
     },
     "stat_changes": [],
-    "machine": "tm126",
+    "machine": {
+        "scarlet-violet": "tm126",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm126",
+        "legends-za": "tm67",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

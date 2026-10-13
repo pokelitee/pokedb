@@ -39,7 +39,10 @@
         "black-2-white-2": "The user charges at the target and may make it flinch. It can also be used to climb a waterfall."
     },
     "stat_changes": [],
-    "machine": "hm05",
+    "machine": {
+        "black-white": "hm05",
+        "black-2-white-2": "hm05"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

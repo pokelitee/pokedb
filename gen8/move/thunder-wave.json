@@ -60,7 +60,13 @@
         "legends-arceus": "The user launches a weak jolt of electricity that paralyzes the target."
     },
     "stat_changes": [],
-    "machine": "tm14",
+    "machine": {
+        "sword-shield": "tm14",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "ailment",

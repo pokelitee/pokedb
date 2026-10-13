@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is hit by a weak telekinetic force. It may also leave the foe confused."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "damage-ailment",

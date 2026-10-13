@@ -70,7 +70,13 @@
             "stat": "defense"
         }
     ],
-    "machine": "tm08",
+    "machine": {
+        "ruby-sapphire": "tm08",
+        "emerald": "tm08",
+        "firered-leafgreen": "tm08",
+        "colosseum": "tm08",
+        "xd": "tm08"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

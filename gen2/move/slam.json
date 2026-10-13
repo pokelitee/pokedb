@@ -39,7 +39,10 @@
         "crystal": "Slams the foe with a tail, vine, etc."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

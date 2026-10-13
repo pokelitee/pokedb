@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user focuses its mind before launching a punch. It will fail if the user is hit before it is used."
     },
     "stat_changes": [],
-    "machine": "tm01",
+    "machine": {
+        "diamond-pearl": "tm01",
+        "platinum": "tm01",
+        "heartgold-soulsilver": "tm01"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

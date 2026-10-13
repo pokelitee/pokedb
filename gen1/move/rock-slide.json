@@ -31,26 +31,31 @@
     "target": "all-opponents",
     "generation": "generation-i",
     "effect_chance": {
-        "red-blue": 30,
-        "yellow": 30,
-        "red-green-japan": 30,
-        "blue-japan": 30
+        "red-blue": 0,
+        "yellow": 0,
+        "red-green-japan": 0,
+        "blue-japan": 0
     },
     "effect": {
-        "red-blue": "Inflicts regular damage. Has a chance to make the target flinch.",
-        "yellow": "Inflicts regular damage. Has a chance to make the target flinch.",
-        "red-green-japan": "Inflicts regular damage. Has a chance to make the target flinch.",
-        "blue-japan": "Inflicts regular damage. Has a chance to make the target flinch."
+        "red-blue": "Inflicts regular damage.",
+        "yellow": "Inflicts regular damage.",
+        "red-green-japan": "Inflicts regular damage.",
+        "blue-japan": "Inflicts regular damage."
     },
     "short_effect": {
-        "red-blue": "Has a chance to make the target flinch.",
-        "yellow": "Has a chance to make the target flinch.",
-        "red-green-japan": "Has a chance to make the target flinch.",
-        "blue-japan": "Has a chance to make the target flinch."
+        "red-blue": "Inflicts regular damage with no additional effect.",
+        "yellow": "Inflicts regular damage with no additional effect.",
+        "red-green-japan": "Inflicts regular damage with no additional effect.",
+        "blue-japan": "Inflicts regular damage with no additional effect."
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": "tm48",
+    "machine": {
+        "red-blue": "tm48",
+        "yellow": "tm48",
+        "red-green-japan": "tm48",
+        "blue-japan": "tm48"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

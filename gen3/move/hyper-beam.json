@@ -61,7 +61,13 @@
         "firered-leafgreen": "A severely damaging attack that makes the user rest on the next turn."
     },
     "stat_changes": [],
-    "machine": "tm15",
+    "machine": {
+        "ruby-sapphire": "tm15",
+        "emerald": "tm15",
+        "firered-leafgreen": "tm15",
+        "colosseum": "tm15",
+        "xd": "tm15"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

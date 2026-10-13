@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is cut with a scythe or a claw. It can also be used to cut down thin trees."
     },
     "stat_changes": [],
-    "machine": "hm01",
+    "machine": {
+        "diamond-pearl": "hm01",
+        "platinum": "hm01",
+        "heartgold-soulsilver": "hm01"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

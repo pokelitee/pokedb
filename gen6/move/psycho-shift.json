@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "Using its psychic power of suggestion, the user transfers its status conditions to the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

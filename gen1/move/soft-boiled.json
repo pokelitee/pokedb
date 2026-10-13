@@ -50,7 +50,12 @@
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": "tm41",
+    "machine": {
+        "red-blue": "tm41",
+        "yellow": "tm41",
+        "red-green-japan": "tm41",
+        "blue-japan": "tm41"
+    },
     "metadata": {
         "ailment": "none",
         "category": "heal",

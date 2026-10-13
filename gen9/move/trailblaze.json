@@ -71,7 +71,14 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm20",
+    "machine": {
+        "scarlet-violet": "tm20",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": "tm115",
+        "champions": null
+    },
     "metadata": {
         "ailment": null,
         "category": null,

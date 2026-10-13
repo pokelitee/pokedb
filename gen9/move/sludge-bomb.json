@@ -66,7 +66,14 @@
         "scarlet-violet": "The user hurls unsanitary sludge at the target to inflict damage. This may also poison the target."
     },
     "stat_changes": [],
-    "machine": "tm148",
+    "machine": {
+        "scarlet-violet": "tm148",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm148",
+        "legends-za": "tm53",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

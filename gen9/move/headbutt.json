@@ -66,7 +66,14 @@
         "scarlet-violet": "The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch."
     },
     "stat_changes": [],
-    "machine": "tm01",
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": "tm01",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

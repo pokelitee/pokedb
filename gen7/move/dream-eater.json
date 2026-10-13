@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal its own HP."
     },
     "stat_changes": [],
-    "machine": "tm59",
+    "machine": {
+        "sun-moon": "tm85",
+        "ultra-sun-ultra-moon": "tm85",
+        "lets-go-pikachu-lets-go-eevee": "tm59"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-heal",

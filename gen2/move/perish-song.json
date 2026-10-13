@@ -23,8 +23,8 @@
     "target": "all-pokemon",
     "generation": "generation-ii",
     "effect_chance": {
-        "gold-silver": 12,
-        "crystal": 12
+        "gold-silver": null,
+        "crystal": null
     },
     "effect": {
         "gold-silver": "Every Pokémon is given a counter that starts at 3 and decreases by 1 at the end of every turn, including this one. When a Pokémon’s counter reaches zero, that Pokémon faints. A Pokémon that leaves the field will lose its counter; its replacement does not inherit the effect, and other Pokémon’s counters remain. This effect is passed on by Baton Pass. This move cannot be copied by Mirror Move.",
@@ -39,7 +39,10 @@
         "crystal": "Both user and foe faint in 3 turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "perish-song",
         "category": "ailment",

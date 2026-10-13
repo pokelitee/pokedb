@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user slashes the foe the instant an opportunity arises. It has a high critical-hit ratio."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

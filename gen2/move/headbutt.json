@@ -39,7 +39,10 @@
         "crystal": "An attack that may make foe flinch."
     },
     "stat_changes": [],
-    "machine": "tm02",
+    "machine": {
+        "gold-silver": "tm02",
+        "crystal": "tm02"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

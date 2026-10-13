@@ -39,7 +39,10 @@
         "crystal": "Restores HP by 1/2 the user's max HP."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "heal",

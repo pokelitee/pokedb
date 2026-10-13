@@ -47,9 +47,13 @@
         "lets-go-pikachu-lets-go-eevee": "Enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession."
     },
     "stat_changes": [],
-    "machine": "tm07",
+    "machine": {
+        "sun-moon": "tm17",
+        "ultra-sun-ultra-moon": "tm17",
+        "lets-go-pikachu-lets-go-eevee": "tm07"
+    },
     "metadata": {
-        "ailment": "none",
+        "ailment": "protect",
         "category": "unique",
         "min_hits": null,
         "max_hits": null,

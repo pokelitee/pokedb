@@ -56,7 +56,11 @@
             "stat": "special-defense"
         }
     ],
-    "machine": "tm04",
+    "machine": {
+        "sun-moon": "tm04",
+        "ultra-sun-ultra-moon": "tm04",
+        "lets-go-pikachu-lets-go-eevee": "tm33"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

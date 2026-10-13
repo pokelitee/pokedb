@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user launches a weak jolt of electricity that paralyzes the target."
     },
     "stat_changes": [],
-    "machine": "tm16",
+    "machine": {
+        "sun-moon": "tm73",
+        "ultra-sun-ultra-moon": "tm73",
+        "lets-go-pikachu-lets-go-eevee": "tm16"
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "ailment",

@@ -39,7 +39,10 @@
         "black-2-white-2": "The user soars, then strikes its target on the second turn. It can also be used for flying to any familiar town."
     },
     "stat_changes": [],
-    "machine": "hm02",
+    "machine": {
+        "black-white": "hm02",
+        "black-2-white-2": "hm02"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

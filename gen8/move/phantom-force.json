@@ -60,7 +60,13 @@
         "legends-arceus": "The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself."
     },
     "stat_changes": [],
-    "machine": "tm86",
+    "machine": {
+        "sword-shield": "tm86",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -44,7 +44,10 @@
             "stat": "special-attack"
         }
     ],
-    "machine": "tm76",
+    "machine": {
+        "black-white": "tm76",
+        "black-2-white-2": "tm76"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

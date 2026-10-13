@@ -39,7 +39,10 @@
         "black-2-white-2": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
     },
     "stat_changes": [],
-    "machine": "tm89",
+    "machine": {
+        "black-white": "tm89",
+        "black-2-white-2": "tm89"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

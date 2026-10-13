@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user slashes with a sharp claw made from shadows. Critical hits land more easily."
     },
     "stat_changes": [],
-    "machine": "tm65",
+    "machine": {
+        "x-y": "tm65",
+        "omega-ruby-alpha-sapphire": "tm65"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

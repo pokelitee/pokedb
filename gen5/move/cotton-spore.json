@@ -23,8 +23,8 @@
     "target": "all-opponents",
     "generation": "generation-ii",
     "effect_chance": {
-        "black-white": 10,
-        "black-2-white-2": 10
+        "black-white": null,
+        "black-2-white-2": null
     },
     "effect": {
         "black-white": "Lowers the target’s Speed by two stages.",
@@ -44,7 +44,10 @@
             "stat": "speed"
         }
     ],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

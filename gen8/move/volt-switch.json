@@ -60,7 +60,13 @@
         "legends-arceus": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
     },
     "stat_changes": [],
-    "machine": "tm80",
+    "machine": {
+        "sword-shield": "tm80",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": "tm43",
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

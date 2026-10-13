@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user kisses the foe with a sweet, angelic cuteness that causes confusion."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "ailment",

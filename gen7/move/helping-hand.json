@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user assists an ally by boosting the power of that ally’s attack."
     },
     "stat_changes": [],
-    "machine": "tm03",
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": "tm03"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

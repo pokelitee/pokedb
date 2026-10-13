@@ -43,7 +43,11 @@
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": null,
         "category": null,

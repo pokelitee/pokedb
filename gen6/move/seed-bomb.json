@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user slams a barrage of hard-shelled seeds down on the target from above."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

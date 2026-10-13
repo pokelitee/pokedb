@@ -39,7 +39,10 @@
         "black-2-white-2": "The user blows a cold breath on the target. This attack always results in a critical hit."
     },
     "stat_changes": [],
-    "machine": "tm79",
+    "machine": {
+        "black-white": "tm79",
+        "black-2-white-2": "tm79"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

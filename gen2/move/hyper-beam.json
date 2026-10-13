@@ -39,7 +39,10 @@
         "crystal": "1st turn: Attack 2nd turn: Rest"
     },
     "stat_changes": [],
-    "machine": "tm15",
+    "machine": {
+        "gold-silver": "tm15",
+        "crystal": "tm15"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

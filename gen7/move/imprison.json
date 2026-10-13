@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "If opposing Pokémon know any move also known by the user, they are prevented from using it."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

@@ -2,7 +2,14 @@
     "id": 2050,
     "name": "steel-bottle-r",
     "source_url": "https://pokeapi.co/api/v2/item/2050/",
-    "cost": 1500,
+    "prices": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],

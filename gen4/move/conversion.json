@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user changes its type to become the same type as one of its moves."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

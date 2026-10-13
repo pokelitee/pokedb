@@ -39,7 +39,10 @@
         "black-2-white-2": "One turn after this move is used, the target’s HP is restored by half the user’s maximum HP."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user ensnares the target with thin, gooey silk so it can’t flee from battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

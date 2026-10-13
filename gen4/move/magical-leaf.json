@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user scatters curious leaves that chase the foe. This attack will not miss."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

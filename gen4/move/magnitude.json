@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user looses a ground-shaking quake affecting everyone in battle. Its power varies."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

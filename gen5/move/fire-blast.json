@@ -39,7 +39,10 @@
         "black-2-white-2": "The target is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": "tm38",
+    "machine": {
+        "black-white": "tm38",
+        "black-2-white-2": "tm38"
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user violently whirls its vines or tentacles to harshly lash the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

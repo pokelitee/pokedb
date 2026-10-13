@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "Star-shaped rays are shot at the opposing Pokémon. This attack never misses."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user swings its body around violently to inflict damage on everything in its vicinity."
     },
     "stat_changes": [],
-    "machine": "tm59",
+    "machine": {
+        "sun-moon": "tm59",
+        "ultra-sun-ultra-moon": "tm59",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

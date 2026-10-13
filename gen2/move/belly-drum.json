@@ -39,7 +39,10 @@
         "crystal": "Reduces own HP to maximize ATTACK."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

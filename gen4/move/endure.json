@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession."
     },
     "stat_changes": [],
-    "machine": "tm58",
+    "machine": {
+        "diamond-pearl": "tm58",
+        "platinum": "tm58",
+        "heartgold-soulsilver": "tm58"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

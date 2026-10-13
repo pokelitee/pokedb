@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A two-turn attack. Blades of wind hit the foe on the second turn. It has a high critical-hit ratio."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

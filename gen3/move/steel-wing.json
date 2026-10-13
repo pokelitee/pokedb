@@ -66,7 +66,13 @@
             "stat": "defense"
         }
     ],
-    "machine": "tm47",
+    "machine": {
+        "ruby-sapphire": "tm47",
+        "emerald": "tm47",
+        "firered-leafgreen": "tm47",
+        "colosseum": "tm47",
+        "xd": "tm47"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

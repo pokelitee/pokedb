@@ -66,7 +66,14 @@
         "scarlet-violet": "The user stabs the target with a sharp horn. This attack never misses."
     },
     "stat_changes": [],
-    "machine": "tm53",
+    "machine": {
+        "scarlet-violet": "tm53",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm53",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

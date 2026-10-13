@@ -59,7 +59,13 @@
         "sword-shield": "The user snares the target in a snap trap for four to five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

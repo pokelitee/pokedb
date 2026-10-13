@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "A column of grass hits the target. When used with its water equivalent, its damage increases and a vast swamp appears."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

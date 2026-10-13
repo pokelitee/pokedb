@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A consecutive three- kick attack that becomes more powerful with each successive hit."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -52,7 +52,11 @@
             "stat": "special-attack"
         }
     ],
-    "machine": "tm78",
+    "machine": {
+        "diamond-pearl": "tm78",
+        "platinum": "tm78",
+        "heartgold-soulsilver": "tm78"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

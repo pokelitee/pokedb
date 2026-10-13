@@ -39,7 +39,10 @@
         "black-2-white-2": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types."
     },
     "stat_changes": [],
-    "machine": "tm37",
+    "machine": {
+        "black-white": "tm37",
+        "black-2-white-2": "tm37"
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

@@ -39,32 +39,39 @@
     "target": "user",
     "generation": "generation-viii",
     "effect_chance": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": 100,
+        "the-teal-mask": 100,
+        "the-indigo-disk": 100,
+        "legends-za": 100,
+        "mega-dimension": 100,
+        "champions": 100
     },
     "effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+        "the-teal-mask": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+        "the-indigo-disk": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+        "legends-za": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+        "mega-dimension": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+        "champions": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages."
     },
     "short_effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+        "the-teal-mask": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+        "the-indigo-disk": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+        "legends-za": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+        "mega-dimension": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+        "champions": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages."
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

@@ -44,7 +44,10 @@
             "stat": "special-defense"
         }
     ],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

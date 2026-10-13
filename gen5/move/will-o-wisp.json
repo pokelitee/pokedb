@@ -39,7 +39,10 @@
         "black-2-white-2": "The user shoots a sinister, bluish-white flame at the target to inflict a burn."
     },
     "stat_changes": [],
-    "machine": "tm61",
+    "machine": {
+        "black-white": "tm61",
+        "black-2-white-2": "tm61"
+    },
     "metadata": {
         "ailment": "burn",
         "category": "ailment",

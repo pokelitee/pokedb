@@ -44,7 +44,10 @@
             "stat": "defense"
         }
     ],
-    "machine": "tm94",
+    "machine": {
+        "x-y": "tm94",
+        "omega-ruby-alpha-sapphire": "hm06"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

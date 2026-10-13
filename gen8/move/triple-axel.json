@@ -35,32 +35,38 @@
     "target": "selected-pokemon",
     "generation": "generation-viii",
     "effect_chance": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": 100,
+        "the-isle-of-armor": 100,
+        "the-crown-tundra": 100,
+        "brilliant-diamond-shining-pearl": 100,
+        "legends-arceus": 100
     },
     "effect": {
-        "sword-shield": "Inflicts regular damage.",
-        "the-isle-of-armor": "Inflicts regular damage.",
-        "the-crown-tundra": "Inflicts regular damage.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage.",
-        "legends-arceus": "Inflicts regular damage."
+        "sword-shield": "Inflicts regular damage. Hits three times in the same turn. The second hit has double power, and the third hit has triple power. Each hit has a separate accuracy check, and this move stops if a hit misses. Skill Link does not apply.",
+        "the-isle-of-armor": "Inflicts regular damage. Hits three times in the same turn. The second hit has double power, and the third hit has triple power. Each hit has a separate accuracy check, and this move stops if a hit misses. Skill Link does not apply.",
+        "the-crown-tundra": "Inflicts regular damage. Hits three times in the same turn. The second hit has double power, and the third hit has triple power. Each hit has a separate accuracy check, and this move stops if a hit misses. Skill Link does not apply.",
+        "brilliant-diamond-shining-pearl": "Inflicts regular damage. Hits three times in the same turn. The second hit has double power, and the third hit has triple power. Each hit has a separate accuracy check, and this move stops if a hit misses. Skill Link does not apply.",
+        "legends-arceus": "Inflicts regular damage. Hits three times in the same turn. The second hit has double power, and the third hit has triple power. Each hit has a separate accuracy check, and this move stops if a hit misses. Skill Link does not apply."
     },
     "short_effect": {
-        "sword-shield": "Inflicts regular damage with no additional effect.",
-        "the-isle-of-armor": "Inflicts regular damage with no additional effect.",
-        "the-crown-tundra": "Inflicts regular damage with no additional effect.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage with no additional effect.",
-        "legends-arceus": "Inflicts regular damage with no additional effect."
+        "sword-shield": "Hits three times, increasing power by 100% with each successful hit.",
+        "the-isle-of-armor": "Hits three times, increasing power by 100% with each successful hit.",
+        "the-crown-tundra": "Hits three times, increasing power by 100% with each successful hit.",
+        "brilliant-diamond-shining-pearl": "Hits three times, increasing power by 100% with each successful hit.",
+        "legends-arceus": "Hits three times, increasing power by 100% with each successful hit."
     },
     "flavor_text": {
         "sword-shield": "A consecutive three-kick attack that becomes more powerful with each successful hit.",
         "legends-arceus": "A consecutive three-kick attack that becomes more powerful with each successful hit."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

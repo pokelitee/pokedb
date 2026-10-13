@@ -52,7 +52,11 @@
             "stat": "evasion"
         }
     ],
-    "machine": "hm05",
+    "machine": {
+        "diamond-pearl": "hm05",
+        "platinum": "hm05",
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

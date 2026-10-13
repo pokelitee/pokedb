@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user grabs the foe and recklessly dives for the ground. It also hurts the user slightly."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

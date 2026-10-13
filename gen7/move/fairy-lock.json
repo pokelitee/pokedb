@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

@@ -66,7 +66,14 @@
         "scarlet-violet": "The user attacks by slashing the target with a sharp claw made from shadows. This move has a heightened chance of landing a critical hit."
     },
     "stat_changes": [],
-    "machine": "tm61",
+    "machine": {
+        "scarlet-violet": "tm61",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": "tm61",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

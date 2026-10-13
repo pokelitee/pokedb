@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user throws a stone or similar projectile to attack an opponent. A flying Pokémon will fall to the ground when it’s hit."
     },
     "stat_changes": [],
-    "machine": "tm23",
+    "machine": {
+        "x-y": "tm23",
+        "omega-ruby-alpha-sapphire": "tm23"
+    },
     "metadata": {
         "ailment": "unknown",
         "category": "damage",

@@ -35,8 +35,8 @@
         "crystal": "Has a chance to lower the target’s accuracy by one stage."
     },
     "flavor_text": {
-        "crystal": "An attack that may reduce accuracy.",
-        "gold-silver": "An attack that may reduce accuracy."
+        "gold-silver": "An attack that may reduce accuracy.",
+        "crystal": "An attack that may reduce accuracy."
     },
     "stat_changes": [
         {
@@ -44,7 +44,10 @@
             "stat": "accuracy"
         }
     ],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

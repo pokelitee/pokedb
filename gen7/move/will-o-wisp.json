@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user shoots a sinister flame at the target to inflict a burn."
     },
     "stat_changes": [],
-    "machine": "tm11",
+    "machine": {
+        "sun-moon": "tm61",
+        "ultra-sun-ultra-moon": "tm61",
+        "lets-go-pikachu-lets-go-eevee": "tm11"
+    },
     "metadata": {
         "ailment": "burn",
         "category": "ailment",

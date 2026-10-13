@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch."
     },
     "stat_changes": [],
-    "machine": "tm20",
+    "machine": {
+        "sun-moon": "tm97",
+        "ultra-sun-ultra-moon": "tm97",
+        "lets-go-pikachu-lets-go-eevee": "tm20"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

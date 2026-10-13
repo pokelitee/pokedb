@@ -39,7 +39,10 @@
         "crystal": "Cuts the foe's HP by 1/2."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user attacks everything around it by swamping its surroundings with a giant wave."
     },
     "stat_changes": [],
-    "machine": "tm47",
+    "machine": {
+        "sun-moon": "tm94",
+        "ultra-sun-ultra-moon": "tm94",
+        "lets-go-pikachu-lets-go-eevee": "tm47"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

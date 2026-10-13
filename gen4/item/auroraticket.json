@@ -2,7 +2,11 @@
     "id": 557,
     "name": "auroraticket",
     "source_url": "https://pokeapi.co/api/v2/item/557/",
-    "cost": 0,
+    "prices": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -12,7 +16,6 @@
     "flavor_text": {},
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/auroraticket.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

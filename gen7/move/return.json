@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "This full-power attack grows more powerful the more the user likes its Trainer."
     },
     "stat_changes": [],
-    "machine": "tm27",
+    "machine": {
+        "sun-moon": "tm27",
+        "ultra-sun-ultra-moon": "tm27",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

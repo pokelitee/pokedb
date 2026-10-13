@@ -66,7 +66,14 @@
         "scarlet-violet": "The user strikes everything around it by letting loose a flare of electricity. This may also leave those hit by the attack with paralysis."
     },
     "stat_changes": [],
-    "machine": "tm39",
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": "tm39",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user cloaks itself in fire and charges at the foe. The user sustains serious damage, too."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

@@ -52,7 +52,11 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm39",
+    "machine": {
+        "sun-moon": "tm39",
+        "ultra-sun-ultra-moon": "tm39",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

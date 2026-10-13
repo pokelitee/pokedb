@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn."
     },
     "stat_changes": [],
-    "machine": "tm72",
+    "machine": {
+        "diamond-pearl": "tm72",
+        "platinum": "tm72",
+        "heartgold-soulsilver": "tm72"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

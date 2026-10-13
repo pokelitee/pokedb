@@ -39,7 +39,10 @@
         "black-2-white-2": "On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

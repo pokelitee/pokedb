@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user restores its own HP. The amount of HP regained varies with the weather."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "heal",

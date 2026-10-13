@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user strikes at the foe with a hard bone two to five times in a row."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

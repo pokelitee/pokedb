@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user torments and enrages the foe, making it incapable of using the same move twice in a row."
     },
     "stat_changes": [],
-    "machine": "tm41",
+    "machine": {
+        "diamond-pearl": "tm41",
+        "platinum": "tm41",
+        "heartgold-soulsilver": "tm41"
+    },
     "metadata": {
         "ailment": "torment",
         "category": "ailment",

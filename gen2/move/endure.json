@@ -39,7 +39,10 @@
         "crystal": "Always leaves at least 1HP."
     },
     "stat_changes": [],
-    "machine": "tm20",
+    "machine": {
+        "gold-silver": "tm20",
+        "crystal": "tm20"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

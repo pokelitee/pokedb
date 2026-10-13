@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "While it is asleep, the user randomly uses one of the moves it knows."
     },
     "stat_changes": [],
-    "machine": "tm88",
+    "machine": {
+        "sun-moon": "tm88",
+        "ultra-sun-ultra-moon": "tm88",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

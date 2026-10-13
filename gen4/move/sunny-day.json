@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user intensifies the sun for five turns, powering up Fire-type moves."
     },
     "stat_changes": [],
-    "machine": "tm11",
+    "machine": {
+        "diamond-pearl": "tm11",
+        "platinum": "tm11",
+        "heartgold-soulsilver": "tm11"
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

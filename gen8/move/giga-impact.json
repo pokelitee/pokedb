@@ -60,7 +60,13 @@
         "legends-arceus": "The user charges at the target using every bit of its power."
     },
     "stat_changes": [],
-    "machine": "tm09",
+    "machine": {
+        "sword-shield": "tm09",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

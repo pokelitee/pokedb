@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The target is slugged with a punch thrown at maximum power. This can also be used to move heavy boulders."
     },
     "stat_changes": [],
-    "machine": "hm04",
+    "machine": {
+        "x-y": "hm04",
+        "omega-ruby-alpha-sapphire": "hm04"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

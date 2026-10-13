@@ -66,7 +66,14 @@
         "scarlet-violet": "The user attacks the target with a pulsing blast of water. This may also confuse the target."
     },
     "stat_changes": [],
-    "machine": "tm11",
+    "machine": {
+        "scarlet-violet": "tm11",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": "tm41",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "damage-ailment",

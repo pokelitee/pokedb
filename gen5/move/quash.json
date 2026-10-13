@@ -39,7 +39,10 @@
         "black-2-white-2": "The user suppresses the target and makes its move go last."
     },
     "stat_changes": [],
-    "machine": "tm60",
+    "machine": {
+        "black-white": "tm60",
+        "black-2-white-2": "tm60"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

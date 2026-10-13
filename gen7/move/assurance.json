@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "If the target has already taken some damage in the same turn, this attack’s power is doubled."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

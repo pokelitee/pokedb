@@ -39,7 +39,10 @@
         "black-2-white-2": "The user lays roots that restore its HP on every turn. Because it is rooted, it can’t switch out."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "ingrain",
         "category": "ailment",

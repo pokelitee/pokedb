@@ -27,9 +27,9 @@
     "target": "user-and-allies",
     "generation": "generation-iii",
     "effect_chance": {
-        "sun-moon": 7,
-        "ultra-sun-ultra-moon": 7,
-        "lets-go-pikachu-lets-go-eevee": 7
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
     },
     "effect": {
         "sun-moon": "Raises the user’s Attack by one stage.",
@@ -52,7 +52,11 @@
             "stat": "attack"
         }
     ],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

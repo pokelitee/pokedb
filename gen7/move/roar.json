@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The target is scared off, and a different Pokémon is dragged out."
     },
     "stat_changes": [],
-    "machine": "tm05",
+    "machine": {
+        "sun-moon": "tm05",
+        "ultra-sun-ultra-moon": "tm05",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "force-switch",

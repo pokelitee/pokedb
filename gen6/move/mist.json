@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user cloaks itself and its allies in a white mist that prevents any of their stats from being lowered for five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

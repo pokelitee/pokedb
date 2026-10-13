@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "While it is asleep, the user randomly uses one of the moves it knows."
     },
     "stat_changes": [],
-    "machine": "tm88",
+    "machine": {
+        "x-y": "tm88",
+        "omega-ruby-alpha-sapphire": "tm88"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

@@ -66,7 +66,14 @@
         "scarlet-violet": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen."
     },
     "stat_changes": [],
-    "machine": "tm135",
+    "machine": {
+        "scarlet-violet": "tm135",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm135",
+        "legends-za": "tm13",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

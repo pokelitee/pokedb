@@ -52,7 +52,11 @@
             "stat": "attack"
         }
     ],
-    "machine": "tm87",
+    "machine": {
+        "sun-moon": "tm87",
+        "ultra-sun-ultra-moon": "tm87",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "swagger",

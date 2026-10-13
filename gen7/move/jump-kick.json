@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

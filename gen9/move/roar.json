@@ -66,7 +66,14 @@
         "scarlet-violet": "The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon."
     },
     "stat_changes": [],
-    "machine": "tm172",
+    "machine": {
+        "scarlet-violet": "tm172",
+        "the-teal-mask": "tm172",
+        "the-indigo-disk": null,
+        "legends-za": "tm05",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "force-switch",

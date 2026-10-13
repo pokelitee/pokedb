@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

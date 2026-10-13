@@ -41,13 +41,30 @@
     "sprites": {
         "versions": {
             "icons": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/774.png",
-                "front_female": null
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/774.png"
             },
             "ultra-sun-ultra-moon": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/774.png",
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/back/shiny/774.gif",
+                "back_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/774.gif",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/back/774.gif",
                 "front_female": null,
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/774.png",
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/774.gif",
+                "back_shiny_female": null,
+                "front_shiny_female": null
+            },
+            "lets-go-pikachu-lets-go-eevee": {
+                "icons": {
+                    "front_default": null
+                },
+                "back_shiny": null,
+                "back_female": null,
+                "front_shiny": null,
+                "back_default": null,
+                "front_female": null,
+                "front_default": null,
+                "back_shiny_female": null,
                 "front_shiny_female": null
             }
         }
@@ -591,7 +608,7 @@
         },
         {
             "name": "minior-blue-meteor",
-            "category": "transformation"
+            "category": "variant"
         },
         {
             "name": "minior-green",
@@ -599,7 +616,7 @@
         },
         {
             "name": "minior-green-meteor",
-            "category": "transformation"
+            "category": "variant"
         },
         {
             "name": "minior-indigo",
@@ -607,7 +624,7 @@
         },
         {
             "name": "minior-indigo-meteor",
-            "category": "transformation"
+            "category": "variant"
         },
         {
             "name": "minior-orange",
@@ -615,7 +632,7 @@
         },
         {
             "name": "minior-orange-meteor",
-            "category": "transformation"
+            "category": "variant"
         },
         {
             "name": "minior-red",
@@ -631,7 +648,7 @@
         },
         {
             "name": "minior-violet-meteor",
-            "category": "transformation"
+            "category": "variant"
         },
         {
             "name": "minior-yellow",
@@ -639,7 +656,7 @@
         },
         {
             "name": "minior-yellow-meteor",
-            "category": "transformation"
+            "category": "variant"
         }
     ]
 }

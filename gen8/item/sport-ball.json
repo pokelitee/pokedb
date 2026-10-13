@@ -2,7 +2,18 @@
     "id": 457,
     "name": "sport-ball",
     "source_url": "https://pokeapi.co/api/v2/item/457/",
-    "cost": 300,
+    "prices": {
+        "sword-shield": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 150
+            }
+        },
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -14,7 +25,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sport-ball.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

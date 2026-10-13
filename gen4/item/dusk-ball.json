@@ -2,7 +2,26 @@
     "id": 13,
     "name": "dusk-ball",
     "source_url": "https://pokeapi.co/api/v2/item/13/",
-    "cost": 1000,
+    "prices": {
+        "diamond-pearl": {
+            "poke-dollar": {
+                "purchase_price": 1000,
+                "sell_price": 500
+            }
+        },
+        "platinum": {
+            "poke-dollar": {
+                "purchase_price": 1000,
+                "sell_price": 500
+            }
+        },
+        "heartgold-soulsilver": {
+            "poke-dollar": {
+                "purchase_price": 1000,
+                "sell_price": 500
+            }
+        }
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [
@@ -21,7 +40,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dusk-ball.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

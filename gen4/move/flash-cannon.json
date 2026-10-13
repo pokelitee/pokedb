@@ -52,7 +52,11 @@
             "stat": "special-defense"
         }
     ],
-    "machine": "tm91",
+    "machine": {
+        "diamond-pearl": "tm91",
+        "platinum": "tm91",
+        "heartgold-soulsilver": "tm91"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

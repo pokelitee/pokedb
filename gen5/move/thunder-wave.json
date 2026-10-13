@@ -39,7 +39,10 @@
         "black-2-white-2": "A weak electric charge is launched at the target. It causes paralysis if it hits."
     },
     "stat_changes": [],
-    "machine": "tm73",
+    "machine": {
+        "black-white": "tm73",
+        "black-2-white-2": "tm73"
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "ailment",

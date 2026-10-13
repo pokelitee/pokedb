@@ -35,31 +35,37 @@
     "target": "selected-pokemon",
     "generation": "generation-viii",
     "effect_chance": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": 100,
+        "the-isle-of-armor": 100,
+        "the-crown-tundra": 100,
+        "brilliant-diamond-shining-pearl": 100,
+        "legends-arceus": 100
     },
     "effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "This move deals twice the damage if the target is Dynamaxed.",
+        "the-isle-of-armor": "This move deals twice the damage if the target is Dynamaxed.",
+        "the-crown-tundra": "This move deals twice the damage if the target is Dynamaxed.",
+        "brilliant-diamond-shining-pearl": "This move deals twice the damage if the target is Dynamaxed.",
+        "legends-arceus": "This move deals twice the damage if the target is Dynamaxed."
     },
     "short_effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Deals twice the damage if the target is Dynamaxed.",
+        "the-isle-of-armor": "Deals twice the damage if the target is Dynamaxed.",
+        "the-crown-tundra": "Deals twice the damage if the target is Dynamaxed.",
+        "brilliant-diamond-shining-pearl": "Deals twice the damage if the target is Dynamaxed.",
+        "legends-arceus": "Deals twice the damage if the target is Dynamaxed."
     },
     "flavor_text": {
         "sword-shield": "The user becomes a gigantic shield and slams into the target. This move deals twice the damage if the target is Dynamaxed."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

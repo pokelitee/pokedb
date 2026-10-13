@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user lands and rests its body. It restores the user’s HP by up to half of its max HP."
     },
     "stat_changes": [],
-    "machine": "tm51",
+    "machine": {
+        "diamond-pearl": "tm51",
+        "platinum": "tm51",
+        "heartgold-soulsilver": "tm51"
+    },
     "metadata": {
         "ailment": "none",
         "category": "heal",

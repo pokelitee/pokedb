@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "A full-power attack that grows more powerful the less the user likes its Trainer."
     },
     "stat_changes": [],
-    "machine": "tm21",
+    "machine": {
+        "x-y": "tm21",
+        "omega-ruby-alpha-sapphire": "tm21"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

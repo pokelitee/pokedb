@@ -48,7 +48,10 @@
             "stat": "special-defense"
         }
     ],
-    "machine": "tm04",
+    "machine": {
+        "black-white": "tm04",
+        "black-2-white-2": "tm04"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

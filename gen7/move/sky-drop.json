@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky."
     },
     "stat_changes": [],
-    "machine": "tm58",
+    "machine": {
+        "sun-moon": "tm58",
+        "ultra-sun-ultra-moon": "tm58",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -35,31 +35,37 @@
     "target": "selected-pokemon-me-first",
     "generation": "generation-viii",
     "effect_chance": {
+        "sword-shield": 100,
+        "the-isle-of-armor": 100,
+        "the-crown-tundra": 100,
+        "brilliant-diamond-shining-pearl": 100,
+        "legends-arceus": 100
+    },
+    "effect": {
+        "sword-shield": "Changes the weather to sunshine for five turns, during which Fire moves inflict 50% extra damage, and Water moves inflict half damage. If the user is holding Heat Rock, this effect lasts for eight turns. Pokémon cannot become frozen. Thunder has 50% accuracy. Solar Beam skips its charge turn. Moonlight, Morning Sun, and Synthesis heal 2/3 of the user’s max HP. Pokémon with Chlorophyll have doubled original Speed. Pokémon with Forecast become Fire. Pokémon with Leaf Guard are not affected by major status effects. Pokémon with Flower Gift change form; every Pokémon on their side of the field have their original Attack and Special Attack increased by 50%. Pokémon with Dry Skin lose 1/8 max HP at the end of each turn. Pokémon with Solar Power have their original Special Attack raised by 50% but lose 1/8 their max HP at the end of each turn.",
+        "the-isle-of-armor": "Changes the weather to sunshine for five turns, during which Fire moves inflict 50% extra damage, and Water moves inflict half damage. If the user is holding Heat Rock, this effect lasts for eight turns. Pokémon cannot become frozen. Thunder has 50% accuracy. Solar Beam skips its charge turn. Moonlight, Morning Sun, and Synthesis heal 2/3 of the user’s max HP. Pokémon with Chlorophyll have doubled original Speed. Pokémon with Forecast become Fire. Pokémon with Leaf Guard are not affected by major status effects. Pokémon with Flower Gift change form; every Pokémon on their side of the field have their original Attack and Special Attack increased by 50%. Pokémon with Dry Skin lose 1/8 max HP at the end of each turn. Pokémon with Solar Power have their original Special Attack raised by 50% but lose 1/8 their max HP at the end of each turn.",
+        "the-crown-tundra": "Changes the weather to sunshine for five turns, during which Fire moves inflict 50% extra damage, and Water moves inflict half damage. If the user is holding Heat Rock, this effect lasts for eight turns. Pokémon cannot become frozen. Thunder has 50% accuracy. Solar Beam skips its charge turn. Moonlight, Morning Sun, and Synthesis heal 2/3 of the user’s max HP. Pokémon with Chlorophyll have doubled original Speed. Pokémon with Forecast become Fire. Pokémon with Leaf Guard are not affected by major status effects. Pokémon with Flower Gift change form; every Pokémon on their side of the field have their original Attack and Special Attack increased by 50%. Pokémon with Dry Skin lose 1/8 max HP at the end of each turn. Pokémon with Solar Power have their original Special Attack raised by 50% but lose 1/8 their max HP at the end of each turn.",
+        "brilliant-diamond-shining-pearl": "Changes the weather to sunshine for five turns, during which Fire moves inflict 50% extra damage, and Water moves inflict half damage. If the user is holding Heat Rock, this effect lasts for eight turns. Pokémon cannot become frozen. Thunder has 50% accuracy. Solar Beam skips its charge turn. Moonlight, Morning Sun, and Synthesis heal 2/3 of the user’s max HP. Pokémon with Chlorophyll have doubled original Speed. Pokémon with Forecast become Fire. Pokémon with Leaf Guard are not affected by major status effects. Pokémon with Flower Gift change form; every Pokémon on their side of the field have their original Attack and Special Attack increased by 50%. Pokémon with Dry Skin lose 1/8 max HP at the end of each turn. Pokémon with Solar Power have their original Special Attack raised by 50% but lose 1/8 their max HP at the end of each turn.",
+        "legends-arceus": "Changes the weather to sunshine for five turns, during which Fire moves inflict 50% extra damage, and Water moves inflict half damage. If the user is holding Heat Rock, this effect lasts for eight turns. Pokémon cannot become frozen. Thunder has 50% accuracy. Solar Beam skips its charge turn. Moonlight, Morning Sun, and Synthesis heal 2/3 of the user’s max HP. Pokémon with Chlorophyll have doubled original Speed. Pokémon with Forecast become Fire. Pokémon with Leaf Guard are not affected by major status effects. Pokémon with Flower Gift change form; every Pokémon on their side of the field have their original Attack and Special Attack increased by 50%. Pokémon with Dry Skin lose 1/8 max HP at the end of each turn. Pokémon with Solar Power have their original Special Attack raised by 50% but lose 1/8 their max HP at the end of each turn."
+    },
+    "short_effect": {
+        "sword-shield": "Changes the weather to sunny for five turns.",
+        "the-isle-of-armor": "Changes the weather to sunny for five turns.",
+        "the-crown-tundra": "Changes the weather to sunny for five turns.",
+        "brilliant-diamond-shining-pearl": "Changes the weather to sunny for five turns.",
+        "legends-arceus": "Changes the weather to sunny for five turns."
+    },
+    "flavor_text": {
+        "sword-shield": "This is a Fire-type attack Dynamax Pokémon use. The user intensifies the sun for five turns."
+    },
+    "stat_changes": [],
+    "machine": {
         "sword-shield": null,
         "the-isle-of-armor": null,
         "the-crown-tundra": null,
         "brilliant-diamond-shining-pearl": null,
         "legends-arceus": null
     },
-    "effect": {
-        "sword-shield": "Inflicts regular damage.",
-        "the-isle-of-armor": "Inflicts regular damage.",
-        "the-crown-tundra": "Inflicts regular damage.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage.",
-        "legends-arceus": "Inflicts regular damage."
-    },
-    "short_effect": {
-        "sword-shield": "Inflicts regular damage with no additional effect.",
-        "the-isle-of-armor": "Inflicts regular damage with no additional effect.",
-        "the-crown-tundra": "Inflicts regular damage with no additional effect.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage with no additional effect.",
-        "legends-arceus": "Inflicts regular damage with no additional effect."
-    },
-    "flavor_text": {
-        "sword-shield": "This is a Fire-type attack Dynamax Pokémon use. The user intensifies the sun for five turns."
-    },
-    "stat_changes": [],
-    "machine": null,
     "metadata": {
         "ailment": "none",
         "category": "damage",

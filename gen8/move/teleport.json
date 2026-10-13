@@ -60,7 +60,13 @@
         "legends-arceus": "The user switches places with a party Pokémon in waiting, if there is any able to battle. If a wild Pokémon uses this move, it flees."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

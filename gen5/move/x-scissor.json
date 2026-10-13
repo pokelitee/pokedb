@@ -39,7 +39,10 @@
         "black-2-white-2": "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors."
     },
     "stat_changes": [],
-    "machine": "tm81",
+    "machine": {
+        "black-white": "tm81",
+        "black-2-white-2": "tm81"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

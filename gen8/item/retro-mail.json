@@ -2,7 +2,13 @@
     "id": 526,
     "name": "retro-mail",
     "source_url": "https://pokeapi.co/api/v2/item/526/",
-    "cost": 0,
+    "prices": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -12,7 +18,6 @@
     "flavor_text": {},
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/retro-mail.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

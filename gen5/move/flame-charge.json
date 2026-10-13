@@ -44,7 +44,10 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm43",
+    "machine": {
+        "black-white": "tm43",
+        "black-2-white-2": "tm43"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

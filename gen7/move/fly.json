@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user flies up into the sky and then strikes its target on the next turn."
     },
     "stat_changes": [],
-    "machine": "tm14",
+    "machine": {
+        "sun-moon": "tm76",
+        "ultra-sun-ultra-moon": "tm76",
+        "lets-go-pikachu-lets-go-eevee": "tm14"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "Drawing power from the Eternal Flower, the user fires a powerful beam of light. This also damages the user quite a lot."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

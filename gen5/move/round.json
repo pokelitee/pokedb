@@ -39,7 +39,10 @@
         "black-2-white-2": "The user attacks the target with a song. Others can join in the Round and make the attack do greater damage."
     },
     "stat_changes": [],
-    "machine": "tm48",
+    "machine": {
+        "black-white": "tm48",
+        "black-2-white-2": "tm48"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

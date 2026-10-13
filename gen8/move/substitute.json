@@ -60,7 +60,13 @@
         "legends-arceus": "The user creates a substitute for itself using some of its HP. The substitute serves as the user's decoy."
     },
     "stat_changes": [],
-    "machine": "tr20",
+    "machine": {
+        "sword-shield": "tr20",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

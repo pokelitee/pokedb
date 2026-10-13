@@ -39,7 +39,10 @@
         "black-2-white-2": "The user blocks the target’s way with arms spread wide to prevent escape."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

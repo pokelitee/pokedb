@@ -60,7 +60,13 @@
         "legends-arceus": "The user shrouds itself in electricity and smashes into its target. This also damages the user and may leave the target with paralysis."
     },
     "stat_changes": [],
-    "machine": "tr86",
+    "machine": {
+        "sword-shield": "tr86",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

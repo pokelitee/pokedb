@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user blows up to inflict damage on all Pokémon in battle. The user faints upon using this move."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

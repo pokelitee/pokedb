@@ -60,7 +60,13 @@
         "legends-arceus": "The user attacks by striking the target with its hard tail. It hits the target two to five times in a row."
     },
     "stat_changes": [],
-    "machine": "tm84",
+    "machine": {
+        "sword-shield": "tm84",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

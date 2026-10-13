@@ -2,7 +2,13 @@
     "id": 186,
     "name": "micle-berry",
     "source_url": "https://pokeapi.co/api/v2/item/186/",
-    "cost": 80,
+    "prices": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "fling_power": 10,
     "fling_effect": "berry-effect",
     "attributes": [
@@ -16,7 +22,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/micle-berry.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen."
     },
     "stat_changes": [],
-    "machine": "tm13",
+    "machine": {
+        "sun-moon": "tm13",
+        "ultra-sun-ultra-moon": "tm13",
+        "lets-go-pikachu-lets-go-eevee": "tm55"
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The target is punched with an icy fist. This may also leave the target frozen."
     },
     "stat_changes": [],
-    "machine": "tm35",
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": "tm35"
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

@@ -52,7 +52,11 @@
             "stat": "special-attack"
         }
     ],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "swagger",

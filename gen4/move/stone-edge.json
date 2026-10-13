@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user stabs the foe with a sharpened stone. It has a high critical-hit ratio."
     },
     "stat_changes": [],
-    "machine": "tm71",
+    "machine": {
+        "diamond-pearl": "tm71",
+        "platinum": "tm71",
+        "heartgold-soulsilver": "tm71"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

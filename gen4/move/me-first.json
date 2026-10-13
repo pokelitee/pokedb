@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user tries to cut ahead of the foe to steal and use the foe’s intended move with greater power."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

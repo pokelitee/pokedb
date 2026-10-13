@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "A long body or vines are used to wrap and squeeze the target for four to five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

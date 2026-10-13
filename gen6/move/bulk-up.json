@@ -48,7 +48,10 @@
             "stat": "defense"
         }
     ],
-    "machine": "tm08",
+    "machine": {
+        "x-y": "tm08",
+        "omega-ruby-alpha-sapphire": "tm08"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

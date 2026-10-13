@@ -66,7 +66,14 @@
         "scarlet-violet": "This relentless attack does massive damage to a target affected by status conditions."
     },
     "stat_changes": [],
-    "machine": "tm29",
+    "machine": {
+        "scarlet-violet": "tm29",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm29",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

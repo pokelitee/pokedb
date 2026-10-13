@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user attacks the target with a song. Others can join in the Round and make the attack do greater damage."
     },
     "stat_changes": [],
-    "machine": "tm48",
+    "machine": {
+        "x-y": "tm48",
+        "omega-ruby-alpha-sapphire": "tm48"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

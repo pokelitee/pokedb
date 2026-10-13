@@ -61,7 +61,13 @@
         "firered-leafgreen": "A hailstorm lasting five turns damages all POKéMON except the ICE-type."
     },
     "stat_changes": [],
-    "machine": "tm07",
+    "machine": {
+        "ruby-sapphire": "tm07",
+        "emerald": "tm07",
+        "firered-leafgreen": "tm07",
+        "colosseum": "tm07",
+        "xd": "tm07"
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

@@ -35,32 +35,38 @@
     "target": "all-pokemon",
     "generation": "generation-viii",
     "effect_chance": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": 100,
+        "the-isle-of-armor": 100,
+        "the-crown-tundra": 100,
+        "brilliant-diamond-shining-pearl": 100,
+        "legends-arceus": 100
     },
     "effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "All Pokemon on the field consume their held berries. This effect is not prevented by Substitute, Embargo, Magic Room, Klutz, or Unnerve. Fails if no active Pokemon is holding a berry.",
+        "the-isle-of-armor": "All Pokemon on the field consume their held berries. This effect is not prevented by Substitute, Embargo, Magic Room, Klutz, or Unnerve. Fails if no active Pokemon is holding a berry.",
+        "the-crown-tundra": "All Pokemon on the field consume their held berries. This effect is not prevented by Substitute, Embargo, Magic Room, Klutz, or Unnerve. Fails if no active Pokemon is holding a berry.",
+        "brilliant-diamond-shining-pearl": "All Pokemon on the field consume their held berries. This effect is not prevented by Substitute, Embargo, Magic Room, Klutz, or Unnerve. Fails if no active Pokemon is holding a berry.",
+        "legends-arceus": "All Pokemon on the field consume their held berries. This effect is not prevented by Substitute, Embargo, Magic Room, Klutz, or Unnerve. Fails if no active Pokemon is holding a berry."
     },
     "short_effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "All Pokemon on the field consume their held berries.",
+        "the-isle-of-armor": "All Pokemon on the field consume their held berries.",
+        "the-crown-tundra": "All Pokemon on the field consume their held berries.",
+        "brilliant-diamond-shining-pearl": "All Pokemon on the field consume their held berries.",
+        "legends-arceus": "All Pokemon on the field consume their held berries."
     },
     "flavor_text": {
         "sword-shield": "The user has teatime with all the Pokémon in the battle. Each Pokémon eats its held Berry.",
         "legends-arceus": "The user has teatime with all the Pokémon in the battle. Each Pokémon eats its held Berry."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

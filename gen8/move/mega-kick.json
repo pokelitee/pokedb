@@ -60,7 +60,13 @@
         "legends-arceus": "The target is attacked by a kick launched with muscle-packed power."
     },
     "stat_changes": [],
-    "machine": "tm01",
+    "machine": {
+        "sword-shield": "tm01",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

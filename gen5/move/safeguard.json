@@ -39,7 +39,10 @@
         "black-2-white-2": "The user creates a protective field that prevents status problems for five turns."
     },
     "stat_changes": [],
-    "machine": "tm20",
+    "machine": {
+        "black-white": "tm20",
+        "black-2-white-2": "tm20"
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

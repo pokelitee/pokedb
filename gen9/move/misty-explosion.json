@@ -39,34 +39,41 @@
     "target": "all-other-pokemon",
     "generation": "generation-viii",
     "effect_chance": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": 100,
+        "the-teal-mask": 100,
+        "the-indigo-disk": 100,
+        "legends-za": 100,
+        "mega-dimension": 100,
+        "champions": 100
     },
     "effect": {
-        "scarlet-violet": "Inflicts regular damage.",
-        "the-teal-mask": "Inflicts regular damage.",
-        "the-indigo-disk": "Inflicts regular damage.",
-        "legends-za": "Inflicts regular damage.",
-        "mega-dimension": "Inflicts regular damage.",
-        "champions": "Inflicts regular damage."
+        "scarlet-violet": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%. Fails if any active Pokemon has the ability Damp.",
+        "the-teal-mask": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%. Fails if any active Pokemon has the ability Damp.",
+        "the-indigo-disk": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%. Fails if any active Pokemon has the ability Damp.",
+        "legends-za": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%. Fails if any active Pokemon has the ability Damp.",
+        "mega-dimension": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%. Fails if any active Pokemon has the ability Damp.",
+        "champions": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%. Fails if any active Pokemon has the ability Damp."
     },
     "short_effect": {
-        "scarlet-violet": "Inflicts regular damage with no additional effect.",
-        "the-teal-mask": "Inflicts regular damage with no additional effect.",
-        "the-indigo-disk": "Inflicts regular damage with no additional effect.",
-        "legends-za": "Inflicts regular damage with no additional effect.",
-        "mega-dimension": "Inflicts regular damage with no additional effect.",
-        "champions": "Inflicts regular damage with no additional effect."
+        "scarlet-violet": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%.",
+        "the-teal-mask": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%.",
+        "the-indigo-disk": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%.",
+        "legends-za": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%.",
+        "mega-dimension": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%.",
+        "champions": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%."
     },
     "flavor_text": {
         "scarlet-violet": "The user attacks everything around it and faints upon using this move. This move's power is boosted on Misty Terrain."
     },
     "stat_changes": [],
-    "machine": "tm201",
+    "machine": {
+        "scarlet-violet": "tm201",
+        "the-teal-mask": "tm201",
+        "the-indigo-disk": "tm201",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

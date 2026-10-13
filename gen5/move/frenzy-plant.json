@@ -39,7 +39,10 @@
         "black-2-white-2": "The user slams the target with an enormous tree. The user can’t move on the next turn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -66,7 +66,14 @@
         "scarlet-violet": "The user whips up a turbulent whirlwind that boosts the Speed stats of itself and its allies for four turns."
     },
     "stat_changes": [],
-    "machine": "tm113",
+    "machine": {
+        "scarlet-violet": "tm113",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm113",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

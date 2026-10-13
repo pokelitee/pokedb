@@ -60,7 +60,13 @@
         "legends-arceus": "The target is punched with an icy fist. This may also leave the target with frostbite."
     },
     "stat_changes": [],
-    "machine": "tm04",
+    "machine": {
+        "sword-shield": "tm04",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

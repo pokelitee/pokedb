@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user attacks the target with a hazardous, full-power headbutt. This also damages the user terribly."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

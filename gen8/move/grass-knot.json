@@ -60,7 +60,13 @@
         "legends-arceus": "The user snares the target with grass and trips it. The heavier the target, the greater the move's power."
     },
     "stat_changes": [],
-    "machine": "tr77",
+    "machine": {
+        "sword-shield": "tr77",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

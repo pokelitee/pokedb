@@ -66,7 +66,14 @@
         "scarlet-violet": "The user attacks while simultaneously stitching the target's shadow to the ground to prevent the target from fleeing."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

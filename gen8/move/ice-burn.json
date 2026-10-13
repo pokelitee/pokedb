@@ -60,7 +60,13 @@
         "legends-arceus": "On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

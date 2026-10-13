@@ -61,7 +61,13 @@
         "firered-leafgreen": "The user copies the move last used by the foe for the rest of the battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

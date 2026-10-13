@@ -23,8 +23,8 @@
     "target": "user-and-allies",
     "generation": "generation-iii",
     "effect_chance": {
-        "black-white": 7,
-        "black-2-white-2": 7
+        "black-white": null,
+        "black-2-white-2": null
     },
     "effect": {
         "black-white": "Raises the user’s Attack by one stage.",
@@ -44,7 +44,10 @@
             "stat": "attack"
         }
     ],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

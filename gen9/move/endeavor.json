@@ -66,7 +66,14 @@
         "scarlet-violet": "The user inflicts damage by cutting down the target's HP to roughly equal the user's HP."
     },
     "stat_changes": [],
-    "machine": "tm205",
+    "machine": {
+        "scarlet-violet": "tm205",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm205",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

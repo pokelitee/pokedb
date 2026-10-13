@@ -39,7 +39,10 @@
         "black-2-white-2": "The user clubs the target with a bone. It may also make the target flinch."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

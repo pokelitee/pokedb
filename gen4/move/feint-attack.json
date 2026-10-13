@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user draws up to the foe disarmingly, then throws a sucker punch. It hits without fail."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

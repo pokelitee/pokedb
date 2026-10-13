@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user cloaks its body with a white mist that prevents any of its stats from being cut for five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

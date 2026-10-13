@@ -39,7 +39,10 @@
         "black-2-white-2": "Opposing Pokémon are dragged into a world of total darkness that makes them sleep."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "sleep",
         "category": "ailment",

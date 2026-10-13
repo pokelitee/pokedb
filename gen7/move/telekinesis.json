@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user makes the target float with its psychic power. The target is easier to hit for three turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "unknown",
         "category": "ailment",

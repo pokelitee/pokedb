@@ -39,7 +39,10 @@
         "black-2-white-2": "The user brings down a giant flame. This attack does greater damage when influenced by an enormous thunderbolt."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

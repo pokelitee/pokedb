@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user hits the target with a powerful electric current collected by its Z-Power. The power varies, depending on the original move."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

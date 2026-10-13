@@ -61,7 +61,13 @@
         "firered-leafgreen": "An earthquake that strikes all POKéMON in battle excluding the user."
     },
     "stat_changes": [],
-    "machine": "tm26",
+    "machine": {
+        "ruby-sapphire": "tm26",
+        "emerald": "tm26",
+        "firered-leafgreen": "tm26",
+        "colosseum": "tm26",
+        "xd": "tm26"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

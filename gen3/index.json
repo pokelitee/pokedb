@@ -1,6 +1,74 @@
 {
     "metadata": {
-        "schema_version": 4,
+        "schema_version": 5,
+        "generated_resources": [
+            "ability",
+            "cosmetic",
+            "item",
+            "move",
+            "pokemon",
+            "transformation",
+            "variant"
+        ],
+        "resource_provenance": {
+            "variant": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            },
+            "ability": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            },
+            "transformation": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            },
+            "pokemon": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            },
+            "move": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            },
+            "item": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            },
+            "cosmetic": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            }
+        },
+        "content_sha256": "7292a2760e356d28cbbc9c5b1568a09576a79c85df54441dbfec6dd4e0717d5c",
         "source": "pokeapi",
         "api_base_url": "https://pokeapi.co/api/v2/",
         "is_historical": true,
@@ -12,7 +80,16 @@
             "colosseum",
             "xd"
         ],
-        "created_at": "2026-08-02T00:39:09.962818+00:00",
+        "versions": [
+            "colosseum",
+            "emerald",
+            "firered",
+            "leafgreen",
+            "ruby",
+            "sapphire",
+            "xd"
+        ],
+        "created_at": "2026-10-13T17:53:53.817871+00:00",
         "counts": {
             "ability": 76,
             "move": 372,
@@ -3787,139 +3864,139 @@
     ],
     "cosmetic": [
         {
-            "name": "unown-f",
+            "name": "unown-b",
             "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-f.png"
-        },
-        {
-            "name": "unown-o",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-o.png"
-        },
-        {
-            "name": "unown-y",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-y.png"
-        },
-        {
-            "name": "unown-w",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-w.png"
-        },
-        {
-            "name": "unown-q",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-q.png"
-        },
-        {
-            "name": "unown-n",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-n.png"
-        },
-        {
-            "name": "unown-k",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-k.png"
-        },
-        {
-            "name": "unown-z",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-z.png"
-        },
-        {
-            "name": "unown-question",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-question.png"
-        },
-        {
-            "name": "unown-g",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-g.png"
+            "sprite": null
         },
         {
             "name": "unown-c",
             "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-c.png"
-        },
-        {
-            "name": "unown-l",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-l.png"
+            "sprite": null
         },
         {
             "name": "unown-d",
             "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-d.png"
-        },
-        {
-            "name": "unown-s",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-s.png"
-        },
-        {
-            "name": "unown-v",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-v.png"
-        },
-        {
-            "name": "unown-h",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-h.png"
-        },
-        {
-            "name": "unown-exclamation",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-exclamation.png"
+            "sprite": null
         },
         {
             "name": "unown-e",
             "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-e.png"
+            "sprite": null
         },
         {
-            "name": "unown-r",
+            "name": "unown-exclamation",
             "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-r.png"
+            "sprite": null
         },
         {
-            "name": "unown-p",
+            "name": "unown-f",
             "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-p.png"
+            "sprite": null
         },
         {
-            "name": "unown-j",
+            "name": "unown-g",
             "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-j.png"
+            "sprite": null
         },
         {
-            "name": "unown-t",
+            "name": "unown-h",
             "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-t.png"
-        },
-        {
-            "name": "unown-x",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-x.png"
+            "sprite": null
         },
         {
             "name": "unown-i",
             "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-i.png"
+            "sprite": null
+        },
+        {
+            "name": "unown-j",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-k",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-l",
+            "id": 201,
+            "sprite": null
         },
         {
             "name": "unown-m",
             "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-m.png"
+            "sprite": null
         },
         {
-            "name": "unown-b",
+            "name": "unown-n",
             "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-b.png"
+            "sprite": null
+        },
+        {
+            "name": "unown-o",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-p",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-q",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-question",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-r",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-s",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-t",
+            "id": 201,
+            "sprite": null
         },
         {
             "name": "unown-u",
             "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-u.png"
+            "sprite": null
+        },
+        {
+            "name": "unown-v",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-w",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-x",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-y",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-z",
+            "id": 201,
+            "sprite": null
         }
     ],
     "item": [

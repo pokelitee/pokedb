@@ -55,7 +55,12 @@
             "stat": "evasion"
         }
     ],
-    "machine": "tm32",
+    "machine": {
+        "red-blue": "tm32",
+        "yellow": "tm32",
+        "red-green-japan": "tm32",
+        "blue-japan": "tm32"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

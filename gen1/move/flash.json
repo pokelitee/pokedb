@@ -55,7 +55,12 @@
             "stat": "accuracy"
         }
     ],
-    "machine": "hm05",
+    "machine": {
+        "red-blue": "hm05",
+        "yellow": "hm05",
+        "red-green-japan": "hm05",
+        "blue-japan": "hm05"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

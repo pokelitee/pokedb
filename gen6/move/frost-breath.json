@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user blows its cold breath on the target. This attack always results in a critical hit."
     },
     "stat_changes": [],
-    "machine": "tm79",
+    "machine": {
+        "x-y": "tm79",
+        "omega-ruby-alpha-sapphire": "tm79"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The power stored using the move Stockpile is released at once in an attack."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

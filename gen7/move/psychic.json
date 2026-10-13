@@ -52,7 +52,11 @@
             "stat": "special-defense"
         }
     ],
-    "machine": "tm29",
+    "machine": {
+        "sun-moon": "tm29",
+        "ultra-sun-ultra-moon": "tm29",
+        "lets-go-pikachu-lets-go-eevee": "tm40"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

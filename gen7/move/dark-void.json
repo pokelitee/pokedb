@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "Opposing Pokémon are dragged into a world of total darkness that makes them sleep."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "sleep",
         "category": "ailment",

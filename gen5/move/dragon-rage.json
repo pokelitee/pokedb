@@ -39,7 +39,10 @@
         "black-2-white-2": "This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

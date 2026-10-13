@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "It enables the user to permanently learn the move last used by the foe. Once used, Sketch disappears."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

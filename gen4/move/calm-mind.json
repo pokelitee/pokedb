@@ -56,7 +56,11 @@
             "stat": "special-defense"
         }
     ],
-    "machine": "tm04",
+    "machine": {
+        "diamond-pearl": "tm04",
+        "platinum": "tm04",
+        "heartgold-soulsilver": "tm04"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

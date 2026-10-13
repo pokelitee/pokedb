@@ -39,6 +39,32 @@
     "target": "selected-pokemon-me-first",
     "generation": "generation-viii",
     "effect_chance": {
+        "scarlet-violet": 100,
+        "the-teal-mask": 100,
+        "the-indigo-disk": 100,
+        "legends-za": 100,
+        "mega-dimension": 100,
+        "champions": 100
+    },
+    "effect": {
+        "scarlet-violet": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage.",
+        "the-teal-mask": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage.",
+        "the-indigo-disk": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage.",
+        "legends-za": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage.",
+        "mega-dimension": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage.",
+        "champions": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage."
+    },
+    "short_effect": {
+        "scarlet-violet": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage.",
+        "the-teal-mask": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage.",
+        "the-indigo-disk": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage.",
+        "legends-za": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage.",
+        "mega-dimension": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage.",
+        "champions": "If this move hits, lower the Special Attack of all Pokemon on the opposing side by 1 stage."
+    },
+    "flavor_text": {},
+    "stat_changes": [],
+    "machine": {
         "scarlet-violet": null,
         "the-teal-mask": null,
         "the-indigo-disk": null,
@@ -46,25 +72,6 @@
         "mega-dimension": null,
         "champions": null
     },
-    "effect": {
-        "scarlet-violet": "Inflicts regular damage.",
-        "the-teal-mask": "Inflicts regular damage.",
-        "the-indigo-disk": "Inflicts regular damage.",
-        "legends-za": "Inflicts regular damage.",
-        "mega-dimension": "Inflicts regular damage.",
-        "champions": "Inflicts regular damage."
-    },
-    "short_effect": {
-        "scarlet-violet": "Inflicts regular damage with no additional effect.",
-        "the-teal-mask": "Inflicts regular damage with no additional effect.",
-        "the-indigo-disk": "Inflicts regular damage with no additional effect.",
-        "legends-za": "Inflicts regular damage with no additional effect.",
-        "mega-dimension": "Inflicts regular damage with no additional effect.",
-        "champions": "Inflicts regular damage with no additional effect."
-    },
-    "flavor_text": {},
-    "stat_changes": [],
-    "machine": null,
     "metadata": {
         "ailment": "none",
         "category": "damage",

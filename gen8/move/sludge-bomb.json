@@ -60,7 +60,13 @@
         "legends-arceus": "Unsanitary sludge is hurled at the target to deal damage. This may also poison the target."
     },
     "stat_changes": [],
-    "machine": "tr22",
+    "machine": {
+        "sword-shield": "tr22",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

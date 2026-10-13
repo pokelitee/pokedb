@@ -61,7 +61,13 @@
         "firered-leafgreen": "A heavy rain falls for five turns, powering up WATER- type moves."
     },
     "stat_changes": [],
-    "machine": "tm18",
+    "machine": {
+        "ruby-sapphire": "tm18",
+        "emerald": "tm18",
+        "firered-leafgreen": "tm18",
+        "colosseum": "tm18",
+        "xd": "tm18"
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

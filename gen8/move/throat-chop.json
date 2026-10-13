@@ -60,7 +60,13 @@
         "legends-arceus": "The user attacks the target's throat, and the resultant suffering prevents the target from using moves that emit sound for two turns."
     },
     "stat_changes": [],
-    "machine": "tr95",
+    "machine": {
+        "sword-shield": "tr95",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "silence",
         "category": "damage-ailment",

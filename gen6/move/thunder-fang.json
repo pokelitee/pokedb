@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

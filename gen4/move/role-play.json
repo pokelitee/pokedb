@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user mimics the foe completely, copying the foe’s natural ability."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

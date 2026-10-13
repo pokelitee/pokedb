@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user and an ally hold hands. This makes them very happy."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

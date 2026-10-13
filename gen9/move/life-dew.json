@@ -39,34 +39,41 @@
     "target": "user-and-allies",
     "generation": "generation-viii",
     "effect_chance": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": 100,
+        "the-teal-mask": 100,
+        "the-indigo-disk": 100,
+        "legends-za": 100,
+        "mega-dimension": 100,
+        "champions": 100
     },
     "effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+        "the-teal-mask": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+        "the-indigo-disk": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+        "legends-za": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+        "mega-dimension": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+        "champions": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up."
     },
     "short_effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+        "the-teal-mask": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+        "the-indigo-disk": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+        "legends-za": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+        "mega-dimension": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+        "champions": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up."
     },
     "flavor_text": {
         "scarlet-violet": "The user scatters mysterious water around and restores the HP of itself and its ally Pokémon currently in the battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "heal",

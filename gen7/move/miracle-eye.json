@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "Enables a Dark-type target to be hit by Psychic-type attacks. This also enables an evasive target to be hit."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "no-type-immunity",
         "category": "ailment",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "Unsanitary sludge is hurled at the target. This may also poison the target."
     },
     "stat_changes": [],
-    "machine": "tm36",
+    "machine": {
+        "sun-moon": "tm36",
+        "ultra-sun-ultra-moon": "tm36",
+        "lets-go-pikachu-lets-go-eevee": "tm52"
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

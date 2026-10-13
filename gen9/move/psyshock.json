@@ -66,7 +66,14 @@
         "scarlet-violet": "The user materializes an odd psychic wave to attack the target. This move deals physical damage."
     },
     "stat_changes": [],
-    "machine": "tm54",
+    "machine": {
+        "scarlet-violet": "tm54",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": "tm03",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

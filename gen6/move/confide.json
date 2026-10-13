@@ -44,7 +44,10 @@
             "stat": "special-attack"
         }
     ],
-    "machine": "tm100",
+    "machine": {
+        "x-y": "tm100",
+        "omega-ruby-alpha-sapphire": "tm100"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

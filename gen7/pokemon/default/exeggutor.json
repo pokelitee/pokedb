@@ -42,13 +42,30 @@
     "sprites": {
         "versions": {
             "icons": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/103.png",
-                "front_female": null
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/103.png"
             },
             "ultra-sun-ultra-moon": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/103.png",
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/back/shiny/103.gif",
+                "back_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/103.gif",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/back/103.gif",
                 "front_female": null,
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/103.png",
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/103.gif",
+                "back_shiny_female": null,
+                "front_shiny_female": null
+            },
+            "lets-go-pikachu-lets-go-eevee": {
+                "icons": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/lets-go-pikachu-lets-go-eevee/icons/103.png"
+                },
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/lets-go-pikachu-lets-go-eevee/back/shiny/103.gif",
+                "back_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/lets-go-pikachu-lets-go-eevee/shiny/103.gif",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/lets-go-pikachu-lets-go-eevee/back/103.gif",
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/lets-go-pikachu-lets-go-eevee/103.gif",
+                "back_shiny_female": null,
                 "front_shiny_female": null
             }
         }
@@ -580,9 +597,9 @@
         "plant"
     ],
     "flavor_text": {
-        "ultra-sun": "It engages its enemies using psychic powers. Each of its three heads fires off psychokinetic energy, tripling its power.",
         "sun": "Each of its heads has its own will. They use telepathy to discuss their plans before coming to a joint decision.",
         "moon": "When the time comes, one of its three heads falls off. Before long, the fallen head grows into an Exeggcute.",
+        "ultra-sun": "It engages its enemies using psychic powers. Each of its three heads fires off psychokinetic energy, tripling its power.",
         "ultra-moon": "Each of its three heads has its own thoughts. When they want to go in different directions, Exeggutor becomes unable to move.",
         "lets-go-pikachu": "Its cries are very noisy. This is because each of the three heads thinks about whatever it likes.",
         "lets-go-eevee": "Its cries are very noisy. This is because each of the three heads thinks about whatever it likes."
@@ -604,7 +621,7 @@
                             "lets-go-pikachu-lets-go-eevee"
                         ],
                         "base_form": null,
-                        "evolved_form": "exeggutor-alola",
+                        "evolved_form": null,
                         "item": "leaf-stone",
                         "trigger": "use-item",
                         "gender": null,

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "If the target is electrified before it uses a move during that turn, the target’s move becomes Electric type."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

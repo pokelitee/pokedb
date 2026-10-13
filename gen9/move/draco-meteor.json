@@ -71,7 +71,14 @@
             "stat": "special-attack"
         }
     ],
-    "machine": "tm169",
+    "machine": {
+        "scarlet-violet": "tm169",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": "tm54",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

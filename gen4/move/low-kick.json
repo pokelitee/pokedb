@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A powerful low kick that makes the foe fall over. It inflicts greater damage on heavier foes."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

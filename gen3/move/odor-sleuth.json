@@ -61,7 +61,13 @@
         "firered-leafgreen": "Completely negates the foe’s efforts to heighten its ability to evade."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "no-type-immunity",
         "category": "ailment",

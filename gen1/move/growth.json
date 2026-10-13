@@ -37,16 +37,16 @@
         "blue-japan": null
     },
     "effect": {
-        "red-blue": "Raises the user’s Attack and Special Attack by one stage each. During Sunny Day, raises both stats by two stages.",
-        "yellow": "Raises the user’s Attack and Special Attack by one stage each. During Sunny Day, raises both stats by two stages.",
-        "red-green-japan": "Raises the user’s Attack and Special Attack by one stage each. During Sunny Day, raises both stats by two stages.",
-        "blue-japan": "Raises the user’s Attack and Special Attack by one stage each. During Sunny Day, raises both stats by two stages."
+        "red-blue": "Raises the user’s Special Attack by one stage.",
+        "yellow": "Raises the user’s Special Attack by one stage.",
+        "red-green-japan": "Raises the user’s Special Attack by one stage.",
+        "blue-japan": "Raises the user’s Special Attack by one stage."
     },
     "short_effect": {
-        "red-blue": "Raises the user’s Attack and Special Attack by one stage.",
-        "yellow": "Raises the user’s Attack and Special Attack by one stage.",
-        "red-green-japan": "Raises the user’s Attack and Special Attack by one stage.",
-        "blue-japan": "Raises the user’s Attack and Special Attack by one stage."
+        "red-blue": "Raises the user’s Special Attack by one stage.",
+        "yellow": "Raises the user’s Special Attack by one stage.",
+        "red-green-japan": "Raises the user’s Special Attack by one stage.",
+        "blue-japan": "Raises the user’s Special Attack by one stage."
     },
     "flavor_text": {},
     "stat_changes": [
@@ -59,7 +59,12 @@
             "stat": "special-attack"
         }
     ],
-    "machine": null,
+    "machine": {
+        "red-blue": null,
+        "yellow": null,
+        "red-green-japan": null,
+        "blue-japan": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

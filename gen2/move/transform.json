@@ -39,7 +39,10 @@
         "crystal": "The user assumes the foe's guise."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

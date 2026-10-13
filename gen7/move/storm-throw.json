@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user strikes the target with a fierce blow. This attack always results in a critical hit."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

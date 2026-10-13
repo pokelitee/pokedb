@@ -2,7 +2,11 @@
     "id": 665,
     "name": "gram-2",
     "source_url": "https://pokeapi.co/api/v2/item/665/",
-    "cost": 0,
+    "prices": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -10,13 +14,12 @@
     "effect": "Give to the Wingull on Route 13, along with Gram 1 and Gram 3, to receive TM89.",
     "short_effect": "Part of a sidequest to obtain TM89.",
     "flavor_text": {
-        "lets-go-pikachu-lets-go-eevee": "An important letter that Wingull delivers.",
         "sun-moon": "An important letter that Wingull delivers.",
-        "ultra-sun-ultra-moon": "An important letter that Wingull delivers."
+        "ultra-sun-ultra-moon": "An important letter that Wingull delivers.",
+        "lets-go-pikachu-lets-go-eevee": "An important letter that Wingull delivers."
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gram-2.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

@@ -66,7 +66,13 @@
             "stat": "accuracy"
         }
     ],
-    "machine": "hm05",
+    "machine": {
+        "ruby-sapphire": "hm05",
+        "emerald": "hm05",
+        "firered-leafgreen": "hm05",
+        "colosseum": "hm05",
+        "xd": "hm05"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

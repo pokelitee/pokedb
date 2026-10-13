@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The target is blown away, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "force-switch",

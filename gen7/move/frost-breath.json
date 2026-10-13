@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user blows its cold breath on the target. This attack always results in a critical hit."
     },
     "stat_changes": [],
-    "machine": "tm79",
+    "machine": {
+        "sun-moon": "tm79",
+        "ultra-sun-ultra-moon": "tm79",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A second-turn attack move with a high critical-hit ratio. It may also make the target flinch."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

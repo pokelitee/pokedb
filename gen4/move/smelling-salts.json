@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "This attack inflicts double damage on a paralyzed foe. It also cures the foe’s paralysis, however."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The target is razed by a fiery explosion. The user can’t move on the next turn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

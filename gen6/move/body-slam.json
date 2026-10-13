@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user drops onto the target with its full body weight. This may also leave the target with paralysis."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

@@ -66,7 +66,14 @@
         "scarlet-violet": "The user damages opposing Pokémon by emitting a powerful flash."
     },
     "stat_changes": [],
-    "machine": "tm79",
+    "machine": {
+        "scarlet-violet": "tm79",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": "tm92",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

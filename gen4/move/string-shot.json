@@ -32,14 +32,14 @@
         "heartgold-soulsilver": null
     },
     "effect": {
-        "diamond-pearl": "Lowers the target’s Speed by two stages.",
-        "platinum": "Lowers the target’s Speed by two stages.",
-        "heartgold-soulsilver": "Lowers the target’s Speed by two stages."
+        "diamond-pearl": "Lowers the target’s Speed by one stage.",
+        "platinum": "Lowers the target’s Speed by one stage.",
+        "heartgold-soulsilver": "Lowers the target’s Speed by one stage."
     },
     "short_effect": {
-        "diamond-pearl": "Lowers the target’s Speed by two stages.",
-        "platinum": "Lowers the target’s Speed by two stages.",
-        "heartgold-soulsilver": "Lowers the target’s Speed by two stages."
+        "diamond-pearl": "Lowers the target’s Speed by one stage.",
+        "platinum": "Lowers the target’s Speed by one stage.",
+        "heartgold-soulsilver": "Lowers the target’s Speed by one stage."
     },
     "flavor_text": {
         "diamond-pearl": "The foe is bound with silk blown from the user’s mouth. It reduces the target’s Speed stat.",
@@ -52,7 +52,11 @@
             "stat": "speed"
         }
     ],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

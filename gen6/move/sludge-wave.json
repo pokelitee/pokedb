@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those hit."
     },
     "stat_changes": [],
-    "machine": "tm34",
+    "machine": {
+        "x-y": "tm34",
+        "omega-ruby-alpha-sapphire": "tm34"
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

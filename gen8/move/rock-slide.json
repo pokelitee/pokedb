@@ -60,7 +60,13 @@
         "legends-arceus": "Large boulders are hurled at the target to inflict damage."
     },
     "stat_changes": [],
-    "machine": "tm22",
+    "machine": {
+        "sword-shield": "tm22",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

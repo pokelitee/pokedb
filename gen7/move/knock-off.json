@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user slaps down the target’s held item, and that item can’t be used in that battle. The move does more damage if the target has a held item."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

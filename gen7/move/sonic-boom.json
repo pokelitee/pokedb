@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The target is hit with a destructive shock wave that always inflicts 20 HP damage."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

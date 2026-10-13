@@ -61,7 +61,13 @@
         "firered-leafgreen": "The user sleeps for two turns to fully restore HP and heal any status problem."
     },
     "stat_changes": [],
-    "machine": "tm44",
+    "machine": {
+        "ruby-sapphire": "tm44",
+        "emerald": "tm44",
+        "firered-leafgreen": "tm44",
+        "colosseum": "tm44",
+        "xd": "tm44"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

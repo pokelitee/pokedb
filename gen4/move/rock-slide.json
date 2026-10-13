@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "Large boulders are hurled at the foe to inflict damage. It may also make the target flinch."
     },
     "stat_changes": [],
-    "machine": "tm80",
+    "machine": {
+        "diamond-pearl": "tm80",
+        "platinum": "tm80",
+        "heartgold-soulsilver": "tm80"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

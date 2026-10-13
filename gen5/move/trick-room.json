@@ -39,7 +39,10 @@
         "black-2-white-2": "The user creates a bizarre area in which slower Pokémon get to move first for five turns."
     },
     "stat_changes": [],
-    "machine": "tm92",
+    "machine": {
+        "black-white": "tm92",
+        "black-2-white-2": "tm92"
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

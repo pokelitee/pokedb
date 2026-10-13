@@ -61,7 +61,13 @@
         "firered-leafgreen": "A powerful charge attack. It can also be used to climb a waterfall."
     },
     "stat_changes": [],
-    "machine": "hm07",
+    "machine": {
+        "ruby-sapphire": "hm07",
+        "emerald": "hm07",
+        "firered-leafgreen": "hm07",
+        "colosseum": "hm07",
+        "xd": "hm07"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

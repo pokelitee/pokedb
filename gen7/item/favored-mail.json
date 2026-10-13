@@ -2,7 +2,11 @@
     "id": 569,
     "name": "favored-mail",
     "source_url": "https://pokeapi.co/api/v2/item/569/",
-    "cost": 50,
+    "prices": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -16,7 +20,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/favored-mail.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

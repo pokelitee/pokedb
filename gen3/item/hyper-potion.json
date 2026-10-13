@@ -2,7 +2,13 @@
     "id": 25,
     "name": "hyper-potion",
     "source_url": "https://pokeapi.co/api/v2/item/25/",
-    "cost": 1500,
+    "prices": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "fling_power": 30,
     "fling_effect": null,
     "attributes": [
@@ -22,7 +28,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hyper-potion.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

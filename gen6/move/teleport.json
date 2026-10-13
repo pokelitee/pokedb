@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "Use it to flee from any wild Pokémon. It can also warp to the last Pokémon Center visited."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

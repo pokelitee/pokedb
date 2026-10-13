@@ -61,7 +61,13 @@
         "firered-leafgreen": "Weakens ELECTRIC- type attacks while the user is in the battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

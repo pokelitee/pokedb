@@ -39,7 +39,10 @@
         "crystal": "Traps the foe for 2-5 turns."
     },
     "stat_changes": [],
-    "machine": "hm06",
+    "machine": {
+        "gold-silver": "hm06",
+        "crystal": "hm06"
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

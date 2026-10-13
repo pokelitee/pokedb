@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user whips up a turbulent whirlwind that ups the Speed stat of the user and its allies for four turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

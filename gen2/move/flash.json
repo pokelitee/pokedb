@@ -44,7 +44,10 @@
             "stat": "accuracy"
         }
     ],
-    "machine": "hm05",
+    "machine": {
+        "gold-silver": "hm05",
+        "crystal": "hm05"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user attacks the foe with a pulsing blast of water. It may also confuse the foe."
     },
     "stat_changes": [],
-    "machine": "tm03",
+    "machine": {
+        "diamond-pearl": "tm03",
+        "platinum": "tm03",
+        "heartgold-soulsilver": "tm03"
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "damage-ailment",

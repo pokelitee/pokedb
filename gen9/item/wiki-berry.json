@@ -2,7 +2,14 @@
     "id": 137,
     "name": "wiki-berry",
     "source_url": "https://pokeapi.co/api/v2/item/137/",
-    "cost": 80,
+    "prices": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "fling_power": 10,
     "fling_effect": "berry-effect",
     "attributes": [

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy."
     },
     "stat_changes": [],
-    "machine": "tm15",
+    "machine": {
+        "diamond-pearl": "tm15",
+        "platinum": "tm15",
+        "heartgold-soulsilver": "tm15"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

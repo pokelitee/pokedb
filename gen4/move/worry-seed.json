@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A seed that causes worry is planted on the foe. It prevents sleep by making its ability Insomnia."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "Driven by frustration, the user attacks the target. If the user’s previous move has failed, the power of this move doubles."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

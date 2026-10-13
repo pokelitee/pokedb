@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user burrows deep into the ground and slams into the target with the full force of its Z-Power. The power varies, depending on the original move."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

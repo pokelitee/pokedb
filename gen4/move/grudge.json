@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "If the user faints, the user’s grudge fully depletes the PP of the foe’s move that knocked it out."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

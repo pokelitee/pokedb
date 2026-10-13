@@ -44,7 +44,10 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm39",
+    "machine": {
+        "x-y": "tm39",
+        "omega-ruby-alpha-sapphire": "tm39"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

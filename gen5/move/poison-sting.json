@@ -39,7 +39,10 @@
         "black-2-white-2": "The user stabs the target with a poisonous stinger. This may also poison the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

@@ -66,7 +66,14 @@
         "scarlet-violet": "The user attacks the target by scattering petals for two to three turns. The user then becomes confused."
     },
     "stat_changes": [],
-    "machine": "tm151",
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": "tm151",
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

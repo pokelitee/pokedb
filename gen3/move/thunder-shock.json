@@ -61,7 +61,13 @@
         "firered-leafgreen": "An electric shock attack that may also leave the foe paralyzed."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

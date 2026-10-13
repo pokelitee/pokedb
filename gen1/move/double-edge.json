@@ -37,20 +37,25 @@
         "blue-japan": null
     },
     "effect": {
-        "red-blue": "Inflicts regular damage. User takes 1/3 the damage it inflicts in recoil.",
-        "yellow": "Inflicts regular damage. User takes 1/3 the damage it inflicts in recoil.",
-        "red-green-japan": "Inflicts regular damage. User takes 1/3 the damage it inflicts in recoil.",
-        "blue-japan": "Inflicts regular damage. User takes 1/3 the damage it inflicts in recoil."
+        "red-blue": "Inflicts regular damage. User takes 1/4 the damage it inflicts in recoil.",
+        "yellow": "Inflicts regular damage. User takes 1/4 the damage it inflicts in recoil.",
+        "red-green-japan": "Inflicts regular damage. User takes 1/4 the damage it inflicts in recoil.",
+        "blue-japan": "Inflicts regular damage. User takes 1/4 the damage it inflicts in recoil."
     },
     "short_effect": {
-        "red-blue": "User receives 1/3 the damage inflicted in recoil.",
-        "yellow": "User receives 1/3 the damage inflicted in recoil.",
-        "red-green-japan": "User receives 1/3 the damage inflicted in recoil.",
-        "blue-japan": "User receives 1/3 the damage inflicted in recoil."
+        "red-blue": "User receives 1/4 the damage it inflicts in recoil.",
+        "yellow": "User receives 1/4 the damage it inflicts in recoil.",
+        "red-green-japan": "User receives 1/4 the damage it inflicts in recoil.",
+        "blue-japan": "User receives 1/4 the damage it inflicts in recoil."
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": "tm10",
+    "machine": {
+        "red-blue": "tm10",
+        "yellow": "tm10",
+        "red-green-japan": "tm10",
+        "blue-japan": "tm10"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

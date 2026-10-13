@@ -64,7 +64,14 @@
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": "tm126",
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": "tm126",
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

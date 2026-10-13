@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user ensnares the target with thin, gooey silk so it can’t flee from battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

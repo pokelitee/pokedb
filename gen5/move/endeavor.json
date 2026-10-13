@@ -39,7 +39,10 @@
         "black-2-white-2": "An attack move that cuts down the target’s HP to equal the user’s HP."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

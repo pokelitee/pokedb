@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user summons a heavy rain that falls for five turns, powering up Water-type moves."
     },
     "stat_changes": [],
-    "machine": "tm18",
+    "machine": {
+        "x-y": "tm18",
+        "omega-ruby-alpha-sapphire": "tm18"
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

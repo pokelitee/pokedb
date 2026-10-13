@@ -60,7 +60,10 @@
             "stat": "speed"
         }
     ],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

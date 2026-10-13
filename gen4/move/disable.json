@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "For several turns, this move prevents the foe from using the move it last used."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "disable",
         "category": "unique",

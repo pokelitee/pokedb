@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user waggles a finger and stimulates its brain into randomly using nearly any move."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

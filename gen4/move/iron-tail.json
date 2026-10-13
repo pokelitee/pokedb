@@ -52,7 +52,11 @@
             "stat": "defense"
         }
     ],
-    "machine": "tm23",
+    "machine": {
+        "diamond-pearl": "tm23",
+        "platinum": "tm23",
+        "heartgold-soulsilver": "tm23"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

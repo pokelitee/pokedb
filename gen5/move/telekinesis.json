@@ -39,7 +39,10 @@
         "black-2-white-2": "The user makes the target float with its psychic power. The target is easier to hit for three turns."
     },
     "stat_changes": [],
-    "machine": "tm19",
+    "machine": {
+        "black-white": "tm19",
+        "black-2-white-2": "tm19"
+    },
     "metadata": {
         "ailment": "unknown",
         "category": "ailment",

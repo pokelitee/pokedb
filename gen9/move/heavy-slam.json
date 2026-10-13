@@ -66,7 +66,14 @@
         "scarlet-violet": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move's power."
     },
     "stat_changes": [],
-    "machine": "tm121",
+    "machine": {
+        "scarlet-violet": "tm121",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm121",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

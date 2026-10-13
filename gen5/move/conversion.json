@@ -39,7 +39,10 @@
         "black-2-white-2": "The user changes its type to become the same type as one of its moves."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

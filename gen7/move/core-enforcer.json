@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "If the Pokémon the user has inflicted damage on have already used their moves, this move eliminates the effect of the target’s Ability."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

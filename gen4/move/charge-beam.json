@@ -52,7 +52,11 @@
             "stat": "special-attack"
         }
     ],
-    "machine": "tm57",
+    "machine": {
+        "diamond-pearl": "tm57",
+        "platinum": "tm57",
+        "heartgold-soulsilver": "tm57"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

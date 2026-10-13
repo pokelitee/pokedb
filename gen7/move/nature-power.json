@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "This attack makes use of nature’s power. Its effects vary depending on the user’s environment."
     },
     "stat_changes": [],
-    "machine": "tm96",
+    "machine": {
+        "sun-moon": "tm96",
+        "ultra-sun-ultra-moon": "tm96",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

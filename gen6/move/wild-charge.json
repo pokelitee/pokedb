@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user shrouds itself in electricity and smashes into its target. This also damages the user a little."
     },
     "stat_changes": [],
-    "machine": "tm93",
+    "machine": {
+        "x-y": "tm93",
+        "omega-ruby-alpha-sapphire": "tm93"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

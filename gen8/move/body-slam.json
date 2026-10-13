@@ -60,7 +60,13 @@
         "legends-arceus": "The user drops onto the target with its full body weight. This may also leave the target with paralysis."
     },
     "stat_changes": [],
-    "machine": "tr01",
+    "machine": {
+        "sword-shield": "tr01",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

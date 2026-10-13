@@ -60,7 +60,13 @@
         "legends-arceus": "The user attacks by draining the target's blood. Some of the damage dealt to the target is absorbed by the user to restore their own HP."
     },
     "stat_changes": [],
-    "machine": "tr18",
+    "machine": {
+        "sword-shield": "tr18",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-heal",

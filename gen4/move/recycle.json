@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user recycles a held item that has been used in battle so it can be used again."
     },
     "stat_changes": [],
-    "machine": "tm67",
+    "machine": {
+        "diamond-pearl": "tm67",
+        "platinum": "tm67",
+        "heartgold-soulsilver": "tm67"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

@@ -71,7 +71,14 @@
             "stat": "accuracy"
         }
     ],
-    "machine": "tm209",
+    "machine": {
+        "scarlet-violet": "tm209",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm209",
+        "legends-za": null,
+        "mega-dimension": "tm140",
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

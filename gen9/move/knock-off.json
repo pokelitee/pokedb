@@ -66,7 +66,14 @@
         "scarlet-violet": "The user slaps down the target's held item, making it unusable for that battle. This move does more damage if the target has a held item."
     },
     "stat_changes": [],
-    "machine": "tm181",
+    "machine": {
+        "scarlet-violet": "tm181",
+        "the-teal-mask": "tm181",
+        "the-indigo-disk": "tm181",
+        "legends-za": "tm45",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

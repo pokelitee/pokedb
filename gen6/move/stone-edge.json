@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user stabs the target with sharpened stones from below. Critical hits land more easily."
     },
     "stat_changes": [],
-    "machine": "tm71",
+    "machine": {
+        "x-y": "tm71",
+        "omega-ruby-alpha-sapphire": "tm71"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

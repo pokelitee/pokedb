@@ -52,7 +52,11 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm69",
+    "machine": {
+        "sun-moon": "tm69",
+        "ultra-sun-ultra-moon": "tm69",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

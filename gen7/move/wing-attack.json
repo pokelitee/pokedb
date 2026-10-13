@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The target is struck with large, imposing wings spread wide to inflict damage."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

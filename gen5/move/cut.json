@@ -39,7 +39,10 @@
         "black-2-white-2": "The target is cut with a scythe or a claw. It can also be used to cut down thin trees."
     },
     "stat_changes": [],
-    "machine": "hm01",
+    "machine": {
+        "black-white": "hm01",
+        "black-2-white-2": "hm01"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

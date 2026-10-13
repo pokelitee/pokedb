@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "Two turns after this move is used, the user blasts the foe with a concentrated bundle of light."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

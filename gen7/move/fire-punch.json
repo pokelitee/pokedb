@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The target is punched with a fiery fist. This may also leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": "tm31",
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": "tm31"
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

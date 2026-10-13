@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "Things such as long bodies or tentacles are used to bind and squeeze the target for four to five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

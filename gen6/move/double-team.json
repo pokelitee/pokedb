@@ -44,7 +44,10 @@
             "stat": "evasion"
         }
     ],
-    "machine": "tm32",
+    "machine": {
+        "x-y": "tm32",
+        "omega-ruby-alpha-sapphire": "tm32"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

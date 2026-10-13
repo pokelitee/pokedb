@@ -39,7 +39,10 @@
         "black-2-white-2": "The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "heal",

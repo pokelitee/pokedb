@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "When this move is used, if the user faints, the foe that landed the knockout hit also faints."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

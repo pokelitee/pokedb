@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user employs hypnotic suggestion to make the target fall into a deep sleep."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "sleep",
         "category": "ailment",

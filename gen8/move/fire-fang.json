@@ -60,7 +60,13 @@
         "legends-arceus": "The user bites the target with flame-cloaked fangs to deal damage. This may also leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": "tm68",
+    "machine": {
+        "sword-shield": "tm68",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

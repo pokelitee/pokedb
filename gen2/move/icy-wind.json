@@ -44,7 +44,10 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm16",
+    "machine": {
+        "gold-silver": "tm16",
+        "crystal": "tm16"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

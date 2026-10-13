@@ -66,7 +66,14 @@
         "scarlet-violet": "The user attacks by biting the target with its psychic capabilities. This move can also break barriers, such as Light Screen and Reflect."
     },
     "stat_changes": [],
-    "machine": "tm63",
+    "machine": {
+        "scarlet-violet": "tm63",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm63",
+        "legends-za": null,
+        "mega-dimension": "tm124",
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -61,7 +61,13 @@
         "firered-leafgreen": "Steals the effects of the foe’s healing or status- changing move."
     },
     "stat_changes": [],
-    "machine": "tm49",
+    "machine": {
+        "ruby-sapphire": "tm49",
+        "emerald": "tm49",
+        "firered-leafgreen": "tm49",
+        "colosseum": "tm49",
+        "xd": "tm49"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

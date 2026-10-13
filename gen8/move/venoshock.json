@@ -60,7 +60,13 @@
         "legends-arceus": "The user drenches the target in a special poisonous liquid to inflict damage. This move’s power is doubled if the target has a status condition."
     },
     "stat_changes": [],
-    "machine": "tm74",
+    "machine": {
+        "sword-shield": "tm74",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

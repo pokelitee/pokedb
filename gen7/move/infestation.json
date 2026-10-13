@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The target is infested and attacked for four to five turns. The target can’t flee during this time."
     },
     "stat_changes": [],
-    "machine": "tm83",
+    "machine": {
+        "sun-moon": "tm83",
+        "ultra-sun-ultra-moon": "tm83",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

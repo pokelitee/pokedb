@@ -39,7 +39,10 @@
         "crystal": "Sleep for 2 turns to fully recover."
     },
     "stat_changes": [],
-    "machine": "tm44",
+    "machine": {
+        "gold-silver": "tm44",
+        "crystal": "tm44"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

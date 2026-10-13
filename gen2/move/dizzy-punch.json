@@ -39,7 +39,10 @@
         "crystal": "An attack that may cause confusion."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "damage-ailment",

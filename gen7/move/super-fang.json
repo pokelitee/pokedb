@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user chomps hard on the target with its sharp front fangs. This cuts the target’s HP in half."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

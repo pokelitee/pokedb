@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user faints. In return, the Pokémon taking its place will have its status and HP fully restored."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

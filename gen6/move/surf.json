@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user attacks everything around it by swamping its surroundings with a giant wave. This can also be used for crossing water."
     },
     "stat_changes": [],
-    "machine": "hm03",
+    "machine": {
+        "x-y": "hm03",
+        "omega-ruby-alpha-sapphire": "hm03"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

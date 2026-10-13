@@ -66,7 +66,14 @@
         "scarlet-violet": "The user slashes the target with huge, sharp claws to inflict damage."
     },
     "stat_changes": [],
-    "machine": "tm78",
+    "machine": {
+        "scarlet-violet": "tm78",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm78",
+        "legends-za": "tm02",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -39,7 +39,10 @@
         "black-2-white-2": "The target is slugged with a punch thrown at maximum power. It can also be used to move heavy boulders."
     },
     "stat_changes": [],
-    "machine": "hm04",
+    "machine": {
+        "black-white": "hm04",
+        "black-2-white-2": "hm04"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The target is stabbed with a tentacle, arm, or the like steeped in poison. This may also poison the target."
     },
     "stat_changes": [],
-    "machine": "tm26",
+    "machine": {
+        "sun-moon": "tm84",
+        "ultra-sun-ultra-moon": "tm84",
+        "lets-go-pikachu-lets-go-eevee": "tm26"
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

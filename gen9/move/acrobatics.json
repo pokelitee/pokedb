@@ -66,7 +66,14 @@
         "scarlet-violet": "The user nimbly strikes the target. This attack does massive damage if the user isn't holding an item."
     },
     "stat_changes": [],
-    "machine": "tm14",
+    "machine": {
+        "scarlet-violet": "tm14",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

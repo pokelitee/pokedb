@@ -66,7 +66,14 @@
         "scarlet-violet": "The user cloaks itself in fire and charges the target to inflict damage. This also damages the user quite a lot and may leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": "tm165",
+    "machine": {
+        "scarlet-violet": "tm165",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm165",
+        "legends-za": "tm104",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

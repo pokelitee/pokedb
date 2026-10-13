@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "In this two-turn attack, the user gathers light, then blasts a bundled beam on the next turn."
     },
     "stat_changes": [],
-    "machine": "tm22",
+    "machine": {
+        "sun-moon": "tm22",
+        "ultra-sun-ultra-moon": "tm22",
+        "lets-go-pikachu-lets-go-eevee": "tm45"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The target is knocked away, and a different Pokémon is dragged out."
     },
     "stat_changes": [],
-    "machine": "tm17",
+    "machine": {
+        "sun-moon": "tm82",
+        "ultra-sun-ultra-moon": "tm82",
+        "lets-go-pikachu-lets-go-eevee": "tm17"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -5,20 +5,20 @@
     "is_main_series": true,
     "generation": "generation-viii",
     "effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "This Pokémon has the combined effects of Unnerve and Chilling Neigh. Opposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry. When this Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat.",
+        "the-teal-mask": "This Pokémon has the combined effects of Unnerve and Chilling Neigh. Opposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry. When this Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat.",
+        "the-indigo-disk": "This Pokémon has the combined effects of Unnerve and Chilling Neigh. Opposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry. When this Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat.",
+        "legends-za": "This Pokémon has the combined effects of Unnerve and Chilling Neigh. Opposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry. When this Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat.",
+        "mega-dimension": "This Pokémon has the combined effects of Unnerve and Chilling Neigh. Opposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry. When this Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat.",
+        "champions": "This Pokémon has the combined effects of Unnerve and Chilling Neigh. Opposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry. When this Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat."
     },
     "short_effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "Combines the effects of Unnerve and Chilling Neigh.",
+        "the-teal-mask": "Combines the effects of Unnerve and Chilling Neigh.",
+        "the-indigo-disk": "Combines the effects of Unnerve and Chilling Neigh.",
+        "legends-za": "Combines the effects of Unnerve and Chilling Neigh.",
+        "mega-dimension": "Combines the effects of Unnerve and Chilling Neigh.",
+        "champions": "Combines the effects of Unnerve and Chilling Neigh."
     },
     "flavor_text": {
         "scarlet-violet": "This Ability combines the effects of both Calyrex's Unnerve Ability and Glastrier's Chilling Neigh Ability."

@@ -39,7 +39,10 @@
         "black-2-white-2": "It swamps the area around the user with a giant wave. It can also be used for crossing water."
     },
     "stat_changes": [],
-    "machine": "hm03",
+    "machine": {
+        "black-white": "hm03",
+        "black-2-white-2": "hm03"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

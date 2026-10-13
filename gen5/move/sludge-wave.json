@@ -39,7 +39,10 @@
         "black-2-white-2": "It swamps the area around the user with a giant sludge wave. It may also poison those hit."
     },
     "stat_changes": [],
-    "machine": "tm34",
+    "machine": {
+        "black-white": "tm34",
+        "black-2-white-2": "tm34"
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

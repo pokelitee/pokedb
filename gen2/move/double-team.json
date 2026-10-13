@@ -44,7 +44,10 @@
             "stat": "evasion"
         }
     ],
-    "machine": "tm32",
+    "machine": {
+        "gold-silver": "tm32",
+        "crystal": "tm32"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

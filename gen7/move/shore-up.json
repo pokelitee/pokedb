@@ -42,12 +42,16 @@
         "lets-go-pikachu-lets-go-eevee": "Heals the user for ½ its max HP, or ⅔ during a sandstorm."
     },
     "flavor_text": {
-        "ultra-sun-ultra-moon": "The user regains up to half of its max HP. It restores more HP in a sandstorm.",
         "sun-moon": "The user regains up to half of its max HP. It restores more HP in a sandstorm.",
+        "ultra-sun-ultra-moon": "The user regains up to half of its max HP. It restores more HP in a sandstorm.",
         "lets-go-pikachu-lets-go-eevee": "The user regains up to half of its max HP. It restores more HP in a sandstorm."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "heal",

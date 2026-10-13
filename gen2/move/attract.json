@@ -39,7 +39,10 @@
         "crystal": "Makes the opposite gender infatuated."
     },
     "stat_changes": [],
-    "machine": "tm45",
+    "machine": {
+        "gold-silver": "tm45",
+        "crystal": "tm45"
+    },
     "metadata": {
         "ailment": "infatuation",
         "category": "ailment",

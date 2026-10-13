@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "If the target’s HP is half or less, this attack will hit with double the power."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

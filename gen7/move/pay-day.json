@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "Numerous coins are hurled at the target to inflict damage. Money is earned after the battle."
     },
     "stat_changes": [],
-    "machine": "tm57",
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": "tm57"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

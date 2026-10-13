@@ -2,7 +2,11 @@
     "id": 137,
     "name": "wiki-berry",
     "source_url": "https://pokeapi.co/api/v2/item/137/",
-    "cost": 80,
+    "prices": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "fling_power": 10,
     "fling_effect": "berry-effect",
     "attributes": [
@@ -18,7 +22,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wiki-berry.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

@@ -39,7 +39,10 @@
         "black-2-white-2": "A physical attack in which the user charges and slams into the target with its whole body."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

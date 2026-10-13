@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user slacks off, restoring its own HP by up to half of its max HP."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "heal",

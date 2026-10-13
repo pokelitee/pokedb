@@ -39,7 +39,10 @@
         "black-2-white-2": "The user slashes the target with huge, sharp claws."
     },
     "stat_changes": [],
-    "machine": "tm02",
+    "machine": {
+        "black-white": "tm02",
+        "black-2-white-2": "tm02"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

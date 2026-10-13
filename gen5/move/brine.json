@@ -35,11 +35,14 @@
         "black-2-white-2": "Has double power against Pokémon that have less than half their max HP remaining."
     },
     "flavor_text": {
-        "black-2-white-2": "If the target’s HP is down to about half, this attack will hit with double the power.",
-        "black-white": "If the target’s HP is down to about half, this attack will hit with double the power."
+        "black-white": "If the target’s HP is down to about half, this attack will hit with double the power.",
+        "black-2-white-2": "If the target’s HP is down to about half, this attack will hit with double the power."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

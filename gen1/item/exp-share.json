@@ -2,7 +2,12 @@
     "id": 193,
     "name": "exp-share",
     "source_url": "https://pokeapi.co/api/v2/item/193/",
-    "cost": 0,
+    "prices": {
+        "red-blue": null,
+        "yellow": null,
+        "red-green-japan": null,
+        "blue-japan": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [
@@ -15,7 +20,6 @@
     "flavor_text": {},
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/exp-share.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

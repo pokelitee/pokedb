@@ -44,7 +44,10 @@
             "stat": "accuracy"
         }
     ],
-    "machine": "tm70",
+    "machine": {
+        "black-white": "tm70",
+        "black-2-white-2": "tm70"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

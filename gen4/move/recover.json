@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A self-healing move. The user restores its own HP by up to half of its max HP."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "heal",

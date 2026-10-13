@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "To inflict massive damage, the user burns itself out. After using this move, the user will no longer be Fire type."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

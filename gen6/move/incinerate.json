@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable."
     },
     "stat_changes": [],
-    "machine": "tm59",
+    "machine": {
+        "x-y": "tm59",
+        "omega-ruby-alpha-sapphire": "tm59"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

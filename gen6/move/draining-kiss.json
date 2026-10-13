@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user steals the target’s energy with a kiss. The user’s HP is restored by over half of the damage taken by the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-heal",

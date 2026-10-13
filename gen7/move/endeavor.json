@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "This attack move cuts down the target’s HP to equal the user’s HP."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

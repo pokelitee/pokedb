@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is razed by a fiery explosion. The user must rest on the next turn, however."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

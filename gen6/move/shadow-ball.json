@@ -44,7 +44,10 @@
             "stat": "special-defense"
         }
     ],
-    "machine": "tm30",
+    "machine": {
+        "x-y": "tm30",
+        "omega-ruby-alpha-sapphire": "tm30"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

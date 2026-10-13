@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user charges at the target and may make it flinch. This can also be used to climb a waterfall."
     },
     "stat_changes": [],
-    "machine": "hm05",
+    "machine": {
+        "x-y": "hm05",
+        "omega-ruby-alpha-sapphire": "hm05"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

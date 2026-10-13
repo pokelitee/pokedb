@@ -60,7 +60,13 @@
         "legends-arceus": "Things such as long bodies or tentacles are used to bind and squeeze the target for four to five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

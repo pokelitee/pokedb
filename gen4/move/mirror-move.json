@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user counters the foe by mimicking the move last used by the foe."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

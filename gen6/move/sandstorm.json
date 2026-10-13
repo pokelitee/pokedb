@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types."
     },
     "stat_changes": [],
-    "machine": "tm37",
+    "machine": {
+        "x-y": "tm37",
+        "omega-ruby-alpha-sapphire": "tm37"
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

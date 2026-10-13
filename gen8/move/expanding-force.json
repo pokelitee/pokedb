@@ -35,32 +35,38 @@
     "target": "selected-pokemon",
     "generation": "generation-viii",
     "effect_chance": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": 100,
+        "the-isle-of-armor": 100,
+        "the-crown-tundra": 100,
+        "brilliant-diamond-shining-pearl": 100,
+        "legends-arceus": 100
     },
     "effect": {
-        "sword-shield": "Inflicts regular damage.",
-        "the-isle-of-armor": "Inflicts regular damage.",
-        "the-crown-tundra": "Inflicts regular damage.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage.",
-        "legends-arceus": "Inflicts regular damage."
+        "sword-shield": "If Psychic Terrain is active and the user is grounded, this move hits all opposing Pokemon and has its power incrased by 50%.",
+        "the-isle-of-armor": "If Psychic Terrain is active and the user is grounded, this move hits all opposing Pokemon and has its power incrased by 50%.",
+        "the-crown-tundra": "If Psychic Terrain is active and the user is grounded, this move hits all opposing Pokemon and has its power incrased by 50%.",
+        "brilliant-diamond-shining-pearl": "If Psychic Terrain is active and the user is grounded, this move hits all opposing Pokemon and has its power incrased by 50%.",
+        "legends-arceus": "If Psychic Terrain is active and the user is grounded, this move hits all opposing Pokemon and has its power incrased by 50%."
     },
     "short_effect": {
-        "sword-shield": "Inflicts regular damage with no additional effect.",
-        "the-isle-of-armor": "Inflicts regular damage with no additional effect.",
-        "the-crown-tundra": "Inflicts regular damage with no additional effect.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage with no additional effect.",
-        "legends-arceus": "Inflicts regular damage with no additional effect."
+        "sword-shield": "If Psychic Terrain is active and the user is grounded, this move hits all opposing Pokemon and has its power incrased by 50%.",
+        "the-isle-of-armor": "If Psychic Terrain is active and the user is grounded, this move hits all opposing Pokemon and has its power incrased by 50%.",
+        "the-crown-tundra": "If Psychic Terrain is active and the user is grounded, this move hits all opposing Pokemon and has its power incrased by 50%.",
+        "brilliant-diamond-shining-pearl": "If Psychic Terrain is active and the user is grounded, this move hits all opposing Pokemon and has its power incrased by 50%.",
+        "legends-arceus": "If Psychic Terrain is active and the user is grounded, this move hits all opposing Pokemon and has its power incrased by 50%."
     },
     "flavor_text": {
         "sword-shield": "The user attacks the target with its psychic power. This move’s power goes up and damages all opposing Pokémon on Psychic Terrain.",
         "legends-arceus": "The user attacks the target with its psychic power. This move's power goes up and damages all opposing Pokémon on Psychic Terrain."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

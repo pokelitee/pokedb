@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The target is thrown, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

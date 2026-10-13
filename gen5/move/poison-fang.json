@@ -23,8 +23,8 @@
     "target": "selected-pokemon",
     "generation": "generation-iii",
     "effect_chance": {
-        "black-white": 50,
-        "black-2-white-2": 50
+        "black-white": 30,
+        "black-2-white-2": 30
     },
     "effect": {
         "black-white": "Inflicts regular damage. Has a chance to badly poison the target.",
@@ -39,7 +39,10 @@
         "black-2-white-2": "The user bites the target with toxic fangs. It may also leave the target badly poisoned."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

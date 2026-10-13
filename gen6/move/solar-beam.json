@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "A two-turn attack. The user gathers light, then blasts a bundled beam on the next turn."
     },
     "stat_changes": [],
-    "machine": "tm22",
+    "machine": {
+        "x-y": "tm22",
+        "omega-ruby-alpha-sapphire": "tm22"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

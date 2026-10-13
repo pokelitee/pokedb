@@ -39,7 +39,10 @@
         "crystal": "An attack that may steal a held item."
     },
     "stat_changes": [],
-    "machine": "tm46",
+    "machine": {
+        "gold-silver": "tm46",
+        "crystal": "tm46"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

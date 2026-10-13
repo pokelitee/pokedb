@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user looses a blast of aura power from deep within its body. This move is certain to hit."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

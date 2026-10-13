@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A charging attack that may also leave the foe confused. It can also be used to scale rocky walls."
     },
     "stat_changes": [],
-    "machine": "hm08",
+    "machine": {
+        "diamond-pearl": "hm08",
+        "platinum": "hm08",
+        "heartgold-soulsilver": "hm08"
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "damage-ailment",

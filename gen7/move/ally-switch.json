@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user teleports using a strange power and switches places with one of its allies."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

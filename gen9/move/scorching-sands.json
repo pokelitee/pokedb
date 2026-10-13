@@ -66,7 +66,14 @@
         "scarlet-violet": "The user throws scorching sand at the target to attack. This may also leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": "tm215",
+    "machine": {
+        "scarlet-violet": "tm215",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm215",
+        "legends-za": null,
+        "mega-dimension": "tm136",
+        "champions": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

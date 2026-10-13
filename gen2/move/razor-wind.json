@@ -39,7 +39,10 @@
         "crystal": "1st turn: Prepare 2nd turn: Attack"
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

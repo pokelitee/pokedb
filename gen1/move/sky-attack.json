@@ -31,10 +31,10 @@
     "target": "selected-pokemon",
     "generation": "generation-i",
     "effect_chance": {
-        "red-blue": 30,
-        "yellow": 30,
-        "red-green-japan": 30,
-        "blue-japan": 30
+        "red-blue": 10,
+        "yellow": 10,
+        "red-green-japan": 10,
+        "blue-japan": 10
     },
     "effect": {
         "red-blue": "Inflicts regular damage. User charges for one turn before attacking. Critical hit chance is one level higher than normal. Has a chance to make the target flinch. This move cannot be selected by Sleep Talk.",
@@ -50,7 +50,12 @@
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": "tm43",
+    "machine": {
+        "red-blue": "tm43",
+        "yellow": "tm43",
+        "red-green-japan": "tm43",
+        "blue-japan": "tm43"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

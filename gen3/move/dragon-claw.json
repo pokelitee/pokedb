@@ -61,7 +61,13 @@
         "firered-leafgreen": "Sharp, huge claws hook and slash the foe quickly and with great power."
     },
     "stat_changes": [],
-    "machine": "tm02",
+    "machine": {
+        "ruby-sapphire": "tm02",
+        "emerald": "tm02",
+        "firered-leafgreen": "tm02",
+        "colosseum": "tm02",
+        "xd": "tm02"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

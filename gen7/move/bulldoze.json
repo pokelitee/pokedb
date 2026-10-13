@@ -52,7 +52,11 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm78",
+    "machine": {
+        "sun-moon": "tm78",
+        "ultra-sun-ultra-moon": "tm78",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

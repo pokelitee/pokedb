@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user attacks by giving the foe a booby-trapped gift. It restores HP sometimes, however."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

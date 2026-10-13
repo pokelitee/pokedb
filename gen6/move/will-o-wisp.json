@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user shoots a sinister, bluish-white flame at the target to inflict a burn."
     },
     "stat_changes": [],
-    "machine": "tm61",
+    "machine": {
+        "x-y": "tm61",
+        "omega-ruby-alpha-sapphire": "tm61"
+    },
     "metadata": {
         "ailment": "burn",
         "category": "ailment",

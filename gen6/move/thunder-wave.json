@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user launches a weak jolt of electricity that paralyzes the target."
     },
     "stat_changes": [],
-    "machine": "tm73",
+    "machine": {
+        "x-y": "tm73",
+        "omega-ruby-alpha-sapphire": "tm73"
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "ailment",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user chants an incantation toward the sky, preventing opposing Pokémon from landing critical hits for five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

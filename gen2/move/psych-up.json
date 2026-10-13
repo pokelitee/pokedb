@@ -39,7 +39,10 @@
         "crystal": "Copies the foe's stat changes."
     },
     "stat_changes": [],
-    "machine": "tm09",
+    "machine": {
+        "gold-silver": "tm09",
+        "crystal": "tm09"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

@@ -66,7 +66,14 @@
         "scarlet-violet": "The user rampages and attacks for two to three turns. The user then becomes confused."
     },
     "stat_changes": [],
-    "machine": "tm156",
+    "machine": {
+        "scarlet-violet": "tm156",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm156",
+        "legends-za": "tm93",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

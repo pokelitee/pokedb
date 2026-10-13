@@ -45,7 +45,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user bombards the target with telekinetic force. A wondrous wall of light is put up to weaken the power of the opposing Pokémon’s special moves."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

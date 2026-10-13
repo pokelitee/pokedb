@@ -61,7 +61,13 @@
         "firered-leafgreen": "It protects the user’s party from all status problems for five turns."
     },
     "stat_changes": [],
-    "machine": "tm20",
+    "machine": {
+        "ruby-sapphire": "tm20",
+        "emerald": "tm20",
+        "firered-leafgreen": "tm20",
+        "colosseum": "tm20",
+        "xd": "tm20"
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The target faints instantly. It’s less likely to hit the target if it’s used by Pokémon other than Ice types."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "ohko",

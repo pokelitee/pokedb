@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is scorched with an intense blast of fire. The target may also be left with a burn."
     },
     "stat_changes": [],
-    "machine": "tm35",
+    "machine": {
+        "diamond-pearl": "tm35",
+        "platinum": "tm35",
+        "heartgold-soulsilver": "tm35"
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

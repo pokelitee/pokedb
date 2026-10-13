@@ -39,7 +39,10 @@
         "black-2-white-2": "The user explodes to inflict damage on those around it. The user faints upon using this move."
     },
     "stat_changes": [],
-    "machine": "tm64",
+    "machine": {
+        "black-white": "tm64",
+        "black-2-white-2": "tm64"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

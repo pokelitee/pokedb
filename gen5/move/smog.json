@@ -39,7 +39,10 @@
         "black-2-white-2": "The target is attacked with a discharge of filthy gases. It may also poison the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

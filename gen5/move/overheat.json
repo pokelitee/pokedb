@@ -44,7 +44,10 @@
             "stat": "special-attack"
         }
     ],
-    "machine": "tm50",
+    "machine": {
+        "black-white": "tm50",
+        "black-2-white-2": "tm50"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

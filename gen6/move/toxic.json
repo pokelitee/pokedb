@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "A move that leaves the target badly poisoned. Its poison damage worsens every turn."
     },
     "stat_changes": [],
-    "machine": "tm06",
+    "machine": {
+        "x-y": "tm06",
+        "omega-ruby-alpha-sapphire": "tm06"
+    },
     "metadata": {
         "ailment": "poison",
         "category": "ailment",

@@ -39,7 +39,10 @@
         "black-2-white-2": "The fewer PP this move has, the greater its attack power."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

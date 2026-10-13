@@ -39,7 +39,10 @@
         "black-2-white-2": "The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio."
     },
     "stat_changes": [],
-    "machine": "tm71",
+    "machine": {
+        "black-white": "tm71",
+        "black-2-white-2": "tm71"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

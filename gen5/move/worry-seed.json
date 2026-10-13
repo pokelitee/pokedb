@@ -39,7 +39,10 @@
         "black-2-white-2": "A seed that causes worry is planted on the target. It prevents sleep by making its Ability Insomnia."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

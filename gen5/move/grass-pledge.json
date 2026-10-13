@@ -39,7 +39,10 @@
         "black-2-white-2": "A column of grass hits opposing Pokémon. When used with its water equivalent, its damage increases into a vast swamp."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move."
     },
     "stat_changes": [],
-    "machine": "tm64",
+    "machine": {
+        "x-y": "tm64",
+        "omega-ruby-alpha-sapphire": "tm64"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

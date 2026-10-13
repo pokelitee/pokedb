@@ -48,7 +48,10 @@
             "stat": "defense"
         }
     ],
-    "machine": "tm08",
+    "machine": {
+        "black-white": "tm08",
+        "black-2-white-2": "tm08"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

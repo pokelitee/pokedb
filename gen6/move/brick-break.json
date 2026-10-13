@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect."
     },
     "stat_changes": [],
-    "machine": "tm31",
+    "machine": {
+        "x-y": "tm31",
+        "omega-ruby-alpha-sapphire": "tm31"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

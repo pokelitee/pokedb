@@ -60,7 +60,13 @@
         "legends-arceus": "The user scatters curious leaves that chase the target. This attack never misses."
     },
     "stat_changes": [],
-    "machine": "tm10",
+    "machine": {
+        "sword-shield": "tm10",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

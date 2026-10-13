@@ -39,7 +39,10 @@
         "black-2-white-2": "The user handles a sharp leaf like a sword and attacks by cutting its target. Critical hits land more easily."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

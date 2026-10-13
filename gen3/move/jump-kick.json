@@ -61,7 +61,13 @@
         "firered-leafgreen": "The user jumps up high, then kicks. If it misses, the user hurts itself."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -52,7 +52,11 @@
             "stat": "attack"
         }
     ],
-    "machine": "tm75",
+    "machine": {
+        "diamond-pearl": "tm75",
+        "platinum": "tm75",
+        "heartgold-soulsilver": "tm75"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A cloud of poisonous dust is scattered on the foe. It may poison the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "ailment",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move’s power."
     },
     "stat_changes": [],
-    "machine": "tm74",
+    "machine": {
+        "sun-moon": "tm74",
+        "ultra-sun-ultra-moon": "tm74",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

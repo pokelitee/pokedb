@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user materializes an odd psychic wave to attack the target. This attack does physical damage."
     },
     "stat_changes": [],
-    "machine": "tm03",
+    "machine": {
+        "sun-moon": "tm03",
+        "ultra-sun-ultra-moon": "tm03",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

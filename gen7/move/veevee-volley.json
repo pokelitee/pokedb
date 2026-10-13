@@ -45,7 +45,11 @@
         "lets-go-pikachu-lets-go-eevee": "The more Eevee loves its Trainer, the greater the move’s power. It never misses."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

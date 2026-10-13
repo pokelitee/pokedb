@@ -38,7 +38,10 @@
         "omega-ruby-alpha-sapphire": "The user attacks opposing Pokémon with countless beams of light that glow a deep and brilliant blue."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

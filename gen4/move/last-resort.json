@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "This move can be used only after the user has used all the other moves it knows in the battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

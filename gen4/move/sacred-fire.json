@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is razed with a mystical fire of great intensity. It may also leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

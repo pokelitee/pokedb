@@ -66,7 +66,14 @@
         "scarlet-violet": "The user turns the ground into Electric Terrain for five turns, powering up Electric-type moves. Pokémon on the ground can no longer fall asleep."
     },
     "stat_changes": [],
-    "machine": "tm136",
+    "machine": {
+        "scarlet-violet": "tm136",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm136",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

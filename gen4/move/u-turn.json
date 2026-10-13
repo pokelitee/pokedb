@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
     },
     "stat_changes": [],
-    "machine": "tm89",
+    "machine": {
+        "diamond-pearl": "tm89",
+        "platinum": "tm89",
+        "heartgold-soulsilver": "tm89"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

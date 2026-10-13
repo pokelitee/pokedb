@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target."
     },
     "stat_changes": [],
-    "machine": "tm53",
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": "tm53"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-heal",

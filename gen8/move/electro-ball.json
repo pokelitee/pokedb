@@ -60,7 +60,13 @@
         "legends-arceus": "The user hurls an electric orb at the target. The faster the user is than the target, the greater the move's power."
     },
     "stat_changes": [],
-    "machine": "tr80",
+    "machine": {
+        "sword-shield": "tr80",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

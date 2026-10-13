@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user tucks in its head to raise its Defense in the first turn, then rams the foe on the next turn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

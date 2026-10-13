@@ -39,7 +39,10 @@
         "crystal": "An attack based on lack of loyalty."
     },
     "stat_changes": [],
-    "machine": "tm21",
+    "machine": {
+        "gold-silver": "tm21",
+        "crystal": "tm21"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

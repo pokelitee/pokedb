@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user shoots a torrent of water at the target and changes the target’s type to Water."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

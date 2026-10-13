@@ -61,7 +61,13 @@
         "firered-leafgreen": "Use it to flee from any wild POKéMON. Also warps to the last POKé CENTER."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

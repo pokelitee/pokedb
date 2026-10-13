@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "Gravity is intensified for five turns, making moves involving flying unusable and negating Levitation."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

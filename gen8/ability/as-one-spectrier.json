@@ -5,18 +5,18 @@
     "is_main_series": true,
     "generation": "generation-viii",
     "effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "This Pokémon has the combined effects of Unnerve and Grim Neigh. Opposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry. When this Pokémon knocks out a target, it utters a terrifying neigh, which boosts its Sp. Atk stat.",
+        "the-isle-of-armor": "This Pokémon has the combined effects of Unnerve and Grim Neigh. Opposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry. When this Pokémon knocks out a target, it utters a terrifying neigh, which boosts its Sp. Atk stat.",
+        "the-crown-tundra": "This Pokémon has the combined effects of Unnerve and Grim Neigh. Opposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry. When this Pokémon knocks out a target, it utters a terrifying neigh, which boosts its Sp. Atk stat.",
+        "brilliant-diamond-shining-pearl": "This Pokémon has the combined effects of Unnerve and Grim Neigh. Opposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry. When this Pokémon knocks out a target, it utters a terrifying neigh, which boosts its Sp. Atk stat.",
+        "legends-arceus": "This Pokémon has the combined effects of Unnerve and Grim Neigh. Opposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry. When this Pokémon knocks out a target, it utters a terrifying neigh, which boosts its Sp. Atk stat."
     },
     "short_effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Combines the effects of Unnerve and Grim Neigh.",
+        "the-isle-of-armor": "Combines the effects of Unnerve and Grim Neigh.",
+        "the-crown-tundra": "Combines the effects of Unnerve and Grim Neigh.",
+        "brilliant-diamond-shining-pearl": "Combines the effects of Unnerve and Grim Neigh.",
+        "legends-arceus": "Combines the effects of Unnerve and Grim Neigh."
     },
     "flavor_text": {
         "sword-shield": "This Ability combines the effects of both Calyrex’s Unnerve Ability and Spectrier’s Grim Neigh Ability."

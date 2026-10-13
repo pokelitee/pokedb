@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user releases countless shots of light. Its type varies with the kind of Plate the user is holding."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A cloud of poison gas is sprayed in the foe’s face. It may poison the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "ailment",

@@ -66,7 +66,14 @@
         "scarlet-violet": "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions."
     },
     "stat_changes": [],
-    "machine": "tm85",
+    "machine": {
+        "scarlet-violet": "tm85",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

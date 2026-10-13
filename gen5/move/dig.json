@@ -39,7 +39,10 @@
         "black-2-white-2": "The user burrows, then attacks on the second turn. It can also be used to exit dungeons."
     },
     "stat_changes": [],
-    "machine": "tm28",
+    "machine": {
+        "black-white": "tm28",
+        "black-2-white-2": "tm28"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

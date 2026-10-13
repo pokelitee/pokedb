@@ -39,6 +39,32 @@
     "target": "selected-pokemon-me-first",
     "generation": "generation-viii",
     "effect_chance": {
+        "scarlet-violet": 100,
+        "the-teal-mask": 100,
+        "the-indigo-disk": 100,
+        "legends-za": 100,
+        "mega-dimension": 100,
+        "champions": 100
+    },
+    "effect": {
+        "scarlet-violet": "Changes the weather to rain for five turns, during which Water moves inflict 50% extra damage, and Fire moves inflict half damage. If the user is holding Damp Rock, this effect lasts for eight turns. Thunder has 100% accuracy. If the target has used Detect or Protect, Thunder has a (100 - accuracy)% chance to break through the protection. Solar Beam has half power. Moonlight, Morning Sun, and Synthesis heal only 1/4 of the user’s max HP. Pokémon with Swift Swim have doubled original Speed. Pokémon with Forecast become Water. Pokémon with Dry Skin heal 1/8 max HP, Pokémon with Hydration are cured of major status effects, and Pokémon with Rain Dish heal 1/16 max HP at the end of each turn.",
+        "the-teal-mask": "Changes the weather to rain for five turns, during which Water moves inflict 50% extra damage, and Fire moves inflict half damage. If the user is holding Damp Rock, this effect lasts for eight turns. Thunder has 100% accuracy. If the target has used Detect or Protect, Thunder has a (100 - accuracy)% chance to break through the protection. Solar Beam has half power. Moonlight, Morning Sun, and Synthesis heal only 1/4 of the user’s max HP. Pokémon with Swift Swim have doubled original Speed. Pokémon with Forecast become Water. Pokémon with Dry Skin heal 1/8 max HP, Pokémon with Hydration are cured of major status effects, and Pokémon with Rain Dish heal 1/16 max HP at the end of each turn.",
+        "the-indigo-disk": "Changes the weather to rain for five turns, during which Water moves inflict 50% extra damage, and Fire moves inflict half damage. If the user is holding Damp Rock, this effect lasts for eight turns. Thunder has 100% accuracy. If the target has used Detect or Protect, Thunder has a (100 - accuracy)% chance to break through the protection. Solar Beam has half power. Moonlight, Morning Sun, and Synthesis heal only 1/4 of the user’s max HP. Pokémon with Swift Swim have doubled original Speed. Pokémon with Forecast become Water. Pokémon with Dry Skin heal 1/8 max HP, Pokémon with Hydration are cured of major status effects, and Pokémon with Rain Dish heal 1/16 max HP at the end of each turn.",
+        "legends-za": "Changes the weather to rain for five turns, during which Water moves inflict 50% extra damage, and Fire moves inflict half damage. If the user is holding Damp Rock, this effect lasts for eight turns. Thunder has 100% accuracy. If the target has used Detect or Protect, Thunder has a (100 - accuracy)% chance to break through the protection. Solar Beam has half power. Moonlight, Morning Sun, and Synthesis heal only 1/4 of the user’s max HP. Pokémon with Swift Swim have doubled original Speed. Pokémon with Forecast become Water. Pokémon with Dry Skin heal 1/8 max HP, Pokémon with Hydration are cured of major status effects, and Pokémon with Rain Dish heal 1/16 max HP at the end of each turn.",
+        "mega-dimension": "Changes the weather to rain for five turns, during which Water moves inflict 50% extra damage, and Fire moves inflict half damage. If the user is holding Damp Rock, this effect lasts for eight turns. Thunder has 100% accuracy. If the target has used Detect or Protect, Thunder has a (100 - accuracy)% chance to break through the protection. Solar Beam has half power. Moonlight, Morning Sun, and Synthesis heal only 1/4 of the user’s max HP. Pokémon with Swift Swim have doubled original Speed. Pokémon with Forecast become Water. Pokémon with Dry Skin heal 1/8 max HP, Pokémon with Hydration are cured of major status effects, and Pokémon with Rain Dish heal 1/16 max HP at the end of each turn.",
+        "champions": "Changes the weather to rain for five turns, during which Water moves inflict 50% extra damage, and Fire moves inflict half damage. If the user is holding Damp Rock, this effect lasts for eight turns. Thunder has 100% accuracy. If the target has used Detect or Protect, Thunder has a (100 - accuracy)% chance to break through the protection. Solar Beam has half power. Moonlight, Morning Sun, and Synthesis heal only 1/4 of the user’s max HP. Pokémon with Swift Swim have doubled original Speed. Pokémon with Forecast become Water. Pokémon with Dry Skin heal 1/8 max HP, Pokémon with Hydration are cured of major status effects, and Pokémon with Rain Dish heal 1/16 max HP at the end of each turn."
+    },
+    "short_effect": {
+        "scarlet-violet": "Changes the weather to rain for five turns.",
+        "the-teal-mask": "Changes the weather to rain for five turns.",
+        "the-indigo-disk": "Changes the weather to rain for five turns.",
+        "legends-za": "Changes the weather to rain for five turns.",
+        "mega-dimension": "Changes the weather to rain for five turns.",
+        "champions": "Changes the weather to rain for five turns."
+    },
+    "flavor_text": {},
+    "stat_changes": [],
+    "machine": {
         "scarlet-violet": null,
         "the-teal-mask": null,
         "the-indigo-disk": null,
@@ -46,25 +72,6 @@
         "mega-dimension": null,
         "champions": null
     },
-    "effect": {
-        "scarlet-violet": "Inflicts regular damage.",
-        "the-teal-mask": "Inflicts regular damage.",
-        "the-indigo-disk": "Inflicts regular damage.",
-        "legends-za": "Inflicts regular damage.",
-        "mega-dimension": "Inflicts regular damage.",
-        "champions": "Inflicts regular damage."
-    },
-    "short_effect": {
-        "scarlet-violet": "Inflicts regular damage with no additional effect.",
-        "the-teal-mask": "Inflicts regular damage with no additional effect.",
-        "the-indigo-disk": "Inflicts regular damage with no additional effect.",
-        "legends-za": "Inflicts regular damage with no additional effect.",
-        "mega-dimension": "Inflicts regular damage with no additional effect.",
-        "champions": "Inflicts regular damage with no additional effect."
-    },
-    "flavor_text": {},
-    "stat_changes": [],
-    "machine": null,
     "metadata": {
         "ailment": "none",
         "category": "damage",

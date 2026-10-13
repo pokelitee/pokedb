@@ -35,11 +35,14 @@
         "omega-ruby-alpha-sapphire": "Randomly selects and uses any move in the game."
     },
     "flavor_text": {
-        "omega-ruby-alpha-sapphire": "The user waggles a finger and stimulates its brain into randomly using nearly any move.",
-        "x-y": "The user waggles a finger and stimulates its brain into randomly using nearly any move."
+        "x-y": "The user waggles a finger and stimulates its brain into randomly using nearly any move.",
+        "omega-ruby-alpha-sapphire": "The user waggles a finger and stimulates its brain into randomly using nearly any move."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

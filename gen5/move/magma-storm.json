@@ -39,7 +39,10 @@
         "black-2-white-2": "The target becomes trapped within a maelstrom of fire that rages for four to five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen."
     },
     "stat_changes": [],
-    "machine": "tm14",
+    "machine": {
+        "x-y": "tm14",
+        "omega-ruby-alpha-sapphire": "tm14"
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

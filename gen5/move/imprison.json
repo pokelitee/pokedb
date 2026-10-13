@@ -39,7 +39,10 @@
         "black-2-white-2": "If the opponents know any move also known by the user, the opponents are prevented from using it."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

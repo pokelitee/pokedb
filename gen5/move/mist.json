@@ -39,7 +39,10 @@
         "black-2-white-2": "The user cloaks its body with a white mist that prevents any of its stats from being cut for five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user slams the target with a long tail, vines, or a tentacle. The target is hit twice in a row."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

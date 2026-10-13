@@ -44,7 +44,10 @@
             "stat": "defense"
         }
     ],
-    "machine": "tm08",
+    "machine": {
+        "gold-silver": "tm08",
+        "crystal": "tm08"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

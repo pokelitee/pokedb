@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A unique attack that varies in type and intensity depending on the Pokémon using it."
     },
     "stat_changes": [],
-    "machine": "tm10",
+    "machine": {
+        "diamond-pearl": "tm10",
+        "platinum": "tm10",
+        "heartgold-soulsilver": "tm10"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

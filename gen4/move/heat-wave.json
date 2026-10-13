@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user exhales a heated breath on the foe to attack. It may also leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

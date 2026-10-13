@@ -23,8 +23,8 @@
     "target": "user-and-allies",
     "generation": "generation-ii",
     "effect_chance": {
-        "gold-silver": 4,
-        "crystal": 4
+        "gold-silver": null,
+        "crystal": null
     },
     "effect": {
         "gold-silver": "Removes major status effects and confusion from every Pokémon in the user’s party.",
@@ -39,7 +39,10 @@
         "crystal": "Eliminates all status problems."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

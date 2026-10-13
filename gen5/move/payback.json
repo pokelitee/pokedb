@@ -39,7 +39,10 @@
         "black-2-white-2": "If the user moves after the target, this attack’s power will be doubled."
     },
     "stat_changes": [],
-    "machine": "tm66",
+    "machine": {
+        "black-white": "tm66",
+        "black-2-white-2": "tm66"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

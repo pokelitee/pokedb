@@ -52,7 +52,11 @@
             "stat": "evasion"
         }
     ],
-    "machine": "tm32",
+    "machine": {
+        "diamond-pearl": "tm32",
+        "platinum": "tm32",
+        "heartgold-soulsilver": "tm32"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

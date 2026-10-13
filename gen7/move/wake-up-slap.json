@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "This attack inflicts big damage on a sleeping target. This also wakes the target up, however."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

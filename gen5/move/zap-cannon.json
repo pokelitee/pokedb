@@ -39,7 +39,10 @@
         "black-2-white-2": "The user fires an electric blast like a cannon to inflict damage and cause paralysis."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

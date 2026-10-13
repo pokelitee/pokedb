@@ -71,7 +71,14 @@
             "stat": "attack"
         }
     ],
-    "machine": "tm139",
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": "tm139",
+        "champions": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "swagger",

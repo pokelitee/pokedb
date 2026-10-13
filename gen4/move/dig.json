@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user burrows, then attacks on the second turn. It can also be used to exit dungeons."
     },
     "stat_changes": [],
-    "machine": "tm28",
+    "machine": {
+        "diamond-pearl": "tm28",
+        "platinum": "tm28",
+        "heartgold-soulsilver": "tm28"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

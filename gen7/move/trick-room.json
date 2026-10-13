@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user creates a bizarre area in which slower Pokémon get to move first for five turns."
     },
     "stat_changes": [],
-    "machine": "tm92",
+    "machine": {
+        "sun-moon": "tm92",
+        "ultra-sun-ultra-moon": "tm92",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

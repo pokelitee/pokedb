@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "A move that leaves the target badly poisoned. Its poison damage worsens every turn."
     },
     "stat_changes": [],
-    "machine": "tm06",
+    "machine": {
+        "sun-moon": "tm06",
+        "ultra-sun-ultra-moon": "tm06",
+        "lets-go-pikachu-lets-go-eevee": "tm27"
+    },
     "metadata": {
         "ailment": "poison",
         "category": "ailment",

@@ -61,7 +61,13 @@
         "firered-leafgreen": "The foe is stabbed with a toxic barb, etc. It may poison the foe."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

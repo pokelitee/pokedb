@@ -39,7 +39,10 @@
         "crystal": "May put the foe to sleep."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "sleep",
         "category": "ailment",

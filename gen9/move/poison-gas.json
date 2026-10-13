@@ -66,7 +66,14 @@
         "scarlet-violet": "A cloud of poison gas is sprayed in the faces of opposing Pokémon, poisoning those it hits."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "ailment",

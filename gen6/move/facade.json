@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "An attack move that doubles its power if the user is poisoned, burned, or has paralysis."
     },
     "stat_changes": [],
-    "machine": "tm42",
+    "machine": {
+        "x-y": "tm42",
+        "omega-ruby-alpha-sapphire": "tm42"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

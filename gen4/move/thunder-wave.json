@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A weak electric charge is launched at the foe. It causes paralysis if it hits."
     },
     "stat_changes": [],
-    "machine": "tm73",
+    "machine": {
+        "diamond-pearl": "tm73",
+        "platinum": "tm73",
+        "heartgold-soulsilver": "tm73"
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "ailment",

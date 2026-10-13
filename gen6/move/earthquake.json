@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user sets off an earthquake that strikes every Pokémon around it."
     },
     "stat_changes": [],
-    "machine": "tm26",
+    "machine": {
+        "x-y": "tm26",
+        "omega-ruby-alpha-sapphire": "tm26"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

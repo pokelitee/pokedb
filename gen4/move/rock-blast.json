@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user hurls hard rocks at the foe. Two to five rocks are launched in quick succession."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

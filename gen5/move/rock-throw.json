@@ -39,7 +39,10 @@
         "black-2-white-2": "The user picks up and throws a small rock at the target to attack."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

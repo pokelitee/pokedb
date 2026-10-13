@@ -60,7 +60,13 @@
         "legends-arceus": "The user launches sharp icicles at the target two to five times in a row."
     },
     "stat_changes": [],
-    "machine": "tm51",
+    "machine": {
+        "sword-shield": "tm51",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

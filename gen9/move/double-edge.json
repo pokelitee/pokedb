@@ -66,7 +66,14 @@
         "scarlet-violet": "A reckless life-risking tackle in which the user rushes the target. This also damages the user quite a lot."
     },
     "stat_changes": [],
-    "machine": "tm204",
+    "machine": {
+        "scarlet-violet": "tm204",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm204",
+        "legends-za": "tm56",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

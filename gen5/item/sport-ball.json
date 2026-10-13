@@ -2,7 +2,20 @@
     "id": 457,
     "name": "sport-ball",
     "source_url": "https://pokeapi.co/api/v2/item/457/",
-    "cost": 300,
+    "prices": {
+        "black-white": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 150
+            }
+        },
+        "black-2-white-2": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 150
+            }
+        }
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -10,12 +23,11 @@
     "effect": "Used by a trainer in battle : Attempts to catch a wild Pokémon. The wild Pokémon’s catch rate is 1.5× normal.",
     "short_effect": "Tries to catch a Pokémon in the Bug-Catching contest in National Park. (Gen II: Park Ball)",
     "flavor_text": {
-        "black-2-white-2": "A special Poké Ball for the Bug-Catching Contest.",
-        "black-white": "A special Poké Ball for the Bug-Catching Contest."
+        "black-white": "A special Poké Ball for the Bug-Catching Contest.",
+        "black-2-white-2": "A special Poké Ball for the Bug-Catching Contest."
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sport-ball.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

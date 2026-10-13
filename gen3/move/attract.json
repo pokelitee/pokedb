@@ -61,7 +61,13 @@
         "firered-leafgreen": "If it is the other gender, the foe is made infatuated and unlikely to attack."
     },
     "stat_changes": [],
-    "machine": "tm45",
+    "machine": {
+        "ruby-sapphire": "tm45",
+        "emerald": "tm45",
+        "firered-leafgreen": "tm45",
+        "colosseum": "tm45",
+        "xd": "tm45"
+    },
     "metadata": {
         "ailment": "infatuation",
         "category": "ailment",

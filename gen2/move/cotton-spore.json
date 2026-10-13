@@ -23,8 +23,8 @@
     "target": "all-opponents",
     "generation": "generation-ii",
     "effect_chance": {
-        "gold-silver": 10,
-        "crystal": 10
+        "gold-silver": null,
+        "crystal": null
     },
     "effect": {
         "gold-silver": "Lowers the target’s Speed by two stages.",
@@ -44,7 +44,10 @@
             "stat": "speed"
         }
     ],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

@@ -39,6 +39,34 @@
     "target": "selected-pokemon",
     "generation": "generation-viii",
     "effect_chance": {
+        "scarlet-violet": 100,
+        "the-teal-mask": 100,
+        "the-indigo-disk": 100,
+        "legends-za": 100,
+        "mega-dimension": 100,
+        "champions": 100
+    },
+    "effect": {
+        "scarlet-violet": "Inflicts regular damage. Always scores a critical hit.",
+        "the-teal-mask": "Inflicts regular damage. Always scores a critical hit.",
+        "the-indigo-disk": "Inflicts regular damage. Always scores a critical hit.",
+        "legends-za": "Inflicts regular damage. Always scores a critical hit.",
+        "mega-dimension": "Inflicts regular damage. Always scores a critical hit.",
+        "champions": "Inflicts regular damage. Always scores a critical hit."
+    },
+    "short_effect": {
+        "scarlet-violet": "Always scores a critical hit.",
+        "the-teal-mask": "Always scores a critical hit.",
+        "the-indigo-disk": "Always scores a critical hit.",
+        "legends-za": "Always scores a critical hit.",
+        "mega-dimension": "Always scores a critical hit.",
+        "champions": "Always scores a critical hit."
+    },
+    "flavor_text": {
+        "scarlet-violet": "The user, having mastered the Dark style, strikes the target with a fierce blow. This move always lands a critical hit."
+    },
+    "stat_changes": [],
+    "machine": {
         "scarlet-violet": null,
         "the-teal-mask": null,
         "the-indigo-disk": null,
@@ -46,27 +74,6 @@
         "mega-dimension": null,
         "champions": null
     },
-    "effect": {
-        "scarlet-violet": "Inflicts regular damage.",
-        "the-teal-mask": "Inflicts regular damage.",
-        "the-indigo-disk": "Inflicts regular damage.",
-        "legends-za": "Inflicts regular damage.",
-        "mega-dimension": "Inflicts regular damage.",
-        "champions": "Inflicts regular damage."
-    },
-    "short_effect": {
-        "scarlet-violet": "Inflicts regular damage with no additional effect.",
-        "the-teal-mask": "Inflicts regular damage with no additional effect.",
-        "the-indigo-disk": "Inflicts regular damage with no additional effect.",
-        "legends-za": "Inflicts regular damage with no additional effect.",
-        "mega-dimension": "Inflicts regular damage with no additional effect.",
-        "champions": "Inflicts regular damage with no additional effect."
-    },
-    "flavor_text": {
-        "scarlet-violet": "The user, having mastered the Dark style, strikes the target with a fierce blow. This move always lands a critical hit."
-    },
-    "stat_changes": [],
-    "machine": null,
     "metadata": {
         "ailment": "none",
         "category": "damage",

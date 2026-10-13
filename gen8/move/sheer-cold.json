@@ -59,7 +59,13 @@
         "sword-shield": "The target faints instantly. It’s less likely to hit the target if it’s used by Pokémon other than Ice types."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "ohko",

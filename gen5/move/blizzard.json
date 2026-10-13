@@ -39,7 +39,10 @@
         "black-2-white-2": "A howling blizzard is summoned to strike the opposing team. It may also freeze them solid."
     },
     "stat_changes": [],
-    "machine": "tm14",
+    "machine": {
+        "black-white": "tm14",
+        "black-2-white-2": "tm14"
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user attacks everything around it. The user’s HP is restored by half the damage taken by those hit."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-heal",

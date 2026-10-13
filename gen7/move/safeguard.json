@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user creates a protective field that prevents status conditions for five turns."
     },
     "stat_changes": [],
-    "machine": "tm20",
+    "machine": {
+        "sun-moon": "tm20",
+        "ultra-sun-ultra-moon": "tm20",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

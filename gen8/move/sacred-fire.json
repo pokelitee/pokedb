@@ -60,7 +60,13 @@
         "legends-arceus": "The target is razed with a mystical fire of great intensity. This may also leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

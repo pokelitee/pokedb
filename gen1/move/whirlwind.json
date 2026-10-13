@@ -50,7 +50,12 @@
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": "tm04",
+    "machine": {
+        "red-blue": "tm04",
+        "yellow": "tm04",
+        "red-green-japan": "tm04",
+        "blue-japan": "tm04"
+    },
     "metadata": {
         "ailment": "none",
         "category": "force-switch",

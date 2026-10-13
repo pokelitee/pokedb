@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "An energy-draining punch. The user’s HP is restored by half the damage taken by the target."
     },
     "stat_changes": [],
-    "machine": "tm60",
+    "machine": {
+        "diamond-pearl": "tm60",
+        "platinum": "tm60",
+        "heartgold-soulsilver": "tm60"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-heal",

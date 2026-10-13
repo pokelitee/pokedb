@@ -66,7 +66,14 @@
         "scarlet-violet": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits."
     },
     "stat_changes": [],
-    "machine": "tm154",
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": "tm154",
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "ohko",

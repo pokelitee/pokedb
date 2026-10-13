@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "With a scary face, the user tries to force a kiss on the foe. If it succeeds, the target falls asleep."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "sleep",
         "category": "ailment",

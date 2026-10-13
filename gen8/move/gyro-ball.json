@@ -60,7 +60,13 @@
         "legends-arceus": "The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move's power."
     },
     "stat_changes": [],
-    "machine": "tr52",
+    "machine": {
+        "sword-shield": "tr52",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

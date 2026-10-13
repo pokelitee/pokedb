@@ -60,7 +60,13 @@
         "legends-arceus": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move's power."
     },
     "stat_changes": [],
-    "machine": "tr79",
+    "machine": {
+        "sword-shield": "tr79",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

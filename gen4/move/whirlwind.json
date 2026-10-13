@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is blown away, to be replaced by another Pokémon in its party. In the wild, the battle ends."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "force-switch",

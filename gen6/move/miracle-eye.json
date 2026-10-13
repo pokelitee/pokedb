@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "Enables a Dark-type target to be hit by Psychic-type attacks. This also enables an evasive target to be hit."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "no-type-immunity",
         "category": "ailment",

@@ -39,6 +39,32 @@
     "target": "selected-pokemon-me-first",
     "generation": "generation-viii",
     "effect_chance": {
+        "scarlet-violet": 100,
+        "the-teal-mask": 100,
+        "the-indigo-disk": 100,
+        "legends-za": 100,
+        "mega-dimension": 100,
+        "champions": 100
+    },
+    "effect": {
+        "scarlet-violet": "Changes the weather to sunshine for five turns, during which Fire moves inflict 50% extra damage, and Water moves inflict half damage. If the user is holding Heat Rock, this effect lasts for eight turns. Pokémon cannot become frozen. Thunder has 50% accuracy. Solar Beam skips its charge turn. Moonlight, Morning Sun, and Synthesis heal 2/3 of the user’s max HP. Pokémon with Chlorophyll have doubled original Speed. Pokémon with Forecast become Fire. Pokémon with Leaf Guard are not affected by major status effects. Pokémon with Flower Gift change form; every Pokémon on their side of the field have their original Attack and Special Attack increased by 50%. Pokémon with Dry Skin lose 1/8 max HP at the end of each turn. Pokémon with Solar Power have their original Special Attack raised by 50% but lose 1/8 their max HP at the end of each turn.",
+        "the-teal-mask": "Changes the weather to sunshine for five turns, during which Fire moves inflict 50% extra damage, and Water moves inflict half damage. If the user is holding Heat Rock, this effect lasts for eight turns. Pokémon cannot become frozen. Thunder has 50% accuracy. Solar Beam skips its charge turn. Moonlight, Morning Sun, and Synthesis heal 2/3 of the user’s max HP. Pokémon with Chlorophyll have doubled original Speed. Pokémon with Forecast become Fire. Pokémon with Leaf Guard are not affected by major status effects. Pokémon with Flower Gift change form; every Pokémon on their side of the field have their original Attack and Special Attack increased by 50%. Pokémon with Dry Skin lose 1/8 max HP at the end of each turn. Pokémon with Solar Power have their original Special Attack raised by 50% but lose 1/8 their max HP at the end of each turn.",
+        "the-indigo-disk": "Changes the weather to sunshine for five turns, during which Fire moves inflict 50% extra damage, and Water moves inflict half damage. If the user is holding Heat Rock, this effect lasts for eight turns. Pokémon cannot become frozen. Thunder has 50% accuracy. Solar Beam skips its charge turn. Moonlight, Morning Sun, and Synthesis heal 2/3 of the user’s max HP. Pokémon with Chlorophyll have doubled original Speed. Pokémon with Forecast become Fire. Pokémon with Leaf Guard are not affected by major status effects. Pokémon with Flower Gift change form; every Pokémon on their side of the field have their original Attack and Special Attack increased by 50%. Pokémon with Dry Skin lose 1/8 max HP at the end of each turn. Pokémon with Solar Power have their original Special Attack raised by 50% but lose 1/8 their max HP at the end of each turn.",
+        "legends-za": "Changes the weather to sunshine for five turns, during which Fire moves inflict 50% extra damage, and Water moves inflict half damage. If the user is holding Heat Rock, this effect lasts for eight turns. Pokémon cannot become frozen. Thunder has 50% accuracy. Solar Beam skips its charge turn. Moonlight, Morning Sun, and Synthesis heal 2/3 of the user’s max HP. Pokémon with Chlorophyll have doubled original Speed. Pokémon with Forecast become Fire. Pokémon with Leaf Guard are not affected by major status effects. Pokémon with Flower Gift change form; every Pokémon on their side of the field have their original Attack and Special Attack increased by 50%. Pokémon with Dry Skin lose 1/8 max HP at the end of each turn. Pokémon with Solar Power have their original Special Attack raised by 50% but lose 1/8 their max HP at the end of each turn.",
+        "mega-dimension": "Changes the weather to sunshine for five turns, during which Fire moves inflict 50% extra damage, and Water moves inflict half damage. If the user is holding Heat Rock, this effect lasts for eight turns. Pokémon cannot become frozen. Thunder has 50% accuracy. Solar Beam skips its charge turn. Moonlight, Morning Sun, and Synthesis heal 2/3 of the user’s max HP. Pokémon with Chlorophyll have doubled original Speed. Pokémon with Forecast become Fire. Pokémon with Leaf Guard are not affected by major status effects. Pokémon with Flower Gift change form; every Pokémon on their side of the field have their original Attack and Special Attack increased by 50%. Pokémon with Dry Skin lose 1/8 max HP at the end of each turn. Pokémon with Solar Power have their original Special Attack raised by 50% but lose 1/8 their max HP at the end of each turn.",
+        "champions": "Changes the weather to sunshine for five turns, during which Fire moves inflict 50% extra damage, and Water moves inflict half damage. If the user is holding Heat Rock, this effect lasts for eight turns. Pokémon cannot become frozen. Thunder has 50% accuracy. Solar Beam skips its charge turn. Moonlight, Morning Sun, and Synthesis heal 2/3 of the user’s max HP. Pokémon with Chlorophyll have doubled original Speed. Pokémon with Forecast become Fire. Pokémon with Leaf Guard are not affected by major status effects. Pokémon with Flower Gift change form; every Pokémon on their side of the field have their original Attack and Special Attack increased by 50%. Pokémon with Dry Skin lose 1/8 max HP at the end of each turn. Pokémon with Solar Power have their original Special Attack raised by 50% but lose 1/8 their max HP at the end of each turn."
+    },
+    "short_effect": {
+        "scarlet-violet": "Changes the weather to sunny for five turns.",
+        "the-teal-mask": "Changes the weather to sunny for five turns.",
+        "the-indigo-disk": "Changes the weather to sunny for five turns.",
+        "legends-za": "Changes the weather to sunny for five turns.",
+        "mega-dimension": "Changes the weather to sunny for five turns.",
+        "champions": "Changes the weather to sunny for five turns."
+    },
+    "flavor_text": {},
+    "stat_changes": [],
+    "machine": {
         "scarlet-violet": null,
         "the-teal-mask": null,
         "the-indigo-disk": null,
@@ -46,25 +72,6 @@
         "mega-dimension": null,
         "champions": null
     },
-    "effect": {
-        "scarlet-violet": "Inflicts regular damage.",
-        "the-teal-mask": "Inflicts regular damage.",
-        "the-indigo-disk": "Inflicts regular damage.",
-        "legends-za": "Inflicts regular damage.",
-        "mega-dimension": "Inflicts regular damage.",
-        "champions": "Inflicts regular damage."
-    },
-    "short_effect": {
-        "scarlet-violet": "Inflicts regular damage with no additional effect.",
-        "the-teal-mask": "Inflicts regular damage with no additional effect.",
-        "the-indigo-disk": "Inflicts regular damage with no additional effect.",
-        "legends-za": "Inflicts regular damage with no additional effect.",
-        "mega-dimension": "Inflicts regular damage with no additional effect.",
-        "champions": "Inflicts regular damage with no additional effect."
-    },
-    "flavor_text": {},
-    "stat_changes": [],
-    "machine": null,
     "metadata": {
         "ailment": "none",
         "category": "damage",

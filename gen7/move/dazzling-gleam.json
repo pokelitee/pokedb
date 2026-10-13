@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user damages opposing Pokémon by emitting a powerful flash."
     },
     "stat_changes": [],
-    "machine": "tm32",
+    "machine": {
+        "sun-moon": "tm99",
+        "ultra-sun-ultra-moon": "tm99",
+        "lets-go-pikachu-lets-go-eevee": "tm32"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

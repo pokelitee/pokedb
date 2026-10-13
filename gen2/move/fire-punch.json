@@ -39,7 +39,10 @@
         "crystal": "A fiery punch. May cause a burn."
     },
     "stat_changes": [],
-    "machine": "tm48",
+    "machine": {
+        "gold-silver": "tm48",
+        "crystal": "tm48"
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

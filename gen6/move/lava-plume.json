@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user torches everything around it with an inferno of scarlet flames. This may also leave those hit with a burn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

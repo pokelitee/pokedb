@@ -39,32 +39,39 @@
     "target": "selected-pokemon",
     "generation": "generation-viii",
     "effect_chance": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": 100,
+        "the-teal-mask": 100,
+        "the-indigo-disk": 100,
+        "legends-za": 100,
+        "mega-dimension": 100,
+        "champions": 100
     },
     "effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "Power doubles if the user moves before the target.",
+        "the-teal-mask": "Power doubles if the user moves before the target.",
+        "the-indigo-disk": "Power doubles if the user moves before the target.",
+        "legends-za": "Power doubles if the user moves before the target.",
+        "mega-dimension": "Power doubles if the user moves before the target.",
+        "champions": "Power doubles if the user moves before the target."
     },
     "short_effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "Power doubles if the user moves before the target.",
+        "the-teal-mask": "Power doubles if the user moves before the target.",
+        "the-indigo-disk": "Power doubles if the user moves before the target.",
+        "legends-za": "Power doubles if the user moves before the target.",
+        "mega-dimension": "Power doubles if the user moves before the target.",
+        "champions": "Power doubles if the user moves before the target."
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

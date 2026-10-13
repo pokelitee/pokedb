@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "Using its psychic power of suggestion, the user transfers its status problems to the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

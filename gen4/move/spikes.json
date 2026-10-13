@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user lays a trap of spikes at the foe’s feet. The trap hurts foes that switch into battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

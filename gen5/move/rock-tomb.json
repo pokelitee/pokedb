@@ -44,7 +44,10 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm39",
+    "machine": {
+        "black-white": "tm39",
+        "black-2-white-2": "tm39"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

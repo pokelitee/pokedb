@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user attacks the target with an echoing voice. If this move is used every turn, its power is increased."
     },
     "stat_changes": [],
-    "machine": "tm49",
+    "machine": {
+        "sun-moon": "tm49",
+        "ultra-sun-ultra-moon": "tm49",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

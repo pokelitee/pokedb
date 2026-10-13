@@ -39,7 +39,10 @@
         "black-2-white-2": "The target is struck with an icy-cold beam of energy. It may also freeze the target solid."
     },
     "stat_changes": [],
-    "machine": "tm13",
+    "machine": {
+        "black-white": "tm13",
+        "black-2-white-2": "tm13"
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

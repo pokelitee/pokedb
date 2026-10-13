@@ -61,7 +61,13 @@
         "firered-leafgreen": "The user dives underwater on the first turn and strikes next turn."
     },
     "stat_changes": [],
-    "machine": "hm08",
+    "machine": {
+        "ruby-sapphire": "hm08",
+        "emerald": "hm08",
+        "firered-leafgreen": "hm08",
+        "colosseum": "hm08",
+        "xd": "hm08"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

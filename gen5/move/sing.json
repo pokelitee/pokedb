@@ -39,7 +39,10 @@
         "black-2-white-2": "A soothing lullaby is sung in a calming voice that puts the target into a deep slumber."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "sleep",
         "category": "ailment",

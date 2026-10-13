@@ -60,7 +60,13 @@
         "legends-arceus": "The user cloaks itself in fire and charges the target to inflict damage. This also damages the user and may leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": "tr55",
+    "machine": {
+        "sword-shield": "tr55",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

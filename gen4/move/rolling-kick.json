@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user lashes out with a quick, spinning kick. It may also make the target flinch."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

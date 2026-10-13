@@ -60,7 +60,13 @@
         "legends-arceus": "The user attacks everything around it by swamping its surroundings with a giant wave."
     },
     "stat_changes": [],
-    "machine": "tr04",
+    "machine": {
+        "sword-shield": "tr04",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": "hm03",
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

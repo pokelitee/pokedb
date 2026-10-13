@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "An all-out attack that becomes more powerful the less HP the user has."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

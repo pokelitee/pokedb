@@ -60,7 +60,13 @@
         "legends-arceus": "The user charges at the target and may make it flinch."
     },
     "stat_changes": [],
-    "machine": "tr16",
+    "machine": {
+        "sword-shield": "tr16",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": "hm07",
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -66,7 +66,14 @@
         "scarlet-violet": "This move's type and power change depending on the weather at the time the move is used."
     },
     "stat_changes": [],
-    "machine": "tm193",
+    "machine": {
+        "scarlet-violet": "tm193",
+        "the-teal-mask": "tm193",
+        "the-indigo-disk": "tm193",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

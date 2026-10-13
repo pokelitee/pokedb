@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "This move prevents the target from using its held item. Its Trainer is also prevented from using items on it."
     },
     "stat_changes": [],
-    "machine": "tm63",
+    "machine": {
+        "x-y": "tm63",
+        "omega-ruby-alpha-sapphire": "tm63"
+    },
     "metadata": {
         "ailment": "embargo",
         "category": "ailment",

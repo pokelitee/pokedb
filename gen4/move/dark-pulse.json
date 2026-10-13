@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch."
     },
     "stat_changes": [],
-    "machine": "tm79",
+    "machine": {
+        "diamond-pearl": "tm79",
+        "platinum": "tm79",
+        "heartgold-soulsilver": "tm79"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

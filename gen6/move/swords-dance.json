@@ -44,7 +44,10 @@
             "stat": "attack"
         }
     ],
-    "machine": "tm75",
+    "machine": {
+        "x-y": "tm75",
+        "omega-ruby-alpha-sapphire": "tm75"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

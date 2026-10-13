@@ -42,18 +42,18 @@
         "legends-arceus": 100
     },
     "effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage. Fails if the user would faint, or if its Attack, Defense, Special Attack, Special Defense, or Speed stat cannot go any higher.",
+        "the-isle-of-armor": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage. Fails if the user would faint, or if its Attack, Defense, Special Attack, Special Defense, or Speed stat cannot go any higher.",
+        "the-crown-tundra": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage. Fails if the user would faint, or if its Attack, Defense, Special Attack, Special Defense, or Speed stat cannot go any higher.",
+        "brilliant-diamond-shining-pearl": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage. Fails if the user would faint, or if its Attack, Defense, Special Attack, Special Defense, or Speed stat cannot go any higher.",
+        "legends-arceus": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage. Fails if the user would faint, or if its Attack, Defense, Special Attack, Special Defense, or Speed stat cannot go any higher."
     },
     "short_effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage.",
+        "the-isle-of-armor": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage.",
+        "the-crown-tundra": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage.",
+        "brilliant-diamond-shining-pearl": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage.",
+        "legends-arceus": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage."
     },
     "flavor_text": {
         "sword-shield": "The user raises all its stats by using some of its HP.",
@@ -81,7 +81,13 @@
             "stat": "speed"
         }
     ],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

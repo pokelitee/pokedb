@@ -61,7 +61,13 @@
         "firered-leafgreen": "A soothing song in a calming voice lulls the foe into a deep slumber."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "sleep",
         "category": "ailment",

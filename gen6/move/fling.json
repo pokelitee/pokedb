@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user flings its held item at the target to attack. This move’s power and effects depend on the item."
     },
     "stat_changes": [],
-    "machine": "tm56",
+    "machine": {
+        "x-y": "tm56",
+        "omega-ruby-alpha-sapphire": "tm56"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

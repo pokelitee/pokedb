@@ -75,7 +75,14 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm100",
+    "machine": {
+        "scarlet-violet": "tm100",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm100",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

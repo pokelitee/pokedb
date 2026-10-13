@@ -39,7 +39,10 @@
         "black-2-white-2": "Using an odd shock wave, the user inflicts damage on any Pokémon of the same type in the area around it."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

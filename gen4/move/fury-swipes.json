@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is raked with sharp claws or scythes for two to five times in quick succession."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

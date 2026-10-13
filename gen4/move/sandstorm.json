@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A five-turn sand­ storm is summoned to hurt all combatant types except Rock, Ground, and Steel."
     },
     "stat_changes": [],
-    "machine": "tm37",
+    "machine": {
+        "diamond-pearl": "tm37",
+        "platinum": "tm37",
+        "heartgold-soulsilver": "tm37"
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

@@ -35,11 +35,11 @@
     "target": "selected-pokemon",
     "generation": "generation-iii",
     "effect_chance": {
-        "ruby-sapphire": 1,
-        "emerald": 1,
-        "firered-leafgreen": 1,
-        "colosseum": 1,
-        "xd": 1
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
     },
     "effect": {
         "ruby-sapphire": "Uses another move chosen according to the terrain. Terrain | Selected move ------------------------- | ------------------ Building | Tri Attack Cave | Rock Slide Deep water | Hydro Pump Desert | Earthquake Grass | Seed Bomb Mountain | Rock Slide Road | Earthquake Shallow water | Hydro Pump Snow | Blizzard Tall grass | Seed Bomb Electric Terrain | Thunderbolt Grassy Terrain | Energy Ball Misty Terrain | Moonblast In Pokémon Battle Revolution: Terrain | Selected move -------------- | ------------------ Courtyard | Tri Attack Crystal | Rock Slide Gateway | Hydro Pump Magma | Rock Slide Main Street | Tri Attack Neon | Tri Attack Stargazer | Rock Slide Sunny Park | Seed Bomb Sunset | Earthquake Waterfall | Seed Bomb This move cannot be copied by Mirror Move.",
@@ -61,7 +61,13 @@
         "firered-leafgreen": "An attack that changes type depending on the user’s location."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

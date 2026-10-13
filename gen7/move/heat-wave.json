@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user attacks by exhaling hot breath on the opposing Pokémon. This may also leave those Pokémon with a burn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

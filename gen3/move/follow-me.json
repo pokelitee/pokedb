@@ -42,18 +42,18 @@
         "xd": null
     },
     "effect": {
-        "ruby-sapphire": "Inflicts regular damage. Has a chance to poison the target.",
-        "emerald": "Inflicts regular damage. Has a chance to poison the target.",
-        "firered-leafgreen": "Inflicts regular damage. Has a chance to poison the target.",
-        "colosseum": "Inflicts regular damage. Has a chance to poison the target.",
-        "xd": "Inflicts regular damage. Has a chance to poison the target."
+        "ruby-sapphire": "Until the end of this turn, any moves that opposing Pokémon target solely at the user’s ally will instead target the user. If both Pokémon on the same side of the field use this move on the same turn, the Pokémon that uses it last will become the target. This effect takes priority over Lightning Rod and Storm Drain. If the user’s ally switches out, opposing Pokémon may still hit it with Pursuit. This move cannot be selected by Assist or Metronome.",
+        "emerald": "Until the end of this turn, any moves that opposing Pokémon target solely at the user’s ally will instead target the user. If both Pokémon on the same side of the field use this move on the same turn, the Pokémon that uses it last will become the target. This effect takes priority over Lightning Rod and Storm Drain. If the user’s ally switches out, opposing Pokémon may still hit it with Pursuit. This move cannot be selected by Assist or Metronome.",
+        "firered-leafgreen": "Until the end of this turn, any moves that opposing Pokémon target solely at the user’s ally will instead target the user. If both Pokémon on the same side of the field use this move on the same turn, the Pokémon that uses it last will become the target. This effect takes priority over Lightning Rod and Storm Drain. If the user’s ally switches out, opposing Pokémon may still hit it with Pursuit. This move cannot be selected by Assist or Metronome.",
+        "colosseum": "Until the end of this turn, any moves that opposing Pokémon target solely at the user’s ally will instead target the user. If both Pokémon on the same side of the field use this move on the same turn, the Pokémon that uses it last will become the target. This effect takes priority over Lightning Rod and Storm Drain. If the user’s ally switches out, opposing Pokémon may still hit it with Pursuit. This move cannot be selected by Assist or Metronome.",
+        "xd": "Until the end of this turn, any moves that opposing Pokémon target solely at the user’s ally will instead target the user. If both Pokémon on the same side of the field use this move on the same turn, the Pokémon that uses it last will become the target. This effect takes priority over Lightning Rod and Storm Drain. If the user’s ally switches out, opposing Pokémon may still hit it with Pursuit. This move cannot be selected by Assist or Metronome."
     },
     "short_effect": {
-        "ruby-sapphire": "Has a chance to poison the target.",
-        "emerald": "Has a chance to poison the target.",
-        "firered-leafgreen": "Has a chance to poison the target.",
-        "colosseum": "Has a chance to poison the target.",
-        "xd": "Has a chance to poison the target."
+        "ruby-sapphire": "Redirects the target’s single-target effects to the user for this turn.",
+        "emerald": "Redirects the target’s single-target effects to the user for this turn.",
+        "firered-leafgreen": "Redirects the target’s single-target effects to the user for this turn.",
+        "colosseum": "Redirects the target’s single-target effects to the user for this turn.",
+        "xd": "Redirects the target’s single-target effects to the user for this turn."
     },
     "flavor_text": {
         "ruby-sapphire": "Draws attention to make foes attack only the user.",
@@ -61,7 +61,13 @@
         "firered-leafgreen": "The user draws attention to itself, making foes attack only the user."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

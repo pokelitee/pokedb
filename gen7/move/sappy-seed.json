@@ -45,7 +45,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user grows a gigantic stalk that scatters seeds to attack the target. The seeds drain the target’s HP every turn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "leech-seed",
         "category": "damage-ailment",

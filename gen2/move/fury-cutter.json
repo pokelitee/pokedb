@@ -39,7 +39,10 @@
         "crystal": "Successive hits raise power."
     },
     "stat_changes": [],
-    "machine": "tm49",
+    "machine": {
+        "gold-silver": "tm49",
+        "crystal": "tm49"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

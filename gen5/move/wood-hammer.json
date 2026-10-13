@@ -39,7 +39,10 @@
         "black-2-white-2": "The user slams its rugged body into the target to attack. The user also sustains serious damage."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -44,7 +44,10 @@
             "stat": "attack"
         }
     ],
-    "machine": "tm87",
+    "machine": {
+        "x-y": "tm87",
+        "omega-ruby-alpha-sapphire": "tm87"
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "swagger",

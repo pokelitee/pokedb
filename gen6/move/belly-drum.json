@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user maximizes its Attack stat in exchange for HP equal to half its max HP."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

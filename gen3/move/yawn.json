@@ -61,7 +61,13 @@
         "firered-leafgreen": "A huge yawn lulls the foe into falling asleep on the next turn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "yawn",
         "category": "ailment",

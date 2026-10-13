@@ -2,7 +2,10 @@
     "id": 297,
     "name": "pure-incense",
     "source_url": "https://pokeapi.co/api/v2/item/297/",
-    "cost": 6000,
+    "prices": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "fling_power": 10,
     "fling_effect": null,
     "attributes": [
@@ -17,7 +20,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pure-incense.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

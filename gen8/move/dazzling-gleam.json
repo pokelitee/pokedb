@@ -60,7 +60,13 @@
         "legends-arceus": "The user emits a powerful flash of light to inflict damage on the target."
     },
     "stat_changes": [],
-    "machine": "tr92",
+    "machine": {
+        "sword-shield": "tr92",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": "tm21",
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

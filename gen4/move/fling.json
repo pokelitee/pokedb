@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user flings its held item at the foe to attack. Its power and effects depend on the item."
     },
     "stat_changes": [],
-    "machine": "tm56",
+    "machine": {
+        "diamond-pearl": "tm56",
+        "platinum": "tm56",
+        "heartgold-soulsilver": "tm56"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

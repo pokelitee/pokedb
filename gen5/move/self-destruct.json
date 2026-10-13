@@ -39,7 +39,10 @@
         "black-2-white-2": "The user attacks everything around it by causing an explosion. The user faints upon using this move."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

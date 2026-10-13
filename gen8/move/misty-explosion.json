@@ -35,32 +35,38 @@
     "target": "all-other-pokemon",
     "generation": "generation-viii",
     "effect_chance": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": 100,
+        "the-isle-of-armor": 100,
+        "the-crown-tundra": 100,
+        "brilliant-diamond-shining-pearl": 100,
+        "legends-arceus": 100
     },
     "effect": {
-        "sword-shield": "Inflicts regular damage.",
-        "the-isle-of-armor": "Inflicts regular damage.",
-        "the-crown-tundra": "Inflicts regular damage.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage.",
-        "legends-arceus": "Inflicts regular damage."
+        "sword-shield": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%. Fails if any active Pokemon has the ability Damp.",
+        "the-isle-of-armor": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%. Fails if any active Pokemon has the ability Damp.",
+        "the-crown-tundra": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%. Fails if any active Pokemon has the ability Damp.",
+        "brilliant-diamond-shining-pearl": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%. Fails if any active Pokemon has the ability Damp.",
+        "legends-arceus": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%. Fails if any active Pokemon has the ability Damp."
     },
     "short_effect": {
-        "sword-shield": "Inflicts regular damage with no additional effect.",
-        "the-isle-of-armor": "Inflicts regular damage with no additional effect.",
-        "the-crown-tundra": "Inflicts regular damage with no additional effect.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage with no additional effect.",
-        "legends-arceus": "Inflicts regular damage with no additional effect."
+        "sword-shield": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%.",
+        "the-isle-of-armor": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%.",
+        "the-crown-tundra": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%.",
+        "brilliant-diamond-shining-pearl": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%.",
+        "legends-arceus": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%."
     },
     "flavor_text": {
         "sword-shield": "The user attacks everything around it and faints upon using this move. This move’s power is increased on Misty Terrain.",
         "legends-arceus": "The user attacks everything around it and faints upon using this move. This move's power is increased on Misty Terrain."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

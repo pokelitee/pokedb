@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user hypnotizes itself into copying any stat change made by the foe."
     },
     "stat_changes": [],
-    "machine": "tm77",
+    "machine": {
+        "diamond-pearl": "tm77",
+        "platinum": "tm77",
+        "heartgold-soulsilver": "tm77"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

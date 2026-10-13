@@ -39,7 +39,10 @@
         "black-2-white-2": "If the target has already taken some damage in the same turn, this attack’s power is doubled."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

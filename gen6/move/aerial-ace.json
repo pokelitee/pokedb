@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user confounds the target with speed, then slashes. This attack never misses."
     },
     "stat_changes": [],
-    "machine": "tm40",
+    "machine": {
+        "x-y": "tm40",
+        "omega-ruby-alpha-sapphire": "tm40"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

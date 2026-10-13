@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

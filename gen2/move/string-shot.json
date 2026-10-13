@@ -27,12 +27,12 @@
         "crystal": null
     },
     "effect": {
-        "gold-silver": "Lowers the target’s Speed by two stages.",
-        "crystal": "Lowers the target’s Speed by two stages."
+        "gold-silver": "Lowers the target’s Speed by one stage.",
+        "crystal": "Lowers the target’s Speed by one stage."
     },
     "short_effect": {
-        "gold-silver": "Lowers the target’s Speed by two stages.",
-        "crystal": "Lowers the target’s Speed by two stages."
+        "gold-silver": "Lowers the target’s Speed by one stage.",
+        "crystal": "Lowers the target’s Speed by one stage."
     },
     "flavor_text": {
         "gold-silver": "A move that lowers the foe's SPEED.",
@@ -44,7 +44,10 @@
             "stat": "speed"
         }
     ],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

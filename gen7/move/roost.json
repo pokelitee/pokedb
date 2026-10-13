@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user lands and rests its body. This move restores the user’s HP by up to half of its max HP."
     },
     "stat_changes": [],
-    "machine": "tm19",
+    "machine": {
+        "sun-moon": "tm19",
+        "ultra-sun-ultra-moon": "tm19",
+        "lets-go-pikachu-lets-go-eevee": "tm50"
+    },
     "metadata": {
         "ailment": "none",
         "category": "heal",

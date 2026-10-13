@@ -42,25 +42,31 @@
         "legends-arceus": null
     },
     "effect": {
-        "sword-shield": "Inflicts regular damage.",
-        "the-isle-of-armor": "Inflicts regular damage.",
-        "the-crown-tundra": "Inflicts regular damage.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage.",
-        "legends-arceus": "Inflicts regular damage."
+        "sword-shield": "If any terrain is active and the user is grounded, this moves power is doubled and changes type to match that terrains type.",
+        "the-isle-of-armor": "If any terrain is active and the user is grounded, this moves power is doubled and changes type to match that terrains type.",
+        "the-crown-tundra": "If any terrain is active and the user is grounded, this moves power is doubled and changes type to match that terrains type.",
+        "brilliant-diamond-shining-pearl": "If any terrain is active and the user is grounded, this moves power is doubled and changes type to match that terrains type.",
+        "legends-arceus": "If any terrain is active and the user is grounded, this moves power is doubled and changes type to match that terrains type."
     },
     "short_effect": {
-        "sword-shield": "Inflicts regular damage with no additional effect.",
-        "the-isle-of-armor": "Inflicts regular damage with no additional effect.",
-        "the-crown-tundra": "Inflicts regular damage with no additional effect.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage with no additional effect.",
-        "legends-arceus": "Inflicts regular damage with no additional effect."
+        "sword-shield": "If any terrain is active and the user is grounded, this moves power is doubled and changes type to match that terrains type.",
+        "the-isle-of-armor": "If any terrain is active and the user is grounded, this moves power is doubled and changes type to match that terrains type.",
+        "the-crown-tundra": "If any terrain is active and the user is grounded, this moves power is doubled and changes type to match that terrains type.",
+        "brilliant-diamond-shining-pearl": "If any terrain is active and the user is grounded, this moves power is doubled and changes type to match that terrains type.",
+        "legends-arceus": "If any terrain is active and the user is grounded, this moves power is doubled and changes type to match that terrains type."
     },
     "flavor_text": {
         "sword-shield": "The user utilizes the power of the terrain to attack. This move’s type and power changes depending on the terrain when it’s used.",
         "legends-arceus": "The user utilizes the power of the terrain to attack. This move's type and power changes depending on the terrain when it's used."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

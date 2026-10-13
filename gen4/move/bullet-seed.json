@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user forcefully shoots seeds at the foe. Two to five seeds are shot in rapid succession."
     },
     "stat_changes": [],
-    "machine": "tm09",
+    "machine": {
+        "diamond-pearl": "tm09",
+        "platinum": "tm09",
+        "heartgold-soulsilver": "tm09"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

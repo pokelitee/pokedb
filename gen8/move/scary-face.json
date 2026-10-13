@@ -65,7 +65,13 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm26",
+    "machine": {
+        "sword-shield": "tm26",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

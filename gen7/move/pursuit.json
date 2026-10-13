@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The power of this attack move is doubled if it’s used on a target that’s switching out of battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

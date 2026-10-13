@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
     },
     "stat_changes": [],
-    "machine": "tm18",
+    "machine": {
+        "sun-moon": "tm89",
+        "ultra-sun-ultra-moon": "tm89",
+        "lets-go-pikachu-lets-go-eevee": "tm18"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

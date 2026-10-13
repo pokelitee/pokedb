@@ -44,7 +44,10 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm69",
+    "machine": {
+        "x-y": "tm69",
+        "omega-ruby-alpha-sapphire": "tm69"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

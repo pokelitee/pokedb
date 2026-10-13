@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user launches razor-like wind to slash the opposing Pokémon. Critical hits land more easily."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

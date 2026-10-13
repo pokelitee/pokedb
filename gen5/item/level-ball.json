@@ -2,7 +2,20 @@
     "id": 450,
     "name": "level-ball",
     "source_url": "https://pokeapi.co/api/v2/item/450/",
-    "cost": 0,
+    "prices": {
+        "black-white": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 150
+            }
+        },
+        "black-2-white-2": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 150
+            }
+        }
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -15,7 +28,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/level-ball.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

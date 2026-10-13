@@ -39,7 +39,10 @@
         "crystal": "Blows away the foe & ends battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "force-switch",

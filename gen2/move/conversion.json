@@ -39,7 +39,10 @@
         "crystal": "Change user's type to a move's type."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

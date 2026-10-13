@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user steals the effects of any healing or stat- changing move the foe attempts to use."
     },
     "stat_changes": [],
-    "machine": "tm49",
+    "machine": {
+        "diamond-pearl": "tm49",
+        "platinum": "tm49",
+        "heartgold-soulsilver": "tm49"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

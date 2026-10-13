@@ -60,7 +60,13 @@
         "legends-arceus": "The target is dragged into a world of total darkness that makes the target drowsy and lowers its defensive stats."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "sleep",
         "category": "ailment",

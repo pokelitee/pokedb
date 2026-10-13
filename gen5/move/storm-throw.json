@@ -39,7 +39,10 @@
         "black-2-white-2": "The user strikes the target with a fierce blow. This attack always results in a critical hit."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

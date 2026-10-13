@@ -66,7 +66,14 @@
         "scarlet-violet": "The user snares the target with grass and trips it. The heavier the target, the greater the move's power."
     },
     "stat_changes": [],
-    "machine": "tm81",
+    "machine": {
+        "scarlet-violet": "tm81",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm81",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

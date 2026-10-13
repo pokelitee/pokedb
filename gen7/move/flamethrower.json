@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The target is scorched with an intense blast of fire. This may also leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": "tm35",
+    "machine": {
+        "sun-moon": "tm35",
+        "ultra-sun-ultra-moon": "tm35",
+        "lets-go-pikachu-lets-go-eevee": "tm37"
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

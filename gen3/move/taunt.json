@@ -61,7 +61,13 @@
         "firered-leafgreen": "The foe is taunted into a rage that allows it to use only attack moves."
     },
     "stat_changes": [],
-    "machine": "tm12",
+    "machine": {
+        "ruby-sapphire": "tm12",
+        "emerald": "tm12",
+        "firered-leafgreen": "tm12",
+        "colosseum": "tm12",
+        "xd": "tm12"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

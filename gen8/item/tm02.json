@@ -2,7 +2,18 @@
     "id": 306,
     "name": "tm02",
     "source_url": "https://pokeapi.co/api/v2/item/306/",
-    "cost": 1000,
+    "prices": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 1500
+            }
+        },
+        "legends-arceus": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -14,7 +25,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

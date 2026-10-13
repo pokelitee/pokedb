@@ -39,7 +39,10 @@
         "black-2-white-2": "The user grabs the target and recklessly dives for the ground. It also hurts the user slightly."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

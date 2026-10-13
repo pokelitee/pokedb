@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user tackles the foe with a high-speed spin. The slower the user, the greater the damage."
     },
     "stat_changes": [],
-    "machine": "tm74",
+    "machine": {
+        "diamond-pearl": "tm74",
+        "platinum": "tm74",
+        "heartgold-soulsilver": "tm74"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -39,7 +39,10 @@
         "black-2-white-2": "The user envelops itself in a veil made of water. It regains some HP on every turn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

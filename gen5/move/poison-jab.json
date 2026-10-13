@@ -39,7 +39,10 @@
         "black-2-white-2": "The target is stabbed with a tentacle or arm steeped in poison. It may also poison the target."
     },
     "stat_changes": [],
-    "machine": "tm84",
+    "machine": {
+        "black-white": "tm84",
+        "black-2-white-2": "tm84"
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

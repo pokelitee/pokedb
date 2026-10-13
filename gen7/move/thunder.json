@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis."
     },
     "stat_changes": [],
-    "machine": "tm25",
+    "machine": {
+        "sun-moon": "tm25",
+        "ultra-sun-ultra-moon": "tm25",
+        "lets-go-pikachu-lets-go-eevee": "tm38"
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

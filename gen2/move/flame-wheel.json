@@ -39,7 +39,10 @@
         "crystal": "An attack that may cause a burn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

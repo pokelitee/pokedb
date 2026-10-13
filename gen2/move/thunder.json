@@ -39,7 +39,10 @@
         "crystal": "An attack that may cause paralysis."
     },
     "stat_changes": [],
-    "machine": "tm25",
+    "machine": {
+        "gold-silver": "tm25",
+        "crystal": "tm25"
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

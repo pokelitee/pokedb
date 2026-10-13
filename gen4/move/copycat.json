@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user mimics the move used immediately before it. The move fails if no other move has been used yet."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

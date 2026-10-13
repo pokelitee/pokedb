@@ -36,13 +36,52 @@
     },
     "sprites": {
         "versions": {
-            "brilliant-diamond-shining-pearl": {
-                "front_default": null,
-                "front_female": null
-            },
             "icons": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10071.png",
-                "front_female": null
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/10071.png"
+            },
+            "sword-shield": {
+                "icons": {
+                    "front_female": null,
+                    "front_default": null
+                },
+                "back_shiny": null,
+                "back_female": null,
+                "front_shiny": null,
+                "back_default": null,
+                "front_female": null,
+                "front_default": null,
+                "back_shiny_female": null,
+                "front_shiny_female": null
+            },
+            "legends-arceus": {
+                "icons": {
+                    "front_shiny": null,
+                    "front_female": null,
+                    "front_default": null,
+                    "front_shiny_female": null
+                },
+                "back_shiny": null,
+                "back_female": null,
+                "front_shiny": null,
+                "back_default": null,
+                "front_female": null,
+                "front_default": null,
+                "back_shiny_female": null,
+                "front_shiny_female": null
+            },
+            "brilliant-diamond-shining-pearl": {
+                "icons": {
+                    "front_default": null
+                },
+                "back_shiny": null,
+                "back_female": null,
+                "front_shiny": null,
+                "back_default": null,
+                "front_female": null,
+                "front_default": null,
+                "back_shiny_female": null,
+                "front_shiny_female": null
             }
         }
     },
@@ -125,8 +164,8 @@
                             "brilliant-diamond-shining-pearl",
                             "legends-arceus"
                         ],
-                        "base_form": "slowpoke-galar",
-                        "evolved_form": "slowbro-galar",
+                        "base_form": null,
+                        "evolved_form": null,
                         "item": "galarica-cuff",
                         "trigger": "use-item",
                         "gender": null,
@@ -201,8 +240,8 @@
                             "brilliant-diamond-shining-pearl",
                             "legends-arceus"
                         ],
-                        "base_form": "slowpoke-galar",
-                        "evolved_form": "slowking-galar",
+                        "base_form": null,
+                        "evolved_form": null,
                         "item": "galarica-wreath",
                         "trigger": "use-item",
                         "gender": null,

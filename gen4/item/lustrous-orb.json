@@ -2,7 +2,11 @@
     "id": 113,
     "name": "lustrous-orb",
     "source_url": "https://pokeapi.co/api/v2/item/113/",
-    "cost": 0,
+    "prices": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "fling_power": 60,
     "fling_effect": null,
     "attributes": [
@@ -18,7 +22,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lustrous-orb.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

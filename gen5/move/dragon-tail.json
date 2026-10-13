@@ -39,7 +39,10 @@
         "black-2-white-2": "The target is knocked away and switched. In the wild, a battle against a single Pokémon ends."
     },
     "stat_changes": [],
-    "machine": "tm82",
+    "machine": {
+        "black-white": "tm82",
+        "black-2-white-2": "tm82"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

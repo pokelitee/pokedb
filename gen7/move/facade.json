@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "This attack move doubles its power if the user is poisoned, burned, or paralyzed."
     },
     "stat_changes": [],
-    "machine": "tm12",
+    "machine": {
+        "sun-moon": "tm42",
+        "ultra-sun-ultra-moon": "tm42",
+        "lets-go-pikachu-lets-go-eevee": "tm12"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

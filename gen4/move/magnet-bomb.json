@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user launches a steel bomb that sticks to the target. This attack will not miss."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

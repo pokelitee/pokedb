@@ -39,7 +39,10 @@
         "crystal": "May cause the foe to fall asleep."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "sleep",
         "category": "ailment",

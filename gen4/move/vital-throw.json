@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user allows the foe to attack first. In return, this throw move is guaranteed not to miss."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

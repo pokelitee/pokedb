@@ -60,7 +60,13 @@
         "legends-arceus": "The user employs its psychic power to exchange Abilities with the target."
     },
     "stat_changes": [],
-    "machine": "tr40",
+    "machine": {
+        "sword-shield": "tr40",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

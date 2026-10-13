@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle."
     },
     "stat_changes": [],
-    "machine": "tm76",
+    "machine": {
+        "diamond-pearl": "tm76",
+        "platinum": "tm76",
+        "heartgold-soulsilver": "tm76"
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

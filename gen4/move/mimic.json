@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user copies the move last used by the foe. The move can be used for the rest of the battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

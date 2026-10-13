@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A seed is planted on the foe. It steals some HP from the foe to heal the user on every turn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "leech-seed",
         "category": "ailment",

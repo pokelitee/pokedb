@@ -39,7 +39,10 @@
         "black-2-white-2": "This attack inflicts big damage on a sleeping target. It also wakes the target up, however."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

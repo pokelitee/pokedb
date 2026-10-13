@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is slammed with a long tail, vines, etc., to inflict damage."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

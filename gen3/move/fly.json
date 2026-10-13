@@ -61,7 +61,13 @@
         "firered-leafgreen": "A 2-turn move that hits on the 2nd turn. Use it to fly to any known town."
     },
     "stat_changes": [],
-    "machine": "hm02",
+    "machine": {
+        "ruby-sapphire": "hm02",
+        "emerald": "hm02",
+        "firered-leafgreen": "hm02",
+        "colosseum": "hm02",
+        "xd": "hm02"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

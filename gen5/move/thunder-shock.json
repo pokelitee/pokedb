@@ -39,7 +39,10 @@
         "black-2-white-2": "A jolt of electricity is hurled at the target to inflict damage. It may also leave the target with paralysis."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

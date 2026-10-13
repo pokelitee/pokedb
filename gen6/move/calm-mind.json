@@ -48,7 +48,10 @@
             "stat": "special-defense"
         }
     ],
-    "machine": "tm04",
+    "machine": {
+        "x-y": "tm04",
+        "omega-ruby-alpha-sapphire": "tm04"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

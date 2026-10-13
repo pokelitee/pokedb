@@ -39,7 +39,10 @@
         "crystal": "An attack that always confuses."
     },
     "stat_changes": [],
-    "machine": "tm01",
+    "machine": {
+        "gold-silver": "tm01",
+        "crystal": "tm01"
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "damage-ailment",

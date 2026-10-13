@@ -39,7 +39,10 @@
         "black-2-white-2": "The user strikes with a simultaneous three-beam attack. May also burn, freeze, or leave the target with paralysis."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "unknown",
         "category": "damage-ailment",

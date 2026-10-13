@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user creates a bizarre area in which slower Pokémon get to move first for five turns."
     },
     "stat_changes": [],
-    "machine": "tm92",
+    "machine": {
+        "x-y": "tm92",
+        "omega-ruby-alpha-sapphire": "tm92"
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

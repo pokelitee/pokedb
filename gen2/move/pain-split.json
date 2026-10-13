@@ -39,7 +39,10 @@
         "crystal": "Adds user & foe's HPs. Shares total."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

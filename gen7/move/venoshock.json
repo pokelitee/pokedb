@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user drenches the target in a special poisonous liquid. This move’s power is doubled if the target is poisoned."
     },
     "stat_changes": [],
-    "machine": "tm09",
+    "machine": {
+        "sun-moon": "tm09",
+        "ultra-sun-ultra-moon": "tm09",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -42,25 +42,31 @@
         "legends-arceus": null
     },
     "effect": {
-        "sword-shield": "Inflicts regular damage.",
-        "the-isle-of-armor": "Inflicts regular damage.",
-        "the-crown-tundra": "Inflicts regular damage.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage.",
-        "legends-arceus": "Inflicts regular damage."
+        "sword-shield": "Fails if the target has no held item.",
+        "the-isle-of-armor": "Fails if the target has no held item.",
+        "the-crown-tundra": "Fails if the target has no held item.",
+        "brilliant-diamond-shining-pearl": "Fails if the target has no held item.",
+        "legends-arceus": "Fails if the target has no held item."
     },
     "short_effect": {
-        "sword-shield": "Inflicts regular damage with no additional effect.",
-        "the-isle-of-armor": "Inflicts regular damage with no additional effect.",
-        "the-crown-tundra": "Inflicts regular damage with no additional effect.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage with no additional effect.",
-        "legends-arceus": "Inflicts regular damage with no additional effect."
+        "sword-shield": "Fails if the target has no held item.",
+        "the-isle-of-armor": "Fails if the target has no held item.",
+        "the-crown-tundra": "Fails if the target has no held item.",
+        "brilliant-diamond-shining-pearl": "Fails if the target has no held item.",
+        "legends-arceus": "Fails if the target has no held item."
     },
     "flavor_text": {
         "sword-shield": "The user attacks the target by controlling the target’s item. The move fails if the target doesn’t have an item.",
         "legends-arceus": "The user attacks the target by controlling the target's item. The move fails if the target doesn't have an item."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

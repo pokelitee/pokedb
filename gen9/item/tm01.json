@@ -2,7 +2,19 @@
     "id": 305,
     "name": "tm01",
     "source_url": "https://pokeapi.co/api/v2/item/305/",
-    "cost": 40000,
+    "prices": {
+        "scarlet-violet": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 400
+            }
+        },
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],

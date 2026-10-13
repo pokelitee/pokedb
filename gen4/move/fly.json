@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user soars, then strikes on the second turn. It can also be used for flying to any familiar town."
     },
     "stat_changes": [],
-    "machine": "hm02",
+    "machine": {
+        "diamond-pearl": "hm02",
+        "platinum": "hm02",
+        "heartgold-soulsilver": "hm02"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

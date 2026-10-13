@@ -60,7 +60,13 @@
         "legends-arceus": "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack."
     },
     "stat_changes": [],
-    "machine": "tm31",
+    "machine": {
+        "sword-shield": "tm31",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "infatuation",
         "category": "ailment",

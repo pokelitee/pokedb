@@ -61,7 +61,13 @@
         "firered-leafgreen": "An attack that is boosted if user is burned, poisoned, or paralyzed."
     },
     "stat_changes": [],
-    "machine": "tm42",
+    "machine": {
+        "ruby-sapphire": "tm42",
+        "emerald": "tm42",
+        "firered-leafgreen": "tm42",
+        "colosseum": "tm42",
+        "xd": "tm42"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

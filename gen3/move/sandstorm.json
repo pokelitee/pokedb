@@ -61,7 +61,13 @@
         "firered-leafgreen": "A 5-turn sandstorm that damages all types except ROCK, GROUND, and STEEL."
     },
     "stat_changes": [],
-    "machine": "tm37",
+    "machine": {
+        "ruby-sapphire": "tm37",
+        "emerald": "tm37",
+        "firered-leafgreen": "tm37",
+        "colosseum": "tm37",
+        "xd": "tm37"
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

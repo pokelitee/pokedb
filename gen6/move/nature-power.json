@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "An attack that makes use of nature’s power. Its effects vary depending on the user’s environment."
     },
     "stat_changes": [],
-    "machine": "tm96",
+    "machine": {
+        "x-y": "tm96",
+        "omega-ruby-alpha-sapphire": "tm96"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

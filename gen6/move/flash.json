@@ -44,7 +44,10 @@
             "stat": "accuracy"
         }
     ],
-    "machine": "tm70",
+    "machine": {
+        "x-y": "tm70",
+        "omega-ruby-alpha-sapphire": "tm70"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

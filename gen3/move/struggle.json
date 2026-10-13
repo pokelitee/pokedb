@@ -35,11 +35,11 @@
     "target": "random-opponent",
     "generation": "generation-i",
     "effect_chance": {
-        "ruby-sapphire": 10,
-        "emerald": 10,
-        "firered-leafgreen": 10,
-        "colosseum": 10,
-        "xd": 10
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
     },
     "effect": {
         "ruby-sapphire": "Inflicts typeless regular damage. User takes 1/4 its max HP in recoil. Ignores accuracy and evasion modifiers. This move is used automatically when a Pokémon cannot use any other move legally, e.g., due to having no PP remaining or being under the effect of both Encore and Torment at the same time. This move’s recoil is not treated as recoil for the purposes of anything that affects recoil, such as the ability Rock Head. It also is not prevented by Magic Guard. This move cannot be copied by Mimic, Mirror Move, or Sketch, nor selected by Assist or Metronome, nor forced by Encore.",
@@ -61,7 +61,13 @@
         "firered-leafgreen": "An attack that is used only if there is no PP. It also hurts the user."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

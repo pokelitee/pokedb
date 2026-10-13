@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "Using its tough and impressive horn, the user rams into the target with no letup."
     },
     "stat_changes": [],
-    "machine": "tm60",
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": "tm60"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

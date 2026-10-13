@@ -59,7 +59,13 @@
         "legends-arceus": "The user shrouds itself in water and slams into the target with its whole body to inflict damage. This also damages the user and raises the user’s action speed."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": null,
         "category": null,

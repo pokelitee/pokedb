@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "This move reduces damage from physical and special moves for five turns. This can be used only in a hailstorm."
     },
     "stat_changes": [],
-    "machine": "tm70",
+    "machine": {
+        "sun-moon": "tm70",
+        "ultra-sun-ultra-moon": "tm70",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

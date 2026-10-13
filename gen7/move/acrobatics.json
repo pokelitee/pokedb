@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage."
     },
     "stat_changes": [],
-    "machine": "tm62",
+    "machine": {
+        "sun-moon": "tm62",
+        "ultra-sun-ultra-moon": "tm62",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

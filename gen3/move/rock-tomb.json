@@ -66,7 +66,13 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm39",
+    "machine": {
+        "ruby-sapphire": "tm39",
+        "emerald": "tm39",
+        "firered-leafgreen": "tm39",
+        "colosseum": "tm39",
+        "xd": "tm39"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

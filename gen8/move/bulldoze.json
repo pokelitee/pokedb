@@ -65,7 +65,13 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm81",
+    "machine": {
+        "sword-shield": "tm81",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": "tm83",
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

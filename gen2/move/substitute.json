@@ -39,7 +39,10 @@
         "crystal": "Makes a decoy with 1/4 user's max HP."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

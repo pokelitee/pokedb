@@ -39,7 +39,10 @@
         "black-2-white-2": "A second-turn attack move where critical hits land more easily. It may also make the target flinch."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -1,6 +1,74 @@
 {
     "metadata": {
-        "schema_version": 4,
+        "schema_version": 5,
+        "generated_resources": [
+            "ability",
+            "cosmetic",
+            "item",
+            "move",
+            "pokemon",
+            "transformation",
+            "variant"
+        ],
+        "resource_provenance": {
+            "variant": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            },
+            "ability": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            },
+            "transformation": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            },
+            "pokemon": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            },
+            "move": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            },
+            "item": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            },
+            "cosmetic": {
+                "version": "2.0.0",
+                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.69.0"
+                }
+            }
+        },
+        "content_sha256": "5ec86cf111485e23746610b778b656404a38c85c0aa15cd42020dfbe764fa028",
         "source": "pokeapi",
         "api_base_url": "https://pokeapi.co/api/v2/",
         "is_historical": true,
@@ -12,13 +80,24 @@
             "brilliant-diamond-shining-pearl",
             "legends-arceus"
         ],
-        "created_at": "2026-08-02T00:40:14.724444+00:00",
+        "versions": [
+            "brilliant-diamond",
+            "legends-arceus",
+            "shield",
+            "shining-pearl",
+            "sword",
+            "the-crown-tundra-shield",
+            "the-crown-tundra-sword",
+            "the-isle-of-armor-shield",
+            "the-isle-of-armor-sword"
+        ],
+        "created_at": "2026-10-13T17:54:48.562389+00:00",
         "counts": {
             "ability": 327,
             "move": 868,
             "pokemon": 905,
-            "variant": 140,
-            "transformation": 109,
+            "variant": 146,
+            "transformation": 103,
             "cosmetic": 225,
             "item": 1626
         }
@@ -9686,6 +9765,36 @@
             "sprite": null
         },
         {
+            "name": "minior-orange-meteor",
+            "id": 10130,
+            "sprite": null
+        },
+        {
+            "name": "minior-yellow-meteor",
+            "id": 10131,
+            "sprite": null
+        },
+        {
+            "name": "minior-green-meteor",
+            "id": 10132,
+            "sprite": null
+        },
+        {
+            "name": "minior-blue-meteor",
+            "id": 10133,
+            "sprite": null
+        },
+        {
+            "name": "minior-indigo-meteor",
+            "id": 10134,
+            "sprite": null
+        },
+        {
+            "name": "minior-violet-meteor",
+            "id": 10135,
+            "sprite": null
+        },
+        {
             "name": "minior-red",
             "id": 10136,
             "sprite": null
@@ -10333,36 +10442,6 @@
             "sprite": null
         },
         {
-            "name": "minior-orange-meteor",
-            "id": 10130,
-            "sprite": null
-        },
-        {
-            "name": "minior-yellow-meteor",
-            "id": 10131,
-            "sprite": null
-        },
-        {
-            "name": "minior-green-meteor",
-            "id": 10132,
-            "sprite": null
-        },
-        {
-            "name": "minior-blue-meteor",
-            "id": 10133,
-            "sprite": null
-        },
-        {
-            "name": "minior-indigo-meteor",
-            "id": 10134,
-            "sprite": null
-        },
-        {
-            "name": "minior-violet-meteor",
-            "id": 10135,
-            "sprite": null
-        },
-        {
             "name": "mimikyu-busted",
             "id": 10143,
             "sprite": null
@@ -10587,152 +10666,152 @@
         {
             "name": "pichu-spiky-eared",
             "id": 172,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172-spiky-eared.png"
-        },
-        {
-            "name": "unown-f",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-f.png"
-        },
-        {
-            "name": "unown-o",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-o.png"
-        },
-        {
-            "name": "unown-y",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-y.png"
-        },
-        {
-            "name": "unown-w",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-w.png"
-        },
-        {
-            "name": "unown-q",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-q.png"
-        },
-        {
-            "name": "unown-n",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-n.png"
-        },
-        {
-            "name": "unown-k",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-k.png"
-        },
-        {
-            "name": "unown-z",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-z.png"
-        },
-        {
-            "name": "unown-question",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-question.png"
-        },
-        {
-            "name": "unown-g",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-g.png"
-        },
-        {
-            "name": "unown-c",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-c.png"
-        },
-        {
-            "name": "unown-l",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-l.png"
-        },
-        {
-            "name": "unown-d",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-d.png"
-        },
-        {
-            "name": "unown-s",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-s.png"
-        },
-        {
-            "name": "unown-v",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-v.png"
-        },
-        {
-            "name": "unown-h",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-h.png"
-        },
-        {
-            "name": "unown-exclamation",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-exclamation.png"
-        },
-        {
-            "name": "unown-e",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-e.png"
-        },
-        {
-            "name": "unown-r",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-r.png"
-        },
-        {
-            "name": "unown-p",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-p.png"
-        },
-        {
-            "name": "unown-j",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-j.png"
-        },
-        {
-            "name": "unown-t",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-t.png"
-        },
-        {
-            "name": "unown-x",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-x.png"
-        },
-        {
-            "name": "unown-i",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-i.png"
-        },
-        {
-            "name": "unown-m",
-            "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-m.png"
+            "sprite": null
         },
         {
             "name": "unown-b",
             "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-b.png"
+            "sprite": null
+        },
+        {
+            "name": "unown-c",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-d",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-e",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-exclamation",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-f",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-g",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-h",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-i",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-j",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-k",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-l",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-m",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-n",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-o",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-p",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-q",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-question",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-r",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-s",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-t",
+            "id": 201,
+            "sprite": null
         },
         {
             "name": "unown-u",
             "id": 201,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201-u.png"
+            "sprite": null
+        },
+        {
+            "name": "unown-v",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-w",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-x",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-y",
+            "id": 201,
+            "sprite": null
+        },
+        {
+            "name": "unown-z",
+            "id": 201,
+            "sprite": null
         },
         {
             "name": "burmy-sandy",
             "id": 412,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412-sandy.png"
+            "sprite": null
         },
         {
             "name": "burmy-trash",
             "id": 412,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412-trash.png"
+            "sprite": null
         },
         {
             "name": "mothim-sandy",
@@ -10747,137 +10826,137 @@
         {
             "name": "cherrim-sunshine",
             "id": 421,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/421-sunshine.png"
+            "sprite": null
         },
         {
             "name": "shellos-east",
             "id": 422,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422-east.png"
+            "sprite": null
         },
         {
             "name": "gastrodon-east",
             "id": 423,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423-east.png"
-        },
-        {
-            "name": "arceus-electric",
-            "id": 493,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493-electric.png"
-        },
-        {
-            "name": "arceus-unknown",
-            "id": 493,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493-unknown.png"
-        },
-        {
-            "name": "arceus-dark",
-            "id": 493,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493-dark.png"
-        },
-        {
-            "name": "arceus-ice",
-            "id": 493,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493-ice.png"
-        },
-        {
-            "name": "arceus-poison",
-            "id": 493,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493-poison.png"
-        },
-        {
-            "name": "arceus-fire",
-            "id": 493,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493-fire.png"
-        },
-        {
-            "name": "arceus-grass",
-            "id": 493,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493-grass.png"
-        },
-        {
-            "name": "arceus-water",
-            "id": 493,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493-water.png"
-        },
-        {
-            "name": "arceus-flying",
-            "id": 493,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493-flying.png"
-        },
-        {
-            "name": "arceus-fighting",
-            "id": 493,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493-fighting.png"
-        },
-        {
-            "name": "arceus-ground",
-            "id": 493,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493-ground.png"
-        },
-        {
-            "name": "arceus-dragon",
-            "id": 493,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493-dragon.png"
+            "sprite": null
         },
         {
             "name": "arceus-bug",
             "id": 493,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493-bug.png"
+            "sprite": null
         },
         {
-            "name": "arceus-steel",
+            "name": "arceus-dark",
             "id": 493,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493-steel.png"
+            "sprite": null
         },
         {
-            "name": "arceus-psychic",
+            "name": "arceus-dragon",
             "id": 493,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493-psychic.png"
+            "sprite": null
         },
         {
-            "name": "arceus-ghost",
+            "name": "arceus-electric",
             "id": 493,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493-ghost.png"
+            "sprite": null
         },
         {
             "name": "arceus-fairy",
             "id": 493,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493-fairy.png"
+            "sprite": null
+        },
+        {
+            "name": "arceus-fighting",
+            "id": 493,
+            "sprite": null
+        },
+        {
+            "name": "arceus-fire",
+            "id": 493,
+            "sprite": null
+        },
+        {
+            "name": "arceus-flying",
+            "id": 493,
+            "sprite": null
+        },
+        {
+            "name": "arceus-ghost",
+            "id": 493,
+            "sprite": null
+        },
+        {
+            "name": "arceus-grass",
+            "id": 493,
+            "sprite": null
+        },
+        {
+            "name": "arceus-ground",
+            "id": 493,
+            "sprite": null
+        },
+        {
+            "name": "arceus-ice",
+            "id": 493,
+            "sprite": null
+        },
+        {
+            "name": "arceus-poison",
+            "id": 493,
+            "sprite": null
+        },
+        {
+            "name": "arceus-psychic",
+            "id": 493,
+            "sprite": null
         },
         {
             "name": "arceus-rock",
             "id": 493,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493-rock.png"
+            "sprite": null
         },
         {
-            "name": "deerling-winter",
-            "id": 585,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585-winter.png"
+            "name": "arceus-steel",
+            "id": 493,
+            "sprite": null
         },
         {
-            "name": "deerling-summer",
-            "id": 585,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585-summer.png"
+            "name": "arceus-unknown",
+            "id": 493,
+            "sprite": null
+        },
+        {
+            "name": "arceus-water",
+            "id": 493,
+            "sprite": null
         },
         {
             "name": "deerling-autumn",
             "id": 585,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585-autumn.png"
+            "sprite": null
         },
         {
-            "name": "sawsbuck-winter",
-            "id": 586,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586-winter.png"
+            "name": "deerling-summer",
+            "id": 585,
+            "sprite": null
+        },
+        {
+            "name": "deerling-winter",
+            "id": 585,
+            "sprite": null
         },
         {
             "name": "sawsbuck-autumn",
             "id": 586,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586-autumn.png"
+            "sprite": null
         },
         {
             "name": "sawsbuck-summer",
             "id": 586,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586-summer.png"
+            "sprite": null
+        },
+        {
+            "name": "sawsbuck-winter",
+            "id": 586,
+            "sprite": null
         },
         {
             "name": "frillish-female",
@@ -10890,67 +10969,27 @@
             "sprite": null
         },
         {
-            "name": "genesect-shock",
-            "id": 649,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/649-shock.png"
-        },
-        {
             "name": "genesect-burn",
             "id": 649,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/649-burn.png"
+            "sprite": null
         },
         {
             "name": "genesect-chill",
             "id": 649,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/649-chill.png"
+            "sprite": null
         },
         {
             "name": "genesect-douse",
             "id": 649,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/649-douse.png"
-        },
-        {
-            "name": "scatterbug-marine",
-            "id": 664,
             "sprite": null
         },
         {
-            "name": "scatterbug-poke-ball",
-            "id": 664,
+            "name": "genesect-shock",
+            "id": 649,
             "sprite": null
         },
         {
-            "name": "scatterbug-meadow",
-            "id": 664,
-            "sprite": null
-        },
-        {
-            "name": "scatterbug-jungle",
-            "id": 664,
-            "sprite": null
-        },
-        {
-            "name": "scatterbug-ocean",
-            "id": 664,
-            "sprite": null
-        },
-        {
-            "name": "scatterbug-tundra",
-            "id": 664,
-            "sprite": null
-        },
-        {
-            "name": "scatterbug-sun",
-            "id": 664,
-            "sprite": null
-        },
-        {
-            "name": "scatterbug-polar",
-            "id": 664,
-            "sprite": null
-        },
-        {
-            "name": "scatterbug-sandstorm",
+            "name": "scatterbug-archipelago",
             "id": 664,
             "sprite": null
         },
@@ -10960,12 +10999,7 @@
             "sprite": null
         },
         {
-            "name": "scatterbug-river",
-            "id": 664,
-            "sprite": null
-        },
-        {
-            "name": "scatterbug-monsoon",
+            "name": "scatterbug-elegant",
             "id": 664,
             "sprite": null
         },
@@ -10975,27 +11009,7 @@
             "sprite": null
         },
         {
-            "name": "scatterbug-modern",
-            "id": 664,
-            "sprite": null
-        },
-        {
-            "name": "scatterbug-archipelago",
-            "id": 664,
-            "sprite": null
-        },
-        {
-            "name": "scatterbug-savanna",
-            "id": 664,
-            "sprite": null
-        },
-        {
             "name": "scatterbug-garden",
-            "id": 664,
-            "sprite": null
-        },
-        {
-            "name": "scatterbug-elegant",
             "id": 664,
             "sprite": null
         },
@@ -11005,82 +11019,77 @@
             "sprite": null
         },
         {
+            "name": "scatterbug-jungle",
+            "id": 664,
+            "sprite": null
+        },
+        {
+            "name": "scatterbug-marine",
+            "id": 664,
+            "sprite": null
+        },
+        {
+            "name": "scatterbug-meadow",
+            "id": 664,
+            "sprite": null
+        },
+        {
+            "name": "scatterbug-modern",
+            "id": 664,
+            "sprite": null
+        },
+        {
+            "name": "scatterbug-monsoon",
+            "id": 664,
+            "sprite": null
+        },
+        {
+            "name": "scatterbug-ocean",
+            "id": 664,
+            "sprite": null
+        },
+        {
+            "name": "scatterbug-poke-ball",
+            "id": 664,
+            "sprite": null
+        },
+        {
+            "name": "scatterbug-polar",
+            "id": 664,
+            "sprite": null
+        },
+        {
+            "name": "scatterbug-river",
+            "id": 664,
+            "sprite": null
+        },
+        {
+            "name": "scatterbug-sandstorm",
+            "id": 664,
+            "sprite": null
+        },
+        {
+            "name": "scatterbug-savanna",
+            "id": 664,
+            "sprite": null
+        },
+        {
+            "name": "scatterbug-sun",
+            "id": 664,
+            "sprite": null
+        },
+        {
+            "name": "scatterbug-tundra",
+            "id": 664,
+            "sprite": null
+        },
+        {
             "name": "spewpa-archipelago",
             "id": 665,
             "sprite": null
         },
         {
-            "name": "spewpa-savanna",
-            "id": 665,
-            "sprite": null
-        },
-        {
-            "name": "spewpa-ocean",
-            "id": 665,
-            "sprite": null
-        },
-        {
-            "name": "spewpa-garden",
-            "id": 665,
-            "sprite": null
-        },
-        {
-            "name": "spewpa-river",
-            "id": 665,
-            "sprite": null
-        },
-        {
-            "name": "spewpa-high-plains",
-            "id": 665,
-            "sprite": null
-        },
-        {
-            "name": "spewpa-poke-ball",
-            "id": 665,
-            "sprite": null
-        },
-        {
-            "name": "spewpa-polar",
-            "id": 665,
-            "sprite": null
-        },
-        {
-            "name": "spewpa-sun",
-            "id": 665,
-            "sprite": null
-        },
-        {
-            "name": "spewpa-modern",
-            "id": 665,
-            "sprite": null
-        },
-        {
-            "name": "spewpa-tundra",
-            "id": 665,
-            "sprite": null
-        },
-        {
-            "name": "spewpa-marine",
-            "id": 665,
-            "sprite": null
-        },
-        {
-            "name": "spewpa-monsoon",
-            "id": 665,
-            "sprite": null
-        },
-        {
             "name": "spewpa-continental",
-            "id": 665,
-            "sprite": null
-        },
-        {
-            "name": "spewpa-jungle",
-            "id": 665,
-            "sprite": null
-        },
-        {
-            "name": "spewpa-meadow",
             "id": 665,
             "sprite": null
         },
@@ -11095,104 +11104,174 @@
             "sprite": null
         },
         {
+            "name": "spewpa-garden",
+            "id": 665,
+            "sprite": null
+        },
+        {
+            "name": "spewpa-high-plains",
+            "id": 665,
+            "sprite": null
+        },
+        {
+            "name": "spewpa-jungle",
+            "id": 665,
+            "sprite": null
+        },
+        {
+            "name": "spewpa-marine",
+            "id": 665,
+            "sprite": null
+        },
+        {
+            "name": "spewpa-meadow",
+            "id": 665,
+            "sprite": null
+        },
+        {
+            "name": "spewpa-modern",
+            "id": 665,
+            "sprite": null
+        },
+        {
+            "name": "spewpa-monsoon",
+            "id": 665,
+            "sprite": null
+        },
+        {
+            "name": "spewpa-ocean",
+            "id": 665,
+            "sprite": null
+        },
+        {
+            "name": "spewpa-poke-ball",
+            "id": 665,
+            "sprite": null
+        },
+        {
+            "name": "spewpa-polar",
+            "id": 665,
+            "sprite": null
+        },
+        {
+            "name": "spewpa-river",
+            "id": 665,
+            "sprite": null
+        },
+        {
             "name": "spewpa-sandstorm",
             "id": 665,
             "sprite": null
         },
         {
-            "name": "vivillon-river",
-            "id": 666,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666-river.png"
+            "name": "spewpa-savanna",
+            "id": 665,
+            "sprite": null
         },
         {
-            "name": "vivillon-sandstorm",
-            "id": 666,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666-sandstorm.png"
+            "name": "spewpa-sun",
+            "id": 665,
+            "sprite": null
         },
         {
-            "name": "vivillon-marine",
-            "id": 666,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666-marine.png"
-        },
-        {
-            "name": "vivillon-monsoon",
-            "id": 666,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666-monsoon.png"
-        },
-        {
-            "name": "vivillon-ocean",
-            "id": 666,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666-ocean.png"
-        },
-        {
-            "name": "vivillon-elegant",
-            "id": 666,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666-elegant.png"
-        },
-        {
-            "name": "vivillon-icy-snow",
-            "id": 666,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666-icy-snow.png"
-        },
-        {
-            "name": "vivillon-polar",
-            "id": 666,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666-polar.png"
-        },
-        {
-            "name": "vivillon-poke-ball",
-            "id": 666,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666-poke-ball.png"
-        },
-        {
-            "name": "vivillon-continental",
-            "id": 666,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666-continental.png"
-        },
-        {
-            "name": "vivillon-savanna",
-            "id": 666,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666-savanna.png"
-        },
-        {
-            "name": "vivillon-tundra",
-            "id": 666,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666-tundra.png"
-        },
-        {
-            "name": "vivillon-high-plains",
-            "id": 666,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666-high-plains.png"
+            "name": "spewpa-tundra",
+            "id": 665,
+            "sprite": null
         },
         {
             "name": "vivillon-archipelago",
             "id": 666,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666-archipelago.png"
+            "sprite": null
         },
         {
-            "name": "vivillon-sun",
+            "name": "vivillon-continental",
             "id": 666,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666-sun.png"
+            "sprite": null
         },
         {
-            "name": "vivillon-modern",
+            "name": "vivillon-elegant",
             "id": 666,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666-modern.png"
-        },
-        {
-            "name": "vivillon-garden",
-            "id": 666,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666-garden.png"
-        },
-        {
-            "name": "vivillon-jungle",
-            "id": 666,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666-jungle.png"
+            "sprite": null
         },
         {
             "name": "vivillon-fancy",
             "id": 666,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666-fancy.png"
+            "sprite": null
+        },
+        {
+            "name": "vivillon-garden",
+            "id": 666,
+            "sprite": null
+        },
+        {
+            "name": "vivillon-high-plains",
+            "id": 666,
+            "sprite": null
+        },
+        {
+            "name": "vivillon-icy-snow",
+            "id": 666,
+            "sprite": null
+        },
+        {
+            "name": "vivillon-jungle",
+            "id": 666,
+            "sprite": null
+        },
+        {
+            "name": "vivillon-marine",
+            "id": 666,
+            "sprite": null
+        },
+        {
+            "name": "vivillon-modern",
+            "id": 666,
+            "sprite": null
+        },
+        {
+            "name": "vivillon-monsoon",
+            "id": 666,
+            "sprite": null
+        },
+        {
+            "name": "vivillon-ocean",
+            "id": 666,
+            "sprite": null
+        },
+        {
+            "name": "vivillon-poke-ball",
+            "id": 666,
+            "sprite": null
+        },
+        {
+            "name": "vivillon-polar",
+            "id": 666,
+            "sprite": null
+        },
+        {
+            "name": "vivillon-river",
+            "id": 666,
+            "sprite": null
+        },
+        {
+            "name": "vivillon-sandstorm",
+            "id": 666,
+            "sprite": null
+        },
+        {
+            "name": "vivillon-savanna",
+            "id": 666,
+            "sprite": null
+        },
+        {
+            "name": "vivillon-sun",
+            "id": 666,
+            "sprite": null
+        },
+        {
+            "name": "vivillon-tundra",
+            "id": 666,
+            "sprite": null
         },
         {
             "name": "pyroar-female",
@@ -11200,194 +11279,194 @@
             "sprite": null
         },
         {
-            "name": "flabebe-yellow",
+            "name": "flabebe-blue",
             "id": 669,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669-yellow.png"
+            "sprite": null
         },
         {
             "name": "flabebe-orange",
             "id": 669,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669-orange.png"
-        },
-        {
-            "name": "flabebe-blue",
-            "id": 669,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669-blue.png"
+            "sprite": null
         },
         {
             "name": "flabebe-white",
             "id": 669,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669-white.png"
+            "sprite": null
+        },
+        {
+            "name": "flabebe-yellow",
+            "id": 669,
+            "sprite": null
         },
         {
             "name": "floette-blue",
             "id": 670,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/670-blue.png"
+            "sprite": null
         },
         {
             "name": "floette-orange",
             "id": 670,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/670-orange.png"
-        },
-        {
-            "name": "floette-yellow",
-            "id": 670,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/670-yellow.png"
+            "sprite": null
         },
         {
             "name": "floette-white",
             "id": 670,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/670-white.png"
+            "sprite": null
         },
         {
-            "name": "florges-white",
-            "id": 671,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671-white.png"
-        },
-        {
-            "name": "florges-orange",
-            "id": 671,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671-orange.png"
+            "name": "floette-yellow",
+            "id": 670,
+            "sprite": null
         },
         {
             "name": "florges-blue",
             "id": 671,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671-blue.png"
+            "sprite": null
+        },
+        {
+            "name": "florges-orange",
+            "id": 671,
+            "sprite": null
+        },
+        {
+            "name": "florges-white",
+            "id": 671,
+            "sprite": null
         },
         {
             "name": "florges-yellow",
             "id": 671,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671-yellow.png"
-        },
-        {
-            "name": "furfrou-star",
-            "id": 676,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676-star.png"
-        },
-        {
-            "name": "furfrou-heart",
-            "id": 676,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676-heart.png"
-        },
-        {
-            "name": "furfrou-la-reine",
-            "id": 676,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676-la-reine.png"
+            "sprite": null
         },
         {
             "name": "furfrou-dandy",
             "id": 676,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676-dandy.png"
+            "sprite": null
         },
         {
             "name": "furfrou-debutante",
             "id": 676,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676-debutante.png"
-        },
-        {
-            "name": "furfrou-matron",
-            "id": 676,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676-matron.png"
-        },
-        {
-            "name": "furfrou-pharaoh",
-            "id": 676,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676-pharaoh.png"
+            "sprite": null
         },
         {
             "name": "furfrou-diamond",
             "id": 676,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676-diamond.png"
+            "sprite": null
+        },
+        {
+            "name": "furfrou-heart",
+            "id": 676,
+            "sprite": null
         },
         {
             "name": "furfrou-kabuki",
             "id": 676,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676-kabuki.png"
+            "sprite": null
         },
         {
-            "name": "silvally-poison",
-            "id": 773,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-poison.png"
+            "name": "furfrou-la-reine",
+            "id": 676,
+            "sprite": null
         },
         {
-            "name": "silvally-flying",
-            "id": 773,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-flying.png"
+            "name": "furfrou-matron",
+            "id": 676,
+            "sprite": null
         },
         {
-            "name": "silvally-ground",
-            "id": 773,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-ground.png"
+            "name": "furfrou-pharaoh",
+            "id": 676,
+            "sprite": null
         },
         {
-            "name": "silvally-dark",
-            "id": 773,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-dark.png"
+            "name": "furfrou-star",
+            "id": 676,
+            "sprite": null
         },
         {
             "name": "silvally-bug",
             "id": 773,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-bug.png"
+            "sprite": null
         },
         {
-            "name": "silvally-fire",
+            "name": "silvally-dark",
             "id": 773,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-fire.png"
-        },
-        {
-            "name": "silvally-water",
-            "id": 773,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-water.png"
-        },
-        {
-            "name": "silvally-grass",
-            "id": 773,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-grass.png"
-        },
-        {
-            "name": "silvally-fighting",
-            "id": 773,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-fighting.png"
-        },
-        {
-            "name": "silvally-ghost",
-            "id": 773,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-ghost.png"
-        },
-        {
-            "name": "silvally-ice",
-            "id": 773,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-ice.png"
-        },
-        {
-            "name": "silvally-electric",
-            "id": 773,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-electric.png"
-        },
-        {
-            "name": "silvally-steel",
-            "id": 773,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-steel.png"
-        },
-        {
-            "name": "silvally-psychic",
-            "id": 773,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-psychic.png"
+            "sprite": null
         },
         {
             "name": "silvally-dragon",
             "id": 773,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-dragon.png"
+            "sprite": null
         },
         {
-            "name": "silvally-rock",
+            "name": "silvally-electric",
             "id": 773,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-rock.png"
+            "sprite": null
         },
         {
             "name": "silvally-fairy",
             "id": 773,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773-fairy.png"
+            "sprite": null
+        },
+        {
+            "name": "silvally-fighting",
+            "id": 773,
+            "sprite": null
+        },
+        {
+            "name": "silvally-fire",
+            "id": 773,
+            "sprite": null
+        },
+        {
+            "name": "silvally-flying",
+            "id": 773,
+            "sprite": null
+        },
+        {
+            "name": "silvally-ghost",
+            "id": 773,
+            "sprite": null
+        },
+        {
+            "name": "silvally-grass",
+            "id": 773,
+            "sprite": null
+        },
+        {
+            "name": "silvally-ground",
+            "id": 773,
+            "sprite": null
+        },
+        {
+            "name": "silvally-ice",
+            "id": 773,
+            "sprite": null
+        },
+        {
+            "name": "silvally-poison",
+            "id": 773,
+            "sprite": null
+        },
+        {
+            "name": "silvally-psychic",
+            "id": 773,
+            "sprite": null
+        },
+        {
+            "name": "silvally-rock",
+            "id": 773,
+            "sprite": null
+        },
+        {
+            "name": "silvally-steel",
+            "id": 773,
+            "sprite": null
+        },
+        {
+            "name": "silvally-water",
+            "id": 773,
+            "sprite": null
         },
         {
             "name": "sinistea-antique",
@@ -11400,314 +11479,314 @@
             "sprite": null
         },
         {
-            "name": "alcremie-vanilla-cream-berry-sweet",
+            "name": "alcremie-caramel-swirl-berry-sweet",
             "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-vanilla-cream-berry-sweet.png"
-        },
-        {
-            "name": "alcremie-lemon-cream-love-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-lemon-cream-love-sweet.png"
-        },
-        {
-            "name": "alcremie-caramel-swirl-strawberry-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-caramel-swirl-strawberry-sweet.png"
-        },
-        {
-            "name": "alcremie-salted-cream-clover-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-salted-cream-clover-sweet.png"
-        },
-        {
-            "name": "alcremie-rainbow-swirl-berry-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-rainbow-swirl-berry-sweet.png"
-        },
-        {
-            "name": "alcremie-rainbow-swirl-love-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-rainbow-swirl-love-sweet.png"
-        },
-        {
-            "name": "alcremie-salted-cream-berry-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-salted-cream-berry-sweet.png"
-        },
-        {
-            "name": "alcremie-ruby-cream-ribbon-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-ruby-cream-ribbon-sweet.png"
+            "sprite": null
         },
         {
             "name": "alcremie-caramel-swirl-clover-sweet",
             "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-caramel-swirl-clover-sweet.png"
-        },
-        {
-            "name": "alcremie-ruby-cream-clover-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-ruby-cream-clover-sweet.png"
+            "sprite": null
         },
         {
             "name": "alcremie-caramel-swirl-flower-sweet",
             "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-caramel-swirl-flower-sweet.png"
-        },
-        {
-            "name": "alcremie-rainbow-swirl-star-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-rainbow-swirl-star-sweet.png"
-        },
-        {
-            "name": "alcremie-ruby-swirl-strawberry-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-ruby-swirl-strawberry-sweet.png"
-        },
-        {
-            "name": "alcremie-caramel-swirl-berry-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-caramel-swirl-berry-sweet.png"
-        },
-        {
-            "name": "alcremie-matcha-cream-ribbon-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-matcha-cream-ribbon-sweet.png"
-        },
-        {
-            "name": "alcremie-ruby-cream-flower-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-ruby-cream-flower-sweet.png"
-        },
-        {
-            "name": "alcremie-matcha-cream-clover-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-matcha-cream-clover-sweet.png"
-        },
-        {
-            "name": "alcremie-vanilla-cream-clover-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-vanilla-cream-clover-sweet.png"
-        },
-        {
-            "name": "alcremie-mint-cream-ribbon-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-mint-cream-ribbon-sweet.png"
-        },
-        {
-            "name": "alcremie-mint-cream-strawberry-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-mint-cream-strawberry-sweet.png"
-        },
-        {
-            "name": "alcremie-ruby-cream-strawberry-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-ruby-cream-strawberry-sweet.png"
-        },
-        {
-            "name": "alcremie-lemon-cream-clover-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-lemon-cream-clover-sweet.png"
-        },
-        {
-            "name": "alcremie-matcha-cream-flower-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-matcha-cream-flower-sweet.png"
-        },
-        {
-            "name": "alcremie-lemon-cream-ribbon-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-lemon-cream-ribbon-sweet.png"
-        },
-        {
-            "name": "alcremie-lemon-cream-strawberry-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-lemon-cream-strawberry-sweet.png"
-        },
-        {
-            "name": "alcremie-salted-cream-strawberry-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-salted-cream-strawberry-sweet.png"
-        },
-        {
-            "name": "alcremie-ruby-swirl-love-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-ruby-swirl-love-sweet.png"
-        },
-        {
-            "name": "alcremie-ruby-swirl-star-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-ruby-swirl-star-sweet.png"
-        },
-        {
-            "name": "alcremie-mint-cream-flower-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-mint-cream-flower-sweet.png"
-        },
-        {
-            "name": "alcremie-ruby-swirl-clover-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-ruby-swirl-clover-sweet.png"
-        },
-        {
-            "name": "alcremie-matcha-cream-love-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-matcha-cream-love-sweet.png"
-        },
-        {
-            "name": "alcremie-rainbow-swirl-strawberry-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-rainbow-swirl-strawberry-sweet.png"
-        },
-        {
-            "name": "alcremie-caramel-swirl-ribbon-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-caramel-swirl-ribbon-sweet.png"
-        },
-        {
-            "name": "alcremie-vanilla-cream-love-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-vanilla-cream-love-sweet.png"
-        },
-        {
-            "name": "alcremie-vanilla-cream-flower-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-vanilla-cream-flower-sweet.png"
-        },
-        {
-            "name": "alcremie-mint-cream-clover-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-mint-cream-clover-sweet.png"
-        },
-        {
-            "name": "alcremie-vanilla-cream-ribbon-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-vanilla-cream-ribbon-sweet.png"
-        },
-        {
-            "name": "alcremie-ruby-cream-berry-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-ruby-cream-berry-sweet.png"
-        },
-        {
-            "name": "alcremie-ruby-cream-star-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-ruby-cream-star-sweet.png"
-        },
-        {
-            "name": "alcremie-mint-cream-berry-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-mint-cream-berry-sweet.png"
-        },
-        {
-            "name": "alcremie-ruby-swirl-flower-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-ruby-swirl-flower-sweet.png"
-        },
-        {
-            "name": "alcremie-rainbow-swirl-clover-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-rainbow-swirl-clover-sweet.png"
-        },
-        {
-            "name": "alcremie-mint-cream-star-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-mint-cream-star-sweet.png"
-        },
-        {
-            "name": "alcremie-matcha-cream-strawberry-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-matcha-cream-strawberry-sweet.png"
-        },
-        {
-            "name": "alcremie-ruby-cream-love-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-ruby-cream-love-sweet.png"
-        },
-        {
-            "name": "alcremie-salted-cream-flower-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-salted-cream-flower-sweet.png"
-        },
-        {
-            "name": "alcremie-lemon-cream-berry-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-lemon-cream-berry-sweet.png"
-        },
-        {
-            "name": "alcremie-ruby-swirl-berry-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-ruby-swirl-berry-sweet.png"
-        },
-        {
-            "name": "alcremie-salted-cream-star-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-salted-cream-star-sweet.png"
-        },
-        {
-            "name": "alcremie-vanilla-cream-star-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-vanilla-cream-star-sweet.png"
-        },
-        {
-            "name": "alcremie-ruby-swirl-ribbon-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-ruby-swirl-ribbon-sweet.png"
-        },
-        {
-            "name": "alcremie-salted-cream-ribbon-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-salted-cream-ribbon-sweet.png"
-        },
-        {
-            "name": "alcremie-matcha-cream-berry-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-matcha-cream-berry-sweet.png"
-        },
-        {
-            "name": "alcremie-salted-cream-love-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-salted-cream-love-sweet.png"
-        },
-        {
-            "name": "alcremie-rainbow-swirl-ribbon-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-rainbow-swirl-ribbon-sweet.png"
-        },
-        {
-            "name": "alcremie-caramel-swirl-star-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-caramel-swirl-star-sweet.png"
-        },
-        {
-            "name": "alcremie-rainbow-swirl-flower-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-rainbow-swirl-flower-sweet.png"
-        },
-        {
-            "name": "alcremie-lemon-cream-star-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-lemon-cream-star-sweet.png"
-        },
-        {
-            "name": "alcremie-matcha-cream-star-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-matcha-cream-star-sweet.png"
-        },
-        {
-            "name": "alcremie-lemon-cream-flower-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-lemon-cream-flower-sweet.png"
-        },
-        {
-            "name": "alcremie-mint-cream-love-sweet",
-            "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-mint-cream-love-sweet.png"
+            "sprite": null
         },
         {
             "name": "alcremie-caramel-swirl-love-sweet",
             "id": 869,
-            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869-caramel-swirl-love-sweet.png"
+            "sprite": null
+        },
+        {
+            "name": "alcremie-caramel-swirl-ribbon-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-caramel-swirl-star-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-caramel-swirl-strawberry-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-lemon-cream-berry-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-lemon-cream-clover-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-lemon-cream-flower-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-lemon-cream-love-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-lemon-cream-ribbon-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-lemon-cream-star-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-lemon-cream-strawberry-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-matcha-cream-berry-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-matcha-cream-clover-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-matcha-cream-flower-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-matcha-cream-love-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-matcha-cream-ribbon-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-matcha-cream-star-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-matcha-cream-strawberry-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-mint-cream-berry-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-mint-cream-clover-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-mint-cream-flower-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-mint-cream-love-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-mint-cream-ribbon-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-mint-cream-star-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-mint-cream-strawberry-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-rainbow-swirl-berry-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-rainbow-swirl-clover-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-rainbow-swirl-flower-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-rainbow-swirl-love-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-rainbow-swirl-ribbon-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-rainbow-swirl-star-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-rainbow-swirl-strawberry-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-ruby-cream-berry-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-ruby-cream-clover-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-ruby-cream-flower-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-ruby-cream-love-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-ruby-cream-ribbon-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-ruby-cream-star-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-ruby-cream-strawberry-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-ruby-swirl-berry-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-ruby-swirl-clover-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-ruby-swirl-flower-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-ruby-swirl-love-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-ruby-swirl-ribbon-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-ruby-swirl-star-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-ruby-swirl-strawberry-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-salted-cream-berry-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-salted-cream-clover-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-salted-cream-flower-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-salted-cream-love-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-salted-cream-ribbon-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-salted-cream-star-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-salted-cream-strawberry-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-vanilla-cream-berry-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-vanilla-cream-clover-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-vanilla-cream-flower-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-vanilla-cream-love-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-vanilla-cream-ribbon-sweet",
+            "id": 869,
+            "sprite": null
+        },
+        {
+            "name": "alcremie-vanilla-cream-star-sweet",
+            "id": 869,
+            "sprite": null
         }
     ],
     "item": [

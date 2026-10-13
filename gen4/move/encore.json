@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user compels the foe to keep using only the move it last used for three to seven turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

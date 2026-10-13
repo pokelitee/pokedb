@@ -39,7 +39,10 @@
         "black-2-white-2": "An attack move that inflicts double the damage if the user has been hurt by the target in the same turn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

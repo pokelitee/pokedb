@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The power stored using the move Stockpile is absorbed by the user to heal its HP."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "heal",

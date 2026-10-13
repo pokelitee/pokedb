@@ -60,7 +60,13 @@
         "legends-arceus": "The target is punched with a fiery fist. This may also leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": "tm03",
+    "machine": {
+        "sword-shield": "tm03",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

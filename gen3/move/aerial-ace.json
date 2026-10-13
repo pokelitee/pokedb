@@ -61,7 +61,13 @@
         "firered-leafgreen": "An extremely fast attack against one target. It can’t be evaded."
     },
     "stat_changes": [],
-    "machine": "tm40",
+    "machine": {
+        "ruby-sapphire": "tm40",
+        "emerald": "tm40",
+        "firered-leafgreen": "tm40",
+        "colosseum": "tm40",
+        "xd": "tm40"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

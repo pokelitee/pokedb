@@ -42,18 +42,18 @@
         "legends-arceus": 100
     },
     "effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Raise the targets Attack and Special Attack by 2 stages.",
+        "the-isle-of-armor": "Raise the targets Attack and Special Attack by 2 stages.",
+        "the-crown-tundra": "Raise the targets Attack and Special Attack by 2 stages.",
+        "brilliant-diamond-shining-pearl": "Raise the targets Attack and Special Attack by 2 stages.",
+        "legends-arceus": "Raise the targets Attack and Special Attack by 2 stages."
     },
     "short_effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Raise the targets Attack and Special Attack by 2 stages.",
+        "the-isle-of-armor": "Raise the targets Attack and Special Attack by 2 stages.",
+        "the-crown-tundra": "Raise the targets Attack and Special Attack by 2 stages.",
+        "brilliant-diamond-shining-pearl": "Raise the targets Attack and Special Attack by 2 stages.",
+        "legends-arceus": "Raise the targets Attack and Special Attack by 2 stages."
     },
     "flavor_text": {
         "sword-shield": "The user sharply raises the target’s Attack and Sp. Atk stats by decorating the target.",
@@ -69,7 +69,13 @@
             "stat": "special-attack"
         }
     ],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

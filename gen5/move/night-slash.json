@@ -39,7 +39,10 @@
         "black-2-white-2": "The user slashes the target the instant an opportunity arises. Critical hits land more easily."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user sets off an earthquake that hits all the Pokémon in the battle."
     },
     "stat_changes": [],
-    "machine": "tm26",
+    "machine": {
+        "diamond-pearl": "tm26",
+        "platinum": "tm26",
+        "heartgold-soulsilver": "tm26"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -39,7 +39,10 @@
         "black-2-white-2": "The user faints. In return, the Pokémon taking its place will have its HP restored and status cured."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

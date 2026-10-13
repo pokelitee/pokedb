@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen."
     },
     "stat_changes": [],
-    "machine": "tm14",
+    "machine": {
+        "sun-moon": "tm14",
+        "ultra-sun-ultra-moon": "tm14",
+        "lets-go-pikachu-lets-go-eevee": "tm51"
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

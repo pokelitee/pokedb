@@ -39,7 +39,10 @@
         "crystal": "An attack that may freeze the foe."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

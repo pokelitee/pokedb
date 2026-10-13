@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves. This does not stop status moves."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

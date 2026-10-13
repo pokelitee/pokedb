@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "An attack move that doubles its power if the user is poisoned, paralyzed, or has a burn."
     },
     "stat_changes": [],
-    "machine": "tm42",
+    "machine": {
+        "diamond-pearl": "tm42",
+        "platinum": "tm42",
+        "heartgold-soulsilver": "tm42"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

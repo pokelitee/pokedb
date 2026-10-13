@@ -69,7 +69,13 @@
             "stat": "defense"
         }
     ],
-    "machine": "tr39",
+    "machine": {
+        "sword-shield": "tr39",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

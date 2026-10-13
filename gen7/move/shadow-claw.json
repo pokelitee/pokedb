@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user slashes with a sharp claw made from shadows. Critical hits land more easily."
     },
     "stat_changes": [],
-    "machine": "tm65",
+    "machine": {
+        "sun-moon": "tm65",
+        "ultra-sun-ultra-moon": "tm65",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

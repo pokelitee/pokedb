@@ -23,8 +23,8 @@
     "target": "user-and-allies",
     "generation": "generation-iii",
     "effect_chance": {
-        "black-white": 4,
-        "black-2-white-2": 4
+        "black-white": null,
+        "black-2-white-2": null
     },
     "effect": {
         "black-white": "Removes major status effects and confusion from every Pokémon in the user’s party.",
@@ -39,7 +39,10 @@
         "black-2-white-2": "The user releases a soothing scent that heals all status problems affecting the user’s party."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

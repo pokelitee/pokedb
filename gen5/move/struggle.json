@@ -23,8 +23,8 @@
     "target": "random-opponent",
     "generation": "generation-i",
     "effect_chance": {
-        "black-white": 10,
-        "black-2-white-2": 10
+        "black-white": null,
+        "black-2-white-2": null
     },
     "effect": {
         "black-white": "Inflicts typeless regular damage. User takes 1/4 its max HP in recoil. Ignores accuracy and evasion modifiers. This move is used automatically when a Pokémon cannot use any other move legally, e.g., due to having no PP remaining or being under the effect of both Encore and Torment at the same time. This move’s recoil is not treated as recoil for the purposes of anything that affects recoil, such as the ability Rock Head. It also is not prevented by Magic Guard. This move cannot be copied by Mimic, Mirror Move, or Sketch, nor selected by Assist or Metronome, nor forced by Encore.",
@@ -39,7 +39,10 @@
         "black-2-white-2": "An attack that is used in desperation only if the user has no PP. It also hurts the user slightly."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user soars up with its Z-Power and plummets toward the target at full speed. The power varies, depending on the original move."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -39,6 +39,32 @@
     "target": "selected-pokemon-me-first",
     "generation": "generation-viii",
     "effect_chance": {
+        "scarlet-violet": 100,
+        "the-teal-mask": 100,
+        "the-indigo-disk": 100,
+        "legends-za": 100,
+        "mega-dimension": 100,
+        "champions": 100
+    },
+    "effect": {
+        "scarlet-violet": "For five turns, protects all Pokémon on the ground from major status ailments and confusion and weakens Dragon moves used against them to 0.5× their power. Changes Nature Power to Moonblast.",
+        "the-teal-mask": "For five turns, protects all Pokémon on the ground from major status ailments and confusion and weakens Dragon moves used against them to 0.5× their power. Changes Nature Power to Moonblast.",
+        "the-indigo-disk": "For five turns, protects all Pokémon on the ground from major status ailments and confusion and weakens Dragon moves used against them to 0.5× their power. Changes Nature Power to Moonblast.",
+        "legends-za": "For five turns, protects all Pokémon on the ground from major status ailments and confusion and weakens Dragon moves used against them to 0.5× their power. Changes Nature Power to Moonblast.",
+        "mega-dimension": "For five turns, protects all Pokémon on the ground from major status ailments and confusion and weakens Dragon moves used against them to 0.5× their power. Changes Nature Power to Moonblast.",
+        "champions": "For five turns, protects all Pokémon on the ground from major status ailments and confusion and weakens Dragon moves used against them to 0.5× their power. Changes Nature Power to Moonblast."
+    },
+    "short_effect": {
+        "scarlet-violet": "For five turns, protects all Pokémon on the ground from major status ailments and confusion, and halves the power of incoming Dragon moves.",
+        "the-teal-mask": "For five turns, protects all Pokémon on the ground from major status ailments and confusion, and halves the power of incoming Dragon moves.",
+        "the-indigo-disk": "For five turns, protects all Pokémon on the ground from major status ailments and confusion, and halves the power of incoming Dragon moves.",
+        "legends-za": "For five turns, protects all Pokémon on the ground from major status ailments and confusion, and halves the power of incoming Dragon moves.",
+        "mega-dimension": "For five turns, protects all Pokémon on the ground from major status ailments and confusion, and halves the power of incoming Dragon moves.",
+        "champions": "For five turns, protects all Pokémon on the ground from major status ailments and confusion, and halves the power of incoming Dragon moves."
+    },
+    "flavor_text": {},
+    "stat_changes": [],
+    "machine": {
         "scarlet-violet": null,
         "the-teal-mask": null,
         "the-indigo-disk": null,
@@ -46,25 +72,6 @@
         "mega-dimension": null,
         "champions": null
     },
-    "effect": {
-        "scarlet-violet": "Inflicts regular damage.",
-        "the-teal-mask": "Inflicts regular damage.",
-        "the-indigo-disk": "Inflicts regular damage.",
-        "legends-za": "Inflicts regular damage.",
-        "mega-dimension": "Inflicts regular damage.",
-        "champions": "Inflicts regular damage."
-    },
-    "short_effect": {
-        "scarlet-violet": "Inflicts regular damage with no additional effect.",
-        "the-teal-mask": "Inflicts regular damage with no additional effect.",
-        "the-indigo-disk": "Inflicts regular damage with no additional effect.",
-        "legends-za": "Inflicts regular damage with no additional effect.",
-        "mega-dimension": "Inflicts regular damage with no additional effect.",
-        "champions": "Inflicts regular damage with no additional effect."
-    },
-    "flavor_text": {},
-    "stat_changes": [],
-    "machine": null,
     "metadata": {
         "ailment": "none",
         "category": "damage",

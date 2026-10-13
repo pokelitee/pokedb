@@ -61,7 +61,13 @@
         "firered-leafgreen": "The foe is made to switch out with an ally. In the wild, the battle ends."
     },
     "stat_changes": [],
-    "machine": "tm05",
+    "machine": {
+        "ruby-sapphire": "tm05",
+        "emerald": "tm05",
+        "firered-leafgreen": "tm05",
+        "colosseum": "tm05",
+        "xd": "tm05"
+    },
     "metadata": {
         "ailment": "none",
         "category": "force-switch",

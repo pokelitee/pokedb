@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user lands and rests its body. It restores the user’s HP by up to half of its max HP."
     },
     "stat_changes": [],
-    "machine": "tm19",
+    "machine": {
+        "x-y": "tm19",
+        "omega-ruby-alpha-sapphire": "tm19"
+    },
     "metadata": {
         "ailment": "none",
         "category": "heal",

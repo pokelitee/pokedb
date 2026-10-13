@@ -42,13 +42,30 @@
     "sprites": {
         "versions": {
             "icons": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/376.png",
-                "front_female": null
+                "front_female": null,
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/376.png"
             },
             "ultra-sun-ultra-moon": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/376.png",
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/back/shiny/376.gif",
+                "back_female": null,
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/376.gif",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/back/376.gif",
                 "front_female": null,
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/376.png",
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/376.gif",
+                "back_shiny_female": null,
+                "front_shiny_female": null
+            },
+            "lets-go-pikachu-lets-go-eevee": {
+                "icons": {
+                    "front_default": null
+                },
+                "back_shiny": null,
+                "back_female": null,
+                "front_shiny": null,
+                "back_default": null,
+                "front_female": null,
+                "front_default": null,
+                "back_shiny_female": null,
                 "front_shiny_female": null
             }
         }
@@ -628,10 +645,10 @@
         "mineral"
     ],
     "flavor_text": {
-        "ultra-moon": "It analyzes its opponents with more accuracy than a supercomputer, which enables it to calmly back them into a corner.",
         "sun": "It firmly pins its prey using its four claws and large body. Then the teeth in the mouth on its stomach chew the prey to bits.",
         "moon": "A linkage of two Metang, this Pokémon can perform any calculation in a flash by utilizing parallel processing in its four brains.",
-        "ultra-sun": "It boasts not only psychic powers but also fantastic strength. It grabs its prey with its four legs and holds them in place with its claws."
+        "ultra-sun": "It boasts not only psychic powers but also fantastic strength. It grabs its prey with its four legs and holds them in place with its claws.",
+        "ultra-moon": "It analyzes its opponents with more accuracy than a supercomputer, which enables it to calmly back them into a corner."
     },
     "genus": "Iron Leg Pokémon",
     "generation": "generation-iii",

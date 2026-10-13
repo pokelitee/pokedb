@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "An attack move that cuts down the foe’s HP to equal the user’s HP."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

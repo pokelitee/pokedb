@@ -39,7 +39,10 @@
         "crystal": "An attack that is based on loyalty."
     },
     "stat_changes": [],
-    "machine": "tm27",
+    "machine": {
+        "gold-silver": "tm27",
+        "crystal": "tm27"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "As long as this move is in use, the power of rage raises the Attack stat each time the user is hit in battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

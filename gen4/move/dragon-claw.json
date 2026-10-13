@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user slashes the foe with huge, sharp claws."
     },
     "stat_changes": [],
-    "machine": "tm02",
+    "machine": {
+        "diamond-pearl": "tm02",
+        "platinum": "tm02",
+        "heartgold-soulsilver": "tm02"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

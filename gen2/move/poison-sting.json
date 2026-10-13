@@ -39,7 +39,10 @@
         "crystal": "An attack that may poison the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

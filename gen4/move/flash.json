@@ -52,7 +52,11 @@
             "stat": "accuracy"
         }
     ],
-    "machine": "tm70",
+    "machine": {
+        "diamond-pearl": "tm70",
+        "platinum": "tm70",
+        "heartgold-soulsilver": "tm70"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

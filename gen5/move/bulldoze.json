@@ -44,7 +44,10 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm78",
+    "machine": {
+        "black-white": "tm78",
+        "black-2-white-2": "tm78"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

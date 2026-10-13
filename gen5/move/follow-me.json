@@ -27,19 +27,22 @@
         "black-2-white-2": null
     },
     "effect": {
-        "black-white": "Inflicts regular damage. Has a chance to poison the target.",
-        "black-2-white-2": "Inflicts regular damage. Has a chance to poison the target."
+        "black-white": "Until the end of this turn, any moves that opposing Pokémon target solely at the user’s ally will instead target the user. If both Pokémon on the same side of the field use this move on the same turn, the Pokémon that uses it last will become the target. This effect takes priority over Lightning Rod and Storm Drain. If the user’s ally switches out, opposing Pokémon may still hit it with Pursuit. This move cannot be selected by Assist or Metronome.",
+        "black-2-white-2": "Until the end of this turn, any moves that opposing Pokémon target solely at the user’s ally will instead target the user. If both Pokémon on the same side of the field use this move on the same turn, the Pokémon that uses it last will become the target. This effect takes priority over Lightning Rod and Storm Drain. If the user’s ally switches out, opposing Pokémon may still hit it with Pursuit. This move cannot be selected by Assist or Metronome."
     },
     "short_effect": {
-        "black-white": "Has a chance to poison the target.",
-        "black-2-white-2": "Has a chance to poison the target."
+        "black-white": "Redirects the target’s single-target effects to the user for this turn.",
+        "black-2-white-2": "Redirects the target’s single-target effects to the user for this turn."
     },
     "flavor_text": {
         "black-white": "The user draws attention to itself, making all targets take aim only at the user.",
         "black-2-white-2": "The user draws attention to itself, making all targets take aim only at the user."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

@@ -52,7 +52,11 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm69",
+    "machine": {
+        "diamond-pearl": "tm69",
+        "platinum": "tm69",
+        "heartgold-soulsilver": "tm69"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

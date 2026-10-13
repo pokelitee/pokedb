@@ -35,32 +35,38 @@
     "target": "selected-pokemon",
     "generation": "generation-viii",
     "effect_chance": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": 100,
+        "the-isle-of-armor": 100,
+        "the-crown-tundra": 100,
+        "brilliant-diamond-shining-pearl": 100,
+        "legends-arceus": 100
     },
     "effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Hits twice in one turn. In Double Battles, this move will hit both enemy targets. If it would fail to hit one of the targets, the other target will be hit twice.",
+        "the-isle-of-armor": "Hits twice in one turn. In Double Battles, this move will hit both enemy targets. If it would fail to hit one of the targets, the other target will be hit twice.",
+        "the-crown-tundra": "Hits twice in one turn. In Double Battles, this move will hit both enemy targets. If it would fail to hit one of the targets, the other target will be hit twice.",
+        "brilliant-diamond-shining-pearl": "Hits twice in one turn. In Double Battles, this move will hit both enemy targets. If it would fail to hit one of the targets, the other target will be hit twice.",
+        "legends-arceus": "Hits twice in one turn. In Double Battles, this move will hit both enemy targets. If it would fail to hit one of the targets, the other target will be hit twice."
     },
     "short_effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Hits twice in one turn. In Double Battles, this move will hit both enemy targets. If it would fail to hit one of the targets, the other target will be hit twice.",
+        "the-isle-of-armor": "Hits twice in one turn. In Double Battles, this move will hit both enemy targets. If it would fail to hit one of the targets, the other target will be hit twice.",
+        "the-crown-tundra": "Hits twice in one turn. In Double Battles, this move will hit both enemy targets. If it would fail to hit one of the targets, the other target will be hit twice.",
+        "brilliant-diamond-shining-pearl": "Hits twice in one turn. In Double Battles, this move will hit both enemy targets. If it would fail to hit one of the targets, the other target will be hit twice.",
+        "legends-arceus": "Hits twice in one turn. In Double Battles, this move will hit both enemy targets. If it would fail to hit one of the targets, the other target will be hit twice."
     },
     "flavor_text": {
         "sword-shield": "The user attacks twice using Dreepy. If there are two targets, this move hits each target once.",
         "legends-arceus": "The user attacks twice using Dreepy. If there are two targets, this move hits each target once."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

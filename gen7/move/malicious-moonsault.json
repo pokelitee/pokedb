@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user, Incineroar, strengthens its body using its Z-Power and crashes into the target with full force."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

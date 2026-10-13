@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "A strong electric blast crashes down on the target. This may also leave the target with paralysis."
     },
     "stat_changes": [],
-    "machine": "tm24",
+    "machine": {
+        "x-y": "tm24",
+        "omega-ruby-alpha-sapphire": "tm24"
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

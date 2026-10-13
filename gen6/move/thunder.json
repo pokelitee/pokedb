@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis."
     },
     "stat_changes": [],
-    "machine": "tm25",
+    "machine": {
+        "x-y": "tm25",
+        "omega-ruby-alpha-sapphire": "tm25"
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The target is razed with a mystical fire of great intensity. This may also leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

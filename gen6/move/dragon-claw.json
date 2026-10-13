@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user slashes the target with huge, sharp claws."
     },
     "stat_changes": [],
-    "machine": "tm02",
+    "machine": {
+        "x-y": "tm02",
+        "omega-ruby-alpha-sapphire": "tm02"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

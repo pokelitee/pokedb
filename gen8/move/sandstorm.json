@@ -60,7 +60,13 @@
         "legends-arceus": "A five-turn sandstorm is summoned to hurt all combatants except Rock, Ground, and Steel types. It raises the Sp. Def stat of Rock types."
     },
     "stat_changes": [],
-    "machine": "tm32",
+    "machine": {
+        "sword-shield": "tm32",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

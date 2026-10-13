@@ -60,7 +60,13 @@
         "legends-arceus": "The target is slugged with a punch thrown at maximum power."
     },
     "stat_changes": [],
-    "machine": "hm04",
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": "hm04",
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

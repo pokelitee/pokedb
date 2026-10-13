@@ -39,7 +39,10 @@
         "crystal": "Disables the foe's most recent move."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "disable",
         "category": "unique",

@@ -60,7 +60,13 @@
         "legends-arceus": "The user bounces up high, then drops on the target on the second turn. This may also leave the target with paralysis."
     },
     "stat_changes": [],
-    "machine": "tm52",
+    "machine": {
+        "sword-shield": "tm52",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

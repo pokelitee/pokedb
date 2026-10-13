@@ -39,7 +39,10 @@
         "crystal": "A poison move with increasing damage."
     },
     "stat_changes": [],
-    "machine": "tm06",
+    "machine": {
+        "gold-silver": "tm06",
+        "crystal": "tm06"
+    },
     "metadata": {
         "ailment": "poison",
         "category": "ailment",

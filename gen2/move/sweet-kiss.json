@@ -39,7 +39,10 @@
         "crystal": "A move that causes confusion."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "ailment",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "After obtaining Z-Power, the user, Marshadow, punches and kicks the target consecutively with full force."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

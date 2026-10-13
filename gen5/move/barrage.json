@@ -39,7 +39,10 @@
         "black-2-white-2": "Round objects are hurled at the target to strike two to five times in a row."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

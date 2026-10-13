@@ -44,7 +44,10 @@
             "stat": "defense"
         }
     ],
-    "machine": "tm51",
+    "machine": {
+        "x-y": "tm51",
+        "omega-ruby-alpha-sapphire": "tm51"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

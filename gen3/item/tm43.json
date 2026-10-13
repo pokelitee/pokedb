@@ -2,7 +2,13 @@
     "id": 347,
     "name": "tm43",
     "source_url": "https://pokeapi.co/api/v2/item/347/",
-    "cost": 1000,
+    "prices": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -10,13 +16,12 @@
     "effect": "Teaches Secret Power to a compatible Pokémon.",
     "short_effect": "Teaches Flame Charge to a compatible Pokémon. (Gen IV & III: Secret Power Gen II: Detect Gen I: Sky Attack)",
     "flavor_text": {
-        "emerald": "Adds an effect to attack depending on the location.",
         "ruby-sapphire": "Adds an effect to attack depending on the location.",
+        "emerald": "Adds an effect to attack depending on the location.",
         "firered-leafgreen": "An attack that may have an additional effect that varies with the terrain."
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

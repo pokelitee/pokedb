@@ -66,7 +66,14 @@
         "scarlet-violet": "The user charges at the target and may make it flinch."
     },
     "stat_changes": [],
-    "machine": "tm77",
+    "machine": {
+        "scarlet-violet": "tm77",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm77",
+        "legends-za": "tm98",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -2,7 +2,13 @@
     "id": 28,
     "name": "revive",
     "source_url": "https://pokeapi.co/api/v2/item/28/",
-    "cost": 2000,
+    "prices": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "fling_power": 30,
     "fling_effect": null,
     "attributes": [
@@ -17,13 +23,12 @@
     "effect": "Used on a party Pokémon : Revives the Pokémon and restores half its HP.",
     "short_effect": "Revives with half HP.",
     "flavor_text": {
-        "emerald": "Revives a fainted POKéMON with half its HP.",
         "ruby-sapphire": "Revives a fainted POKéMON with half its HP.",
+        "emerald": "Revives a fainted POKéMON with half its HP.",
         "firered-leafgreen": "A medicine that revives a fainted POKéMON, restoring HP by half the maximum amount."
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/revive.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

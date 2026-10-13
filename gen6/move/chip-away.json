@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "Looking for an opening, the user strikes consistently. The target’s stat changes don’t affect this attack’s damage."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

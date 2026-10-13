@@ -66,7 +66,14 @@
         "scarlet-violet": "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first."
     },
     "stat_changes": [],
-    "machine": "tm184",
+    "machine": {
+        "scarlet-violet": "tm184",
+        "the-teal-mask": "tm184",
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": "tm150",
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -5,18 +5,18 @@
     "is_main_series": true,
     "generation": "generation-viii",
     "effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "This Pokémon has the combined effects of Unnerve and Chilling Neigh. Opposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry. When this Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat.",
+        "the-isle-of-armor": "This Pokémon has the combined effects of Unnerve and Chilling Neigh. Opposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry. When this Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat.",
+        "the-crown-tundra": "This Pokémon has the combined effects of Unnerve and Chilling Neigh. Opposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry. When this Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat.",
+        "brilliant-diamond-shining-pearl": "This Pokémon has the combined effects of Unnerve and Chilling Neigh. Opposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry. When this Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat.",
+        "legends-arceus": "This Pokémon has the combined effects of Unnerve and Chilling Neigh. Opposing Pokémon cannot eat held Berries while this Pokémon is in battle. Affected Pokémon can still use Bug Bite or Pluck to eat a target's Berry. When this Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat."
     },
     "short_effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Combines the effects of Unnerve and Chilling Neigh.",
+        "the-isle-of-armor": "Combines the effects of Unnerve and Chilling Neigh.",
+        "the-crown-tundra": "Combines the effects of Unnerve and Chilling Neigh.",
+        "brilliant-diamond-shining-pearl": "Combines the effects of Unnerve and Chilling Neigh.",
+        "legends-arceus": "Combines the effects of Unnerve and Chilling Neigh."
     },
     "flavor_text": {
         "sword-shield": "This Ability combines the effects of both Calyrex’s Unnerve Ability and Glastrier’s Chilling Neigh Ability."

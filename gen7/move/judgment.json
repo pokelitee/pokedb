@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user releases countless shots of light at the target. This move’s type varies depending on the kind of Plate the user is holding."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

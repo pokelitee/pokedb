@@ -39,7 +39,10 @@
         "crystal": "Inflicts damage every turn."
     },
     "stat_changes": [],
-    "machine": "tm37",
+    "machine": {
+        "gold-silver": "tm37",
+        "crystal": "tm37"
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

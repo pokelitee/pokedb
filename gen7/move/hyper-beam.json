@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The target is attacked with a powerful beam. The user can’t move on the next turn."
     },
     "stat_changes": [],
-    "machine": "tm15",
+    "machine": {
+        "sun-moon": "tm15",
+        "ultra-sun-ultra-moon": "tm15",
+        "lets-go-pikachu-lets-go-eevee": "tm48"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

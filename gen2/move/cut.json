@@ -39,7 +39,10 @@
         "crystal": "Cuts using claws, scythes, etc."
     },
     "stat_changes": [],
-    "machine": "hm01",
+    "machine": {
+        "gold-silver": "hm01",
+        "crystal": "hm01"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

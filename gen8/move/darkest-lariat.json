@@ -60,7 +60,13 @@
         "legends-arceus": "The user swings both arms and hits the target. The target's stat changes don't affect this attack's damage."
     },
     "stat_changes": [],
-    "machine": "tr93",
+    "machine": {
+        "sword-shield": "tr93",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

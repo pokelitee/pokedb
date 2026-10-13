@@ -2,7 +2,26 @@
     "id": 457,
     "name": "sport-ball",
     "source_url": "https://pokeapi.co/api/v2/item/457/",
-    "cost": 300,
+    "prices": {
+        "sun-moon": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 150
+            }
+        },
+        "ultra-sun-ultra-moon": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 150
+            }
+        },
+        "lets-go-pikachu-lets-go-eevee": {
+            "poke-dollar": {
+                "purchase_price": null,
+                "sell_price": 150
+            }
+        }
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -16,7 +35,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sport-ball.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

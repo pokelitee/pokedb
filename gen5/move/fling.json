@@ -39,7 +39,10 @@
         "black-2-white-2": "The user flings its held item at the target to attack. Its power and effects depend on the item."
     },
     "stat_changes": [],
-    "machine": "tm56",
+    "machine": {
+        "black-white": "tm56",
+        "black-2-white-2": "tm56"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

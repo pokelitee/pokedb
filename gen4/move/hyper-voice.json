@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user lets loose a horribly echoing shout with the power to inflict damage."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

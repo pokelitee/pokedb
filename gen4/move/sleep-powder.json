@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user scatters a big cloud of sleep- inducing dust around the foe."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "sleep",
         "category": "ailment",

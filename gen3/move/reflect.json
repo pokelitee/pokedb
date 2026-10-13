@@ -61,7 +61,13 @@
         "firered-leafgreen": "A wall of light cuts damage from physical attacks for five turns."
     },
     "stat_changes": [],
-    "machine": "tm33",
+    "machine": {
+        "ruby-sapphire": "tm33",
+        "emerald": "tm33",
+        "firered-leafgreen": "tm33",
+        "colosseum": "tm33",
+        "xd": "tm33"
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

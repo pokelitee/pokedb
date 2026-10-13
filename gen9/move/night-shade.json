@@ -66,7 +66,14 @@
         "scarlet-violet": "The user makes the target see a frightening mirage. It inflicts damage equal to the user's level."
     },
     "stat_changes": [],
-    "machine": "tm42",
+    "machine": {
+        "scarlet-violet": "tm42",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "A soothing lullaby is sung in a calming voice that puts the target into a deep slumber."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "sleep",
         "category": "ailment",

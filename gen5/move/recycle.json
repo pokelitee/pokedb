@@ -39,7 +39,10 @@
         "black-2-white-2": "The user recycles a held item that has been used in battle so it can be used again."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

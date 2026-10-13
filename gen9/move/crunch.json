@@ -71,7 +71,14 @@
             "stat": "defense"
         }
     ],
-    "machine": "tm108",
+    "machine": {
+        "scarlet-violet": "tm108",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm108",
+        "legends-za": "tm25",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

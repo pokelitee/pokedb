@@ -66,7 +66,14 @@
         "scarlet-violet": "The user confounds the target with speed, then slashes. This attack never misses."
     },
     "stat_changes": [],
-    "machine": "tm27",
+    "machine": {
+        "scarlet-violet": "tm27",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": "tm22",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

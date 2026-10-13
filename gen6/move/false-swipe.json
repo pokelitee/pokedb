@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP."
     },
     "stat_changes": [],
-    "machine": "tm54",
+    "machine": {
+        "x-y": "tm54",
+        "omega-ruby-alpha-sapphire": "tm54"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

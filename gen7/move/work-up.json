@@ -56,7 +56,11 @@
             "stat": "special-attack"
         }
     ],
-    "machine": "tm01",
+    "machine": {
+        "sun-moon": "tm01",
+        "ultra-sun-ultra-moon": "tm01",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

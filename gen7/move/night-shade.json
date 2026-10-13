@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user makes the target see a frightening mirage. It inflicts damage equal to the user’s level."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -69,7 +69,13 @@
             "stat": "special-attack"
         }
     ],
-    "machine": "tr85",
+    "machine": {
+        "sword-shield": "tr85",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": "tm10",
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

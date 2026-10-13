@@ -47,26 +47,33 @@
         "champions": 100
     },
     "effect": {
-        "scarlet-violet": "Inflicts regular damage.",
-        "the-teal-mask": "Inflicts regular damage.",
-        "the-indigo-disk": "Inflicts regular damage.",
-        "legends-za": "Inflicts regular damage.",
-        "mega-dimension": "Inflicts regular damage.",
-        "champions": "Inflicts regular damage."
+        "scarlet-violet": "Requires a turn to charge before attacking. Raises the users Special Attack by 1 stage after the first turn.",
+        "the-teal-mask": "Requires a turn to charge before attacking. Raises the users Special Attack by 1 stage after the first turn.",
+        "the-indigo-disk": "Requires a turn to charge before attacking. Raises the users Special Attack by 1 stage after the first turn.",
+        "legends-za": "Requires a turn to charge before attacking. Raises the users Special Attack by 1 stage after the first turn.",
+        "mega-dimension": "Requires a turn to charge before attacking. Raises the users Special Attack by 1 stage after the first turn.",
+        "champions": "Requires a turn to charge before attacking. Raises the users Special Attack by 1 stage after the first turn."
     },
     "short_effect": {
-        "scarlet-violet": "Inflicts regular damage with no additional effect.",
-        "the-teal-mask": "Inflicts regular damage with no additional effect.",
-        "the-indigo-disk": "Inflicts regular damage with no additional effect.",
-        "legends-za": "Inflicts regular damage with no additional effect.",
-        "mega-dimension": "Inflicts regular damage with no additional effect.",
-        "champions": "Inflicts regular damage with no additional effect."
+        "scarlet-violet": "Requires a turn to charge before attacking. Raises the users Special Attack by 1 stage after the first turn.",
+        "the-teal-mask": "Requires a turn to charge before attacking. Raises the users Special Attack by 1 stage after the first turn.",
+        "the-indigo-disk": "Requires a turn to charge before attacking. Raises the users Special Attack by 1 stage after the first turn.",
+        "legends-za": "Requires a turn to charge before attacking. Raises the users Special Attack by 1 stage after the first turn.",
+        "mega-dimension": "Requires a turn to charge before attacking. Raises the users Special Attack by 1 stage after the first turn.",
+        "champions": "Requires a turn to charge before attacking. Raises the users Special Attack by 1 stage after the first turn."
     },
     "flavor_text": {
         "scarlet-violet": "The user gathers energy from space and boosts its Sp. Atk stat on the first turn, then attacks on the next turn."
     },
     "stat_changes": [],
-    "machine": "tm220",
+    "machine": {
+        "scarlet-violet": "tm220",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm220",
+        "legends-za": null,
+        "mega-dimension": "tm156",
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

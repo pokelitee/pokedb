@@ -39,7 +39,10 @@
         "crystal": "Steals HP from a sleeping victim."
     },
     "stat_changes": [],
-    "machine": "tm42",
+    "machine": {
+        "gold-silver": "tm42",
+        "crystal": "tm42"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-heal",

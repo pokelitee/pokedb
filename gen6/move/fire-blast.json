@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn."
     },
     "stat_changes": [],
-    "machine": "tm38",
+    "machine": {
+        "x-y": "tm38",
+        "omega-ruby-alpha-sapphire": "tm38"
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target."
     },
     "stat_changes": [],
-    "machine": "tm19",
+    "machine": {
+        "diamond-pearl": "tm19",
+        "platinum": "tm19",
+        "heartgold-soulsilver": "tm19"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-heal",

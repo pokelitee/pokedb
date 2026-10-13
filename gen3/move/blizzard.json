@@ -61,7 +61,13 @@
         "firered-leafgreen": "The foe is blasted with a blizzard. It may freeze the foe solid."
     },
     "stat_changes": [],
-    "machine": "tm14",
+    "machine": {
+        "ruby-sapphire": "tm14",
+        "emerald": "tm14",
+        "firered-leafgreen": "tm14",
+        "colosseum": "tm14",
+        "xd": "tm14"
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

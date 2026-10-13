@@ -2,7 +2,14 @@
     "id": 25,
     "name": "hyper-potion",
     "source_url": "https://pokeapi.co/api/v2/item/25/",
-    "cost": 1500,
+    "prices": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "fling_power": 30,
     "fling_effect": null,
     "attributes": [

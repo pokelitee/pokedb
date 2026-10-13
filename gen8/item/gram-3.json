@@ -2,7 +2,13 @@
     "id": 666,
     "name": "gram-3",
     "source_url": "https://pokeapi.co/api/v2/item/666/",
-    "cost": 0,
+    "prices": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -14,7 +20,6 @@
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gram-3.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

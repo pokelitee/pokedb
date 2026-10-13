@@ -39,7 +39,10 @@
         "crystal": "Steals 1/2 of the damage inflicted."
     },
     "stat_changes": [],
-    "machine": "tm19",
+    "machine": {
+        "gold-silver": "tm19",
+        "crystal": "tm19"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-heal",

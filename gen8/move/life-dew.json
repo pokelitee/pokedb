@@ -35,32 +35,38 @@
     "target": "user-and-allies",
     "generation": "generation-viii",
     "effect_chance": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": 100,
+        "the-isle-of-armor": 100,
+        "the-crown-tundra": 100,
+        "brilliant-diamond-shining-pearl": 100,
+        "legends-arceus": 100
     },
     "effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+        "the-isle-of-armor": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+        "the-crown-tundra": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+        "brilliant-diamond-shining-pearl": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+        "legends-arceus": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up."
     },
     "short_effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+        "the-isle-of-armor": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+        "the-crown-tundra": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+        "brilliant-diamond-shining-pearl": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+        "legends-arceus": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up."
     },
     "flavor_text": {
         "sword-shield": "The user scatters mysterious water around and restores the HP of itself and its ally Pokémon in the battle.",
         "legends-arceus": "The user scatters mysterious water around and restores the HP of itself and its ally Pokémon in the battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "heal",

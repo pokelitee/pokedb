@@ -44,7 +44,10 @@
             "stat": "accuracy"
         }
     ],
-    "machine": "tm31",
+    "machine": {
+        "gold-silver": "tm31",
+        "crystal": "tm31"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

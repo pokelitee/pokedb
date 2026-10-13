@@ -2,7 +2,14 @@
     "id": 584,
     "name": "air-balloon",
     "source_url": "https://pokeapi.co/api/v2/item/584/",
-    "cost": 4000,
+    "prices": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "fling_power": 10,
     "fling_effect": null,
     "attributes": [],

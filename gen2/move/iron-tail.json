@@ -44,7 +44,10 @@
             "stat": "defense"
         }
     ],
-    "machine": "tm23",
+    "machine": {
+        "gold-silver": "tm23",
+        "crystal": "tm23"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user attacks by striking the target with its hard tail. It hits the target two to five times in a row."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

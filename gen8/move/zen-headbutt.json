@@ -60,7 +60,13 @@
         "legends-arceus": "The user focuses its willpower to its head and attacks the target."
     },
     "stat_changes": [],
-    "machine": "tr69",
+    "machine": {
+        "sword-shield": "tr69",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

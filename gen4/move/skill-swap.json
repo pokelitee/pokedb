@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user employs its psychic power to exchange abilities with the foe."
     },
     "stat_changes": [],
-    "machine": "tm48",
+    "machine": {
+        "diamond-pearl": "tm48",
+        "platinum": "tm48",
+        "heartgold-soulsilver": "tm48"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

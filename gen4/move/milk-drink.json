@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user restores its own HP by up to half of its maximum HP. It may also be used to heal an ally’s HP."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "heal",

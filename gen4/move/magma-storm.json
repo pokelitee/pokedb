@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe becomes trapped within a maelstrom of fire that rages for two to five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

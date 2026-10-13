@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "heal",

@@ -71,7 +71,14 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm38",
+    "machine": {
+        "scarlet-violet": "tm38",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": "tm114",
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

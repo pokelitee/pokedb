@@ -69,7 +69,14 @@
             "stat": "attack"
         }
     ],
-    "machine": "tm18",
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": "tm18",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

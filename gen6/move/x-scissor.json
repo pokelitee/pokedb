@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors."
     },
     "stat_changes": [],
-    "machine": "tm81",
+    "machine": {
+        "x-y": "tm81",
+        "omega-ruby-alpha-sapphire": "tm81"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -46,7 +46,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user attacks with electrically charged fists. This move changes Normal-type moves to Electric-type moves."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

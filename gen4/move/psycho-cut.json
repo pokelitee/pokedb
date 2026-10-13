@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user tears at the foe with blades formed by psychic power. It has a high critical-hit ratio."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

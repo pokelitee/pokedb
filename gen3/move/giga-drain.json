@@ -61,7 +61,13 @@
         "firered-leafgreen": "A harsh attack that absorbs half the damage it inflicted to restore HP."
     },
     "stat_changes": [],
-    "machine": "tm19",
+    "machine": {
+        "ruby-sapphire": "tm19",
+        "emerald": "tm19",
+        "firered-leafgreen": "tm19",
+        "colosseum": "tm19",
+        "xd": "tm19"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-heal",

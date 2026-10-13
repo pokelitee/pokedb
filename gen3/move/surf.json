@@ -61,7 +61,13 @@
         "firered-leafgreen": "A big wave crashes down on the foe. Can also be used for crossing water."
     },
     "stat_changes": [],
-    "machine": "hm03",
+    "machine": {
+        "ruby-sapphire": "hm03",
+        "emerald": "hm03",
+        "firered-leafgreen": "hm03",
+        "colosseum": "hm03",
+        "xd": "hm03"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -66,7 +66,14 @@
         "scarlet-violet": "The user attacks everything around it by swamping its surroundings with a giant wave."
     },
     "stat_changes": [],
-    "machine": "tm123",
+    "machine": {
+        "scarlet-violet": "tm123",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": "tm73",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

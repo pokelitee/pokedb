@@ -39,7 +39,10 @@
         "crystal": "Boosts fire-type moves for 5 turns."
     },
     "stat_changes": [],
-    "machine": "tm11",
+    "machine": {
+        "gold-silver": "tm11",
+        "crystal": "tm11"
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

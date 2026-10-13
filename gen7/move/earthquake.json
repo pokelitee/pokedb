@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user sets off an earthquake that strikes every Pokémon around it."
     },
     "stat_changes": [],
-    "machine": "tm26",
+    "machine": {
+        "sun-moon": "tm26",
+        "ultra-sun-ultra-moon": "tm26",
+        "lets-go-pikachu-lets-go-eevee": "tm41"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

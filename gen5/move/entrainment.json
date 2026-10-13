@@ -39,7 +39,10 @@
         "black-2-white-2": "The user dances with an odd rhythm that compels the target to mimic it, making the target’s Ability the same as the user’s."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

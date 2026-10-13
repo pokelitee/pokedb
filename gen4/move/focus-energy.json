@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user takes a deep breath and focuses to raise the critical-hit ratio of its attacks."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

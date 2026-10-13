@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A reckless, full-body charge attack for slamming into the foe. It also damages the user a little."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

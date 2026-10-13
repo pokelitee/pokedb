@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user summons a heavy rain that falls for five turns, powering up Water- type moves."
     },
     "stat_changes": [],
-    "machine": "tm18",
+    "machine": {
+        "diamond-pearl": "tm18",
+        "platinum": "tm18",
+        "heartgold-soulsilver": "tm18"
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

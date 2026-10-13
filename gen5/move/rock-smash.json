@@ -44,7 +44,10 @@
             "stat": "defense"
         }
     ],
-    "machine": "tm94",
+    "machine": {
+        "black-white": "tm94",
+        "black-2-white-2": "tm94"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

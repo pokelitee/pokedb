@@ -52,7 +52,11 @@
             "stat": "defense"
         }
     ],
-    "machine": "tm51",
+    "machine": {
+        "sun-moon": "tm51",
+        "ultra-sun-ultra-moon": "tm51",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user attacks the target with a song. Others can join in the Round to increase the power of the attack."
     },
     "stat_changes": [],
-    "machine": "tm48",
+    "machine": {
+        "sun-moon": "tm48",
+        "ultra-sun-ultra-moon": "tm48",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

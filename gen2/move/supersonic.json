@@ -39,7 +39,10 @@
         "crystal": "Sound waves that cause confusion."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "ailment",

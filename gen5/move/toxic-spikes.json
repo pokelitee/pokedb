@@ -39,7 +39,10 @@
         "black-2-white-2": "The user lays a trap of poison spikes at the opponent’s feet. They poison opponents that switch into battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

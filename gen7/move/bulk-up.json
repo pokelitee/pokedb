@@ -56,7 +56,11 @@
             "stat": "defense"
         }
     ],
-    "machine": "tm08",
+    "machine": {
+        "sun-moon": "tm08",
+        "ultra-sun-ultra-moon": "tm08",
+        "lets-go-pikachu-lets-go-eevee": "tm30"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

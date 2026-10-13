@@ -39,7 +39,10 @@
         "black-2-white-2": "The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

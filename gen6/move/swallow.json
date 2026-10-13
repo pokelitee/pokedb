@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "heal",

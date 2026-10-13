@@ -39,7 +39,10 @@
         "black-2-white-2": "The user looses a blast of aura power from deep within its body at the target. This move is certain to hit."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

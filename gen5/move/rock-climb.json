@@ -39,7 +39,10 @@
         "black-2-white-2": "The user attacks the target by smashing into it with incredible force. It may also confuse the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "damage-ailment",

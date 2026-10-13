@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is hit with a flurry of punches that strike two to five times in a row."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

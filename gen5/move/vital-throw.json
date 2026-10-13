@@ -39,7 +39,10 @@
         "black-2-white-2": "The user attacks last. In return, this throw move is guaranteed not to miss."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

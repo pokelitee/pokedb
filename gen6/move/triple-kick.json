@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "A consecutive three-kick attack that becomes more powerful with each successive hit."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

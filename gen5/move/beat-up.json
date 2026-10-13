@@ -39,7 +39,10 @@
         "black-2-white-2": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

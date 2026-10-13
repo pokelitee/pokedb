@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user snares the foe with grass and trips it. The heavier the foe, the greater the damage."
     },
     "stat_changes": [],
-    "machine": "tm86",
+    "machine": {
+        "diamond-pearl": "tm86",
+        "platinum": "tm86",
+        "heartgold-soulsilver": "tm86"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

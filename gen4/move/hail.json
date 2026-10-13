@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user summons a hailstorm lasting five turns. It damages all Pokémon except the Ice type."
     },
     "stat_changes": [],
-    "machine": "tm07",
+    "machine": {
+        "diamond-pearl": "tm07",
+        "platinum": "tm07",
+        "heartgold-soulsilver": "tm07"
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

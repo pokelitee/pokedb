@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A full-power attack that grows more powerful the less the user likes its Trainer."
     },
     "stat_changes": [],
-    "machine": "tm21",
+    "machine": {
+        "diamond-pearl": "tm21",
+        "platinum": "tm21",
+        "heartgold-soulsilver": "tm21"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

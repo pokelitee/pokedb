@@ -47,26 +47,33 @@
         "champions": null
     },
     "effect": {
-        "scarlet-violet": "Inflicts regular damage.",
-        "the-teal-mask": "Inflicts regular damage.",
-        "the-indigo-disk": "Inflicts regular damage.",
-        "legends-za": "Inflicts regular damage.",
-        "mega-dimension": "Inflicts regular damage.",
-        "champions": "Inflicts regular damage."
+        "scarlet-violet": "Inflicts regular damage. Power increases with the user’s remaining HP and is given by `150 * HP / max HP`, to a maximum of 150 when the user has full HP.",
+        "the-teal-mask": "Inflicts regular damage. Power increases with the user’s remaining HP and is given by `150 * HP / max HP`, to a maximum of 150 when the user has full HP.",
+        "the-indigo-disk": "Inflicts regular damage. Power increases with the user’s remaining HP and is given by `150 * HP / max HP`, to a maximum of 150 when the user has full HP.",
+        "legends-za": "Inflicts regular damage. Power increases with the user’s remaining HP and is given by `150 * HP / max HP`, to a maximum of 150 when the user has full HP.",
+        "mega-dimension": "Inflicts regular damage. Power increases with the user’s remaining HP and is given by `150 * HP / max HP`, to a maximum of 150 when the user has full HP.",
+        "champions": "Inflicts regular damage. Power increases with the user’s remaining HP and is given by `150 * HP / max HP`, to a maximum of 150 when the user has full HP."
     },
     "short_effect": {
-        "scarlet-violet": "Inflicts regular damage with no additional effect.",
-        "the-teal-mask": "Inflicts regular damage with no additional effect.",
-        "the-indigo-disk": "Inflicts regular damage with no additional effect.",
-        "legends-za": "Inflicts regular damage with no additional effect.",
-        "mega-dimension": "Inflicts regular damage with no additional effect.",
-        "champions": "Inflicts regular damage with no additional effect."
+        "scarlet-violet": "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power.",
+        "the-teal-mask": "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power.",
+        "the-indigo-disk": "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power.",
+        "legends-za": "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power.",
+        "mega-dimension": "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power.",
+        "champions": "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power."
     },
     "flavor_text": {
         "scarlet-violet": "Converting its life-force into power, the user attacks opposing Pokémon. The lower the user's HP, the lower the move's power."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

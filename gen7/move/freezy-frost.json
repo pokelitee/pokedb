@@ -45,7 +45,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user attacks with a crystal made of cold frozen haze. It eliminates every stat change among all the Pokémon engaged in battle."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

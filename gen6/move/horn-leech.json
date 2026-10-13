@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user drains the target’s energy with its horns. The user’s HP is restored by half the damage taken by the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-heal",

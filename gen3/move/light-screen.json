@@ -61,7 +61,13 @@
         "firered-leafgreen": "A wall of light cuts damage from SP. ATK attacks for five turns."
     },
     "stat_changes": [],
-    "machine": "tm16",
+    "machine": {
+        "ruby-sapphire": "tm16",
+        "emerald": "tm16",
+        "firered-leafgreen": "tm16",
+        "colosseum": "tm16",
+        "xd": "tm16"
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

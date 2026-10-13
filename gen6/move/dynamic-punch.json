@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user punches the target with full, concentrated power. This confuses the target if it hits."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "damage-ailment",

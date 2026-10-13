@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user senses the foe’s movements with its mind to ensure its next attack does not miss."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

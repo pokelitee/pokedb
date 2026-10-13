@@ -66,7 +66,14 @@
         "scarlet-violet": "The user summons a snowstorm lasting five turns. This boosts the Defense stats of Ice types."
     },
     "stat_changes": [],
-    "machine": "tm52",
+    "machine": {
+        "scarlet-violet": "tm52",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm52",
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": null,
         "category": null,

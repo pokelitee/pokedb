@@ -66,7 +66,14 @@
         "scarlet-violet": "The user waggles a finger and stimulates its brain into randomly using nearly any move."
     },
     "stat_changes": [],
-    "machine": "tm80",
+    "machine": {
+        "scarlet-violet": "tm80",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": "tm99",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

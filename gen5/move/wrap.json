@@ -39,7 +39,10 @@
         "black-2-white-2": "A long body or vines are used to wrap and squeeze the target for four to five turns."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

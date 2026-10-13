@@ -2,7 +2,12 @@
     "id": 324,
     "name": "tm20",
     "source_url": "https://pokeapi.co/api/v2/item/324/",
-    "cost": 100000,
+    "prices": {
+        "red-blue": null,
+        "yellow": null,
+        "red-green-japan": null,
+        "blue-japan": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -12,7 +17,6 @@
     "flavor_text": {},
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

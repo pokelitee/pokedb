@@ -60,7 +60,13 @@
         "legends-arceus": "The target is stabbed with a tentacle, arm, or the like steeped in poison. This may also poison the target."
     },
     "stat_changes": [],
-    "machine": "tr57",
+    "machine": {
+        "sword-shield": "tr57",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

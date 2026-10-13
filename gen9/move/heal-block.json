@@ -64,7 +64,14 @@
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": "tm97",
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": "tm97",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "heal-block",
         "category": "ailment",

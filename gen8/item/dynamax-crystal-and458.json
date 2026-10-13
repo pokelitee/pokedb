@@ -2,7 +2,13 @@
     "id": 1330,
     "name": "dynamax-crystal-and458",
     "source_url": "https://pokeapi.co/api/v2/item/1330/",
-    "cost": 20,
+    "prices": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -14,7 +20,6 @@
     },
     "sprite": null,
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

@@ -66,7 +66,14 @@
         "scarlet-violet": "The user traps the target inside a fierce vortex of fire that inflicts damage for four to five turns."
     },
     "stat_changes": [],
-    "machine": "tm24",
+    "machine": {
+        "scarlet-violet": "tm24",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": "tm72",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

@@ -60,7 +60,13 @@
         "legends-arceus": "The user attacks the target with a strong electric blast. This may also leave the target with paralysis."
     },
     "stat_changes": [],
-    "machine": "tr08",
+    "machine": {
+        "sword-shield": "tr08",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

@@ -60,7 +60,13 @@
         "legends-arceus": "The user stores power, then attacks. If the user moves after the target, this attack's power will be doubled."
     },
     "stat_changes": [],
-    "machine": "tm57",
+    "machine": {
+        "sword-shield": "tm57",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

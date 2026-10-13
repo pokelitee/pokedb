@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user disappears, then strikes the foe on the second turn. It hits even if the foe protects itself."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -31,10 +31,10 @@
     "target": "selected-pokemon",
     "generation": "generation-i",
     "effect_chance": {
-        "red-blue": 10,
-        "yellow": 10,
-        "red-green-japan": 10,
-        "blue-japan": 10
+        "red-blue": 30,
+        "yellow": 30,
+        "red-green-japan": 30,
+        "blue-japan": 30
     },
     "effect": {
         "red-blue": "Inflicts regular damage. Has a chance to burn the target.",
@@ -50,7 +50,12 @@
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": "tm38",
+    "machine": {
+        "red-blue": "tm38",
+        "yellow": "tm38",
+        "red-green-japan": "tm38",
+        "blue-japan": "tm38"
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

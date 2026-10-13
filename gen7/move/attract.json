@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack."
     },
     "stat_changes": [],
-    "machine": "tm45",
+    "machine": {
+        "sun-moon": "tm45",
+        "ultra-sun-ultra-moon": "tm45",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "infatuation",
         "category": "ailment",

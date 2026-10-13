@@ -39,7 +39,10 @@
         "crystal": "An electric punch. It may paralyze."
     },
     "stat_changes": [],
-    "machine": "tm41",
+    "machine": {
+        "gold-silver": "tm41",
+        "crystal": "tm41"
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

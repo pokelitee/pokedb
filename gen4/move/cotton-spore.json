@@ -27,9 +27,9 @@
     "target": "all-opponents",
     "generation": "generation-ii",
     "effect_chance": {
-        "diamond-pearl": 10,
-        "platinum": 10,
-        "heartgold-soulsilver": 10
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
     },
     "effect": {
         "diamond-pearl": "Lowers the target’s Speed by two stages.",
@@ -52,7 +52,11 @@
             "stat": "speed"
         }
     ],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

@@ -44,7 +44,10 @@
             "stat": "special-attack"
         }
     ],
-    "machine": "tm57",
+    "machine": {
+        "x-y": "tm57",
+        "omega-ruby-alpha-sapphire": "tm57"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

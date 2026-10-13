@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "A barrier reflects back to the foe moves like Leech Seed and moves that damage status."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

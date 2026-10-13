@@ -34,24 +34,37 @@
     ],
     "height": 17,
     "weight": 608,
-    "cries": null,
+    "cries": {
+        "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/10001.ogg"
+    },
     "sprites": {
         "versions": {
-            "emerald": {
-                "front_default": null,
-                "front_shiny": null
+            "icons": {
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/icons/10001.png"
             },
-            "firered-leafgreen": {
-                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/10001.png",
-                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/10001.png",
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/10001.png",
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/10001.png"
+            "emerald": {
+                "animated": {
+                    "back_shiny": null,
+                    "front_shiny": null,
+                    "back_default": null,
+                    "front_default": null
+                },
+                "back_shiny": null,
+                "front_shiny": null,
+                "back_default": null,
+                "front_default": null
             },
             "ruby-sapphire": {
-                "back_default": null,
                 "back_shiny": null,
-                "front_default": null,
-                "front_shiny": null
+                "front_shiny": null,
+                "back_default": null,
+                "front_default": null
+            },
+            "firered-leafgreen": {
+                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/shiny/10001.png",
+                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/shiny/10001.png",
+                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/back/10001.png",
+                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/10001.png"
             }
         }
     },

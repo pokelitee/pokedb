@@ -39,7 +39,10 @@
         "black-2-white-2": "The user confounds the target with speed, then slashes. The attack lands without fail."
     },
     "stat_changes": [],
-    "machine": "tm40",
+    "machine": {
+        "black-white": "tm40",
+        "black-2-white-2": "tm40"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

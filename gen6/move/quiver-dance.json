@@ -52,7 +52,10 @@
             "stat": "speed"
         }
     ],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

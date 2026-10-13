@@ -56,12 +56,18 @@
         "xd": "Inflicts regular damage with no additional effect."
     },
     "flavor_text": {
-        "firered-leafgreen": "A basic attack. It can be used to cut down thin trees and grass.",
         "ruby-sapphire": "Cuts the foe with sharp scythes, claws, etc.",
-        "emerald": "Cuts the foe with sharp scythes, claws, etc."
+        "emerald": "Cuts the foe with sharp scythes, claws, etc.",
+        "firered-leafgreen": "A basic attack. It can be used to cut down thin trees and grass."
     },
     "stat_changes": [],
-    "machine": "hm01",
+    "machine": {
+        "ruby-sapphire": "hm01",
+        "emerald": "hm01",
+        "firered-leafgreen": "hm01",
+        "colosseum": "hm01",
+        "xd": "hm01"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

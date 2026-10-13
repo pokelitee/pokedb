@@ -47,20 +47,20 @@
         "champions": 100
     },
     "effect": {
-        "scarlet-violet": "Inflicts regular damage, then (if successful) removes major status effects from every Pokémon in the user’s party.",
-        "the-teal-mask": "Inflicts regular damage, then (if successful) removes major status effects from every Pokémon in the user’s party.",
-        "the-indigo-disk": "Inflicts regular damage, then (if successful) removes major status effects from every Pokémon in the user’s party.",
-        "legends-za": "Inflicts regular damage, then (if successful) removes major status effects from every Pokémon in the user’s party.",
-        "mega-dimension": "Inflicts regular damage, then (if successful) removes major status effects from every Pokémon in the user’s party.",
-        "champions": "Inflicts regular damage, then (if successful) removes major status effects from every Pokémon in the user’s party."
+        "scarlet-violet": "This move cannot be used unless the user is holding a berry. The user consumes a berry, activates its effects, and raises its defense by 2 stages. This effect works even if Embargo or Magic Room are in effect.",
+        "the-teal-mask": "This move cannot be used unless the user is holding a berry. The user consumes a berry, activates its effects, and raises its defense by 2 stages. This effect works even if Embargo or Magic Room are in effect.",
+        "the-indigo-disk": "This move cannot be used unless the user is holding a berry. The user consumes a berry, activates its effects, and raises its defense by 2 stages. This effect works even if Embargo or Magic Room are in effect.",
+        "legends-za": "This move cannot be used unless the user is holding a berry. The user consumes a berry, activates its effects, and raises its defense by 2 stages. This effect works even if Embargo or Magic Room are in effect.",
+        "mega-dimension": "This move cannot be used unless the user is holding a berry. The user consumes a berry, activates its effects, and raises its defense by 2 stages. This effect works even if Embargo or Magic Room are in effect.",
+        "champions": "This move cannot be used unless the user is holding a berry. The user consumes a berry, activates its effects, and raises its defense by 2 stages. This effect works even if Embargo or Magic Room are in effect."
     },
     "short_effect": {
-        "scarlet-violet": "Cures the entire party of major status effects after inflicting damage.",
-        "the-teal-mask": "Cures the entire party of major status effects after inflicting damage.",
-        "the-indigo-disk": "Cures the entire party of major status effects after inflicting damage.",
-        "legends-za": "Cures the entire party of major status effects after inflicting damage.",
-        "mega-dimension": "Cures the entire party of major status effects after inflicting damage.",
-        "champions": "Cures the entire party of major status effects after inflicting damage."
+        "scarlet-violet": "User consumes berry and raises its defense by 2 stages.",
+        "the-teal-mask": "User consumes berry and raises its defense by 2 stages.",
+        "the-indigo-disk": "User consumes berry and raises its defense by 2 stages.",
+        "legends-za": "User consumes berry and raises its defense by 2 stages.",
+        "mega-dimension": "User consumes berry and raises its defense by 2 stages.",
+        "champions": "User consumes berry and raises its defense by 2 stages."
     },
     "flavor_text": {
         "scarlet-violet": "The user eats its held Berry, then sharply boosts its Defense stat."
@@ -71,7 +71,14 @@
             "stat": "defense"
         }
     ],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

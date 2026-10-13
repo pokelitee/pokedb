@@ -66,7 +66,14 @@
         "scarlet-violet": "The user first heats up its beak, and then it attacks the target. Making direct contact with the user while it's heating up its beak results in a burn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

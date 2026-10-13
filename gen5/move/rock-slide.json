@@ -39,7 +39,10 @@
         "black-2-white-2": "Large boulders are hurled at the opposing team to inflict damage. It may also make the targets flinch."
     },
     "stat_changes": [],
-    "machine": "tm80",
+    "machine": {
+        "black-white": "tm80",
+        "black-2-white-2": "tm80"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

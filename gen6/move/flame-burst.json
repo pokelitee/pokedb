@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

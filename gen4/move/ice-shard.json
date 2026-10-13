@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user flash freezes chunks of ice and hurls them. This move always goes first."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

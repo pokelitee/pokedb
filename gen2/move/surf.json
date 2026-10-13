@@ -39,7 +39,10 @@
         "crystal": "A strong water- type attack."
     },
     "stat_changes": [],
-    "machine": "hm03",
+    "machine": {
+        "gold-silver": "hm03",
+        "crystal": "hm03"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

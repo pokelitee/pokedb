@@ -35,11 +35,14 @@
         "crystal": "Changes the weather to rain for five turns."
     },
     "flavor_text": {
-        "crystal": "Boosts water-type moves for 5 turns.",
-        "gold-silver": "Boosts water-type moves for 5 turns."
+        "gold-silver": "Boosts water-type moves for 5 turns.",
+        "crystal": "Boosts water-type moves for 5 turns."
     },
     "stat_changes": [],
-    "machine": "tm18",
+    "machine": {
+        "gold-silver": "tm18",
+        "crystal": "tm18"
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

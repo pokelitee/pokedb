@@ -60,7 +60,13 @@
         "legends-arceus": "The target is punched with an electrified fist. This may also leave the target with paralysis."
     },
     "stat_changes": [],
-    "machine": "tm05",
+    "machine": {
+        "sword-shield": "tm05",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

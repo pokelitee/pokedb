@@ -60,7 +60,13 @@
         "legends-arceus": "The user releases a horrible aura imbued with ill intent. This attack never misses."
     },
     "stat_changes": [],
-    "machine": "tr58",
+    "machine": {
+        "sword-shield": "tr58",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user slaps down the target’s held item, and that item can’t be used in that battle. The move does more damage if the target has a held item."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user plays a pleasant melody that lulls the foe into a deep sleep."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "sleep",
         "category": "ailment",

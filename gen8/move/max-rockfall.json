@@ -35,31 +35,37 @@
     "target": "selected-pokemon-me-first",
     "generation": "generation-viii",
     "effect_chance": {
+        "sword-shield": 100,
+        "the-isle-of-armor": 100,
+        "the-crown-tundra": 100,
+        "brilliant-diamond-shining-pearl": 100,
+        "legends-arceus": 100
+    },
+    "effect": {
+        "sword-shield": "Changes the weather to a sandstorm for five turns. Pokémon that are not Ground, Rock, or Steel take 1/16 their max HP at the end of every turn. Every Rock Pokémon’s original Special Defense is raised by 50% for the duration of this effect. Solar Beam’s power is halved. Moonlight, Morning Sun, and Synthesis only heal 1/4 the user’s max HP.",
+        "the-isle-of-armor": "Changes the weather to a sandstorm for five turns. Pokémon that are not Ground, Rock, or Steel take 1/16 their max HP at the end of every turn. Every Rock Pokémon’s original Special Defense is raised by 50% for the duration of this effect. Solar Beam’s power is halved. Moonlight, Morning Sun, and Synthesis only heal 1/4 the user’s max HP.",
+        "the-crown-tundra": "Changes the weather to a sandstorm for five turns. Pokémon that are not Ground, Rock, or Steel take 1/16 their max HP at the end of every turn. Every Rock Pokémon’s original Special Defense is raised by 50% for the duration of this effect. Solar Beam’s power is halved. Moonlight, Morning Sun, and Synthesis only heal 1/4 the user’s max HP.",
+        "brilliant-diamond-shining-pearl": "Changes the weather to a sandstorm for five turns. Pokémon that are not Ground, Rock, or Steel take 1/16 their max HP at the end of every turn. Every Rock Pokémon’s original Special Defense is raised by 50% for the duration of this effect. Solar Beam’s power is halved. Moonlight, Morning Sun, and Synthesis only heal 1/4 the user’s max HP.",
+        "legends-arceus": "Changes the weather to a sandstorm for five turns. Pokémon that are not Ground, Rock, or Steel take 1/16 their max HP at the end of every turn. Every Rock Pokémon’s original Special Defense is raised by 50% for the duration of this effect. Solar Beam’s power is halved. Moonlight, Morning Sun, and Synthesis only heal 1/4 the user’s max HP."
+    },
+    "short_effect": {
+        "sword-shield": "Changes the weather to a sandstorm for five turns.",
+        "the-isle-of-armor": "Changes the weather to a sandstorm for five turns.",
+        "the-crown-tundra": "Changes the weather to a sandstorm for five turns.",
+        "brilliant-diamond-shining-pearl": "Changes the weather to a sandstorm for five turns.",
+        "legends-arceus": "Changes the weather to a sandstorm for five turns."
+    },
+    "flavor_text": {
+        "sword-shield": "This is a Rock-type attack Dynamax Pokémon use. The user summons a sandstorm lasting five turns."
+    },
+    "stat_changes": [],
+    "machine": {
         "sword-shield": null,
         "the-isle-of-armor": null,
         "the-crown-tundra": null,
         "brilliant-diamond-shining-pearl": null,
         "legends-arceus": null
     },
-    "effect": {
-        "sword-shield": "Inflicts regular damage.",
-        "the-isle-of-armor": "Inflicts regular damage.",
-        "the-crown-tundra": "Inflicts regular damage.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage.",
-        "legends-arceus": "Inflicts regular damage."
-    },
-    "short_effect": {
-        "sword-shield": "Inflicts regular damage with no additional effect.",
-        "the-isle-of-armor": "Inflicts regular damage with no additional effect.",
-        "the-crown-tundra": "Inflicts regular damage with no additional effect.",
-        "brilliant-diamond-shining-pearl": "Inflicts regular damage with no additional effect.",
-        "legends-arceus": "Inflicts regular damage with no additional effect."
-    },
-    "flavor_text": {
-        "sword-shield": "This is a Rock-type attack Dynamax Pokémon use. The user summons a sandstorm lasting five turns."
-    },
-    "stat_changes": [],
-    "machine": null,
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -39,7 +39,10 @@
         "black-2-white-2": "The target is attacked with a powerful beam. The user must rest on the next turn to regain its energy."
     },
     "stat_changes": [],
-    "machine": "tm15",
+    "machine": {
+        "black-white": "tm15",
+        "black-2-white-2": "tm15"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

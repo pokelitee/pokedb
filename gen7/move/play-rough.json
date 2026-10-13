@@ -52,7 +52,11 @@
             "stat": "attack"
         }
     ],
-    "machine": "tm44",
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": "tm44"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

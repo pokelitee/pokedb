@@ -39,7 +39,10 @@
         "black-2-white-2": "An attack that hits a target using Protect or Detect. It also lifts the effects of those moves."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

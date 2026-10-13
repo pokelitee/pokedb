@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user makes the foe see a mirage. It inflicts damage matching the user’s level."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -61,7 +61,13 @@
         "firered-leafgreen": "The foe is scorched with intense flames. The foe may suffer a burn."
     },
     "stat_changes": [],
-    "machine": "tm35",
+    "machine": {
+        "ruby-sapphire": "tm35",
+        "emerald": "tm35",
+        "firered-leafgreen": "tm35",
+        "colosseum": "tm35",
+        "xd": "tm35"
+    },
     "metadata": {
         "ailment": "burn",
         "category": "damage-ailment",

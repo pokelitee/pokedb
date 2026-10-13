@@ -39,7 +39,10 @@
         "black-2-white-2": "Diving on the first turn, the user floats up and attacks on the second turn. It can be used to dive deep in the ocean."
     },
     "stat_changes": [],
-    "machine": "hm06",
+    "machine": {
+        "black-white": "hm06",
+        "black-2-white-2": "hm06"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

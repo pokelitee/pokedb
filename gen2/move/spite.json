@@ -39,7 +39,10 @@
         "crystal": "Cuts the PP of the foe's last move."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle."
     },
     "stat_changes": [],
-    "machine": "tm56",
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": "tm56"
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

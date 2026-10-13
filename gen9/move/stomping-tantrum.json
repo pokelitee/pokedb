@@ -66,7 +66,14 @@
         "scarlet-violet": "Driven by frustration, the user attacks the target. This move's power is doubled if the user's previous move failed."
     },
     "stat_changes": [],
-    "machine": "tm84",
+    "machine": {
+        "scarlet-violet": "tm84",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

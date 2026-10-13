@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "A wondrous wall of light is put up to reduce damage from special attacks for five turns."
     },
     "stat_changes": [],
-    "machine": "tm16",
+    "machine": {
+        "x-y": "tm16",
+        "omega-ruby-alpha-sapphire": "tm16"
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

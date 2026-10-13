@@ -39,7 +39,10 @@
         "black-2-white-2": "The user endearingly approaches the target, then steals the target’s held item."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

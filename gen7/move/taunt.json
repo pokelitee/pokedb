@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The target is taunted into a rage that allows it to use only attack moves for three turns."
     },
     "stat_changes": [],
-    "machine": "tm02",
+    "machine": {
+        "sun-moon": "tm12",
+        "ultra-sun-ultra-moon": "tm12",
+        "lets-go-pikachu-lets-go-eevee": "tm02"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

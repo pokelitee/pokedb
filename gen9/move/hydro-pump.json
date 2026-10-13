@@ -66,7 +66,14 @@
         "scarlet-violet": "The target is blasted by a huge volume of water launched under great pressure."
     },
     "stat_changes": [],
-    "machine": "tm142",
+    "machine": {
+        "scarlet-violet": "tm142",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm142",
+        "legends-za": "tm96",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

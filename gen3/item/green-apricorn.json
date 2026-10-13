@@ -2,7 +2,13 @@
     "id": 461,
     "name": "green-apricorn",
     "source_url": "https://pokeapi.co/api/v2/item/461/",
-    "cost": 200,
+    "prices": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "fling_power": 10,
     "fling_effect": null,
     "attributes": [],
@@ -12,7 +18,6 @@
     "flavor_text": {},
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/green-apricorn.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

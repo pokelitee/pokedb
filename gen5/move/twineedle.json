@@ -39,7 +39,10 @@
         "black-2-white-2": "The user damages the target twice in succession by jabbing it with two spikes. It may also poison the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "damage-ailment",

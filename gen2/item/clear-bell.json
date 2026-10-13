@@ -2,7 +2,10 @@
     "id": 474,
     "name": "clear-bell",
     "source_url": "https://pokeapi.co/api/v2/item/474/",
-    "cost": 0,
+    "prices": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -12,7 +15,6 @@
     "flavor_text": {},
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/clear-bell.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

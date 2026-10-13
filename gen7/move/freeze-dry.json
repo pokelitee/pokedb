@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

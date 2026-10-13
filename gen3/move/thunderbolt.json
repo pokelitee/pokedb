@@ -61,7 +61,13 @@
         "firered-leafgreen": "A strong electrical attack that may also leave the foe paralyzed."
     },
     "stat_changes": [],
-    "machine": "tm24",
+    "machine": {
+        "ruby-sapphire": "tm24",
+        "emerald": "tm24",
+        "firered-leafgreen": "tm24",
+        "colosseum": "tm24",
+        "xd": "tm24"
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

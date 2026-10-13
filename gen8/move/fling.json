@@ -60,7 +60,13 @@
         "legends-arceus": "The user flings its held item at the target to attack. This move's power and effects depend on the item."
     },
     "stat_changes": [],
-    "machine": "tm59",
+    "machine": {
+        "sword-shield": "tm59",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

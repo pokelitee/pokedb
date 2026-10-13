@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "If the foe knows any move also known by the user, the foe is prevented from using it."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

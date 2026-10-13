@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user drops onto the foe with its full body weight. It may leave the foe paralyzed."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

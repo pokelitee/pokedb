@@ -39,7 +39,10 @@
         "black-2-white-2": "The user generates odd sound waves from its body. It may confuse the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "ailment",

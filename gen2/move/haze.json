@@ -39,7 +39,10 @@
         "crystal": "Eliminates all stat changes."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

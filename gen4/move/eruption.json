@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user attacks in an explosive fury. The lower the user’s HP, the less powerful this attack becomes."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

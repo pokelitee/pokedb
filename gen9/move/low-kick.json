@@ -66,7 +66,14 @@
         "scarlet-violet": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move's power."
     },
     "stat_changes": [],
-    "machine": "tm12",
+    "machine": {
+        "scarlet-violet": "tm12",
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

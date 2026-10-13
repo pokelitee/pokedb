@@ -47,20 +47,20 @@
         "champions": 100
     },
     "effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "Lower the targets Special Defense by 1 stage.",
+        "the-teal-mask": "Lower the targets Special Defense by 1 stage.",
+        "the-indigo-disk": "Lower the targets Special Defense by 1 stage.",
+        "legends-za": "Lower the targets Special Defense by 1 stage.",
+        "mega-dimension": "Lower the targets Special Defense by 1 stage.",
+        "champions": "Lower the targets Special Defense by 1 stage."
     },
     "short_effect": {
-        "scarlet-violet": null,
-        "the-teal-mask": null,
-        "the-indigo-disk": null,
-        "legends-za": null,
-        "mega-dimension": null,
-        "champions": null
+        "scarlet-violet": "Lower the targets Special Defense by 1 stage.",
+        "the-teal-mask": "Lower the targets Special Defense by 1 stage.",
+        "the-indigo-disk": "Lower the targets Special Defense by 1 stage.",
+        "legends-za": "Lower the targets Special Defense by 1 stage.",
+        "mega-dimension": "Lower the targets Special Defense by 1 stage.",
+        "champions": "Lower the targets Special Defense by 1 stage."
     },
     "flavor_text": {
         "scarlet-violet": "The user attacks the target with an acidic liquid created from tart apples. This also lowers the target's Sp. Def stat."
@@ -71,7 +71,14 @@
             "stat": "special-defense"
         }
     ],
-    "machine": null,
+    "machine": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

@@ -55,7 +55,12 @@
             "stat": "accuracy"
         }
     ],
-    "machine": null,
+    "machine": {
+        "red-blue": null,
+        "yellow": null,
+        "red-green-japan": null,
+        "blue-japan": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

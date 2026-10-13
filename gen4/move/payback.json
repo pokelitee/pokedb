@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "If the user can use this attack after the foe attacks, its power is doubled."
     },
     "stat_changes": [],
-    "machine": "tm66",
+    "machine": {
+        "diamond-pearl": "tm66",
+        "platinum": "tm66",
+        "heartgold-soulsilver": "tm66"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

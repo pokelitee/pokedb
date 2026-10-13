@@ -59,7 +59,13 @@
         "legends-arceus": "The user makes its skin as hard as an iron shield, raising its defensive stats. Incoming moves also become more likely to miss."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": null,
         "category": null,

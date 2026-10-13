@@ -2,7 +2,11 @@
     "id": 481,
     "name": "silver-wing",
     "source_url": "https://pokeapi.co/api/v2/item/481/",
-    "cost": 0,
+    "prices": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],
@@ -10,13 +14,12 @@
     "effect": "Causes Lugia to appear in the Whirl Islands.",
     "short_effect": "Summons Lugia to the Whirl Islands.",
     "flavor_text": {
-        "lets-go-pikachu-lets-go-eevee": "A strange, silvery feather that sparkles.",
         "sun-moon": "A strange, silvery feather that sparkles.",
-        "ultra-sun-ultra-moon": "A strange, silvery feather that sparkles."
+        "ultra-sun-ultra-moon": "A strange, silvery feather that sparkles.",
+        "lets-go-pikachu-lets-go-eevee": "A strange, silvery feather that sparkles."
     },
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-wing.png",
     "unverified_historical_fields": [
-        "cost",
         "fling_power",
         "fling_effect",
         "attributes",

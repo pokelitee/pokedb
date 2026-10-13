@@ -52,7 +52,11 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm39",
+    "machine": {
+        "diamond-pearl": "tm39",
+        "platinum": "tm39",
+        "heartgold-soulsilver": "tm39"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

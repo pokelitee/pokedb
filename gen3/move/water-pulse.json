@@ -61,7 +61,13 @@
         "firered-leafgreen": "An attack with a pulsing blast of water. It may also confuse the foe."
     },
     "stat_changes": [],
-    "machine": "tm03",
+    "machine": {
+        "ruby-sapphire": "tm03",
+        "emerald": "tm03",
+        "firered-leafgreen": "tm03",
+        "colosseum": "tm03",
+        "xd": "tm03"
+    },
     "metadata": {
         "ailment": "confusion",
         "category": "damage-ailment",

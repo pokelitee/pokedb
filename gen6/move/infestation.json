@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The target is infested and attacked for four to five turns. The target can’t flee during this time."
     },
     "stat_changes": [],
-    "machine": "tm83",
+    "machine": {
+        "x-y": "tm83",
+        "omega-ruby-alpha-sapphire": "tm83"
+    },
     "metadata": {
         "ailment": "trap",
         "category": "damage-ailment",

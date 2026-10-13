@@ -39,7 +39,10 @@
         "black-2-white-2": "The target is punched with an icy fist. It may also leave the target frozen."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

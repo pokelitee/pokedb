@@ -52,7 +52,11 @@
             "stat": "evasion"
         }
     ],
-    "machine": "tm32",
+    "machine": {
+        "sun-moon": "tm32",
+        "ultra-sun-ultra-moon": "tm32",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

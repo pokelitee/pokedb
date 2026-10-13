@@ -60,7 +60,13 @@
         "legends-arceus": "A seed is planted on the target. It steals some HP from the target every turn."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "leech-seed",
         "category": "ailment",

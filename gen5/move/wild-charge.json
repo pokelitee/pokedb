@@ -39,7 +39,10 @@
         "black-2-white-2": "The user shrouds itself in electricity and smashes into its target. It also damages the user a little."
     },
     "stat_changes": [],
-    "machine": "tm93",
+    "machine": {
+        "black-white": "tm93",
+        "black-2-white-2": "tm93"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

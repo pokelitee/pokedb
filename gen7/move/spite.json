@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user unleashes its grudge on the move last used by the target by cutting 4 PP from it."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

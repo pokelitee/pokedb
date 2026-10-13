@@ -2,7 +2,14 @@
     "id": 394,
     "name": "tm90",
     "source_url": "https://pokeapi.co/api/v2/item/394/",
-    "cost": 20000,
+    "prices": {
+        "scarlet-violet": null,
+        "the-teal-mask": null,
+        "the-indigo-disk": null,
+        "legends-za": null,
+        "mega-dimension": null,
+        "champions": null
+    },
     "fling_power": null,
     "fling_effect": null,
     "attributes": [],

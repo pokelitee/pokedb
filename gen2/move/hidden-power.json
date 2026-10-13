@@ -39,7 +39,10 @@
         "crystal": "The power varies with the POKéMON."
     },
     "stat_changes": [],
-    "machine": "tm10",
+    "machine": {
+        "gold-silver": "tm10",
+        "crystal": "tm10"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

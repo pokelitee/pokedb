@@ -39,7 +39,10 @@
         "crystal": "Waits 2-3 turns & hits back double."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "gold-silver": null,
+        "crystal": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

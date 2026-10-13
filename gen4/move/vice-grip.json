@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "Huge, impressive pincers grip and squeeze the foe."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user protects itself and its allies from status moves with a mysterious power. This does not stop moves that do damage."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

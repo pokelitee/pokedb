@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user attacks with a ray of light that sparkles as if it were made of gemstones."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

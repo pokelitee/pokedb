@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "An attack that works only on a sleeping foe. It absorbs half the damage caused to heal the user’s HP."
     },
     "stat_changes": [],
-    "machine": "tm85",
+    "machine": {
+        "diamond-pearl": "tm85",
+        "platinum": "tm85",
+        "heartgold-soulsilver": "tm85"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-heal",

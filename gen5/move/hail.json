@@ -39,7 +39,10 @@
         "black-2-white-2": "The user summons a hailstorm lasting five turns. It damages all Pokémon except the Ice type."
     },
     "stat_changes": [],
-    "machine": "tm07",
+    "machine": {
+        "black-white": "tm07",
+        "black-2-white-2": "tm07"
+    },
     "metadata": {
         "ailment": "none",
         "category": "whole-field-effect",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user rampages and attacks for two to three turns. It then becomes confused, however."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

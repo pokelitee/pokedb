@@ -39,7 +39,10 @@
         "black-2-white-2": "The user attacks the target with fire. If the target is holding a Berry, the Berry becomes burnt up and unusable."
     },
     "stat_changes": [],
-    "machine": "tm59",
+    "machine": {
+        "black-white": "tm59",
+        "black-2-white-2": "tm59"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

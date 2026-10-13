@@ -39,7 +39,10 @@
         "black-2-white-2": "The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect."
     },
     "stat_changes": [],
-    "machine": "tm88",
+    "machine": {
+        "black-white": "tm88",
+        "black-2-white-2": "tm88"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

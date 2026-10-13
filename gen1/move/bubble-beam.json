@@ -55,7 +55,12 @@
             "stat": "speed"
         }
     ],
-    "machine": "tm11",
+    "machine": {
+        "red-blue": "tm11",
+        "yellow": "tm11",
+        "red-green-japan": "tm11",
+        "blue-japan": "tm11"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

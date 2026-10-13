@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user handles a sharp leaf like a sword and attacks by cutting its target. Critical hits land more easily."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

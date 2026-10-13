@@ -52,7 +52,11 @@
             "stat": "defense"
         }
     ],
-    "machine": "hm06",
+    "machine": {
+        "diamond-pearl": "hm06",
+        "platinum": "hm06",
+        "heartgold-soulsilver": "hm06"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

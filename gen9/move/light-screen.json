@@ -66,7 +66,14 @@
         "scarlet-violet": "A wondrous wall of light is put up to reduce damage from special moves for five turns."
     },
     "stat_changes": [],
-    "machine": "tm75",
+    "machine": {
+        "scarlet-violet": "tm75",
+        "the-teal-mask": null,
+        "the-indigo-disk": "tm75",
+        "legends-za": "tm16",
+        "mega-dimension": null,
+        "champions": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

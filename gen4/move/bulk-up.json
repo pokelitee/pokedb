@@ -56,7 +56,11 @@
             "stat": "defense"
         }
     ],
-    "machine": "tm08",
+    "machine": {
+        "diamond-pearl": "tm08",
+        "platinum": "tm08",
+        "heartgold-soulsilver": "tm08"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

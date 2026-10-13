@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The target is taunted into a rage that allows it to use only attack moves for three turns."
     },
     "stat_changes": [],
-    "machine": "tm12",
+    "machine": {
+        "x-y": "tm12",
+        "omega-ruby-alpha-sapphire": "tm12"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

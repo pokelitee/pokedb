@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
     },
     "stat_changes": [],
-    "machine": "tm89",
+    "machine": {
+        "x-y": "tm89",
+        "omega-ruby-alpha-sapphire": "tm89"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

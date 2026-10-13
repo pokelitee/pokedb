@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user hypnotizes itself into copying any stat change made by the target."
     },
     "stat_changes": [],
-    "machine": "tm77",
+    "machine": {
+        "x-y": "tm77",
+        "omega-ruby-alpha-sapphire": "tm77"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

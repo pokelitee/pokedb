@@ -66,7 +66,13 @@
             "stat": "special-defense"
         }
     ],
-    "machine": "tm29",
+    "machine": {
+        "ruby-sapphire": "tm29",
+        "emerald": "tm29",
+        "firered-leafgreen": "tm29",
+        "colosseum": "tm29",
+        "xd": "tm29"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-lower",

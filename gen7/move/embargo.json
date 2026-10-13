@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "This move prevents the target from using its held item for five turns. Its Trainer is also prevented from using items on it."
     },
     "stat_changes": [],
-    "machine": "tm63",
+    "machine": {
+        "sun-moon": "tm63",
+        "ultra-sun-ultra-moon": "tm63",
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "embargo",
         "category": "ailment",

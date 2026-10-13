@@ -60,7 +60,13 @@
         "legends-arceus": "The user attacks with a blade of air that slices even the sky."
     },
     "stat_changes": [],
-    "machine": "tm95",
+    "machine": {
+        "sword-shield": "tm95",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

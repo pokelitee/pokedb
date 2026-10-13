@@ -61,7 +61,13 @@
         "firered-leafgreen": "A weak electric shock that is sure to cause paralysis if it hits."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "ruby-sapphire": null,
+        "emerald": null,
+        "firered-leafgreen": null,
+        "colosseum": null,
+        "xd": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "ailment",

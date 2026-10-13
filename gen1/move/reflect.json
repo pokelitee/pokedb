@@ -50,7 +50,12 @@
     },
     "flavor_text": {},
     "stat_changes": [],
-    "machine": "tm33",
+    "machine": {
+        "red-blue": "tm33",
+        "yellow": "tm33",
+        "red-green-japan": "tm33",
+        "blue-japan": "tm33"
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

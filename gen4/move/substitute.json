@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy."
     },
     "stat_changes": [],
-    "machine": "tm90",
+    "machine": {
+        "diamond-pearl": "tm90",
+        "platinum": "tm90",
+        "heartgold-soulsilver": "tm90"
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",

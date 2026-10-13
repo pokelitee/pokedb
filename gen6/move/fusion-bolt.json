@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user throws down a giant thunderbolt. This move is more powerful when influenced by an enormous flame."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "x-y": null,
+        "omega-ruby-alpha-sapphire": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

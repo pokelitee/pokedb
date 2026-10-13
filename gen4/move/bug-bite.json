@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user bites the foe. If the foe is holding a Berry, the user eats it and gains its effect."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

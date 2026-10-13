@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The foe is attacked by a kick launched with muscle-packed power."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

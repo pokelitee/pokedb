@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user throws an electrically charged tackle at the foe. It may also leave the target paralyzed."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "paralysis",
         "category": "damage-ailment",

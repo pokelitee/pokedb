@@ -61,7 +61,13 @@
         "firered-leafgreen": "A move that badly poisons the foe. Its poison damage worsens every turn."
     },
     "stat_changes": [],
-    "machine": "tm06",
+    "machine": {
+        "ruby-sapphire": "tm06",
+        "emerald": "tm06",
+        "firered-leafgreen": "tm06",
+        "colosseum": "tm06",
+        "xd": "tm06"
+    },
     "metadata": {
         "ailment": "poison",
         "category": "ailment",

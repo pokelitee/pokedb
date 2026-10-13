@@ -60,7 +60,13 @@
         "legends-arceus": "The user tucks in its wings and charges at a low altitude. This also damages the user."
     },
     "stat_changes": [],
-    "machine": "tr66",
+    "machine": {
+        "sword-shield": "tr66",
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

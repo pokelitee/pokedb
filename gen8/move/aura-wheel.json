@@ -42,18 +42,18 @@
         "legends-arceus": 100
     },
     "effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type. Fails unless the user is Hangry Mode or Full Belly Mode Morpeko.",
+        "the-isle-of-armor": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type. Fails unless the user is Hangry Mode or Full Belly Mode Morpeko.",
+        "the-crown-tundra": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type. Fails unless the user is Hangry Mode or Full Belly Mode Morpeko.",
+        "brilliant-diamond-shining-pearl": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type. Fails unless the user is Hangry Mode or Full Belly Mode Morpeko.",
+        "legends-arceus": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type. Fails unless the user is Hangry Mode or Full Belly Mode Morpeko."
     },
     "short_effect": {
-        "sword-shield": null,
-        "the-isle-of-armor": null,
-        "the-crown-tundra": null,
-        "brilliant-diamond-shining-pearl": null,
-        "legends-arceus": null
+        "sword-shield": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type.",
+        "the-isle-of-armor": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type.",
+        "the-crown-tundra": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type.",
+        "brilliant-diamond-shining-pearl": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type.",
+        "legends-arceus": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type."
     },
     "flavor_text": {
         "sword-shield": "Morpeko attacks and raises its Speed with the energy stored in its cheeks. This move’s type changes depending on the user’s form.",
@@ -65,7 +65,13 @@
             "stat": "speed"
         }
     ],
-    "machine": null,
+    "machine": {
+        "sword-shield": null,
+        "the-isle-of-armor": null,
+        "the-crown-tundra": null,
+        "brilliant-diamond-shining-pearl": null,
+        "legends-arceus": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-raise",

@@ -47,7 +47,11 @@
         "lets-go-pikachu-lets-go-eevee": "The target is thrown using the power of gravity. It inflicts damage equal to the user’s level."
     },
     "stat_changes": [],
-    "machine": "tm15",
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": "tm15"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

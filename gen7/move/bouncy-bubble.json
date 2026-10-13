@@ -45,7 +45,11 @@
         "lets-go-pikachu-lets-go-eevee": "The user attacks by shooting water bubbles at the target. It then absorbs water and restores its HP by half the damage taken by the target."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "sun-moon": null,
+        "ultra-sun-ultra-moon": null,
+        "lets-go-pikachu-lets-go-eevee": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage-heal",

@@ -39,7 +39,10 @@
         "omega-ruby-alpha-sapphire": "The user burrows, then attacks on the next turn. It can also be used to exit dungeons."
     },
     "stat_changes": [],
-    "machine": "tm28",
+    "machine": {
+        "x-y": "tm28",
+        "omega-ruby-alpha-sapphire": "tm28"
+    },
     "metadata": {
         "ailment": "none",
         "category": "damage",

@@ -44,7 +44,10 @@
             "stat": "defense"
         }
     ],
-    "machine": "tm40",
+    "machine": {
+        "gold-silver": "tm40",
+        "crystal": "tm40"
+    },
     "metadata": {
         "ailment": "none",
         "category": "net-good-stats",

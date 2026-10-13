@@ -39,7 +39,10 @@
         "black-2-white-2": "A cloud of poison gas is sprayed in the face of opposing Pokémon. It may poison those hit."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "black-white": null,
+        "black-2-white-2": null
+    },
     "metadata": {
         "ailment": "poison",
         "category": "ailment",

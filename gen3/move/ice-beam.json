@@ -61,7 +61,13 @@
         "firered-leafgreen": "The foe is struck with an icy beam. It may freeze the foe solid."
     },
     "stat_changes": [],
-    "machine": "tm13",
+    "machine": {
+        "ruby-sapphire": "tm13",
+        "emerald": "tm13",
+        "firered-leafgreen": "tm13",
+        "colosseum": "tm13",
+        "xd": "tm13"
+    },
     "metadata": {
         "ailment": "freeze",
         "category": "damage-ailment",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user creates a protective field that prevents status problems for five turns."
     },
     "stat_changes": [],
-    "machine": "tm20",
+    "machine": {
+        "diamond-pearl": "tm20",
+        "platinum": "tm20",
+        "heartgold-soulsilver": "tm20"
+    },
     "metadata": {
         "ailment": "none",
         "category": "field-effect",

@@ -47,7 +47,11 @@
         "heartgold-soulsilver": "The user switches places with a party Pokémon in waiting, passing along any stat changes."
     },
     "stat_changes": [],
-    "machine": null,
+    "machine": {
+        "diamond-pearl": null,
+        "platinum": null,
+        "heartgold-soulsilver": null
+    },
     "metadata": {
         "ailment": "none",
         "category": "unique",
