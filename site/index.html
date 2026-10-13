@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Browse generation-specific Pokémon JSON catalogs, explore resources, and try API requests.">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+    <title>PokéDB JSON API</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script type="module" src="assets/app.js"></script>
+  </head>
+  <body>
+    <header class="wrap">
+      <p class="eyebrow">OPEN DATA · POKÉMON</p>
+      <h1>PokéDB JSON API</h1>
+      <p class="lede">Generation-specific Pokémon, moves, abilities, and items. Plain JSON files, ready for your next project.</p>
+      <nav aria-label="Sections"><a href="#explorer">Explorer</a><a href="#catalogs">Catalogs</a><a href="#reference">Reference</a><a href="https://github.com/pokelitee/pokedb">Source</a></nav>
+    </header>
+    <main class="wrap">
+      <section id="explorer" aria-labelledby="explorer-title">
+        <h2 id="explorer-title">Explore the data</h2>
+        <p>Choose a catalog, filter its records, then select a resource to fetch its full JSON.</p>
+        <noscript><p>The explorer requires JavaScript. Direct JSON links are available under Catalogs.</p></noscript>
+        <div class="controls">
+          <label>Generation<select id="generation" disabled></select></label>
+          <label>Resource<select id="resource" disabled></select></label>
+          <label>Filter by name or ID<input id="filter" type="search" placeholder="e.g. pikachu or 25" disabled></label>
+        </div>
+        <p id="status" role="status" aria-live="polite">Loading catalogs…</p>
+        <p id="error" role="alert" hidden></p>
+        <div class="explorer-grid">
+          <div><div id="results" class="results" aria-label="Resource records"></div><button id="more" hidden>Show more</button></div>
+          <div class="preview">
+            <h3>Request</h3>
+            <p><a id="endpoint" hidden>Open JSON</a></p>
+            <pre><code id="example">Select a resource to see a fetch example.</code></pre>
+            <h3>Response</h3>
+            <pre class="response" tabindex="0" aria-label="JSON response"><code id="json">No resource selected.</code></pre>
+          </div>
+        </div>
+      </section>
+      <section id="catalogs" aria-labelledby="catalogs-title">
+        <h2 id="catalogs-title">Generation catalogs</h2>
+        <p>Each index lists available records, counts, game versions, and its actual schema version.</p>
+        <ul class="catalogs"><!-- generation-links --></ul>
+      </section>
+      <section id="reference" aria-labelledby="reference-title">
+        <h2 id="reference-title">Using the API</h2>
+        <p>No API key or sign-up is required. Fetch JSON directly from this site. Catalogs are cumulative: a generation includes resources introduced by that generation, rather than guaranteeing availability in every game.</p>
+        <p>Check each index’s schema version before consuming records. Historical fields can be unavailable or backfilled; consult the <a href="https://github.com/pokelitee/pokedb/blob/main/docs/data-contract.md">data contract</a> for field semantics and limitations.</p>
+        <p>These URLs follow the latest published snapshot. For reproducible requests, use raw GitHub URLs pinned to the published data commit: <!-- snapshot-link --></p>
+      </section>
+    </main>
+    <footer class="wrap"><p>Data sourced from <a href="https://pokeapi.co/">PokéAPI</a>. Not affiliated with Nintendo, Game Freak, or The Pokémon Company. <a href="https://github.com/pokelitee/pokedb">Source and documentation</a>.</p></footer>
+  </body>
+</html>

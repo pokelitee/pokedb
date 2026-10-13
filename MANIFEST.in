@@ -1,6 +1,7 @@
 recursive-include docs *.md
 recursive-include requirements *.txt
 recursive-include scripts *.py
+recursive-include site *.html *.css *.js
 recursive-include tests *.py
 recursive-include tests/fixtures *.json *.md
 recursive-include .github *.yaml *.yml *.md *.json

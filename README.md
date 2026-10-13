@@ -8,7 +8,7 @@ A Python tool for creating a comprehensive, generation-aware Pokémon database f
 
 Parsed generation data is automatically saved to the `data` branch weekly.
 
-`main` holds the source, `data` holds generated snapshots, and GitHub Pages serves the JSON at [pokelitee.github.io/pokedb](https://pokelitee.github.io/pokedb/). For example, [gen9/index.json](https://pokelitee.github.io/pokedb/gen9/index.json) lists the latest published Generation 9 catalog. Existing raw GitHub endpoints continue to work. Check the schema version in the published index: deploying Pages does not upgrade previously generated data.
+`main` holds the source, `data` holds generated snapshots, and GitHub Pages provides a catalog explorer, fetch examples, and JSON endpoints at [pokelitee.github.io/pokedb](https://pokelitee.github.io/pokedb/). For example, [gen9/index.json](https://pokelitee.github.io/pokedb/gen9/index.json) lists the latest published Generation 9 catalog. Existing raw GitHub endpoints continue to work. Check the schema version in the published index: deploying Pages does not upgrade previously generated data.
 
 ## Features
 
