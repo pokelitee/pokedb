@@ -45,51 +45,19 @@ python -m pokedb --all --no-cache
 
 ## Architecture
 
-`src/pokedb/` separates the CLI, configuration, API access, parser orchestration, and resource validation. Generation uses locks and staging so failed runs do not replace the previous output. See [Contributing](CONTRIBUTING.md#architecture) for the module layout.
-
-## Configuration
-
-PokéDB includes validated defaults and does not require a configuration file. Settings are selected in this order:
-
-1. `--config path/to/config.json`
-2. The `POKEDB_CONFIG` environment variable
-3. Packaged defaults in `src/pokedb/default_config.json`
-
-Custom files are partial overrides, so they only need values that differ from the defaults:
-
-```json
-{
-  "max_workers": 4,
-  "output_root": "./generated"
-}
-```
-
-Relative paths in a custom file are resolved relative to that file. Without a custom file, default paths are resolved relative to the current working directory.
-
-| Setting | Default | Description |
-| --- | --- | --- |
-| `api_base_url` | `https://pokeapi.co/api/v2/` | PokéAPI base URL; must be HTTP(S) and end in `/`. |
-| `timeout` | `15` | Request timeout in seconds. |
-| `max_retries` | `3` | Maximum HTTP retry count. |
-| `max_workers` | `10` | Parser worker-thread count. |
-| `parser_cache_dir` | `./.cache/parser` | API cache directory, or `null` to disable it. |
-| `cache_expires` | `3600` | Cache lifetime in seconds, or `null` to keep entries indefinitely. |
-| `output_root` | `./.output` | Root containing generated `gen1`, `gen2`, and other generation directories. |
-
-`--no-cache` disables the API cache for the current run without changing the configuration file.
-
-Python callers should import `Config` and `load_config` from `pokedb` or `pokedb.config`.
+`src/pokedb/` separates the CLI, configuration, API access, parser orchestration, and resource validation. Generation uses locks and staging so failed runs do not replace the previous output. See [Development](docs/development.md#architecture) for the module layout.
 
 ## Documentation
 
 - [Data contract and schema v5 migration](docs/data-contract.md): generation semantics, field guarantees, validation, and compatibility.
-- [Contributing](CONTRIBUTING.md): local checks, dependency updates, CI, and dataset publication.
+- [Development](docs/development.md): setup, checks, architecture, and dependency updates.
+- [Operations](docs/operations.md): CLI, configuration, generation, publication, and recovery.
 
 Keep contract changes in this repository so documentation and implementation can be reviewed together.
 
 ## Contributing
 
-Follow the [organization contribution guide](https://github.com/pokelitee/.github/blob/main/CONTRIBUTING.md) and the [project instructions](CONTRIBUTING.md). Use a short-lived branch and a pull request into `main`.
+Follow the [organization contribution guide](https://github.com/pokelitee/.github/blob/main/CONTRIBUTING.md) and the [development guide](docs/development.md). Use a short-lived branch and a pull request into `main`.
 
 ## License
 
