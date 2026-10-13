@@ -1,8 +1,8 @@
 from abc import ABC, abstractmethod
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from enum import Enum
+from enum import StrEnum
 from logging import getLogger
-from typing import Any, Dict, List, Optional, Union
+from typing import Any
 
 from tqdm import tqdm
 
@@ -13,7 +13,7 @@ from ..utils.exceptions import ParserExecutionError
 logger = getLogger(__name__)
 
 
-class PokemonCategory(str, Enum):
+class PokemonCategory(StrEnum):
     """Categories for different types of Pokémon entries."""
 
     POKEMON = "pokemon"
@@ -40,9 +40,9 @@ class BaseParser(ABC):
         self,
         config: Config,
         api_client: ApiClient,
-        generation_version_groups: Optional[Dict[int, List[str]]] = None,
-        target_gen: Optional[int] = None,
-        generation_dex_map: Optional[Dict[int, str]] = None,
+        generation_version_groups: dict[int, list[str]] | None = None,
+        target_gen: int | None = None,
+        generation_dex_map: dict[int, str] | None = None,
         is_historical: bool = False,
     ):
         """
@@ -70,7 +70,7 @@ class BaseParser(ABC):
         self.output_dir_key: str = ""  # Config key for output directory
 
     def _flag_unverified_historical_fields(
-        self, cleaned_data: Dict[str, Any], fields: List[str]
+        self, cleaned_data: dict[str, Any], fields: list[str]
     ) -> None:
         """
         Marks fields whose values are the current PokéAPI value, not a verified
@@ -91,7 +91,7 @@ class BaseParser(ABC):
                 unverified.append(field)
 
     @abstractmethod
-    def _get_all_item_refs(self) -> List[Dict[str, str]]:
+    def _get_all_item_refs(self) -> list[dict[str, str]]:
         """
         Retrieves all resource references from the API for this parser.
 
@@ -102,8 +102,8 @@ class BaseParser(ABC):
 
     @abstractmethod
     def process(
-        self, resource_ref: Dict[str, str]
-    ) -> Optional[Union[Dict[str, Any], List[Dict[str, Any]], str]]:
+        self, resource_ref: dict[str, str]
+    ) -> dict[str, Any] | list[dict[str, Any]] | str | None:
         """
         Processes a single resource reference from the API.
 
@@ -122,7 +122,7 @@ class BaseParser(ABC):
         """
         raise NotImplementedError
 
-    def run(self) -> Union[List[Dict[str, Any]], Dict[str, List[Dict[str, Any]]]]:
+    def run(self) -> list[dict[str, Any]] | dict[str, list[dict[str, Any]]]:
         """
         The main execution logic that orchestrates the parsing process.
 
@@ -147,11 +147,11 @@ class BaseParser(ABC):
         logger.info(
             f"Found {len(all_references)} {self.entity_type.lower()}(s). Starting concurrent processing..."
         )
-        errors: List[str] = []
-        summary_data: List[Dict[str, Any]] = []
+        errors: list[str] = []
+        summary_data: list[dict[str, Any]] = []
 
         # Initialize Pokemon-specific summaries using the enum
-        pokemon_summaries: Dict[str, List[Dict[str, Any]]] = {
+        pokemon_summaries: dict[str, list[dict[str, Any]]] = {
             category.value: [] for category in PokemonCategory
         }
 
@@ -208,7 +208,9 @@ class BaseParser(ABC):
         if any(pokemon_summaries.values()):
             # Sort each category by ID
             for category_key in pokemon_summaries:
-                pokemon_summaries[category_key].sort(key=lambda x: x.get("id", 0))
+                pokemon_summaries[category_key].sort(
+                    key=lambda x: (x.get("id", 0), x["name"])
+                )
             return pokemon_summaries
 
         # Return regular summary results

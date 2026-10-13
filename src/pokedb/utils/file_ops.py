@@ -5,7 +5,7 @@ import json
 import os
 import tempfile
 from pathlib import Path
-from typing import Any, Dict
+from typing import Any
 
 
 def write_json_atomic(file_path: Path, data: Any) -> None:
@@ -52,7 +52,7 @@ def get_cache_path(url: str, cache_dir: str | Path) -> Path:
 
 
 def write_json_file(
-    output_dir: str | Path, filename: str, data: Dict[str, Any]
+    output_dir: str | Path, filename: str, data: dict[str, Any]
 ) -> Path:
     """Writes one parsed resource without rewriting dynamic identifier keys.
 

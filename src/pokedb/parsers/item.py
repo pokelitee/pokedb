@@ -1,6 +1,6 @@
 import json
 from logging import getLogger
-from typing import Any, Dict, List, Optional, Union
+from typing import Any
 
 from ..api_client import ApiClient
 from ..config import Config
@@ -10,6 +10,8 @@ from ..utils import (
     get_english_entry,
     write_json_file,
 )
+from ..utils.api_helpers import get_all_results
+from ..utils.exceptions import ParserExecutionError
 from .base import BaseParser
 
 logger = getLogger(__name__)
@@ -33,9 +35,9 @@ class ItemParser(BaseParser):
         self,
         config: Config,
         api_client: ApiClient,
-        generation_version_groups: Dict[int, List[str]],
+        generation_version_groups: dict[int, list[str]],
         target_gen: int,
-        generation_dex_map: Optional[Dict[int, str]] = None,
+        generation_dex_map: dict[int, str] | None = None,
         is_historical: bool = False,
     ):
         super().__init__(
@@ -84,20 +86,18 @@ class ItemParser(BaseParser):
                     with path.open(encoding="utf-8") as file:
                         data = json.load(file)
                 except (OSError, json.JSONDecodeError) as error:
-                    logger.warning(
-                        "Could not inspect item references in %s: %s", path, error
-                    )
-                    continue
-                machine = data.get("machine")
-                if isinstance(machine, str):
-                    names.add(machine)
+                    raise ParserExecutionError(
+                        f"Could not inspect item references in {path}"
+                    ) from error
+                machines = data.get("machine", {})
+                names.update(value for value in machines.values() if value is not None)
                 held_items = data.get("held_items")
                 if isinstance(held_items, dict):
                     names.update(held_items)
                 visit_evolution(data.get("evolution_chain"))
         return names
 
-    def _get_all_item_refs(self) -> List[Dict[str, str]]:
+    def _get_all_item_refs(self) -> list[dict[str, str]]:
         """
         Retrieves all item references from the API.
 
@@ -107,10 +107,12 @@ class ItemParser(BaseParser):
         Returns:
             A list of item reference dictionaries with 'name' and 'url' keys
         """
-        endpoint_url = f"{self.config.api_base_url}{self.api_endpoint}?limit={DEFAULT_API_LIMIT}"
-        return self.api_client.get(endpoint_url).get("results", [])
+        endpoint_url = (
+            f"{self.config.api_base_url}{self.api_endpoint}?limit={DEFAULT_API_LIMIT}"
+        )
+        return get_all_results(self.api_client, endpoint_url)
 
-    def _apply_generation_policy(self, cleaned_data: Dict[str, Any]) -> None:
+    def _apply_generation_policy(self, cleaned_data: dict[str, Any]) -> None:
         """Flags item fields for which PokéAPI provides only current values."""
         self._flag_unverified_historical_fields(
             cleaned_data,
@@ -126,9 +128,7 @@ class ItemParser(BaseParser):
             ],
         )
 
-    def process(
-        self, resource_ref: Dict[str, str]
-    ) -> Optional[Union[Dict[str, Any], str]]:
+    def process(self, resource_ref: dict[str, str]) -> dict[str, Any] | str | None:
         """
         Processes a single item from its API reference.
 

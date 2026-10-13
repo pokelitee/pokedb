@@ -1,6 +1,6 @@
 # PokéDB - Pokémon Data Collector
 
-[![Update Pokémon Data](https://github.com/zhenga8533/pokedb/actions/workflows/update-data.yaml/badge.svg)](https://github.com/zhenga8533/pokedb/actions/workflows/update-data.yaml)
+[![Update Pokémon Data](https://github.com/pokelitee/pokedb/actions/workflows/update-data.yaml/badge.svg)](https://github.com/pokelitee/pokedb/actions/workflows/update-data.yaml)
 ![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -14,7 +14,10 @@ Parsed generation data is automatically saved to the `data` branch weekly.
 pokedb/
 |-- src/
 |   `-- pokedb/
-|       |-- __main__.py          # CLI and generation workflow
+|       |-- __main__.py          # CLI arguments and exit handling
+|       |-- pipeline.py          # Locked generation workflow
+|       |-- resources.py         # Shared schema and resource layout
+|       |-- locking.py           # Cross-platform generation locks
 |       |-- api_client.py        # API client and caching
 |       |-- config.py            # Typed configuration and validation
 |       |-- default_config.json  # Packaged default values
@@ -40,7 +43,7 @@ pokedb/
 ## Quick Start
 
 ```bash
-git clone https://github.com/zhenga8533/pokedb.git
+git clone https://github.com/pokelitee/pokedb.git
 cd pokedb
 pip install -e .
 
@@ -92,7 +95,7 @@ Python callers should import `Config` and `load_config` from `pokedb` or `pokedb
 
 ## Documentation
 
-See the [project wiki](https://github.com/zhenga8533/pokedb/wiki) for API usage,
+See the [project wiki](https://github.com/pokelitee/pokedb/wiki) for API usage,
 the data model, generation semantics, and configuration details. The wiki is
 maintained in its dedicated Git repository.
 
@@ -103,8 +106,9 @@ catalog: it includes resources introduced by or before that generation, but does
 imply that every resource is available in every game. Version-specific maps are used
 where PokéAPI supplies that detail.
 
-The generation `index.json` contains schema version `4`, PokéAPI source metadata,
-version groups, resource summaries, and counts. All resource keys are always present,
+The generation `index.json` contains schema version `5`, PokéAPI source metadata,
+version groups and game versions, resource summaries, counts, generated-catalog
+identifiers, a resource-content digest, and per-catalog generator provenance. All resource keys are always present,
 including empty lists for mechanics or categories with no entries. Individual files
 live in the corresponding `ability`, `item`, `move`, or `pokemon` subdirectory.
 
@@ -173,7 +177,7 @@ When generating all resources, items run after moves and Pokémon so these refer
 are available. For the same guarantee in a partial run, regenerate `item` together
 with or after the resources that reference it.
 
-Outputs generated with schema versions 1–2 are incompatible. Regenerate the complete
+Outputs generated with schema versions 1–4 are incompatible. Regenerate the complete
 dataset with `python -m pokedb --all --gen all --force`; do not mix old and new
 resource files in a partial run.
 
@@ -186,6 +190,20 @@ from pokedb import validate_generation_output
 
 validate_generation_output(Path(".output/gen9"))
 ```
+
+## Schema v5 migration
+
+Schema version 5 changes `move.machine` from a scalar into an object keyed by every target version group. Each value is an item identifier or `null` when no assignment is recorded for that game. Item catalogs include every referenced machine assignment.
+
+Historical `evolves_from_species` is derived from the same reconstructed chain as `evolution_chain`. Historical cosmetic records contain only form-specific generation assets; when PokéAPI has no such assets, their `sprites` object is empty rather than borrowing another form's images.
+
+The index's `metadata.generated_resources` distinguishes generated catalogs (including legitimately empty categories) from omitted catalogs. References are checked whenever their target catalog was generated. `metadata.resource_provenance` records package/dependency versions and the optional source commit for each catalog. `metadata.content_sha256` covers canonical resource JSON and relative paths.
+
+Regenerate all output with `python -m pokedb --all --gen all --force` when upgrading from schemas 1–4. Consumers must check the schema version before loading data.
+
+## Development and releases
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for local checks, the branching model, locked CI dependencies, publication safeguards, and required GitHub repository settings. Generated snapshots are published with immutable `data-v<schema>-<run-id>-<attempt>` tags; use a tag or commit in place of `data` in raw GitHub URLs to pin a dataset version.
 
 ## License
 

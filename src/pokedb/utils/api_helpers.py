@@ -3,15 +3,35 @@
 from __future__ import annotations
 
 import logging
-from typing import TYPE_CHECKING, Dict
+from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
     from ..api_client import ApiClient
     from ..config import Config
 
-from .exceptions import GenerationNotFoundError, PokedexMappingError
+from .exceptions import (
+    GenerationNotFoundError,
+    ParserExecutionError,
+    PokedexMappingError,
+)
 
 logger = logging.getLogger(__name__)
+
+
+def get_all_results(api_client: ApiClient, url: str) -> list[dict]:
+    """Collects every API listing page and rejects malformed or cyclic pagination."""
+    results = []
+    visited = set()
+    while url is not None:
+        if not isinstance(url, str) or url in visited:
+            raise ParserExecutionError("Invalid or cyclic API pagination")
+        visited.add(url)
+        page = api_client.get(url)
+        if not isinstance(page, dict) or not isinstance(page.get("results"), list):
+            raise ParserExecutionError(f"Invalid resource listing from {url}")
+        results.extend(page["results"])
+        url = page.get("next")
+    return results
 
 
 def get_latest_generation(api_client: ApiClient, config: Config) -> int:
@@ -30,8 +50,7 @@ def get_latest_generation(api_client: ApiClient, config: Config) -> int:
     """
     logger.info("Determining the latest Pokémon generation...")
     try:
-        data = api_client.get(f"{config.api_base_url}generation/")
-        generations = data.get("results", [])
+        generations = get_all_results(api_client, f"{config.api_base_url}generation/")
 
         if not generations:
             raise GenerationNotFoundError("No generations found in API response.")
@@ -48,9 +67,7 @@ def get_latest_generation(api_client: ApiClient, config: Config) -> int:
         raise GenerationNotFoundError(f"Could not determine latest generation: {e}")
 
 
-def get_generation_dex_map(
-    api_client: ApiClient, config: Config
-) -> Dict[int, str]:
+def get_generation_dex_map(api_client: ApiClient, config: Config) -> dict[int, str]:
     """
     Fetches all Pokédexes and creates a map of generation number to regional dex name.
 
@@ -65,11 +82,11 @@ def get_generation_dex_map(
         PokedexMappingError: If Pokédex data cannot be retrieved or mapped
     """
     logger.info("Fetching Pokédex information...")
-    dex_map: Dict[int, str] = {}
+    dex_map: dict[int, str] = {}
 
     try:
-        pokedex_list = api_client.get(f"{config.api_base_url}pokedex?limit=100").get(
-            "results", []
+        pokedex_list = get_all_results(
+            api_client, f"{config.api_base_url}pokedex?limit=100"
         )
 
         if not pokedex_list:

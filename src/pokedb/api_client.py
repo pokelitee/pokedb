@@ -3,7 +3,7 @@ import logging
 import threading
 import time
 from pathlib import Path
-from typing import Any, Dict, Optional
+from typing import Any
 
 import requests
 from requests.adapters import HTTPAdapter, Retry
@@ -39,7 +39,7 @@ class ApiClient:
         self._config = config
         self._thread_local = threading.local()
         self._cache_lock = threading.RLock()
-        self._cache: Dict[str, Dict[str, Any]] = {}
+        self._cache: dict[str, dict[str, Any]] = {}
         self.timeout = config.timeout
         self.cache_dir = config.parser_cache_dir
         self.cache_expires = config.cache_expires
@@ -65,6 +65,7 @@ class ApiClient:
             status_forcelist=SERVER_ERROR_CODES,
         )
         session.mount("https://", HTTPAdapter(max_retries=retries))
+        session.mount("http://", HTTPAdapter(max_retries=retries))
         return session
 
     def _get_session(self) -> requests.Session:
@@ -75,7 +76,7 @@ class ApiClient:
             self._thread_local.session = session
         return session
 
-    def get(self, url: str) -> Dict[str, Any]:
+    def get(self, url: str) -> dict[str, Any]:
         """
         Fetches JSON data from a URL, using both in-memory and file-based caches.
 
@@ -103,7 +104,7 @@ class ApiClient:
                 return self._cache[url]
 
         # Check file cache if enabled
-        cache_file_path: Optional[Path] = None
+        cache_file_path: Path | None = None
         if self.cache_dir:
             cache_file_path = get_cache_path(url, self.cache_dir)
 

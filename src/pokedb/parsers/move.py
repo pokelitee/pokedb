@@ -1,5 +1,5 @@
 from logging import getLogger
-from typing import Any, Dict, List, Optional, Union
+from typing import Any
 
 from ..api_client import ApiClient
 from ..config import Config
@@ -53,9 +53,9 @@ class MoveParser(GenerationParser):
         self,
         config: Config,
         api_client: ApiClient,
-        generation_version_groups: Dict[int, List[str]],
+        generation_version_groups: dict[int, list[str]],
         target_gen: int,
-        generation_dex_map: Optional[Dict[int, str]] = None,
+        generation_dex_map: dict[int, str] | None = None,
         is_historical: bool = False,
     ):
         super().__init__(
@@ -71,35 +71,21 @@ class MoveParser(GenerationParser):
         self.output_dir_key = "output_dir_move"
 
     def _get_machine_for_generation(
-        self, machine_entries: List[Dict[str, Any]]
-    ) -> Optional[str]:
-        """
-        Finds the TM/HM machine item name for the target generation.
+        self, machine_entries: list[dict[str, Any]]
+    ) -> dict[str, str | None]:
+        """Returns each target game's machine assignment without hiding fetch errors."""
+        target_groups = (self.generation_version_groups or {}).get(self.target_gen, [])
+        machines = dict.fromkeys(target_groups)
+        for entry in machine_entries:
+            group = entry["version_group"]["name"]
+            if group in machines:
+                item = self.api_client.get(entry["machine"]["url"])["item"]["name"]
+                if machines[group] is not None and machines[group] != item:
+                    raise ValueError(f"Conflicting machine assignments for {group}")
+                machines[group] = item
+        return machines
 
-        Args:
-            machine_entries: List of machine entry dicts from the move API data
-
-        Returns:
-            The machine item name (e.g., 'tm01', 'hm05') or None if not a machine move
-        """
-        if not self.generation_version_groups or self.target_gen is None:
-            return None
-
-        target_version_groups = self.generation_version_groups.get(self.target_gen, [])
-
-        for machine_entry in machine_entries:
-            if machine_entry["version_group"]["name"] in target_version_groups:
-                try:
-                    machine_data = self.api_client.get(machine_entry["machine"]["url"])
-                    return machine_data["item"]["name"]
-                except Exception as e:
-                    logger.warning(
-                        f"Could not fetch machine data from {machine_entry['machine']['url']}: {e}"
-                    )
-                    return None
-        return None
-
-    def _clean_metadata(self, metadata: Optional[Dict[str, Any]]) -> Dict[str, Any]:
+    def _clean_metadata(self, metadata: dict[str, Any] | None) -> dict[str, Any]:
         """
         Cleans and normalizes move metadata from the API.
 
@@ -148,7 +134,7 @@ class MoveParser(GenerationParser):
         }
 
     def _apply_past_values(
-        self, cleaned_data: Dict[str, Any], past_values: List[Dict[str, Any]]
+        self, cleaned_data: dict[str, Any], past_values: list[dict[str, Any]]
     ):
         """
         Applies historical stat changes to move data for the target generation.
@@ -187,7 +173,7 @@ class MoveParser(GenerationParser):
             "effect",
             "short_effect",
         ]
-        generation_specific_values: Dict[str, Dict[str, Any]] = {
+        generation_specific_values: dict[str, dict[str, Any]] = {
             field: {} for field in change_fields
         }
 
@@ -224,16 +210,18 @@ class MoveParser(GenerationParser):
                     continue
 
                 for field in ("accuracy", "power", "pp", "effect_chance"):
-                    if field not in applied_fields and past_value.get(field) is not None:
+                    if (
+                        field not in applied_fields
+                        and past_value.get(field) is not None
+                    ):
                         temp_data[field] = past_value[field]
                         applied_fields.add(field)
                 if "type" not in applied_fields and past_value.get("type"):
                     temp_data["type"] = past_value["type"]["name"]
                     applied_fields.add("type")
-                if (
-                    not {"effect", "short_effect"}.issubset(applied_fields)
-                    and past_value.get("effect_entries")
-                ):
+                if not {"effect", "short_effect"}.issubset(
+                    applied_fields
+                ) and past_value.get("effect_entries"):
                     effect = get_english_entry(past_value["effect_entries"], "effect")
                     short_effect = get_english_entry(
                         past_value["effect_entries"], "short_effect"
@@ -253,7 +241,7 @@ class MoveParser(GenerationParser):
         for field, values_map in generation_specific_values.items():
             cleaned_data[field] = values_map
 
-    def _apply_generation_policy(self, cleaned_data: Dict[str, Any]) -> None:
+    def _apply_generation_policy(self, cleaned_data: dict[str, Any]) -> None:
         """Flags unversioned fields as unverified and derives pre-split move classes."""
         self._flag_unverified_historical_fields(
             cleaned_data, ["priority", "target", "metadata", "stat_changes"]
@@ -280,9 +268,7 @@ class MoveParser(GenerationParser):
         else:
             cleaned_data["damage_class"] = None
 
-    def process(
-        self, resource_ref: Dict[str, str]
-    ) -> Optional[Union[Dict[str, Any], str]]:
+    def process(self, resource_ref: dict[str, str]) -> dict[str, Any] | str | None:
         """
         Processes a single move from its API reference.
 

@@ -1,6 +1,6 @@
 """Text parsing and transformation utilities."""
 
-from typing import Any, Dict, List, Optional
+from typing import Any
 
 from .constants import MAX_ROMAN_NUMERAL, ROMAN_NUMERAL_MAP
 
@@ -36,11 +36,11 @@ def int_to_roman(num: int) -> str:
 
 
 def _get_all_english_entries_generic(
-    entries: List[Dict[str, Any]],
+    entries: list[dict[str, Any]],
     key_name: str,
     field_name: str,
     target_set: set,
-) -> Dict[str, str]:
+) -> dict[str, str]:
     """
     Generic helper to find and clean all unique English entries from API data.
 
@@ -56,7 +56,7 @@ def _get_all_english_entries_generic(
     Returns:
         A dictionary mapping field values to their cleaned English text
     """
-    texts: Dict[str, str] = {}
+    texts: dict[str, str] = {}
 
     for entry in entries:
         field_value = entry.get(field_name, {}).get("name")
@@ -73,11 +73,11 @@ def _get_all_english_entries_generic(
 
 
 def get_all_english_entries_for_gen_by_game(
-    entries: List[Dict[str, Any]],
+    entries: list[dict[str, Any]],
     key_name: str,
-    generation_version_groups: Optional[Dict[int, List[str]]] = None,
-    target_gen: Optional[int] = None,
-) -> Dict[str, str]:
+    generation_version_groups: dict[int, list[str]] | None = None,
+    target_gen: int | None = None,
+) -> dict[str, str]:
     """
     Finds and cleans all unique English entries for a specific generation, organized by version group.
 
@@ -104,10 +104,10 @@ def get_all_english_entries_for_gen_by_game(
 
 
 def get_all_english_entries_by_version(
-    entries: List[Dict[str, Any]],
+    entries: list[dict[str, Any]],
     key_name: str,
-    target_versions: Optional[set] = None,
-) -> Dict[str, str]:
+    target_versions: set | None = None,
+) -> dict[str, str]:
     """
     Finds and cleans all unique English entries for specific game versions.
 
@@ -132,11 +132,11 @@ def get_all_english_entries_by_version(
 
 
 def get_english_entry(
-    entries: List[Dict[str, Any]],
+    entries: list[dict[str, Any]],
     key_name: str,
-    generation_version_groups: Optional[Dict[int, List[str]]] = None,
-    target_gen: Optional[int] = None,
-) -> Optional[str]:
+    generation_version_groups: dict[int, list[str]] | None = None,
+    target_gen: int | None = None,
+) -> str | None:
     """
     Finds and cleans the most appropriate English entry from multilingual API entries.
 
@@ -164,14 +164,14 @@ def get_english_entry(
         and target_gen
     ):
         # Build priority list: newest version groups in target gen first, then work backwards
-        all_version_groups: List[str] = []
+        all_version_groups: list[str] = []
         for generation in range(target_gen, 0, -1):
             all_version_groups.extend(
                 reversed(generation_version_groups.get(generation, []))
             )
 
         # Map version groups to their English entries
-        entry_map: Dict[str, Dict[str, Any]] = {}
+        entry_map: dict[str, dict[str, Any]] = {}
         for entry in entries:
             if entry.get("language", {}).get("name") == "en":
                 version_group_name = entry.get("version_group", {}).get("name")

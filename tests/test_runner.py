@@ -21,12 +21,8 @@ def test_gather_initial_data_collects_all_groups_and_target_versions(monkeypatch
                 {"url": f"{base_url}generation/2/"},
             ]
         },
-        f"{base_url}generation/1/": {
-            "version_groups": [{"name": "red-blue"}]
-        },
-        f"{base_url}generation/2/": {
-            "version_groups": [{"name": "gold-silver"}]
-        },
+        f"{base_url}generation/1/": {"version_groups": [{"name": "red-blue"}]},
+        f"{base_url}generation/2/": {"version_groups": [{"name": "gold-silver"}]},
         f"{base_url}version-group/red-blue": {
             "versions": [{"name": "red"}, {"name": "blue"}]
         },

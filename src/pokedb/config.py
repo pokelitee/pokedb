@@ -10,17 +10,10 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import urlsplit
 
+from .resources import OUTPUT_PATHS
 from .utils.exceptions import ConfigurationError
 
-OUTPUT_PATHS = {
-    "output_dir_ability": Path("ability"),
-    "output_dir_item": Path("item"),
-    "output_dir_move": Path("move"),
-    "output_dir_pokemon": Path("pokemon/default"),
-    "output_dir_variant": Path("pokemon/variant"),
-    "output_dir_transformation": Path("pokemon/transformation"),
-    "output_dir_cosmetic": Path("pokemon/cosmetic"),
-}
+
 @dataclass(frozen=True)
 class Config:
     """Validated, immutable settings shared by the application."""
@@ -125,6 +118,7 @@ class Config:
             if values[key] is not None:
                 values[key] = str(values[key])
         return values
+
 
 def _read_json(path: Path) -> dict[str, Any]:
     try:

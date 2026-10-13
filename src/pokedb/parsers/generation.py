@@ -1,5 +1,4 @@
 from logging import getLogger
-from typing import Dict, List
 
 from ..utils.exceptions import ParserExecutionError
 from .base import BaseParser
@@ -19,7 +18,7 @@ class GenerationParser(BaseParser):
     when working with generation-specific data.
     """
 
-    def _get_all_item_refs(self) -> List[Dict[str, str]]:
+    def _get_all_item_refs(self) -> list[dict[str, str]]:
         """
         Retrieves all resource references by iterating through generation endpoints.
 
@@ -30,8 +29,8 @@ class GenerationParser(BaseParser):
         Returns:
             A list of resource reference dictionaries with 'name' and 'url' keys
         """
-        all_references: List[Dict[str, str]] = []
-        errors: List[str] = []
+        all_references: list[dict[str, str]] = []
+        errors: list[str] = []
 
         if self.target_gen:
             logger.info(
@@ -45,7 +44,11 @@ class GenerationParser(BaseParser):
                     )
                     generation_data = self.api_client.get(generation_url)
 
-                    resources_in_gen = generation_data.get(self.api_endpoint, [])
+                    resources_in_gen = generation_data[self.api_endpoint]
+                    if not isinstance(resources_in_gen, list):
+                        raise ValueError(
+                            f"Invalid {self.api_endpoint} resource listing"
+                        )
                     all_references.extend(resources_in_gen)
 
                     logger.debug(

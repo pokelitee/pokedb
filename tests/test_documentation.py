@@ -1,8 +1,7 @@
 import re
 from pathlib import Path
 
-from pokedb.output import DATA_SCHEMA_VERSION
-
+from pokedb.resources import DATA_SCHEMA_VERSION
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
@@ -28,9 +27,9 @@ def test_static_api_examples_use_the_pokemon_category_directory():
 
 
 def test_data_workflow_regenerates_every_generation_and_documentation():
-    workflow = (
-        PROJECT_ROOT / ".github" / "workflows" / "update-data.yaml"
-    ).read_text(encoding="utf-8")
+    workflow = (PROJECT_ROOT / ".github" / "workflows" / "update-data.yaml").read_text(
+        encoding="utf-8"
+    )
 
     assert "--all --gen all --no-cache --force" in workflow
     assert ".github/data-branch-README.md" in workflow

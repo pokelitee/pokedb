@@ -1,16 +1,19 @@
 import copy
 from logging import getLogger
-from typing import Any, Dict, List, Optional, Set, Tuple, Union
+from typing import Any
 
 from ..api_client import ApiClient
 from ..config import Config
 from ..utils import (
     get_all_english_entries_by_version,
     get_english_entry,
-    int_to_roman,
     write_json_file,
 )
+from ..utils.exceptions import ParserExecutionError
+from .evolution import EvolutionResolver, evolution_parent
 from .generation import GenerationParser
+from .history import apply_past_values
+from .media import select_cries, select_sprites
 
 logger = getLogger(__name__)
 
@@ -35,11 +38,11 @@ class PokemonParser(GenerationParser):
         self,
         config: Config,
         api_client: ApiClient,
-        generation_version_groups: Dict[int, List[str]],
+        generation_version_groups: dict[int, list[str]],
         target_gen: int,
-        generation_dex_map: Dict[int, str],
+        generation_dex_map: dict[int, str],
         is_historical: bool = False,
-        target_versions: Optional[Set[str]] = None,
+        target_versions: set[str] | None = None,
     ):
         super().__init__(
             config,
@@ -56,261 +59,20 @@ class PokemonParser(GenerationParser):
         self.output_dir_key_transformation = "output_dir_transformation"
         self.output_dir_key_cosmetic = "output_dir_cosmetic"
         self.target_versions = target_versions or set()
-        self._version_group_regions: Dict[str, Set[str]] = {}
-        self._location_regions: Dict[str, Optional[str]] = {}
-        self._species_generations: Dict[str, int] = {}
-
-    @staticmethod
-    def _clean_evolution_detail(
-        details: Dict[str, Any], version_groups: Optional[List[str]] = None
-    ) -> Dict[str, Any]:
-        """Normalizes one evolution condition returned by PokéAPI."""
-        return {
-            "introduced_in_version_group": (
-                details.get("version_group") or {}
-            ).get("name"),
-            "version_groups": version_groups or [],
-            "base_form": (details.get("base_form") or {}).get("name"),
-            "evolved_form": (details.get("evolved_form") or {}).get("name"),
-            "item": (details.get("item") or {}).get("name"),
-            "trigger": (details.get("trigger") or {}).get("name"),
-            "gender": details.get("gender"),
-            "held_item": (details.get("held_item") or {}).get("name"),
-            "known_move": (details.get("known_move") or {}).get("name"),
-            "known_move_type": (details.get("known_move_type") or {}).get("name"),
-            "location": (details.get("location") or {}).get("name"),
-            "min_level": details.get("min_level"),
-            "min_happiness": details.get("min_happiness"),
-            "min_beauty": details.get("min_beauty"),
-            "min_affection": details.get("min_affection"),
-            "min_damage_taken": details.get("min_damage_taken"),
-            "min_move_count": details.get("min_move_count"),
-            "min_steps": details.get("min_steps"),
-            "near_special_rock": details.get("near_special_rock", False),
-            "needs_multiplayer": details.get("needs_multiplayer", False),
-            "needs_overworld_rain": details.get("needs_overworld_rain"),
-            "party_species": (details.get("party_species") or {}).get("name"),
-            "party_type": (details.get("party_type") or {}).get("name"),
-            "relative_physical_stats": details.get("relative_physical_stats"),
-            "region": (details.get("region") or {}).get("name"),
-            "time_of_day": details.get("time_of_day") or None,
-            "trade_species": (details.get("trade_species") or {}).get("name"),
-            "turn_upside_down": details.get("turn_upside_down"),
-            "used_move": (details.get("used_move") or {}).get("name"),
-        }
-
-    def _get_evolution_details_for_target(
-        self, details_list: List[Dict[str, Any]]
-    ) -> List[Dict[str, Any]]:
-        """Reconstructs the active conditions for each target version group."""
-        target_groups = self.generation_version_groups.get(self.target_gen, [])
-        if not target_groups:
-            return [self._clean_evolution_detail(details) for details in details_list]
-
-        group_order = {
-            group: (generation, position)
-            for generation, groups in self.generation_version_groups.items()
-            for position, group in enumerate(groups)
-        }
-        merged_details: Dict[str, Dict[str, Any]] = {}
-
-        for target_group in target_groups:
-            target_order = group_order.get(target_group)
-            if target_order is None:
-                continue
-            eligible = [
-                details
-                for details in details_list
-                if group_order.get(
-                    (details.get("version_group") or {}).get("name"),
-                    (999, 999),
-                )
-                <= target_order
-            ]
-            if not eligible:
-                eligible = [
-                    details
-                    for details in details_list
-                    if not details.get("version_group")
-                ]
-            if not eligible:
-                continue
-
-            latest_order = max(
-                group_order.get(
-                    (details.get("version_group") or {}).get("name"),
-                    (-1, -1),
-                )
-                for details in eligible
-            )
-            active_details = [
-                details
-                for details in eligible
-                if group_order.get(
-                    (details.get("version_group") or {}).get("name"),
-                    (-1, -1),
-                )
-                == latest_order
-                and self._is_evolution_detail_available(details, target_group)
-            ]
-            for details in active_details:
-                cleaned = self._clean_evolution_detail(details)
-                signature = repr(cleaned)
-                if signature not in merged_details:
-                    merged_details[signature] = cleaned
-                merged_details[signature]["version_groups"].append(target_group)
-
-        return list(merged_details.values())
-
-    def _is_evolution_detail_available(
-        self, details: Dict[str, Any], target_group: str
-    ) -> bool:
-        """Rejects location evolutions in games that cannot access that region."""
-        location = details.get("location") or {}
-        location_url = location.get("url")
-        if not location_url or self.api_client is None:
-            return True
-
-        if target_group not in self._version_group_regions:
-            version_group = self.api_client.get(
-                f"{self.config.api_base_url}version-group/{target_group}"
-            )
-            self._version_group_regions[target_group] = {
-                region["name"] for region in version_group.get("regions", [])
-            }
-        if location_url not in self._location_regions:
-            location_data = self.api_client.get(location_url)
-            self._location_regions[location_url] = (
-                location_data.get("region") or {}
-            ).get("name")
-
-        location_region = self._location_regions[location_url]
-        target_regions = self._version_group_regions[target_group]
-        return not location_region or not target_regions or location_region in target_regions
-
-    def _get_evolution_chain(
-        self, chain_url: str, target_species: Optional[str] = None
-    ) -> Optional[Dict[str, Any]]:
-        """
-        Recursively fetches and processes an evolution chain, filtering future generations.
-
-        Evolution chains are nested structures showing species → evolutions → further evolutions.
-        This method filters out evolutions that don't exist in the target generation.
-
-        Args:
-            chain_url: API URL for the evolution chain endpoint
-
-        Returns:
-            A nested dictionary representing the evolution chain, or None if fetch fails.
-            Structure: {
-                "species_name": str,
-                "evolves_to": [
-                    {
-                        "species_name": str,
-                        "evolution_details": {...},
-                        "evolves_to": [...]
-                    }
-                ]
-            }
-        """
-        try:
-            response = self.api_client.get(chain_url)
-            if not response or not isinstance(response, dict):
-                logger.warning(
-                    f"Invalid evolution chain response from {chain_url}: expected dict, got {type(response)}"
-                )
-                return None
-
-            if "chain" not in response:
-                logger.warning(
-                    f"Evolution chain response missing 'chain' key from {chain_url}"
-                )
-                return None
-
-            chain_data = response["chain"]
-
-            def species_generation(species: Dict[str, Any]) -> int:
-                species_url = species.get("url")
-                if not species_url or self.target_gen is None:
-                    return self.target_gen or 1
-                if species_url not in self._species_generations:
-                    species_data = self.api_client.get(species_url)
-                    self._species_generations[species_url] = int(
-                        species_data["generation"]["url"].split("/")[-2]
-                    )
-                return self._species_generations[species_url]
-
-            def recurse_chain(chain: Dict[str, Any]) -> List[Dict[str, Any]]:
-                species = chain["species"]
-                species_name = species["name"]
-                is_future = (
-                    self.target_gen is not None
-                    and species_generation(species) > self.target_gen
-                )
-                if is_future:
-                    promoted: List[Dict[str, Any]] = []
-                    for evolution in chain.get("evolves_to", []):
-                        promoted.extend(recurse_chain(evolution))
-                    return promoted
-
-                evolves_to: List[Dict[str, Any]] = []
-
-                for evolution in chain.get("evolves_to", []):
-                    if (
-                        self.target_gen is not None
-                        and species_generation(evolution["species"]) > self.target_gen
-                    ):
-                        continue
-                    raw_details = evolution.get("evolution_details", [])
-                    # Empty details in PokeAPI represent special relationships
-                    # such as Phione/Manaphy, not an evolution method.
-                    if not raw_details:
-                        continue
-                    next_nodes = recurse_chain(evolution)
-                    if not next_nodes:
-                        continue
-                    active_details = self._get_evolution_details_for_target(raw_details)
-                    next_evolution = next_nodes[0]
-                    evolves_to.append(
-                        {
-                            "species_name": next_evolution["species_name"],
-                            "availability": (
-                                "available" if active_details else "unavailable"
-                            ),
-                            "evolution_details": active_details,
-                            "evolves_to": next_evolution["evolves_to"],
-                        }
-                    )
-                return [{"species_name": species_name, "evolves_to": evolves_to}]
-
-            roots = recurse_chain(chain_data)
-            if not roots:
-                return None
-            if len(roots) == 1 or target_species is None:
-                return roots[0]
-
-            def contains_species(node: Dict[str, Any]) -> bool:
-                return node["species_name"] == target_species or any(
-                    contains_species(child) for child in node["evolves_to"]
-                )
-
-            return next((root for root in roots if contains_species(root)), roots[0])
-        except Exception as e:
-            logger.warning(
-                f"Could not process evolution chain from {chain_url}. Error: {e}"
-            )
-            return None
+        self.evolutions = EvolutionResolver(
+            config, api_client, generation_version_groups, target_gen
+        )
 
     def _get_generation_data(
         self,
-        data: Dict[str, Any],
+        data: dict[str, Any],
         key: str,
         name_key: str,
         details_key: str,
         version_key: str,
-    ) -> Dict[str, Any]:
+    ) -> dict[str, Any]:
         """A generic helper to filter data by the target generation."""
-        gen_data: Dict[str, Any] = {}
+        gen_data: dict[str, Any] = {}
         if not self.generation_version_groups or self.target_gen is None:
             return {}
 
@@ -343,7 +105,7 @@ class PokemonParser(GenerationParser):
                         gen_data[item_name][entity_name] = details["rarity"]
 
         if key == "moves":
-            processed_moves: Dict[str, Any] = {}
+            processed_moves: dict[str, Any] = {}
             for method, move_groups in gen_data.items():
                 processed_moves[method] = []
                 for (move_name, level), games in move_groups.items():
@@ -358,48 +120,11 @@ class PokemonParser(GenerationParser):
 
         return gen_data
 
-    def _process_cries(self, cries: Dict[str, Any]) -> Optional[Dict[str, Any]]:
-        """
-        Resolves the cries object to the recording used in the target generation.
-
-        PokéAPI splits cries into "legacy" (Gen 1-5 style) and "latest"
-        (redesigned in Gen 6) recordings, so this is real per-generation data
-        rather than an unversioned current value.
-        """
-        if not cries:
-            return None
-        if self.target_gen is None:
-            return cries
-        if self.target_gen < 6:
-            return {"legacy": cries.get("legacy")} if cries.get("legacy") else None
-        return {"latest": cries.get("latest")} if cries.get("latest") else None
-
-    def _process_sprites(self, sprites: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Refines the sprites object to only include the target generation's version data.
-        """
-        if not sprites:
-            return {}
-
-        processed_sprites = (
-            {}
-            if self.is_historical
-            else {k: v for k, v in sprites.items() if k != "versions"}
-        )
-
-        if "versions" in sprites and self.target_gen is not None:
-            gen_roman = int_to_roman(self.target_gen)
-            gen_key = f"generation-{gen_roman.lower()}"
-            if gen_key in sprites["versions"]:
-                processed_sprites["versions"] = sprites["versions"][gen_key]
-
-        return {k: v for k, v in processed_sprites.items() if v is not None}
-
     def _get_generation_pokedex_numbers(
-        self, pokedex_numbers: List[Dict[str, Any]]
-    ) -> Dict[str, int]:
+        self, pokedex_numbers: list[dict[str, Any]]
+    ) -> dict[str, int]:
         """Filters Pokédex numbers for national and the target generation's regional dex."""
-        gen_numbers: Dict[str, int] = {}
+        gen_numbers: dict[str, int] = {}
         if not self.generation_dex_map or self.target_gen is None:
             return {}
         regional_dex_name = self.generation_dex_map.get(self.target_gen)
@@ -410,8 +135,8 @@ class PokemonParser(GenerationParser):
         return gen_numbers
 
     def _get_varieties_with_default(
-        self, species_data: Dict[str, Any]
-    ) -> List[Dict[str, Any]]:
+        self, species_data: dict[str, Any]
+    ) -> list[dict[str, Any]]:
         """
         Gets varieties list from species data, creating a synthetic default variety if none exist.
 
@@ -434,12 +159,11 @@ class PokemonParser(GenerationParser):
             varieties = [default_variety]
         return varieties
 
-    def _should_skip_form(self, form_data: Dict[str, Any]) -> bool:
+    def _should_skip_form(self, form_data: dict[str, Any]) -> bool:
         """Checks if a form should be skipped based on the target generation."""
         # Validate form_data structure
         if not form_data or not isinstance(form_data, dict):
-            logger.warning(f"Invalid form_data: expected dict, got {type(form_data)}")
-            return True
+            raise ParserExecutionError("Expected a non-empty form object")
 
         version_group = form_data.get("version_group")
         if not version_group or not isinstance(version_group, dict):
@@ -452,41 +176,37 @@ class PokemonParser(GenerationParser):
         try:
             version_group_data = self.api_client.get(version_group_url)
             if not version_group_data or not isinstance(version_group_data, dict):
-                logger.warning(
+                raise ParserExecutionError(
                     f"Invalid version group response from {version_group_url}"
                 )
-                return False
 
             generation = version_group_data.get("generation")
             if not generation or not isinstance(generation, dict):
-                logger.warning(
+                raise ParserExecutionError(
                     f"Missing or invalid generation in version group data from {version_group_url}"
                 )
-                return False
 
             generation_url = generation.get("url")
             if not generation_url:
-                logger.warning(
+                raise ParserExecutionError(
                     f"Missing generation URL in version group data from {version_group_url}"
                 )
-                return False
 
             form_introduction_gen = int(generation_url.split("/")[-2])
             return (
                 self.target_gen is not None and form_introduction_gen > self.target_gen
             )
         except (ValueError, IndexError, KeyError) as e:
-            logger.warning(
-                f"Error determining form generation from {version_group_url}: {e}"
-            )
-            return False
+            raise ParserExecutionError(
+                f"Could not determine form generation from {version_group_url}"
+            ) from e
 
     def _build_base_pokemon_data(
         self,
-        pokemon_data: Dict[str, Any],
-        species_data: Dict[str, Any],
+        pokemon_data: dict[str, Any],
+        species_data: dict[str, Any],
         source_url: str,
-    ) -> Dict[str, Any]:
+    ) -> dict[str, Any]:
         """Builds the common data dictionary for any Pokémon form or variety."""
         # Filter abilities based on generation (hidden abilities introduced in Gen 5)
         all_abilities = pokemon_data.get("abilities", [])
@@ -531,116 +251,22 @@ class PokemonParser(GenerationParser):
             ],
             "height": pokemon_data["height"],
             "weight": pokemon_data["weight"],
-            "cries": self._process_cries(pokemon_data.get("cries", {})),
-            "sprites": self._process_sprites(pokemon_data.get("sprites", {})),
+            "cries": select_cries(pokemon_data.get("cries", {}), self.target_gen),
+            "sprites": select_sprites(
+                pokemon_data.get("sprites", {}), self.target_gen, self.is_historical
+            ),
         }
         if self.target_gen is not None and self.target_gen < 3:
             cleaned_data["ev_yield"] = None
-        self._apply_pokeapi_past_values(cleaned_data, pokemon_data)
+        apply_past_values(cleaned_data, pokemon_data, self.target_gen)
         return cleaned_data
-
-    def _apply_pokeapi_past_values(
-        self, cleaned_data: Dict[str, Any], pokemon_data: Dict[str, Any]
-    ) -> None:
-        """Applies PokéAPI's structured historical types, abilities, and stats."""
-        if self.target_gen is None:
-            return
-
-        def ending_generation(entry: Dict[str, Any]) -> int:
-            generation_url = (entry.get("generation") or {}).get("url", "")
-            try:
-                return int(generation_url.rstrip("/").rsplit("/", 1)[-1])
-            except ValueError:
-                return 999
-
-        applicable_types = sorted(
-            (
-                entry
-                for entry in pokemon_data.get("past_types", [])
-                if ending_generation(entry) >= self.target_gen
-            ),
-            key=ending_generation,
-        )
-        if applicable_types:
-            cleaned_data["types"] = [
-                entry["type"]["name"]
-                for entry in sorted(
-                    applicable_types[0].get("types", []),
-                    key=lambda entry: entry["slot"],
-                )
-            ]
-
-        abilities_by_slot = {
-            ability["slot"]: ability for ability in cleaned_data["abilities"]
-        }
-        applied_ability_slots: Set[int] = set()
-        for past in sorted(
-            pokemon_data.get("past_abilities", []), key=ending_generation
-        ):
-            if ending_generation(past) < self.target_gen:
-                continue
-            for ability in past.get("abilities", []):
-                slot = ability["slot"]
-                if slot in applied_ability_slots:
-                    continue
-                ability_ref = ability.get("ability")
-                if ability_ref is None:
-                    abilities_by_slot.pop(slot, None)
-                else:
-                    abilities_by_slot[slot] = {
-                        "name": ability_ref["name"],
-                        "is_hidden": ability["is_hidden"],
-                        "slot": slot,
-                    }
-                applied_ability_slots.add(slot)
-        cleaned_data["abilities"] = [
-            abilities_by_slot[slot] for slot in sorted(abilities_by_slot)
-        ]
-        if self.target_gen < 3:
-            cleaned_data["abilities"] = []
-
-        stats = cleaned_data["stats"]
-        effort_by_stat = {
-            entry["stat"]: entry["effort"]
-            for entry in (cleaned_data["ev_yield"] or [])
-        }
-        applied_stats: Set[str] = set()
-        for past in sorted(pokemon_data.get("past_stats", []), key=ending_generation):
-            if ending_generation(past) < self.target_gen:
-                continue
-            for stat in past.get("stats", []):
-                stat_name = stat["stat"]["name"]
-                if "special" in stats and stat_name in {
-                    "special-attack",
-                    "special-defense",
-                }:
-                    continue
-                if stat_name in applied_stats:
-                    continue
-                if stat_name == "special":
-                    stats.pop("special-attack", None)
-                    stats.pop("special-defense", None)
-                    effort_by_stat.pop("special-attack", None)
-                    effort_by_stat.pop("special-defense", None)
-                stats[stat_name] = stat["base_stat"]
-                if stat["effort"] > 0:
-                    effort_by_stat[stat_name] = stat["effort"]
-                else:
-                    effort_by_stat.pop(stat_name, None)
-                applied_stats.add(stat_name)
-        cleaned_data["ev_yield"] = [
-            {"stat": stat, "effort": effort}
-            for stat, effort in effort_by_stat.items()
-        ]
-        if self.target_gen < 3:
-            cleaned_data["ev_yield"] = None
 
     def _add_default_species_data(
         self,
-        cleaned_data: Dict[str, Any],
-        pokemon_data: Dict[str, Any],
-        species_data: Dict[str, Any],
-        evolution_chain: Optional[Dict[str, Any]],
+        cleaned_data: dict[str, Any],
+        pokemon_data: dict[str, Any],
+        species_data: dict[str, Any],
+        evolution_chain: dict[str, Any] | None,
     ):
         """Adds extra fields that only apply to the default species."""
         cleaned_data.update(
@@ -666,10 +292,8 @@ class PokemonParser(GenerationParser):
                     if species_data.get("habitat")
                     else None
                 ),
-                "evolves_from_species": (
-                    species_data.get("evolves_from_species", {}).get("name")
-                    if species_data.get("evolves_from_species")
-                    else None
+                "evolves_from_species": evolution_parent(
+                    evolution_chain, species_data["name"]
                 ),
                 "pokedex_numbers": self._get_generation_pokedex_numbers(
                     species_data.get("pokedex_numbers", [])
@@ -721,8 +345,8 @@ class PokemonParser(GenerationParser):
             )
 
     def _get_pokemon_specific_data(
-        self, pokemon_data: Dict[str, Any]
-    ) -> Dict[str, Any]:
+        self, pokemon_data: dict[str, Any]
+    ) -> dict[str, Any]:
         """Returns fields that belong to a Pokémon variety rather than its species."""
         return {
             "base_experience": pokemon_data.get("base_experience"),
@@ -740,10 +364,10 @@ class PokemonParser(GenerationParser):
 
     def _collect_varieties_and_forms(
         self,
-        species_data: Dict[str, Any],
-        default_pokemon_data: Dict[str, Any],
-    ) -> Tuple[
-        List[Dict[str, Any]], List[Dict[str, str]], Set[str], Dict[str, Dict[str, Any]]
+        species_data: dict[str, Any],
+        default_pokemon_data: dict[str, Any],
+    ) -> tuple[
+        list[dict[str, Any]], list[dict[str, str]], set[str], dict[str, dict[str, Any]]
     ]:
         """
         Collects and categorizes all varieties and forms for a species.
@@ -762,9 +386,9 @@ class PokemonParser(GenerationParser):
         """
         varieties = self._get_varieties_with_default(species_data)
 
-        all_forms_in_gen: List[Dict[str, str]] = []
-        variety_form_urls: Set[str] = set()
-        variety_data_cache: Dict[str, Dict[str, Any]] = {}
+        all_forms_in_gen: list[dict[str, str]] = []
+        variety_form_urls: set[str] = set()
+        variety_data_cache: dict[str, dict[str, Any]] = {}
 
         # Process varieties to categorize their forms
         for variety in varieties:
@@ -772,8 +396,9 @@ class PokemonParser(GenerationParser):
             try:
                 pokemon_data = self.api_client.get(variety_url)
             except Exception as e:
-                logger.error(f"Failed to fetch variety data from {variety_url}: {e}")
-                continue
+                raise ParserExecutionError(
+                    f"Could not fetch variety {variety_url}"
+                ) from e
 
             # Cache the pokemon data for later use
             variety_data_cache[variety_url] = pokemon_data
@@ -803,9 +428,9 @@ class PokemonParser(GenerationParser):
                             {"name": pokemon_data["name"], "category": category}
                         )
                 except Exception as e:
-                    logger.error(
-                        f"Failed to fetch form data for variety {pokemon_data['name']} from {form_ref_url}: {e}"
-                    )
+                    raise ParserExecutionError(
+                        f"Could not fetch form {form_ref_url}"
+                    ) from e
 
         # Process cosmetic forms (forms that don't have varieties)
         all_form_urls = {form["url"] for form in default_pokemon_data.get("forms", [])}
@@ -817,25 +442,26 @@ class PokemonParser(GenerationParser):
                 ):
                     form_name = form_data.get("name")
                     if not form_name:
-                        logger.warning(
-                            f"Cosmetic form at {form_url} has no name, skipping"
+                        raise ParserExecutionError(
+                            f"Cosmetic form at {form_url} has no name"
                         )
-                        continue
                     all_forms_in_gen.append({"name": form_name, "category": "cosmetic"})
             except Exception as e:
-                logger.error(f"Failed to fetch cosmetic form data from {form_url}: {e}")
+                raise ParserExecutionError(
+                    f"Could not fetch cosmetic form {form_url}"
+                ) from e
 
         all_forms_in_gen.sort(key=lambda x: x["name"])
         return varieties, all_forms_in_gen, variety_form_urls, variety_data_cache
 
     def _process_default_pokemon(
         self,
-        default_variety: Dict[str, Any],
-        default_pokemon_data: Dict[str, Any],
-        species_data: Dict[str, Any],
-        evolution_chain: Optional[Dict[str, Any]],
-        all_forms_in_gen: List[Dict[str, str]],
-    ) -> Dict[str, Any]:
+        default_variety: dict[str, Any],
+        default_pokemon_data: dict[str, Any],
+        species_data: dict[str, Any],
+        evolution_chain: dict[str, Any] | None,
+        all_forms_in_gen: list[dict[str, str]],
+    ) -> dict[str, Any]:
         """
         Processes the default/primary Pokemon form.
 
@@ -864,11 +490,11 @@ class PokemonParser(GenerationParser):
 
     def _process_variety(
         self,
-        variety: Dict[str, Any],
-        species_data: Dict[str, Any],
-        default_template: Dict[str, Any],
-        variety_data_cache: Optional[Dict[str, Dict[str, Any]]] = None,
-    ) -> Optional[Tuple[str, Dict[str, Any]]]:
+        variety: dict[str, Any],
+        species_data: dict[str, Any],
+        default_template: dict[str, Any],
+        variety_data_cache: dict[str, dict[str, Any]] | None = None,
+    ) -> tuple[str, dict[str, Any]] | None:
         """
         Processes a single variety (variant or transformation).
 
@@ -937,8 +563,8 @@ class PokemonParser(GenerationParser):
     def _process_cosmetic_form(
         self,
         form_url: str,
-        default_template: Dict[str, Any],
-    ) -> Optional[Dict[str, Any]]:
+        default_template: dict[str, Any],
+    ) -> dict[str, Any] | None:
         """
         Processes a single cosmetic form.
 
@@ -949,11 +575,7 @@ class PokemonParser(GenerationParser):
         Returns:
             A summary dictionary or None if the form should be skipped
         """
-        try:
-            form_data = self.api_client.get(form_url)
-        except Exception as e:
-            logger.error(f"Failed to fetch cosmetic form data from {form_url}: {e}")
-            return None
+        form_data = self.api_client.get(form_url)
 
         if self._should_skip_form(form_data) or form_data.get("is_default"):
             return None
@@ -963,15 +585,9 @@ class PokemonParser(GenerationParser):
         cosmetic_data["name"] = form_data.get("name", default_template["name"])
         cosmetic_data["is_default"] = False
 
-        form_sprites = form_data.get("sprites", {})
-        if form_sprites:
-            cosmetic_data["sprites"]["front_default"] = form_sprites.get(
-                "front_default"
-            )
-            cosmetic_data["sprites"]["front_shiny"] = form_sprites.get("front_shiny")
-            cosmetic_data["sprites"]["back_default"] = form_sprites.get("back_default")
-            cosmetic_data["sprites"]["back_shiny"] = form_sprites.get("back_shiny")
-
+        cosmetic_data["sprites"] = select_sprites(
+            form_data.get("sprites", {}), self.target_gen, self.is_historical
+        )
         # Write to file
         output_dir = str(self.config.output_path(self.output_dir_key_cosmetic))
         write_json_file(output_dir, cosmetic_data["name"], cosmetic_data)
@@ -984,8 +600,8 @@ class PokemonParser(GenerationParser):
         }
 
     def process(
-        self, resource_ref: Dict[str, str]
-    ) -> Optional[Union[Dict[str, List[Dict[str, Any]]], str]]:
+        self, resource_ref: dict[str, str]
+    ) -> dict[str, list[dict[str, Any]]] | str | None:
         """
         Processes a Pokémon species and all its varieties and forms.
 
@@ -1009,13 +625,13 @@ class PokemonParser(GenerationParser):
             species_name = species_data["name"]
             evolution_chain_url = species_data.get("evolution_chain", {}).get("url")
             evolution_chain = (
-                self._get_evolution_chain(evolution_chain_url, species_data["name"])
+                self.evolutions.get_chain(evolution_chain_url, species_data["name"])
                 if evolution_chain_url
                 else None
             )
 
             # Initialize summaries
-            summaries: Dict[str, List[Dict[str, Any]]] = {
+            summaries: dict[str, list[dict[str, Any]]] = {
                 "pokemon": [],
                 "variant": [],
                 "transformation": [],

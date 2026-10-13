@@ -1,5 +1,5 @@
 from logging import getLogger
-from typing import Any, Dict, List, Optional, Union
+from typing import Any
 
 from ..api_client import ApiClient
 from ..config import Config
@@ -30,9 +30,9 @@ class AbilityParser(GenerationParser):
         self,
         config: Config,
         api_client: ApiClient,
-        generation_version_groups: Dict[int, List[str]],
+        generation_version_groups: dict[int, list[str]],
         target_gen: int,
-        generation_dex_map: Optional[Dict[int, str]] = None,
+        generation_dex_map: dict[int, str] | None = None,
         is_historical: bool = False,
     ):
         super().__init__(
@@ -47,9 +47,7 @@ class AbilityParser(GenerationParser):
         self.api_endpoint = "abilities"
         self.output_dir_key = "output_dir_ability"
 
-    def process(
-        self, resource_ref: Dict[str, str]
-    ) -> Optional[Union[Dict[str, Any], str]]:
+    def process(self, resource_ref: dict[str, str]) -> dict[str, Any] | str | None:
         """
         Processes a single ability from its API reference.
 
@@ -91,19 +89,15 @@ class AbilityParser(GenerationParser):
 
         except (KeyError, ValueError) as e:
             resource_name = resource_ref.get("name", "unknown")
-            return (
-                f"Parsing failed for {resource_name}: {type(e).__name__} - {e}"
-            )
+            return f"Parsing failed for {resource_name}: {type(e).__name__} - {e}"
         except Exception as e:
             resource_name = resource_ref.get("name", "unknown")
-            logger.error(
-                f"Unexpected error processing {resource_name}: {e}"
-            )
+            logger.error(f"Unexpected error processing {resource_name}: {e}")
             return f"Parsing failed for {resource_name}: {e}"
 
     def _get_effects_for_target_generation(
-        self, data: Dict[str, Any]
-    ) -> tuple[Dict[str, Optional[str]], Dict[str, Optional[str]]]:
+        self, data: dict[str, Any]
+    ) -> tuple[dict[str, str | None], dict[str, str | None]]:
         """Reconstructs effects using the nearest change after each target game."""
         target_groups = self.generation_version_groups.get(self.target_gen, [])
         current_effect = get_english_entry(data.get("effect_entries", []), "effect")
@@ -146,10 +140,7 @@ class AbilityParser(GenerationParser):
                 if previous_effect is not None and not effect_reconstructed:
                     effects[target_group] = previous_effect
                     effect_reconstructed = True
-                if (
-                    previous_short_effect is not None
-                    and not short_effect_reconstructed
-                ):
+                if previous_short_effect is not None and not short_effect_reconstructed:
                     short_effects[target_group] = previous_short_effect
                     short_effect_reconstructed = True
                 if effect_reconstructed and short_effect_reconstructed:

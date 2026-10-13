@@ -5,6 +5,7 @@ import pytest
 from pokedb.config import load_config
 from pokedb.parsers.ability import AbilityParser
 from pokedb.parsers.base import BaseParser
+from pokedb.parsers.history import apply_past_values
 from pokedb.parsers.item import ItemParser
 from pokedb.parsers.move import MoveParser
 from pokedb.parsers.pokemon import PokemonParser
@@ -329,9 +330,7 @@ def test_structured_pokeapi_history_is_applied():
         "past_abilities": [
             {
                 "generation": {"url": "https://example.test/generation/3/"},
-                "abilities": [
-                    {"ability": None, "is_hidden": False, "slot": 2}
-                ],
+                "abilities": [{"ability": None, "is_hidden": False, "slot": 2}],
             }
         ],
         "past_stats": [
@@ -348,7 +347,7 @@ def test_structured_pokeapi_history_is_applied():
         ],
     }
 
-    parser._apply_pokeapi_past_values(cleaned_data, pokemon_data)
+    apply_past_values(cleaned_data, pokemon_data, parser.target_gen)
 
     assert cleaned_data["types"] == ["electric"]
     assert cleaned_data["abilities"] == []
@@ -372,9 +371,7 @@ def test_structured_pokeapi_past_ability_replaces_current_ability():
     )
     cleaned_data = {
         "types": ["ghost", "poison"],
-        "abilities": [
-            {"name": "cursed-body", "is_hidden": False, "slot": 1}
-        ],
+        "abilities": [{"name": "cursed-body", "is_hidden": False, "slot": 1}],
         "stats": {},
         "ev_yield": [],
     }
@@ -395,7 +392,7 @@ def test_structured_pokeapi_past_ability_replaces_current_ability():
         ],
     }
 
-    parser._apply_pokeapi_past_values(cleaned_data, pokemon_data)
+    apply_past_values(cleaned_data, pokemon_data, parser.target_gen)
 
     assert cleaned_data["abilities"][0]["name"] == "levitate"
 
@@ -439,7 +436,7 @@ def test_evolution_details_preserve_each_condition():
         target_gen=9,
         generation_dex_map={},
     )
-    chain = parser._get_evolution_chain(chain_url)
+    chain = parser.evolutions.get_chain(chain_url)
     details = chain["evolves_to"][0]["evolution_details"]
 
     assert len(details) == 2
@@ -482,7 +479,7 @@ def test_evolution_chain_promotes_a_future_baby_root():
         generation_dex_map={},
     )
 
-    chain = parser._get_evolution_chain(chain_url)
+    chain = parser.evolutions.get_chain(chain_url)
 
     assert chain == {"species_name": "chansey", "evolves_to": []}
 
@@ -520,7 +517,7 @@ def test_empty_special_relationship_is_not_reported_as_evolution():
         generation_dex_map={},
     )
 
-    assert parser._get_evolution_chain(chain_url)["evolves_to"] == []
+    assert parser.evolutions.get_chain(chain_url)["evolves_to"] == []
 
 
 def test_evolution_details_use_latest_method_for_target_generation():
@@ -551,7 +548,7 @@ def test_evolution_details_use_latest_method_for_target_generation():
         },
     ]
 
-    result = parser._get_evolution_details_for_target(details)
+    result = parser.evolutions.details_for_target(details)
 
     assert len(result) == 1
     assert result[0]["item"] == "ice-stone"
@@ -589,7 +586,7 @@ def test_evolution_details_can_differ_within_one_generation():
         },
     ]
 
-    result = parser._get_evolution_details_for_target(details)
+    result = parser.evolutions.details_for_target(details)
 
     assert [(entry["location"], entry["version_groups"]) for entry in result] == [
         ("kalos-route-20", ["x-y"]),
@@ -633,6 +630,27 @@ def test_location_evolution_excludes_games_without_that_region():
         }
     ]
 
-    result = parser._get_evolution_details_for_target(details)
+    result = parser.evolutions.details_for_target(details)
 
     assert result[0]["version_groups"] == ["diamond-pearl", "platinum"]
+
+
+def test_special_relationship_target_has_its_own_chain(offline_api, offline_config):
+    from conftest import BASE
+
+    offline_api.responses[f"{BASE}evolution-chain/special/"] = {
+        "chain": {
+            "species": {"name": "phione"},
+            "evolves_to": [
+                {
+                    "species": {"name": "manaphy"},
+                    "evolution_details": [],
+                    "evolves_to": [],
+                }
+            ],
+        }
+    }
+    parser = PokemonParser(offline_config, offline_api, {1: ["red-blue"]}, 1, {})
+    assert parser.evolutions.get_chain(
+        f"{BASE}evolution-chain/special/", "manaphy"
+    ) == {"species_name": "manaphy", "evolves_to": []}
