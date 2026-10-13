@@ -1,7 +1,7 @@
 # Data contract
 
 This is the version-controlled reference for generated PokéDB data. See the
-[README](../README.md) for setup and [CONTRIBUTING.md](../CONTRIBUTING.md) for publication.
+[README](../README.md) for setup and [Operations](operations.md) for publication.
 
 ## Generation catalogs
 
@@ -9,6 +9,24 @@ Each generation is written below `output_root/genN`. A generation is a cumulativ
 catalog: it includes resources introduced by or before that generation, but does not
 imply that every resource is available in every game. Version-specific maps are used
 where PokéAPI supplies that detail.
+
+## Resource layout
+
+Every generation has an `index.json`. Its resource summary keys map to these directories; the `pokemon` parser generates all four Pokémon categories.
+
+| Index key | Resource directory |
+| --- | --- |
+| `ability` | `ability/` |
+| `item` | `item/` |
+| `move` | `move/` |
+| `pokemon` | `pokemon/default/` |
+| `variant` | `pokemon/variant/` |
+| `transformation` | `pokemon/transformation/` |
+| `cosmetic` | `pokemon/cosmetic/` |
+
+Resource filenames are `<upstream-name>.json`. For example, Generation 9 Pikachu is `gen9/pokemon/default/pikachu.json`. Index summaries provide identifiers; combine them with these directories to fetch full records.
+
+The executable field requirements and cross-resource constraints are in [`src/pokedb/validation.py`](../src/pokedb/validation.py). Representative offline outputs are exercised by `tests/test_parsers.py` and `tests/test_validation.py`.
 
 ## Index and validation
 
@@ -111,4 +129,3 @@ Historical `evolves_from_species` is derived from the same reconstructed chain a
 The index's `metadata.generated_resources` distinguishes generated catalogs (including legitimately empty categories) from omitted catalogs. References are checked whenever their target catalog was generated. `metadata.resource_provenance` records package/dependency versions and the optional source commit for each catalog. `metadata.content_sha256` covers canonical resource JSON and relative paths.
 
 Regenerate all output with `python -m pokedb --all --gen all --force` when upgrading from schemas 1–4. Consumers must check the schema version before loading data.
-

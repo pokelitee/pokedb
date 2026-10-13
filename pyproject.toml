@@ -36,7 +36,7 @@ dev = [
 
 [project.urls]
 Homepage = "https://github.com/pokelitee/pokedb"
-Documentation = "https://github.com/pokelitee/pokedb/wiki"
+Documentation = "https://github.com/pokelitee/pokedb/tree/main/docs"
 Repository = "https://github.com/pokelitee/pokedb"
 Issues = "https://github.com/pokelitee/pokedb/issues"
 
