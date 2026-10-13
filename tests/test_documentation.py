@@ -8,7 +8,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 def test_documented_schema_version_matches_runtime_contract():
     documents = [
-        PROJECT_ROOT / "README.md",
+        PROJECT_ROOT / "docs" / "data-contract.md",
         PROJECT_ROOT / ".github" / "data-branch-README.md",
     ]
 
