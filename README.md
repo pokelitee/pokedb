@@ -1,39 +1,16 @@
 # PokéDB - Pokémon Data Collector
 
 [![Update Pokémon Data](https://github.com/pokelitee/pokedb/actions/workflows/update-data.yaml/badge.svg)](https://github.com/pokelitee/pokedb/actions/workflows/update-data.yaml)
-![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)
+![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A Python tool for creating a comprehensive, generation-aware Pokémon database from the structured [PokéAPI](https://pokeapi.co/).
 
 Parsed generation data is automatically saved to the `data` branch weekly.
 
-Like the organization's `leak-duck` project, `main` holds the source, `data` holds generated snapshots, and GitHub Pages serves the JSON at [pokelitee.github.io/pokedb](https://pokelitee.github.io/pokedb/). For example, [gen9/index.json](https://pokelitee.github.io/pokedb/gen9/index.json) lists the latest published Generation 9 catalog. Existing raw GitHub endpoints continue to work. Check the schema version in the published index: deploying Pages does not upgrade previously generated data.
+`main` holds the source, `data` holds generated snapshots, and GitHub Pages serves the JSON at [pokelitee.github.io/pokedb](https://pokelitee.github.io/pokedb/). For example, [gen9/index.json](https://pokelitee.github.io/pokedb/gen9/index.json) lists the latest published Generation 9 catalog. Existing raw GitHub endpoints continue to work. Check the schema version in the published index: deploying Pages does not upgrade previously generated data.
 
-## Architecture
-
-```text
-pokedb/
-|-- src/
-|   `-- pokedb/
-|       |-- __main__.py          # CLI arguments and exit handling
-|       |-- pipeline.py          # Locked generation workflow
-|       |-- resources.py         # Shared schema and resource layout
-|       |-- locking.py           # Cross-platform generation locks
-|       |-- api_client.py        # API client and caching
-|       |-- config.py            # Typed configuration and validation
-|       |-- default_config.json  # Packaged default values
-|       |-- output.py            # Transactional output publishing
-|       |-- runner.py            # Parser orchestration and metadata
-|       |-- validation.py        # Runtime output schema and integrity checks
-|       |-- parsers/             # Ability, item, move, and Pokémon parsers
-|       `-- utils/               # Focused shared helpers
-|-- .github/                     # Workflows and data-branch documentation
-|-- tests/
-`-- pyproject.toml               # Package metadata and dependencies
-```
-
-## Core Features
+## Features
 
 - Uses PokéAPI as its sole runtime data source.
 - Reconstructs generation-specific types, abilities, stats, EV yields, moves, and evolutions.
@@ -42,12 +19,16 @@ pokedb/
 - Generates data for the latest, a specific, or every generation.
 - Writes structured JSON with a generation-level index.
 
-## Quick Start
+## Getting started
+
+Use Python 3.12+: activations are `.venv\Scripts\Activate.ps1` in PowerShell or `source .venv/bin/activate` in bash.
 
 ```bash
 git clone https://github.com/pokelitee/pokedb.git
 cd pokedb
-pip install -e .
+python -m venv .venv
+# Activate .venv using your shell's activation command.
+python -m pip install -e .
 
 # Parse every resource for the latest generation
 python -m pokedb --all
@@ -61,6 +42,10 @@ python -m pokedb --all --gen 3
 # Parse without persistent caches
 python -m pokedb --all --no-cache
 ```
+
+## Architecture
+
+`src/pokedb/` separates the CLI, configuration, API access, parser orchestration, and resource validation. Generation uses locks and staging so failed runs do not replace the previous output. See [Contributing](CONTRIBUTING.md#architecture) for the module layout.
 
 ## Configuration
 
@@ -97,118 +82,15 @@ Python callers should import `Config` and `load_config` from `pokedb` or `pokedb
 
 ## Documentation
 
-See the [project wiki](https://github.com/pokelitee/pokedb/wiki) for API usage,
-the data model, generation semantics, and configuration details. The wiki is
-maintained in its dedicated Git repository.
+- [Data contract and schema v5 migration](docs/data-contract.md): generation semantics, field guarantees, validation, and compatibility.
+- [Contributing](CONTRIBUTING.md): local checks, dependency updates, CI, and dataset publication.
 
-## Data contract and validation
+Keep contract changes in this repository so documentation and implementation can be reviewed together.
 
-Each generation is written below `output_root/genN`. A generation is a cumulative
-catalog: it includes resources introduced by or before that generation, but does not
-imply that every resource is available in every game. Version-specific maps are used
-where PokéAPI supplies that detail.
+## Contributing
 
-The generation `index.json` contains schema version `5`, PokéAPI source metadata,
-version groups and game versions, resource summaries, counts, generated-catalog
-identifiers, a resource-content digest, and per-catalog generator provenance. All resource keys are always present,
-including empty lists for mechanics or categories with no entries. Individual files
-live in the corresponding `ability`, `item`, `move`, or `pokemon` subdirectory.
-
-Generated data is validated before the staging tree is published. Validation checks:
-
-- index counts, unique names, and exact agreement between summaries and files;
-- required scalar and collection types for each resource;
-- version-group maps for generation-specific ability and move fields;
-- Pokémon stat names and ranges, type counts, ability and EV entries, learnsets,
-  and references to generated abilities, moves, items, and evolution species when
-  the corresponding catalogs are present.
-
-Identifiers originating in PokéAPI retain their canonical kebab-case spelling, such
-as `scarlet-violet` and `special-attack`. Structural field names remain snake_case.
-Ability `effect` and `short_effect` are always objects keyed by every version group
-in the generated generation, with string or `null` values. This keeps their types
-stable even when an ability has no historical changes.
-
-Evolution conditions are reconstructed for the target generation instead of copying
-every historical condition from PokéAPI. Each condition includes
-`introduced_in_version_group` and the target `version_groups` for which it was
-selected. This means, for example, Gen 9 Glaceon uses the Ice Stone condition rather
-than retaining the obsolete Ice Rock locations from Generations 4–7.
-Each evolution edge has an `availability` value. `available` edges contain one or
-more applicable conditions; `unavailable` means both species existed but PokéAPI has
-no applicable method for the target generation. Future baby species are removed and
-their historical descendant is promoted to the chain root. Empty special relationships
-such as Phione and Manaphy are not represented as evolutions.
-
-For historical Pokémon data, PokéAPI `past_types`, `past_abilities`, and `past_stats`
-reconstruct the supported values. Generation 1 uses its original single `special`
-stat. Abilities are empty before Generation 3, while `ev_yield` is `null` because
-Generations 1–2 used Stat Experience rather than modern EV yields.
-
-The schema distinguishes an empty collection (the mechanic applies but has no
-entries) from `null` (the mechanic is unavailable or inapplicable for that
-generation).
-
-PokéAPI does not track per-generation history for every scalar field. For
-historical output, current-only Pokémon values such as base experience,
-friendship, capture rate, breeding fields, growth rate, and form switching are
-backfilled with their current PokéAPI value rather than discarded, as are
-current-only move fields (`priority`, `target`, `metadata`, `stat_changes`) and
-item fields (`fling_power`, `fling_effect`, `attributes`, `category`,
-`effect`, `short_effect`, `sprite`). Every move, item, and Pokémon record
-carries an `unverified_historical_fields` array (empty for the latest
-generation) naming exactly which of its fields are this best-effort backfill
-rather than a value verified for that generation. Pre-Generation 4 move damage
-class is derived from the reconstructed move type instead of being backfilled.
-Historical sprites contain only the target generation's version assets, and
-cries resolve to the `legacy` (Generations 1-5) or `latest` (Generation 6+)
-recording PokéAPI provides for that generation, since PokéAPI versions cries
-directly rather than only exposing a current value.
-
-PokéAPI does not expose exact history for every scalar or every same-generation
-game difference. Where a field cannot be resolved at all for a generation,
-PokéDB records it as `null` instead of inferring unsupported data.
-
-PokéAPI `game_indices` are also not a complete item-introduction history: many
-Generation 1–2 items only have later indices, and some current items have none.
-The item catalog therefore combines structured game-index evidence with item
-references from generated machines, held items, and evolution conditions. This
-guarantees referentially complete output without scraping a secondary source, but it
-does not claim to enumerate every unreferenced item available in each historical game.
-When generating all resources, items run after moves and Pokémon so these references
-are available. For the same guarantee in a partial run, regenerate `item` together
-with or after the resources that reference it.
-
-Outputs generated with schema versions 1–4 are incompatible. Regenerate the complete
-dataset with `python -m pokedb --all --gen all --force`; do not mix old and new
-resource files in a partial run.
-
-Python callers can validate an existing generation explicitly:
-
-```python
-from pathlib import Path
-
-from pokedb import validate_generation_output
-
-validate_generation_output(Path(".output/gen9"))
-```
-
-## Schema v5 migration
-
-Schema version 5 changes `move.machine` from a scalar into an object keyed by every target version group. Each value is an item identifier or `null` when no assignment is recorded for that game. Item catalogs include every referenced machine assignment.
-
-Items replace the removed `cost` field with `prices`, an object keyed by every target version group. A game's value is `null` when PokéAPI has no price record. Otherwise it maps currency identifiers to `purchase_price` and `sell_price`, each a non-negative integer or `null` when the item cannot be bought or sold. Prices are not inferred across games or currencies. These values come from versioned PokéAPI price records and are not listed as unverified historical fields.
-
-Historical `evolves_from_species` is derived from the same reconstructed chain as `evolution_chain`. Historical cosmetic records contain only form-specific generation assets; when PokéAPI has no such assets, their `sprites` object is empty rather than borrowing another form's images.
-
-The index's `metadata.generated_resources` distinguishes generated catalogs (including legitimately empty categories) from omitted catalogs. References are checked whenever their target catalog was generated. `metadata.resource_provenance` records package/dependency versions and the optional source commit for each catalog. `metadata.content_sha256` covers canonical resource JSON and relative paths.
-
-Regenerate all output with `python -m pokedb --all --gen all --force` when upgrading from schemas 1–4. Consumers must check the schema version before loading data.
-
-## Development and releases
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for local checks, the branching model, locked CI dependencies, publication safeguards, and required GitHub repository settings. Generated snapshots are published with immutable `data-v<schema>-<run-id>-<attempt>` tags; use a tag or commit in place of `data` in raw GitHub URLs to pin a dataset version.
+Follow the [organization contribution guide](https://github.com/pokelitee/.github/blob/main/CONTRIBUTING.md) and the [project instructions](CONTRIBUTING.md). Use a short-lived branch and a pull request into `main`.
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE).
+This project is licensed under the [MIT License](LICENSE).

@@ -1,10 +1,10 @@
 # Contributing
 
-The [organization contribution guide](https://github.com/pokelitee/.github/blob/main/CONTRIBUTING.md) supplies shared guidance; the project-specific checks and data contract below also apply.
+Follow the [organization contribution guide](https://github.com/pokelitee/.github/blob/main/CONTRIBUTING.md), the project-specific instructions below, and the [data contract](docs/data-contract.md).
 
 Use short-lived feature or fix branches and open pull requests into `main`. All changes to `main` require a pull request and a passing `CI gate`, including changes by administrators. Resolve review conversations before merging. Squash merging focused changes is recommended; merge and rebase remain available, matching the other organization repositories. GitHub automatically deletes merged branches.
 
-The `data` branch contains generated artifacts only; do not merge it into source branches or edit its datasets by hand. Like `leak-duck`, it accepts normal automated data updates while its history is protected against deletion and force pushes. It does not require a pull request for every generated snapshot. There is no permanent `dev` branch. Unmerged work from the retired branch is preserved at the annotated `archive/dev-2026-10-13` tag; that artwork change has not been merged into `main`.
+The `data` branch contains generated artifacts only; do not merge it into source branches or edit its datasets by hand. Like `leak-duck`, it accepts normal automated data updates while its history is protected against deletion and force pushes. It does not require a pull request for every generated snapshot. There is no permanent `dev` branch. Historical work is preserved in `archive/dev-*` tags.
 
 ## Local checks
 
@@ -24,6 +24,29 @@ python scripts/check_package.py
 CI runs these checks on Ubuntu and Windows with Python 3.12 and 3.13. Tests use offline API fixtures. The wheel smoke check builds source and wheel distributions, installs the wheel in a clean environment, and checks the CLI and packaged configuration outside the checkout.
 
 Package consumers use the supported dependency ranges in `pyproject.toml`. CI and scheduled generation use exact dependency versions in `requirements/`. Update the pinned files together, keeping transitive dependencies consistent, then run the complete checks. Dependabot opens weekly updates for Python dependencies and pinned GitHub Actions.
+
+## Architecture
+
+```text
+pokedb/
+|-- src/
+|   `-- pokedb/
+|       |-- __main__.py          # CLI arguments and exit handling
+|       |-- pipeline.py          # Locked generation workflow
+|       |-- resources.py         # Shared schema and resource layout
+|       |-- locking.py           # Cross-platform generation locks
+|       |-- api_client.py        # API client and caching
+|       |-- config.py            # Typed configuration and validation
+|       |-- default_config.json  # Packaged default values
+|       |-- output.py            # Transactional output publishing
+|       |-- runner.py            # Parser orchestration and metadata
+|       |-- validation.py        # Runtime output schema and integrity checks
+|       |-- parsers/             # Ability, item, move, and Pokémon parsers
+|       `-- utils/               # Focused shared helpers
+|-- .github/                     # Workflows and data-branch documentation
+|-- tests/
+`-- pyproject.toml               # Package metadata and dependencies
+```
 
 ## Dataset publication
 
