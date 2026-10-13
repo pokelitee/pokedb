@@ -27,7 +27,7 @@ def test_static_api_examples_use_the_pokemon_category_directory():
 
 
 def test_data_workflow_regenerates_every_generation_and_documentation():
-    workflow = (PROJECT_ROOT / ".github" / "workflows" / "update-data.yaml").read_text(
+    workflow = (PROJECT_ROOT / ".github" / "workflows" / "update-data.yml").read_text(
         encoding="utf-8"
     )
 
