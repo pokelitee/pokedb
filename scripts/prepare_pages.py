@@ -1,8 +1,9 @@
-"""Add a discovery page to an unchanged published dataset snapshot."""
+"""Assemble the API explorer around an unchanged published dataset snapshot."""
 
 import argparse
 import json
 import re
+import shutil
 from html import escape
 from pathlib import Path
 
@@ -34,26 +35,27 @@ def prepare_pages(root: Path, data_commit: str) -> None:
         for generation, schema in sorted(generations)
     )
     snapshot = f"https://github.com/pokelitee/pokedb/tree/{data_commit}"
-    document = f"""<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PokéDB JSON API</title>
-</head>
-<body>
-  <h1>PokéDB JSON API</h1>
-  <p>Generation indexes link to the resource catalogs. Use the same relative
-  paths below this site to request individual JSON files.</p>
-  <ul>{links}</ul>
-  <p>Each index declares its dataset schema. Deploying this site does not
-  regenerate data or upgrade older snapshots.</p>
-  <p><a href="{escape(snapshot, quote=True)}">Published data commit</a>:
-  <code>{data_commit}</code></p>
-  <p><a href="https://github.com/pokelitee/pokedb">Source and documentation</a></p>
-</body>
-</html>
-"""
+    template = Path(__file__).resolve().parents[1] / "site"
+    shutil.copytree(template, root, dirs_exist_ok=True)
+    document = (template / "index.html").read_text(encoding="utf-8")
+    document = document.replace("<!-- generation-links -->", links).replace(
+        "<!-- snapshot-link -->",
+        f'<a href="{escape(snapshot, quote=True)}"><code>{data_commit}</code></a>',
+    )
+    (root / "catalog.json").write_text(
+        json.dumps(
+            {
+                "generations": [
+                    {"generation": generation, "schema": schema}
+                    for generation, schema in sorted(generations)
+                ],
+                "commit": data_commit,
+            },
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
     (root / "index.html").write_text(document, encoding="utf-8")
     (root / ".nojekyll").touch()
 

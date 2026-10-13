@@ -31,6 +31,18 @@ def test_pages_preserves_snapshots_and_reports_their_actual_schema(tmp_path):
     assert "Generation 9</a> (schema 4)" in document
     assert "https://github.com/pokelitee/pokedb/tree/" + "a" * 40 in document
     assert (tmp_path / ".nojekyll").exists()
+    catalog = json.loads((tmp_path / "catalog.json").read_text(encoding="utf-8"))
+    assert catalog == {
+        "generations": [
+            {"generation": 1, "schema": 5},
+            {"generation": 9, "schema": 4},
+        ],
+        "commit": "a" * 40,
+    }
+    assert (tmp_path / "assets/app.js").is_file()
+    assert (tmp_path / "assets/styles.css").is_file()
+    assert "<!-- generation-links -->" not in document
+    assert "<!-- snapshot-link -->" not in document
     assert all(path.read_bytes() == contents for path, contents in before.items())
 
 

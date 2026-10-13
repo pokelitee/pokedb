@@ -42,14 +42,29 @@ pokedb/
 |       |-- parsers/             # Ability, item, move, and Pokémon parsers
 |       `-- utils/               # Focused shared helpers
 |-- .github/                     # Workflows and data-branch documentation
+|-- site/                        # Static API explorer and landing-page assets
+|-- scripts/prepare_pages.py     # Snapshot metadata and Pages assembly
 |-- tests/
 `-- pyproject.toml               # Package metadata and dependencies
 ```
 
-## Making changes
+## API frontend
+
+The Pages frontend uses plain HTML, CSS, and JavaScript in `site/`, without a Node build or runtime dependencies. `scripts/prepare_pages.py` copies these assets into an exported data snapshot, generates `catalog.json` with generation/schema pairs and the data commit, and fills direct links in the HTML for visitors without JavaScript. It does not modify generation indexes or resource records.
+
+To preview a local generated snapshot, assemble it into an untracked directory and serve it over HTTP (opening HTML directly cannot fetch JSON):
+
+```sh
+python scripts/prepare_pages.py .output --data-commit <full-data-commit-sha>
+python -m http.server 8000 --directory .output
+```
+
+Open `http://localhost:8000/`. The explorer loads one generation index at a time and full resource records only on selection. Resource directory mappings in `site/assets/app.js` must follow the [data contract](data-contract.md#resource-layout). Check generation switching, filtering, empty catalogs, failed requests, keyboard navigation, and narrow layouts when changing the frontend.
+
+## Making code changes
 
 Keep resource paths, parser dependencies, and the schema version centralized in `src/pokedb/resources.py`. Extend existing parsers and utilities rather than adding parallel generation paths. Tests and captured upstream fixtures live in `tests/`; fixture READMEs record their provenance.
 
 Changes to fields or generation semantics must update the [data contract](data-contract.md), its migration section, validation, and representative fixtures. Before publishing a contract change, verify complete generation against current PokéAPI as described in [Operations](operations.md).
 
-The required PR check is `CI gate`. The reusable matrix in `.github/workflows/checks.yaml` supplies its result; a failed or cancelled matrix must not allow merging.
+The required PR check is `CI gate`. The reusable matrix in `.github/workflows/checks.yml` supplies its result; a failed or cancelled matrix must not allow merging.

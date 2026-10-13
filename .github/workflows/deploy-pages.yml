@@ -1,13 +1,14 @@
-name: Deploy API Data
+name: Deploy Pages
 
 on:
   push:
     branches: [main]
     paths:
-      - ".github/workflows/deploy-pages.yaml"
+      - ".github/workflows/deploy-pages.yml"
       - "scripts/prepare_pages.py"
+      - "site/**"
   workflow_run:
-    workflows: ["Update PokéDB Data"]
+    workflows: ["Update Data"]
     types: [completed]
   workflow_dispatch:
 
@@ -39,6 +40,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: main
+          persist-credentials: false
       - name: Assemble published data
         run: |
           git fetch --depth=1 origin data
@@ -51,6 +53,6 @@ jobs:
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: _site
-      - name: Deploy to GitHub Pages
+      - name: Deploy Pages
         id: deployment
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
