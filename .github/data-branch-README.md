@@ -50,14 +50,14 @@ is empty.
 
 ## Static API
 
-Use `https://raw.githubusercontent.com/pokelitee/pokedb/data` as the base URL.
+Use `https://pokelitee.github.io/pokedb` as the base URL. The [API index](https://pokelitee.github.io/pokedb/) identifies each generation's published schema and the data commit. The older `https://raw.githubusercontent.com/pokelitee/pokedb/data` base URL serves the same resource files and remains supported.
 
 - Generation 9 index:
-  [`/gen9/index.json`](https://raw.githubusercontent.com/pokelitee/pokedb/data/gen9/index.json)
+  [`/gen9/index.json`](https://pokelitee.github.io/pokedb/gen9/index.json)
 - Generation 9 Pikachu:
-  [`/gen9/pokemon/default/pikachu.json`](https://raw.githubusercontent.com/pokelitee/pokedb/data/gen9/pokemon/default/pikachu.json)
+  [`/gen9/pokemon/default/pikachu.json`](https://pokelitee.github.io/pokedb/gen9/pokemon/default/pikachu.json)
 - Generation 9 Ice Stone:
-  [`/gen9/item/ice-stone.json`](https://raw.githubusercontent.com/pokelitee/pokedb/data/gen9/item/ice-stone.json)
+  [`/gen9/item/ice-stone.json`](https://pokelitee.github.io/pokedb/gen9/item/ice-stone.json)
 
 See the project [API documentation](https://github.com/pokelitee/pokedb/wiki/API-Documentation)
 and [data model](https://github.com/pokelitee/pokedb/wiki/Data-Model) for the
@@ -68,7 +68,7 @@ Machine assignments are objects keyed by version group, with item identifiers or
 chain. Historical cosmetic sprites are empty when no form-specific historical
 assets are available.
 
-For reproducible consumption, replace `data` in the base URL with an immutable
+For reproducible consumption, use the raw GitHub base URL and replace `data` with an immutable
 `data-v<schema>-<run-id>-<attempt>` tag or a full data commit SHA.
 
 ## Compatibility
