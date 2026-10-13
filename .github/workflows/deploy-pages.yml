@@ -6,6 +6,7 @@ on:
     paths:
       - ".github/workflows/deploy-pages.yml"
       - "scripts/prepare_pages.py"
+      - "site/**"
   workflow_run:
     workflows: ["Update Data"]
     types: [completed]
