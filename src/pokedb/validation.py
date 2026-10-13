@@ -43,7 +43,7 @@ STAT_NAMES = MODERN_STAT_NAMES | GENERATION_ONE_STAT_NAMES
 def _is_identifier(value: Any) -> bool:
     return (
         isinstance(value, str)
-        and re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", value) is not None
+        and re.fullmatch(r"[a-z0-9]+(?:-+[a-z0-9]+)*", value) is not None
     )
 
 
