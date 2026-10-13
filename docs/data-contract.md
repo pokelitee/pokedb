@@ -3,11 +3,14 @@
 This is the version-controlled reference for generated PokéDB data. See the
 [README](../README.md) for setup and [CONTRIBUTING.md](../CONTRIBUTING.md) for publication.
 
+## Generation catalogs
 
 Each generation is written below `output_root/genN`. A generation is a cumulative
 catalog: it includes resources introduced by or before that generation, but does not
 imply that every resource is available in every game. Version-specific maps are used
 where PokéAPI supplies that detail.
+
+## Index and validation
 
 The generation `index.json` contains schema version `5`, PokéAPI source metadata,
 version groups and game versions, resource summaries, counts, generated-catalog
@@ -24,11 +27,15 @@ Generated data is validated before the staging tree is published. Validation che
   and references to generated abilities, moves, items, and evolution species when
   the corresponding catalogs are present.
 
+## Identifiers and version maps
+
 Identifiers originating in PokéAPI retain their exact upstream spelling, such
 as `scarlet-violet`, `special-attack`, and `xtransceiver--red`. Structural field names remain snake_case.
 Ability `effect` and `short_effect` are always objects keyed by every version group
 in the generated generation, with string or `null` values. This keeps their types
 stable even when an ability has no historical changes.
+
+## Evolution chains
 
 Evolution conditions are reconstructed for the target generation instead of copying
 every historical condition from PokéAPI. Each condition includes
@@ -80,6 +87,8 @@ does not claim to enumerate every unreferenced item available in each historical
 When generating all resources, items run after moves and Pokémon so these references
 are available. For the same guarantee in a partial run, regenerate `item` together
 with or after the resources that reference it.
+
+## Validate an existing generation
 
 Python callers can validate an existing generation explicitly:
 
