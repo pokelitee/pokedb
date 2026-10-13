@@ -8,13 +8,14 @@ const paths = {
   item: ["Items", "item"],
 };
 const ui = Object.fromEntries(
-  ["generation", "resource", "filter", "status", "error", "results", "more", "endpoint", "example", "json"].map(
+  ["generation", "resource", "filter", "status", "error", "results", "pagination", "previous", "next", "page", "endpoint", "example", "json"].map(
     (id) => [id, document.getElementById(id)],
   ),
 );
 let index;
 let rows = [];
-let visible = 50;
+const pageSize = 50;
+let page = 1;
 let catalogRequest;
 let recordRequest;
 
@@ -62,8 +63,11 @@ function render() {
   clearPreview();
   const term = ui.filter.value.trim().toLowerCase();
   const filtered = rows.filter((row) => row.name.toLowerCase().includes(term) || String(row.id) === term);
+  const pages = Math.max(1, Math.ceil(filtered.length / pageSize));
+  page = Math.min(page, pages);
+  const start = (page - 1) * pageSize;
   ui.results.replaceChildren();
-  for (const record of filtered.slice(0, visible)) {
+  for (const record of filtered.slice(start, start + pageSize)) {
     const button = document.createElement("button");
     button.type = "button";
     button.textContent = record.name;
@@ -74,14 +78,20 @@ function render() {
     button.addEventListener("click", () => preview(record, button));
     ui.results.append(button);
   }
-  ui.more.hidden = filtered.length <= visible;
-  ui.status.textContent = `${filtered.length.toLocaleString()} matching records · Schema ${index.metadata.schema_version} · Showing ${Math.min(visible, filtered.length)}`;
+  ui.results.scrollTop = 0;
+  ui.pagination.hidden = filtered.length === 0;
+  ui.previous.disabled = page === 1;
+  ui.next.disabled = page === pages;
+  ui.page.textContent = `Page ${page} of ${pages.toLocaleString()}`;
+  ui.status.textContent = filtered.length
+    ? `Showing ${(start + 1).toLocaleString()}–${Math.min(start + pageSize, filtered.length).toLocaleString()} of ${filtered.length.toLocaleString()} matching records · Schema ${index.metadata.schema_version}`
+    : `No matching records · Schema ${index.metadata.schema_version}`;
 }
 
 function selectResource() {
   ui.error.hidden = true;
   rows = index[ui.resource.value] ?? [];
-  visible = 50;
+  page = 1;
   render();
 }
 
@@ -93,7 +103,7 @@ async function selectGeneration() {
   ui.resource.disabled = true;
   ui.filter.disabled = true;
   ui.results.replaceChildren();
-  ui.more.hidden = true;
+  ui.pagination.hidden = true;
   ui.status.textContent = "Loading generation index…";
   const selected = ui.resource.value;
   try {
@@ -115,8 +125,14 @@ async function selectGeneration() {
 
 ui.generation.addEventListener("change", selectGeneration);
 ui.resource.addEventListener("change", selectResource);
-ui.filter.addEventListener("input", () => { visible = 50; render(); });
-ui.more.addEventListener("click", () => { visible += 50; render(); });
+ui.filter.addEventListener("input", () => { page = 1; render(); });
+function changePage(offset) {
+  page += offset;
+  render();
+  if (document.activeElement.disabled) ui.results.querySelector("button")?.focus();
+}
+ui.previous.addEventListener("click", () => changePage(-1));
+ui.next.addEventListener("click", () => changePage(1));
 
 try {
   const catalog = await loadJSON("catalog.json");

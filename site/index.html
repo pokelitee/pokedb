@@ -30,7 +30,14 @@
         <p id="status" role="status" aria-live="polite">Loading catalogs…</p>
         <p id="error" role="alert" hidden></p>
         <div class="explorer-grid">
-          <div><div id="results" class="results" aria-label="Resource records"></div><button id="more" hidden>Show more</button></div>
+          <div>
+            <div id="results" class="results" aria-label="Resource records"></div>
+            <nav id="pagination" class="pagination" aria-label="Resource pages" hidden>
+              <button id="previous" type="button" aria-controls="results">Previous</button>
+              <span id="page"></span>
+              <button id="next" type="button" aria-controls="results">Next</button>
+            </nav>
+          </div>
           <div class="preview">
             <h3>Request</h3>
             <p><a id="endpoint" hidden>Open JSON</a></p>
