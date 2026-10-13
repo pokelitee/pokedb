@@ -1,6 +1,8 @@
 # Contributing
 
-Use short-lived feature or fix branches and open pull requests into `main`. Squash merge focused changes and delete merged branches. The `data` branch contains generated artifacts only; do not merge it into source branches or edit its datasets by hand. A permanent `dev` branch is not required. Any existing unmerged work on it must be reviewed before retiring it.
+Use short-lived feature or fix branches and open pull requests into `main`. All changes to `main` require a pull request and a passing `CI gate`, including changes by administrators. Resolve review conversations before merging. Squash merging focused changes is recommended; merge and rebase remain available, matching the other organization repositories. GitHub automatically deletes merged branches.
+
+The `data` branch contains generated artifacts only; do not merge it into source branches or edit its datasets by hand. Like `leak-duck`, it accepts normal automated data updates while its history is protected against deletion and force pushes. It does not require a pull request for every generated snapshot. There is no permanent `dev` branch. Unmerged work from the retired branch is preserved at the annotated `archive/dev-2026-10-13` tag; that artwork change has not been merged into `main`.
 
 ## Local checks
 
@@ -27,17 +29,19 @@ The scheduled and manual update workflow only publishes from `main`. It runs the
 
 Consumers can pin a dataset tag or full data commit in raw GitHub URLs instead of using the mutable `data` branch. Preserve published dataset tags. Schema changes require a schema-version increment, migration documentation, and complete regeneration; partial updates cannot mix schema versions.
 
+Like `leak-duck`, GitHub Pages serves the published `data` snapshot as JSON endpoints at `https://pokelitee.github.io/pokedb/`. `.github/workflows/deploy-pages.yaml` deploys after a successful data update, when its deployment code changes on `main`, or on manual dispatch. It exports the data branch without changing resource files and adds a discovery page showing each generation's actual schema and the published data commit. Deployment does not regenerate data; older snapshots retain their existing schema. Raw GitHub URLs remain supported. The Pages source is configured as GitHub Actions.
+
 Each index identifies generated catalogs, target game versions, a SHA-256 digest of canonical resource files, and generator/dependency provenance for each catalog. Partial regeneration retains provenance for untouched catalogs. CI supplies the full source commit through `POKEDB_GENERATOR_COMMIT`; local runs may supply it too. Without that variable the commit is `null`. Identical resource contents and provenance retain the previous snapshot timestamp.
 
 Generation writers use an OS lock, staging, validation, and rollback. A crashed process releases its lock automatically; interrupted backups are recovered under that lock before the next run. Publication briefly renames the previous generation directory, so applications requiring uninterrupted reads should consume immutable published Git snapshots.
 
 ## GitHub repository settings
 
-These settings are managed in GitHub, separately from the tracked workflow files:
+The repository's active rulesets are tracked in `.github/rulesets/` so their intended configuration can be reviewed alongside workflow changes. GitHub enforces the live settings; editing these JSON files alone does not apply them.
 
-- Set the default branch to `main`; require pull requests, the `CI gate` status check, and resolved conversations before merging. Disable force pushes and deletion of `main`.
-- Enable squash merges and automatic deletion of merged branches. Require a reviewer when another maintainer is available.
-- Restrict human writes to `data` while allowing the publishing automation to update it. Protect `data-v*` tags against modification and deletion, while allowing the workflow to create them.
+- Keep `main` as the default branch. Require pull requests, the `CI gate` status check, and resolved conversations before merging, with no administrator bypass. Disable force pushes and deletion of `main`.
+- Allow merge, squash, and rebase merges, and automatically delete merged branches. No approving review is required while there is one maintainer, since authors cannot approve their own pull requests. Increase that requirement when another reviewer is available.
+- Protect `data` against deletion and force pushes, matching `leak-duck`. Normal automation pushes remain allowed. Protect `data-v*` and `archive/dev-*` tags against modification and deletion; creation remains allowed.
 - Use read-only default Actions permissions. Grant write access only to the publication job. Enable dependency alerts and secret scanning where available.
 
-Repository administrators must apply and verify these settings in the organization. Do not delete an existing branch until its outstanding changes have been accounted for.
+Repository administrators can create a missing ruleset with `gh api --method POST repos/pokelitee/pokedb/rulesets --input .github/rulesets/main.json`, or update an existing one using `--method PUT` and its `/rulesets/<id>` endpoint. Repeat for `data.json` and `tags.json`, then read back the live rulesets to verify them. Do not delete an existing branch until its outstanding changes have been accounted for.
