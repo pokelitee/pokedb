@@ -91,11 +91,8 @@ jobs:
           tar -xzf pokedb-data.tar.gz -C data-branch
           cp .github/data-branch-README.md data-branch/README.md
           cp LICENSE data-branch/LICENSE
-      - name: Commit and publish immutable dataset version
+      - name: Commit and publish current data
         working-directory: data-branch
-        env:
-          RUN_ID: ${{ github.run_id }}
-          RUN_ATTEMPT: ${{ github.run_attempt }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -105,7 +102,5 @@ jobs:
             exit 0
           fi
           schema=$(python -c 'import json; from pathlib import Path; p = next(Path(".").glob("gen*/index.json")); print(json.loads(p.read_text())["metadata"]["schema_version"])')
-          tag="data-v$schema-$RUN_ID-$RUN_ATTEMPT"
           git commit -m "Regenerate schema v$schema data: $(date -u +'%Y-%m-%d')"
-          git tag -a "$tag" -m "PokéDB schema v$schema dataset"
-          git push --atomic origin HEAD:data "refs/tags/$tag"
+          git push origin HEAD:data

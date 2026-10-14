@@ -71,8 +71,9 @@ Item `prices` maps each version group to currency-specific `purchase_price` and
 available; a price value of `null` means the item cannot be bought or sold in
 that record. The old scalar `cost` field is no longer present.
 
-For reproducible consumption, use the raw GitHub base URL and replace `data` with an immutable
-`data-v<schema>-<run-id>-<attempt>` tag or a full data commit SHA.
+The `data` branch and Pages endpoints serve the current published snapshot.
+Publication does not create release tags. Git history remains available; raw
+GitHub URLs can use a full data commit SHA when an exact snapshot is needed.
 
 ## Compatibility
 
