@@ -62,9 +62,9 @@ Python callers should import `Config` and `load_config` from `pokedb` or `pokedb
 
 ## Dataset publication
 
-The scheduled and manual update workflow only publishes from `main`. It runs the same reusable checks against the selected source commit, generates every catalog for every generation with a read-only token, and transfers a validated archive to a separate job with write access. Required API fetch failures stop generation. Publishing updates `data` and creates an annotated `data-v<schema>-<run-id>-<attempt>` tag in one atomic push. No tag is created when the dataset, provenance, and accompanying documentation are unchanged.
+The scheduled and manual update workflow only publishes from `main`. It runs the same reusable checks against the selected source commit, generates every catalog for every generation with a read-only token, and transfers a validated archive to a separate job with write access. Required API fetch failures stop generation. Publishing commits changed output to `data` with a normal push. Unchanged output does not create a commit. Publication does not create tags or GitHub Releases.
 
-Consumers can pin a dataset tag or full data commit in raw GitHub URLs instead of using the mutable `data` branch. Preserve published dataset tags. Schema changes require a schema-version increment, migration documentation, and complete regeneration; partial updates cannot mix schema versions.
+Consumers use the current `data` branch or Pages endpoints. Git history remains available when an exact data commit is needed. Schema changes require a schema-version increment, migration documentation, and complete regeneration; partial updates cannot mix schema versions.
 
 Like `leak-duck`, GitHub Pages serves the published `data` snapshot as JSON endpoints at `https://pokelitee.github.io/pokedb/`. `.github/workflows/deploy-pages.yml` deploys after a successful data update, when its deployment code or `site/` assets change on `main`, or on manual dispatch. It exports the data branch without changing resource files and adds the static API explorer, generation/schema catalog, and published data commit links. Deployment does not regenerate data; older snapshots retain their existing schema. Raw GitHub URLs remain supported. The Pages source is configured as GitHub Actions.
 
@@ -78,10 +78,10 @@ The repository's active rulesets are tracked in `.github/rulesets/` so their int
 
 - Keep `main` as the default branch. Require pull requests, the `CI gate` status check, and resolved conversations before merging, with no administrator bypass. Disable force pushes and deletion of `main`.
 - Allow merge, squash, and rebase merges, and automatically delete merged branches. No approving review is required while there is one maintainer, since authors cannot approve their own pull requests. Increase that requirement when another reviewer is available.
-- Protect `data` against deletion and force pushes, matching `leak-duck`. Normal automation pushes remain allowed. Protect `data-v*` and `archive/dev-*` tags against modification and deletion; creation remains allowed.
+- Protect `data` against deletion and force pushes, matching `leak-duck`. Normal automation pushes remain allowed.
 - Use read-only default Actions permissions. Grant write access only to the publication job. Enable dependency alerts and secret scanning where available.
 
-Repository administrators can create a missing ruleset with `gh api --method POST repos/pokelitee/pokedb/rulesets --input .github/rulesets/main.json`, or update an existing one using `--method PUT` and its `/rulesets/<id>` endpoint. Repeat for `data.json` and `tags.json`, then read back the live rulesets to verify them. Do not delete an existing branch until its outstanding changes have been accounted for.
+Repository administrators can create a missing ruleset with `gh api --method POST repos/pokelitee/pokedb/rulesets --input .github/rulesets/main.json`, or update an existing one using `--method PUT` and its `/rulesets/<id>` endpoint. Repeat for `data.json`, then read back the live rulesets to verify them. Do not delete an existing branch until its outstanding changes have been accounted for.
 
 ## Scheduling and manual runs
 
@@ -101,4 +101,4 @@ The workflow validates every generation before the write job starts. Local `--ge
 - **Writer already running:** wait for the process holding the generation lock. Locks are released by the OS when the process exits; do not remove files to work around a live writer.
 - **Stale Pages content:** check both the data-update and `deploy-pages.yml` runs. Compare the discovery page's data commit with the latest `data` commit. A successful deploy alone does not regenerate data.
 
-To serve an older immutable dataset, consumers can pin its tag or commit in raw GitHub URLs. Changing the current Pages snapshot requires a reviewed workflow or publishing change; never force-push `data` or modify an existing dataset tag.
+Changing the current Pages snapshot requires a reviewed workflow or publishing change; never force-push `data`. An exact data commit can still be used in raw GitHub URLs when needed.
