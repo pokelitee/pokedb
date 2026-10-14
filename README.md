@@ -13,9 +13,9 @@ is regenerated weekly from structured [PokéAPI](https://pokeapi.co/) data.
   game. Version-group maps identify game-specific values where PokéAPI exposes
   them.
 - Structural field names use `snake_case`. PokéAPI identifiers retain their
-  canonical kebab-case spelling.
-- `null` means unavailable or inapplicable for that generation. Empty
-  collections mean the modeled mechanic applies but has no entries.
+  exact upstream spelling, including consecutive hyphens where present.
+- `null` means unavailable, inapplicable, or missing source data, depending on
+  the field. Empty collections mean the modeled field has no entries.
 - Move, item, and Pokémon records carry an `unverified_historical_fields`
   array (empty for the latest generation) naming fields whose value is
   backfilled from current PokéAPI data because PokéAPI keeps no
@@ -59,9 +59,7 @@ Use `https://pokelitee.github.io/pokedb` as the base URL. The [API index](https:
 - Generation 9 Ice Stone:
   [`/gen9/item/ice-stone.json`](https://pokelitee.github.io/pokedb/gen9/item/ice-stone.json)
 
-See the project [API documentation](https://github.com/pokelitee/pokedb/wiki/API-Documentation)
-and [data model](https://github.com/pokelitee/pokedb/wiki/Data-Model) for the
-full contract.
+See the version-controlled [data contract](https://github.com/pokelitee/pokedb/blob/main/docs/data-contract.md) for field semantics, validation, and migration details.
 
 Machine assignments are objects keyed by version group, with item identifiers or
 `null` values. Historical parent species agree with the reconstructed evolution
@@ -73,8 +71,9 @@ Item `prices` maps each version group to currency-specific `purchase_price` and
 available; a price value of `null` means the item cannot be bought or sold in
 that record. The old scalar `cost` field is no longer present.
 
-For reproducible consumption, use the raw GitHub base URL and replace `data` with an immutable
-`data-v<schema>-<run-id>-<attempt>` tag or a full data commit SHA.
+The `data` branch and Pages endpoints serve the current published snapshot.
+Publication does not create release tags. Git history remains available; raw
+GitHub URLs can use a full data commit SHA when an exact snapshot is needed.
 
 ## Compatibility
 
