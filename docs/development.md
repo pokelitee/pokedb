@@ -27,25 +27,25 @@ Package consumers use the supported dependency ranges in `pyproject.toml`. CI an
 
 ```text
 pokedb/
-|-- src/
-|   `-- pokedb/
-|       |-- __main__.py          # CLI arguments and exit handling
-|       |-- pipeline.py          # Locked generation workflow
-|       |-- resources.py         # Shared schema and resource layout
-|       |-- locking.py           # Cross-platform generation locks
-|       |-- api_client.py        # API client and caching
-|       |-- config.py            # Typed configuration and validation
-|       |-- default_config.json  # Packaged default values
-|       |-- output.py            # Transactional output publishing
-|       |-- runner.py            # Parser orchestration and metadata
-|       |-- validation.py        # Runtime output schema and integrity checks
-|       |-- parsers/             # Ability, item, move, and Pokémon parsers
-|       `-- utils/               # Focused shared helpers
-|-- .github/                     # Workflows and data-branch documentation
-|-- site/                        # Static API explorer and landing-page assets
-|-- scripts/prepare_pages.py     # Snapshot metadata and Pages assembly
-|-- tests/
-`-- pyproject.toml               # Package metadata and dependencies
+├── src/
+│   └── pokedb/
+│       ├── __main__.py          # CLI arguments and exit handling
+│       ├── pipeline.py          # Locked generation workflow
+│       ├── resources.py         # Shared schema and resource layout
+│       ├── locking.py           # Cross-platform generation locks
+│       ├── api_client.py        # API client and caching
+│       ├── config.py            # Typed configuration and validation
+│       ├── default_config.json  # Packaged default values
+│       ├── output.py            # Transactional output publishing
+│       ├── runner.py            # Parser orchestration and metadata
+│       ├── validation.py        # Runtime output schema and integrity checks
+│       ├── parsers/             # Ability, item, move, and Pokémon parsers
+│       └── utils/               # Focused shared helpers
+├── .github/                     # Workflows and data-branch documentation
+├── site/                        # Static API explorer and landing-page assets
+├── scripts/prepare_pages.py     # Snapshot metadata and Pages assembly
+├── tests/
+└── pyproject.toml               # Package metadata and dependencies
 ```
 
 ## API frontend
