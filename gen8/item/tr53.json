@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user fights the target up close without guarding itself. This also lowers the user’s Defense and Sp. Def stats."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr53.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

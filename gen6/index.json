@@ -11,64 +11,64 @@
             "variant"
         ],
         "resource_provenance": {
-            "variant": {
+            "pokemon": {
                 "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
                 "dependencies": {
                     "requests": "2.34.2",
-                    "tqdm": "4.69.0"
+                    "tqdm": "4.70.1"
                 }
             },
             "ability": {
                 "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
                 "dependencies": {
                     "requests": "2.34.2",
-                    "tqdm": "4.69.0"
-                }
-            },
-            "transformation": {
-                "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
-                "dependencies": {
-                    "requests": "2.34.2",
-                    "tqdm": "4.69.0"
-                }
-            },
-            "pokemon": {
-                "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
-                "dependencies": {
-                    "requests": "2.34.2",
-                    "tqdm": "4.69.0"
-                }
-            },
-            "move": {
-                "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
-                "dependencies": {
-                    "requests": "2.34.2",
-                    "tqdm": "4.69.0"
-                }
-            },
-            "item": {
-                "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
-                "dependencies": {
-                    "requests": "2.34.2",
-                    "tqdm": "4.69.0"
+                    "tqdm": "4.70.1"
                 }
             },
             "cosmetic": {
                 "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
                 "dependencies": {
                     "requests": "2.34.2",
-                    "tqdm": "4.69.0"
+                    "tqdm": "4.70.1"
+                }
+            },
+            "variant": {
+                "version": "2.0.0",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.70.1"
+                }
+            },
+            "move": {
+                "version": "2.0.0",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.70.1"
+                }
+            },
+            "item": {
+                "version": "2.0.0",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.70.1"
+                }
+            },
+            "transformation": {
+                "version": "2.0.0",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.70.1"
                 }
             }
         },
-        "content_sha256": "b73dd1a870ce467b31f4c2aac2f3dd546ed4efd5aaa74ca9b56646f042839d3b",
+        "content_sha256": "0184f997bfd88d41f6a46504a5cccebfc376b0b7cf566809c78fab159f7a6376",
         "source": "pokeapi",
         "api_base_url": "https://pokeapi.co/api/v2/",
         "is_historical": true,
@@ -83,7 +83,7 @@
             "x",
             "y"
         ],
-        "created_at": "2026-10-13T17:54:21.567592+00:00",
+        "created_at": "2026-10-18T04:09:47.749194+00:00",
         "counts": {
             "ability": 251,
             "move": 639,
@@ -12220,12 +12220,12 @@
         {
             "name": "xtransceiver--red",
             "id": 922,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/xtransceiver--red.png"
         },
         {
             "name": "xtransceiver--yellow",
             "id": 923,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/xtransceiver--yellow.png"
         },
         {
             "name": "dna-splicers--merge",
@@ -12300,12 +12300,12 @@
         {
             "name": "gold-leaf",
             "id": 1029,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gold-leaf.png"
         },
         {
             "name": "silver-leaf",
             "id": 1030,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-leaf.png"
         }
     ]
 }

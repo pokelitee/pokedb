@@ -13,7 +13,7 @@
     "effect": "XXX new effect for xtranceiver--red",
     "short_effect": "XXX new effect for xtranceiver--red",
     "flavor_text": {},
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/xtransceiver--red.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

@@ -5,9 +5,9 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "diamond-pearl": "Can copy Flower Gift and Wonder Guard.",
-        "platinum": "Can copy Flower Gift and Wonder Guard.",
-        "heartgold-soulsilver": "Can copy Flower Gift and Wonder Guard."
+        "diamond-pearl": "When this Pokémon enters battle, it copies a random opponent's ability. This ability cannot copy Forecast, Multitype, or Trace.",
+        "platinum": "When this Pokémon enters battle, it copies a random opponent's ability. This ability cannot copy Forecast, Multitype, or Trace.",
+        "heartgold-soulsilver": "When this Pokémon enters battle, it copies a random opponent's ability. This ability cannot copy Forecast, Multitype, or Trace."
     },
     "short_effect": {
         "diamond-pearl": "Copies an opponent's ability upon entering battle.",

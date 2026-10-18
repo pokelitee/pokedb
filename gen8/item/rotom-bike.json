@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "This bike can be combined with the Pokémon Rotom to use a turbo boost."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rotom-bike.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

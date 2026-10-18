@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user attacks the enemy with a pollen puff that explodes. If the target is an ally, it gives the ally a pollen puff that restores its HP instead."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr96.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

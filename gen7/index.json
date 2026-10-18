@@ -11,64 +11,64 @@
             "variant"
         ],
         "resource_provenance": {
-            "variant": {
+            "pokemon": {
                 "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
                 "dependencies": {
                     "requests": "2.34.2",
-                    "tqdm": "4.69.0"
+                    "tqdm": "4.70.1"
                 }
             },
             "ability": {
                 "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
                 "dependencies": {
                     "requests": "2.34.2",
-                    "tqdm": "4.69.0"
-                }
-            },
-            "transformation": {
-                "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
-                "dependencies": {
-                    "requests": "2.34.2",
-                    "tqdm": "4.69.0"
-                }
-            },
-            "pokemon": {
-                "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
-                "dependencies": {
-                    "requests": "2.34.2",
-                    "tqdm": "4.69.0"
-                }
-            },
-            "move": {
-                "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
-                "dependencies": {
-                    "requests": "2.34.2",
-                    "tqdm": "4.69.0"
-                }
-            },
-            "item": {
-                "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
-                "dependencies": {
-                    "requests": "2.34.2",
-                    "tqdm": "4.69.0"
+                    "tqdm": "4.70.1"
                 }
             },
             "cosmetic": {
                 "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
                 "dependencies": {
                     "requests": "2.34.2",
-                    "tqdm": "4.69.0"
+                    "tqdm": "4.70.1"
+                }
+            },
+            "variant": {
+                "version": "2.0.0",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.70.1"
+                }
+            },
+            "move": {
+                "version": "2.0.0",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.70.1"
+                }
+            },
+            "item": {
+                "version": "2.0.0",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.70.1"
+                }
+            },
+            "transformation": {
+                "version": "2.0.0",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.70.1"
                 }
             }
         },
-        "content_sha256": "d8589dd9b3f9ba9555057c4d1872a47fd6daeaaed567ba97e0275833aaeea7c6",
+        "content_sha256": "e5added0942f94bb2c2da59b5597977439791ec4a0fddf466f4899e8b40a48fb",
         "source": "pokeapi",
         "api_base_url": "https://pokeapi.co/api/v2/",
         "is_historical": true,
@@ -86,7 +86,7 @@
             "ultra-moon",
             "ultra-sun"
         ],
-        "created_at": "2026-10-13T17:54:32.902934+00:00",
+        "created_at": "2026-10-18T04:10:02.845503+00:00",
         "counts": {
             "ability": 293,
             "move": 760,
@@ -14320,12 +14320,12 @@
         {
             "name": "xtransceiver--red",
             "id": 922,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/xtransceiver--red.png"
         },
         {
             "name": "xtransceiver--yellow",
             "id": 923,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/xtransceiver--yellow.png"
         },
         {
             "name": "dna-splicers--merge",
@@ -14740,662 +14740,662 @@
         {
             "name": "autograph",
             "id": 1006,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/autograph.png"
         },
         {
             "name": "pokemon-box",
             "id": 1007,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pokemon-box.png"
         },
         {
             "name": "medicine-pocket",
             "id": 1008,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/medicine-pocket.png"
         },
         {
             "name": "candy-jar",
             "id": 1009,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/candy-jar.png"
         },
         {
             "name": "power-up-pocket",
             "id": 1010,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/power-up-pocket.png"
         },
         {
             "name": "clothing-trunk",
             "id": 1011,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/clothing-trunk.png"
         },
         {
             "name": "catching-pocket",
             "id": 1012,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/catching-pocket.png"
         },
         {
             "name": "battle-pocket",
             "id": 1013,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/battle-pocket.png"
         },
         {
             "name": "silver-razz-berry",
             "id": 1014,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-razz-berry.png"
         },
         {
             "name": "golden-razz-berry",
             "id": 1015,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/golden-razz-berry.png"
         },
         {
             "name": "silver-nanab-berry",
             "id": 1016,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-nanab-berry.png"
         },
         {
             "name": "golden-nanab-berry",
             "id": 1017,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/golden-nanab-berry.png"
         },
         {
             "name": "silver-pinap-berry",
             "id": 1018,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-pinap-berry.png"
         },
         {
             "name": "golden-pinap-berry",
             "id": 1019,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/golden-pinap-berry.png"
         },
         {
             "name": "secret-key--letsgo",
             "id": 1020,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/secret-key--letsgo.png"
         },
         {
             "name": "ss-ticket--letsgo",
             "id": 1021,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ss-ticket--letsgo.png"
         },
         {
             "name": "parcel--letsgo",
             "id": 1022,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/parcel--letsgo.png"
         },
         {
             "name": "card-key--letsgo",
             "id": 1023,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/card-key--letsgo.png"
         },
         {
             "name": "stretchy-spring",
             "id": 1024,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/stretchy-spring.png"
         },
         {
             "name": "chalky-stone",
             "id": 1025,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chalky-stone.png"
         },
         {
             "name": "marble",
             "id": 1026,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/marble.png"
         },
         {
             "name": "lone-earring",
             "id": 1027,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lone-earring.png"
         },
         {
             "name": "beach-glass",
             "id": 1028,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/beach-glass.png"
         },
         {
             "name": "gold-leaf",
             "id": 1029,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gold-leaf.png"
         },
         {
             "name": "silver-leaf",
             "id": 1030,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-leaf.png"
         },
         {
             "name": "polished-mud-ball",
             "id": 1031,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/polished-mud-ball.png"
         },
         {
             "name": "tropical-shell",
             "id": 1032,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tropical-shell.png"
         },
         {
             "name": "leaf-letter--pikachu",
             "id": 1033,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leaf-letter--pikachu.png"
         },
         {
             "name": "leaf-letter--eevee",
             "id": 1034,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leaf-letter--eevee.png"
         },
         {
             "name": "small-bouquet",
             "id": 1035,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/small-bouquet.png"
         },
         {
             "name": "lure",
             "id": 1036,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lure.png"
         },
         {
             "name": "super-lure",
             "id": 1037,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/super-lure.png"
         },
         {
             "name": "max-lure",
             "id": 1038,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-lure.png"
         },
         {
             "name": "pewter-crunchies",
             "id": 1039,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pewter-crunchies.png"
         },
         {
             "name": "health-candy",
             "id": 1040,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/health-candy.png"
         },
         {
             "name": "mighty-candy",
             "id": 1041,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mighty-candy.png"
         },
         {
             "name": "tough-candy",
             "id": 1042,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tough-candy.png"
         },
         {
             "name": "smart-candy",
             "id": 1043,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/smart-candy.png"
         },
         {
             "name": "courage-candy",
             "id": 1044,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/courage-candy.png"
         },
         {
             "name": "quick-candy",
             "id": 1045,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-candy.png"
         },
         {
             "name": "health-candy-l",
             "id": 1046,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/health-candy-l.png"
         },
         {
             "name": "mighty-candy-l",
             "id": 1047,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mighty-candy-l.png"
         },
         {
             "name": "tough-candy-l",
             "id": 1048,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tough-candy-l.png"
         },
         {
             "name": "smart-candy-l",
             "id": 1049,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/smart-candy-l.png"
         },
         {
             "name": "courage-candy-l",
             "id": 1050,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/courage-candy-l.png"
         },
         {
             "name": "quick-candy-l",
             "id": 1051,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-candy-l.png"
         },
         {
             "name": "health-candy-xl",
             "id": 1052,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/health-candy-xl.png"
         },
         {
             "name": "mighty-candy-xl",
             "id": 1053,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mighty-candy-xl.png"
         },
         {
             "name": "tough-candy-xl",
             "id": 1054,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tough-candy-xl.png"
         },
         {
             "name": "smart-candy-xl",
             "id": 1055,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/smart-candy-xl.png"
         },
         {
             "name": "courage-candy-xl",
             "id": 1056,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/courage-candy-xl.png"
         },
         {
             "name": "quick-candy-xl",
             "id": 1057,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-candy-xl.png"
         },
         {
             "name": "bulbasaur-candy",
             "id": 1058,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bulbasaur-candy.png"
         },
         {
             "name": "charmander-candy",
             "id": 1059,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charmander-candy.png"
         },
         {
             "name": "squirtle-candy",
             "id": 1060,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/squirtle-candy.png"
         },
         {
             "name": "caterpie-candy",
             "id": 1061,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/caterpie-candy.png"
         },
         {
             "name": "weedle-candy",
             "id": 1062,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/weedle-candy.png"
         },
         {
             "name": "pidgey-candy",
             "id": 1063,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pidgey-candy.png"
         },
         {
             "name": "rattata-candy",
             "id": 1064,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rattata-candy.png"
         },
         {
             "name": "spearow-candy",
             "id": 1065,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/spearow-candy.png"
         },
         {
             "name": "ekans-candy",
             "id": 1066,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ekans-candy.png"
         },
         {
             "name": "pikachu-candy",
             "id": 1067,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pikachu-candy.png"
         },
         {
             "name": "sandshrew-candy",
             "id": 1068,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sandshrew-candy.png"
         },
         {
             "name": "nidoran-f-candy",
             "id": 1069,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nidoran-f-candy.png"
         },
         {
             "name": "nidoran-m-candy",
             "id": 1070,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nidoran-m-candy.png"
         },
         {
             "name": "clefairy-candy",
             "id": 1071,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/clefairy-candy.png"
         },
         {
             "name": "vulpix-candy",
             "id": 1072,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/vulpix-candy.png"
         },
         {
             "name": "jigglypuff-candy",
             "id": 1073,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/jigglypuff-candy.png"
         },
         {
             "name": "zubat-candy",
             "id": 1074,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/zubat-candy.png"
         },
         {
             "name": "oddish-candy",
             "id": 1075,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oddish-candy.png"
         },
         {
             "name": "paras-candy",
             "id": 1076,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/paras-candy.png"
         },
         {
             "name": "venonat-candy",
             "id": 1077,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/venonat-candy.png"
         },
         {
             "name": "diglett-candy",
             "id": 1078,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/diglett-candy.png"
         },
         {
             "name": "meowth-candy",
             "id": 1079,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/meowth-candy.png"
         },
         {
             "name": "psyduck-candy",
             "id": 1080,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/psyduck-candy.png"
         },
         {
             "name": "mankey-candy",
             "id": 1081,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mankey-candy.png"
         },
         {
             "name": "growlithe-candy",
             "id": 1082,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/growlithe-candy.png"
         },
         {
             "name": "poliwag-candy",
             "id": 1083,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poliwag-candy.png"
         },
         {
             "name": "abra-candy",
             "id": 1084,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/abra-candy.png"
         },
         {
             "name": "machop-candy",
             "id": 1085,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/machop-candy.png"
         },
         {
             "name": "bellsprout-candy",
             "id": 1086,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bellsprout-candy.png"
         },
         {
             "name": "tentacool-candy",
             "id": 1087,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tentacool-candy.png"
         },
         {
             "name": "geodude-candy",
             "id": 1088,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/geodude-candy.png"
         },
         {
             "name": "ponyta-candy",
             "id": 1089,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ponyta-candy.png"
         },
         {
             "name": "slowpoke-candy",
             "id": 1090,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/slowpoke-candy.png"
         },
         {
             "name": "magnemite-candy",
             "id": 1091,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/magnemite-candy.png"
         },
         {
             "name": "farfetchd-candy",
             "id": 1092,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/farfetchd-candy.png"
         },
         {
             "name": "doduo-candy",
             "id": 1093,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/doduo-candy.png"
         },
         {
             "name": "seel-candy",
             "id": 1094,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/seel-candy.png"
         },
         {
             "name": "grimer-candy",
             "id": 1095,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/grimer-candy.png"
         },
         {
             "name": "shellder-candy",
             "id": 1096,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shellder-candy.png"
         },
         {
             "name": "gastly-candy",
             "id": 1097,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gastly-candy.png"
         },
         {
             "name": "onix-candy",
             "id": 1098,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/onix-candy.png"
         },
         {
             "name": "drowzee-candy",
             "id": 1099,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/drowzee-candy.png"
         },
         {
             "name": "krabby-candy",
             "id": 1100,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/krabby-candy.png"
         },
         {
             "name": "voltorb-candy",
             "id": 1101,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/voltorb-candy.png"
         },
         {
             "name": "exeggcute-candy",
             "id": 1102,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/exeggcute-candy.png"
         },
         {
             "name": "cubone-candy",
             "id": 1103,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cubone-candy.png"
         },
         {
             "name": "hitmonlee-candy",
             "id": 1104,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hitmonlee-candy.png"
         },
         {
             "name": "hitmonchan-candy",
             "id": 1105,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hitmonchan-candy.png"
         },
         {
             "name": "lickitung-candy",
             "id": 1106,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lickitung-candy.png"
         },
         {
             "name": "koffing-candy",
             "id": 1107,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/koffing-candy.png"
         },
         {
             "name": "rhyhorn-candy",
             "id": 1108,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rhyhorn-candy.png"
         },
         {
             "name": "chansey-candy",
             "id": 1109,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chansey-candy.png"
         },
         {
             "name": "tangela-candy",
             "id": 1110,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tangela-candy.png"
         },
         {
             "name": "kangaskhan-candy",
             "id": 1111,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kangaskhan-candy.png"
         },
         {
             "name": "horsea-candy",
             "id": 1112,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/horsea-candy.png"
         },
         {
             "name": "goldeen-candy",
             "id": 1113,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/goldeen-candy.png"
         },
         {
             "name": "staryu-candy",
             "id": 1114,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/staryu-candy.png"
         },
         {
             "name": "mr-mime-candy",
             "id": 1115,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mr-mime-candy.png"
         },
         {
             "name": "scyther-candy",
             "id": 1116,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/scyther-candy.png"
         },
         {
             "name": "jynx-candy",
             "id": 1117,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/jynx-candy.png"
         },
         {
             "name": "electabuzz-candy",
             "id": 1118,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/electabuzz-candy.png"
         },
         {
             "name": "pinsir-candy",
             "id": 1119,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pinsir-candy.png"
         },
         {
             "name": "tauros-candy",
             "id": 1120,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tauros-candy.png"
         },
         {
             "name": "magikarp-candy",
             "id": 1121,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/magikarp-candy.png"
         },
         {
             "name": "lapras-candy",
             "id": 1122,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lapras-candy.png"
         },
         {
             "name": "ditto-candy",
             "id": 1123,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ditto-candy.png"
         },
         {
             "name": "eevee-candy",
             "id": 1124,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eevee-candy.png"
         },
         {
             "name": "porygon-candy",
             "id": 1125,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/porygon-candy.png"
         },
         {
             "name": "omanyte-candy",
             "id": 1126,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/omanyte-candy.png"
         },
         {
             "name": "kabuto-candy",
             "id": 1127,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kabuto-candy.png"
         },
         {
             "name": "aerodactyl-candy",
             "id": 1128,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aerodactyl-candy.png"
         },
         {
             "name": "snorlax-candy",
             "id": 1129,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/snorlax-candy.png"
         },
         {
             "name": "articuno-candy",
             "id": 1130,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/articuno-candy.png"
         },
         {
             "name": "zapdos-candy",
             "id": 1131,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/zapdos-candy.png"
         },
         {
             "name": "moltres-candy",
             "id": 1132,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moltres-candy.png"
         },
         {
             "name": "dratini-candy",
             "id": 1133,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dratini-candy.png"
         },
         {
             "name": "mewtwo-candy",
             "id": 1134,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mewtwo-candy.png"
         },
         {
             "name": "mew-candy",
             "id": 1135,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mew-candy.png"
         },
         {
             "name": "meltan-candy",
             "id": 1136,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/meltan-candy.png"
         },
         {
             "name": "magmar-candy",
             "id": 1137,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/magmar-candy.png"
         }
     ]
 }

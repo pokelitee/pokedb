@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A letter of recommendation that you’ll need in order to participate in the Gym Challenge."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/endorsement.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

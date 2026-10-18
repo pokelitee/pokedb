@@ -17,6 +17,6 @@
     "effect": null,
     "short_effect": null,
     "flavor_text": {},
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pewter-crunchies.png",
     "unverified_historical_fields": []
 }

@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A high-tech transceiver with a camera function. It allows up to four-way calls."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/xtransceiver--yellow.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

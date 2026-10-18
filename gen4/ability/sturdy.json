@@ -5,9 +5,9 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "diamond-pearl": "Does not prevent regular KOs from full HP.",
-        "platinum": "Does not prevent regular KOs from full HP.",
-        "heartgold-soulsilver": "Does not prevent regular KOs from full HP."
+        "diamond-pearl": "One Hit KO moves have no effect when used on this Pokemon.",
+        "platinum": "One Hit KO moves have no effect when used on this Pokemon.",
+        "heartgold-soulsilver": "One Hit KO moves have no effect when used on this Pokemon."
     },
     "short_effect": {
         "diamond-pearl": "Prevents being KOed from full HP, leaving 1 HP instead. Protects against the one-hit KO moves regardless of HP.",

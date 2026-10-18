@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user attacks the target with stored power. The more the user’s stats are raised, the greater the move’s power."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr82.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

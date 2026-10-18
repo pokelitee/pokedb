@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A letter entrusted to you by a girl, to be delivered to a boy. Strangely, it looks old to you."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/old-letter.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

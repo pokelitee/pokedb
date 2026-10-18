@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user gathers all its light energy and releases it all at once. This may also lower the target’s Sp. Def stat."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr70.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

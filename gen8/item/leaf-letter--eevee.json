@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A letter written on a leaf. Something is written using Eevee’s footprints."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leaf-letter--eevee.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

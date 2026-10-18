@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user sets off an earthquake that strikes every Pokémon around it."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr10.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

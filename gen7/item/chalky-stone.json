@@ -16,7 +16,7 @@
     "flavor_text": {
         "lets-go-pikachu-lets-go-eevee": "A small whitish stone picked up at the edge of the road."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chalky-stone.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

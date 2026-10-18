@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user attacks by shooting muddy water at opposing Pokémon. This may also lower their accuracy."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr45.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

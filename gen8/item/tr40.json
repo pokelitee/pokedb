@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user employs its psychic power to exchange Abilities with the target."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr40.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user swings both arms and hits the target. The target’s stat changes don’t affect this attack’s damage."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr93.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

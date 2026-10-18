@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user switches places with a party Pokémon in waiting and passes along any stat changes."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr29.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

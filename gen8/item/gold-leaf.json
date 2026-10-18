@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A mysterious gold leaf. No trees with this leaf have been found yet."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gold-leaf.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

@@ -16,7 +16,7 @@
     "flavor_text": {
         "lets-go-pikachu-lets-go-eevee": "A mysterious silver leaf. No trees with this leaf have been found yet."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-leaf.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

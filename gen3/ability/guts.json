@@ -5,11 +5,11 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "ruby-sapphire": "Does not take effect during sleep.",
-        "emerald": "Does not take effect during sleep.",
-        "firered-leafgreen": "Does not take effect during sleep.",
-        "colosseum": "Does not take effect during sleep.",
-        "xd": "Does not take effect during sleep."
+        "ruby-sapphire": "Whenever this Pokémon is burned, paralyzed, or poisoned, it has 1.5× its Attack. This Pokémon is not affected by the usual Attack cut from a burn. This bonus does not count as a stat modifier.",
+        "emerald": "Whenever this Pokémon is burned, paralyzed, or poisoned, it has 1.5× its Attack. This Pokémon is not affected by the usual Attack cut from a burn. This bonus does not count as a stat modifier.",
+        "firered-leafgreen": "Whenever this Pokémon is burned, paralyzed, or poisoned, it has 1.5× its Attack. This Pokémon is not affected by the usual Attack cut from a burn. This bonus does not count as a stat modifier.",
+        "colosseum": "Whenever this Pokémon is burned, paralyzed, or poisoned, it has 1.5× its Attack. This Pokémon is not affected by the usual Attack cut from a burn. This bonus does not count as a stat modifier.",
+        "xd": "Whenever this Pokémon is burned, paralyzed, or poisoned, it has 1.5× its Attack. This Pokémon is not affected by the usual Attack cut from a burn. This bonus does not count as a stat modifier."
     },
     "short_effect": {
         "ruby-sapphire": "Increases Attack to 1.5× with a major status ailment.",

@@ -5,11 +5,11 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "ruby-sapphire": "Has no overworld effect.",
-        "emerald": "Increases the frequency of cries heard on the overworld if any party Pokémon has this ability.",
-        "firered-leafgreen": "Increases the frequency of cries heard on the overworld if any party Pokémon has this ability.",
-        "colosseum": "Increases the frequency of cries heard on the overworld if any party Pokémon has this ability.",
-        "xd": "Increases the frequency of cries heard on the overworld if any party Pokémon has this ability."
+        "ruby-sapphire": "When this Pokémon has 1/3 or less of its HP remaining, its Bug-type moves inflict 1.5× as much regular damage.",
+        "emerald": "When this Pokémon has 1/3 or less of its HP remaining, its Bug-type moves inflict 1.5× as much regular damage. Overworld: Increases the frequency of cries heard on the overworld if any party Pokémon has this ability.",
+        "firered-leafgreen": "When this Pokémon has 1/3 or less of its HP remaining, its Bug-type moves inflict 1.5× as much regular damage. Overworld: Increases the frequency of cries heard on the overworld if any party Pokémon has this ability.",
+        "colosseum": "When this Pokémon has 1/3 or less of its HP remaining, its Bug-type moves inflict 1.5× as much regular damage. Overworld: Increases the frequency of cries heard on the overworld if any party Pokémon has this ability.",
+        "xd": "When this Pokémon has 1/3 or less of its HP remaining, its Bug-type moves inflict 1.5× as much regular damage. Overworld: Increases the frequency of cries heard on the overworld if any party Pokémon has this ability."
     },
     "short_effect": {
         "ruby-sapphire": "Strengthens Bug moves to inflict 1.5× damage at 1/3 max HP or less.",

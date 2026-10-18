@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A round glass marble. You can see colored glass inside the transparent marble."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/marble.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

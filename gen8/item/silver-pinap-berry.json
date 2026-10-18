@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A Berry that makes you more likely to get an item when given to Pokémon you’re trying to catch."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-pinap-berry.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "One of the many ingredients that can be used for cooking at your camp. Add some whipped cream to a spicy curry to give it some sweetness."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fresh-cream.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

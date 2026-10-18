@@ -16,7 +16,7 @@
     "flavor_text": {
         "lets-go-pikachu-lets-go-eevee": "A single earring that somebody dropped."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lone-earring.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

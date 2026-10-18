@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user drains the target’s blood. The user’s HP is restored by half the damage taken by the target."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr18.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A parcel to be delivered to Professor Oak from Viridian City’s Poké Mart."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/parcel--letsgo.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

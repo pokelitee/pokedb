@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "It is said that a hero used this shield to halt a terrible disaster in ancient times. But it’s grown rusty and worn."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rusted-shield.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

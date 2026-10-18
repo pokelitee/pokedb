@@ -16,7 +16,7 @@
     "flavor_text": {
         "lets-go-pikachu-lets-go-eevee": "A beautiful white shell that may have drifted from a sea in a warm region."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tropical-shell.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

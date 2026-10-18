@@ -5,9 +5,9 @@
     "is_main_series": true,
     "generation": "generation-iv",
     "effect": {
-        "diamond-pearl": "Poison still damages the Pokémon outside of battle.",
-        "platinum": "Poison still damages the Pokémon outside of battle.",
-        "heartgold-soulsilver": "Poison still damages the Pokémon outside of battle."
+        "diamond-pearl": "If this Pokémon is poisoned, it will heal for 1/8 of its maximum HP after each turn rather than taking damage. This includes bad poison. This ability does not prevent poison damage while outside of a battle.",
+        "platinum": "If this Pokémon is poisoned, it will heal for 1/8 of its maximum HP after each turn rather than taking damage. This includes bad poison. This ability does not prevent poison damage while outside of a battle.",
+        "heartgold-soulsilver": "If this Pokémon is poisoned, it will heal for 1/8 of its maximum HP after each turn rather than taking damage. This includes bad poison. This ability does not prevent poison damage while outside of a battle."
     },
     "short_effect": {
         "diamond-pearl": "Heals for 1/8 max HP after each turn when poisoned in place of damage.",

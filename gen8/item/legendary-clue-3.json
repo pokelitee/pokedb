@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A clue about the legend of bird Pokémon. It’s written by Peony and has a unique drawing."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/legendary-clue-3.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

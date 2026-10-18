@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The ticket required to board the S.S. Anne. It has a drawing of a ship on it."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ss-ticket--letsgo.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

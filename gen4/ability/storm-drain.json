@@ -5,9 +5,9 @@
     "is_main_series": true,
     "generation": "generation-iv",
     "effect": {
-        "diamond-pearl": "Redirects Water moves without negating them or granting any Special Attack boost. Does not redirect Hidden Power.",
-        "platinum": "Redirects Water moves without negating them or granting any Special Attack boost. Does not redirect Hidden Power.",
-        "heartgold-soulsilver": "Redirects Water moves without negating them or granting any Special Attack boost. Does not redirect Hidden Power."
+        "diamond-pearl": "If this Pokemon is not the target of a single-target Water-type move used by another Pokemon, this Pokemon redirects that move to itself. This ability counts hidden power as normal type.",
+        "platinum": "If this Pokemon is not the target of a single-target Water-type move used by another Pokemon, this Pokemon redirects that move to itself. This ability counts hidden power as normal type.",
+        "heartgold-soulsilver": "If this Pokemon is not the target of a single-target Water-type move used by another Pokemon, this Pokemon redirects that move to itself. This ability counts hidden power as normal type."
     },
     "short_effect": {
         "diamond-pearl": "Redirects single-target Water moves to this Pokémon where possible. Absorbs Water moves, raising Special Attack one stage.",

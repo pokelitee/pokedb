@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user handles a sharp leaf like a sword and attacks by cutting its target. Critical hits land more easily."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr50.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

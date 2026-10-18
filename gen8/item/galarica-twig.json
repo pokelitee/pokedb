@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A twig from a species of tree called Galarica that grows in certain areas around the Galar region. It’s a material for an accessory for a certain Pokémon."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/galarica-twig.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

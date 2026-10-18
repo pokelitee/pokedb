@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user attacks the target’s throat, and the resultant suffering prevents the target from using moves that emit sound for two turns."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr95.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

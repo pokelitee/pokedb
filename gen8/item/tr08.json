@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A strong electric blast crashes down on the target. This may also leave the target with paralysis."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr08.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

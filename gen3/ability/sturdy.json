@@ -5,11 +5,11 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "ruby-sapphire": "Does not prevent regular KOs from full HP.",
-        "emerald": "Does not prevent regular KOs from full HP.",
-        "firered-leafgreen": "Does not prevent regular KOs from full HP.",
-        "colosseum": "Does not prevent regular KOs from full HP.",
-        "xd": "Does not prevent regular KOs from full HP."
+        "ruby-sapphire": "One Hit KO moves have no effect when used on this Pokemon.",
+        "emerald": "One Hit KO moves have no effect when used on this Pokemon.",
+        "firered-leafgreen": "One Hit KO moves have no effect when used on this Pokemon.",
+        "colosseum": "One Hit KO moves have no effect when used on this Pokemon.",
+        "xd": "One Hit KO moves have no effect when used on this Pokemon."
     },
     "short_effect": {
         "ruby-sapphire": "Prevents being KOed from full HP, leaving 1 HP instead. Protects against the one-hit KO moves regardless of HP.",

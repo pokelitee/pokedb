@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "Seeds to plant in a field. The kind of carrot you’ll get is determined by which field you plant the seeds in."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/carrot-seeds.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

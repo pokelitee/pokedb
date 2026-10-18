@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mr-mime-candy.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

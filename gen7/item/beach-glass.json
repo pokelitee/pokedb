@@ -16,7 +16,7 @@
     "flavor_text": {
         "lets-go-pikachu-lets-go-eevee": "A piece of colored glass. Waves have rounded its edges. It’s slightly rough to the touch."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/beach-glass.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

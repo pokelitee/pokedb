@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The target is scorched with an intense blast of fire. This may also leave the target with a burn."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr02.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

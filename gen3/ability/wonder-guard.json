@@ -5,11 +5,11 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "ruby-sapphire": "Fire Fang and moves that inflict typeless damage ignore this ability regardless of type.",
-        "emerald": "Fire Fang and moves that inflict typeless damage ignore this ability regardless of type.",
-        "firered-leafgreen": "Fire Fang and moves that inflict typeless damage ignore this ability regardless of type.",
-        "colosseum": "Fire Fang and moves that inflict typeless damage ignore this ability regardless of type.",
-        "xd": "Fire Fang and moves that inflict typeless damage ignore this ability regardless of type."
+        "ruby-sapphire": "This Pokemon is only damaged by Fire Fang, supereffective moves, indirect damage.",
+        "emerald": "This Pokemon is only damaged by Fire Fang, supereffective moves, indirect damage.",
+        "firered-leafgreen": "This Pokemon is only damaged by Fire Fang, supereffective moves, indirect damage.",
+        "colosseum": "This Pokemon is only damaged by Fire Fang, supereffective moves, indirect damage.",
+        "xd": "This Pokemon is only damaged by Fire Fang, supereffective moves, indirect damage."
     },
     "short_effect": {
         "ruby-sapphire": "Protects against damaging moves that are not super effective.",

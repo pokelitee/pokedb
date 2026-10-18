@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "Produce that the King of Bountiful Harvests’ beloved steed likes to eat. It grew in a gloomy field."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shaderoot-carrot.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

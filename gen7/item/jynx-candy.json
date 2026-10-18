@@ -16,7 +16,7 @@
     "flavor_text": {
         "lets-go-pikachu-lets-go-eevee": "A candy that is packed with energy. When given to certain Pokémon, it will increase all their stats at once."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/jynx-candy.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

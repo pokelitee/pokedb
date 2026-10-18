@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user hurls an electric orb at the target. The faster the user is than the target, the greater the move’s power."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr80.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

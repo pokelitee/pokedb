@@ -16,7 +16,7 @@
     "flavor_text": {
         "lets-go-pikachu-lets-go-eevee": "- - -"
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/battle-pocket.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user vigorously performs a mystic, powerful dance that raises its Attack and Speed stats."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr51.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

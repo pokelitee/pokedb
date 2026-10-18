@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A glass bottle of perfume that makes rare Pokémon more likely to appear. It lasts longer than a Super Lure."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-lure.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

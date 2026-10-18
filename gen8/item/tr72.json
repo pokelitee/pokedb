@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user violently whirls its vines, tentacles, or the like to harshly lash the target."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr72.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

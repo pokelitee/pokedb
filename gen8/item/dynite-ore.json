@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "Mysterious ore that can be obtained in the Max Lair. Something good will happen if you give it to a collector in the Crown Tundra."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynite-ore.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

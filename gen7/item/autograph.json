@@ -16,7 +16,7 @@
     "flavor_text": {
         "lets-go-pikachu-lets-go-eevee": "The autograph you got from the Vermilion City Gym Leader, Lt. Surge. He wrote, “Good luck!”"
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/autograph.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

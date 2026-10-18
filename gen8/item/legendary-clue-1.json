@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A clue about the King of Bountiful Harvests. It’s written by Peony, and an old photo is attached to it."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/legendary-clue-1.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

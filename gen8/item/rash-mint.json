@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Sp. Def will grow more slowly."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rash-mint.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

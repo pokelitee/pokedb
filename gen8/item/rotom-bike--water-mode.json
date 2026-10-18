@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "This bike can be combined with the Pokémon Rotom to not only do a turbo boost but also run on the water."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rotom-bike--water-mode.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

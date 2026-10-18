@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A frenetic dance to uplift the fighting spirit. This sharply raises the user’s Attack stat."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr00.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

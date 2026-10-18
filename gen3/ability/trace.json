@@ -5,11 +5,11 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "ruby-sapphire": "Can copy Forecast and Trace.",
-        "emerald": "Can copy Forecast and Trace.",
-        "firered-leafgreen": "Can copy Forecast and Trace.",
-        "colosseum": "Can copy Forecast and Trace.",
-        "xd": "Can copy Forecast and Trace."
+        "ruby-sapphire": "When this Pokémon enters battle, it copies a random opponent's ability.",
+        "emerald": "When this Pokémon enters battle, it copies a random opponent's ability.",
+        "firered-leafgreen": "When this Pokémon enters battle, it copies a random opponent's ability.",
+        "colosseum": "When this Pokémon enters battle, it copies a random opponent's ability.",
+        "xd": "When this Pokémon enters battle, it copies a random opponent's ability."
     },
     "short_effect": {
         "ruby-sapphire": "Copies an opponent's ability upon entering battle.",

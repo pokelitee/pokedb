@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "Mushrooms that have the power of changing Dynamax forms. They boost all stats of a Pokémon during battle."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-mushrooms.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

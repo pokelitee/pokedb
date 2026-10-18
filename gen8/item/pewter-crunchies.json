@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "Pewter City’s famous crunchy snack. They can be used to heal all status conditions of a single Pokémon."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pewter-crunchies.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

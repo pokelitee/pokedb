@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The target is stabbed with a tentacle, arm, or the like steeped in poison. This may also poison the target."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr57.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

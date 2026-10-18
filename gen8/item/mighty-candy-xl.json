@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A huge candy that is packed with energy. When given to a Pokémon at Lv. 60 or higher, it will increase that Pokémon’s Attack stat."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mighty-candy-xl.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

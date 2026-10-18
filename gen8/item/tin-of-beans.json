@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "One of the many ingredients that can be used for cooking at your camp. When simmered, the beans suffuse a dish with their mild flavor."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tin-of-beans.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

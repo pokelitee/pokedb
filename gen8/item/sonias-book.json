@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "Professor Sonia’s published writings. Her new discoveries about the Galar region’s legends are recorded in this enjoyable read."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sonias-book.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

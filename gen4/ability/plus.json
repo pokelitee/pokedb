@@ -5,9 +5,9 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "diamond-pearl": "Powers up only when paired with Minus.",
-        "platinum": "Powers up only when paired with Minus.",
-        "heartgold-soulsilver": "Powers up only when paired with Minus."
+        "diamond-pearl": "This Pokémon has 1.5× its Special Attack if any friendly Pokémon has Minus.",
+        "platinum": "This Pokémon has 1.5× its Special Attack if any friendly Pokémon has Minus.",
+        "heartgold-soulsilver": "This Pokémon has 1.5× its Special Attack if any friendly Pokémon has Minus."
     },
     "short_effect": {
         "diamond-pearl": "Increases Special Attack to 1.5× when a friendly Pokémon has Plus or Minus.",

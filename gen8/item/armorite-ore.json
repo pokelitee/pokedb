@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "Rare ore that can be obtained on the Isle of Armor. Something good will happen if you give it to a collector on the Isle of Armor."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/armorite-ore.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

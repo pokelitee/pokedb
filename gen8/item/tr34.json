@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "Two turns after this move is used, a hunk of psychic energy attacks the target."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr34.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

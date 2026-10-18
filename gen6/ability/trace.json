@@ -5,8 +5,8 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "x-y": "When this Pokémon enters battle, it copies a random opponent's ability. This ability cannot copy Flower Gift, Forecast, Illusion, Imposter, Multitype, Trace, Wonder Guard, or Zen Mode.",
-        "omega-ruby-alpha-sapphire": "When this Pokémon enters battle, it copies a random opponent's ability. This ability cannot copy Flower Gift, Forecast, Illusion, Imposter, Multitype, Trace, Wonder Guard, or Zen Mode."
+        "x-y": "When this Pokémon enters battle, it copies a random opponent's ability. This ability cannot copy Flower Gift, Forecast, Illusion, Imposter, Multitype, Trace, or Zen Mode.",
+        "omega-ruby-alpha-sapphire": "When this Pokémon enters battle, it copies a random opponent's ability. This ability cannot copy Flower Gift, Forecast, Illusion, Imposter, Multitype, Trace, or Zen Mode."
     },
     "short_effect": {
         "x-y": "Copies an opponent's ability upon entering battle.",

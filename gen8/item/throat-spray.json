@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "Raises Sp. Atk when a Pokémon uses a sound-based move."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/throat-spray.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A small bouquet that was made with heart and soul for a single Trainer."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/small-bouquet.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

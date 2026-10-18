@@ -11,64 +11,64 @@
             "variant"
         ],
         "resource_provenance": {
-            "variant": {
+            "pokemon": {
                 "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
                 "dependencies": {
                     "requests": "2.34.2",
-                    "tqdm": "4.69.0"
+                    "tqdm": "4.70.1"
                 }
             },
             "ability": {
                 "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
                 "dependencies": {
                     "requests": "2.34.2",
-                    "tqdm": "4.69.0"
-                }
-            },
-            "transformation": {
-                "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
-                "dependencies": {
-                    "requests": "2.34.2",
-                    "tqdm": "4.69.0"
-                }
-            },
-            "pokemon": {
-                "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
-                "dependencies": {
-                    "requests": "2.34.2",
-                    "tqdm": "4.69.0"
-                }
-            },
-            "move": {
-                "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
-                "dependencies": {
-                    "requests": "2.34.2",
-                    "tqdm": "4.69.0"
-                }
-            },
-            "item": {
-                "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
-                "dependencies": {
-                    "requests": "2.34.2",
-                    "tqdm": "4.69.0"
+                    "tqdm": "4.70.1"
                 }
             },
             "cosmetic": {
                 "version": "2.0.0",
-                "commit": "ee25c68dc2b3d6df64fc18421582263f7ac53f17",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
                 "dependencies": {
                     "requests": "2.34.2",
-                    "tqdm": "4.69.0"
+                    "tqdm": "4.70.1"
+                }
+            },
+            "variant": {
+                "version": "2.0.0",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.70.1"
+                }
+            },
+            "move": {
+                "version": "2.0.0",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.70.1"
+                }
+            },
+            "item": {
+                "version": "2.0.0",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.70.1"
+                }
+            },
+            "transformation": {
+                "version": "2.0.0",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.70.1"
                 }
             }
         },
-        "content_sha256": "5ec86cf111485e23746610b778b656404a38c85c0aa15cd42020dfbe764fa028",
+        "content_sha256": "cd996a3a9aa0d7852577d6f70c9109dd7f5ea80ef37aa503e9cc10f5223eae4b",
         "source": "pokeapi",
         "api_base_url": "https://pokeapi.co/api/v2/",
         "is_historical": true,
@@ -91,7 +91,7 @@
             "the-isle-of-armor-shield",
             "the-isle-of-armor-sword"
         ],
-        "created_at": "2026-10-13T17:54:48.562389+00:00",
+        "created_at": "2026-10-18T04:10:21.021608+00:00",
         "counts": {
             "ability": 327,
             "move": 868,
@@ -16138,12 +16138,12 @@
         {
             "name": "xtransceiver--red",
             "id": 922,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/xtransceiver--red.png"
         },
         {
             "name": "xtransceiver--yellow",
             "id": 923,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/xtransceiver--yellow.png"
         },
         {
             "name": "dna-splicers--merge",
@@ -16558,1412 +16558,1412 @@
         {
             "name": "autograph",
             "id": 1006,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/autograph.png"
         },
         {
             "name": "pokemon-box",
             "id": 1007,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pokemon-box.png"
         },
         {
             "name": "medicine-pocket",
             "id": 1008,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/medicine-pocket.png"
         },
         {
             "name": "candy-jar",
             "id": 1009,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/candy-jar.png"
         },
         {
             "name": "power-up-pocket",
             "id": 1010,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/power-up-pocket.png"
         },
         {
             "name": "clothing-trunk",
             "id": 1011,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/clothing-trunk.png"
         },
         {
             "name": "catching-pocket",
             "id": 1012,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/catching-pocket.png"
         },
         {
             "name": "battle-pocket",
             "id": 1013,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/battle-pocket.png"
         },
         {
             "name": "silver-razz-berry",
             "id": 1014,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-razz-berry.png"
         },
         {
             "name": "golden-razz-berry",
             "id": 1015,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/golden-razz-berry.png"
         },
         {
             "name": "silver-nanab-berry",
             "id": 1016,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-nanab-berry.png"
         },
         {
             "name": "golden-nanab-berry",
             "id": 1017,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/golden-nanab-berry.png"
         },
         {
             "name": "silver-pinap-berry",
             "id": 1018,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-pinap-berry.png"
         },
         {
             "name": "golden-pinap-berry",
             "id": 1019,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/golden-pinap-berry.png"
         },
         {
             "name": "secret-key--letsgo",
             "id": 1020,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/secret-key--letsgo.png"
         },
         {
             "name": "ss-ticket--letsgo",
             "id": 1021,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ss-ticket--letsgo.png"
         },
         {
             "name": "parcel--letsgo",
             "id": 1022,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/parcel--letsgo.png"
         },
         {
             "name": "card-key--letsgo",
             "id": 1023,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/card-key--letsgo.png"
         },
         {
             "name": "stretchy-spring",
             "id": 1024,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/stretchy-spring.png"
         },
         {
             "name": "chalky-stone",
             "id": 1025,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chalky-stone.png"
         },
         {
             "name": "marble",
             "id": 1026,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/marble.png"
         },
         {
             "name": "lone-earring",
             "id": 1027,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lone-earring.png"
         },
         {
             "name": "beach-glass",
             "id": 1028,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/beach-glass.png"
         },
         {
             "name": "gold-leaf",
             "id": 1029,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gold-leaf.png"
         },
         {
             "name": "silver-leaf",
             "id": 1030,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-leaf.png"
         },
         {
             "name": "polished-mud-ball",
             "id": 1031,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/polished-mud-ball.png"
         },
         {
             "name": "tropical-shell",
             "id": 1032,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tropical-shell.png"
         },
         {
             "name": "leaf-letter--pikachu",
             "id": 1033,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leaf-letter--pikachu.png"
         },
         {
             "name": "leaf-letter--eevee",
             "id": 1034,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leaf-letter--eevee.png"
         },
         {
             "name": "small-bouquet",
             "id": 1035,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/small-bouquet.png"
         },
         {
             "name": "lure",
             "id": 1036,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lure.png"
         },
         {
             "name": "super-lure",
             "id": 1037,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/super-lure.png"
         },
         {
             "name": "max-lure",
             "id": 1038,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-lure.png"
         },
         {
             "name": "pewter-crunchies",
             "id": 1039,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pewter-crunchies.png"
         },
         {
             "name": "health-candy",
             "id": 1040,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/health-candy.png"
         },
         {
             "name": "mighty-candy",
             "id": 1041,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mighty-candy.png"
         },
         {
             "name": "tough-candy",
             "id": 1042,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tough-candy.png"
         },
         {
             "name": "smart-candy",
             "id": 1043,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/smart-candy.png"
         },
         {
             "name": "courage-candy",
             "id": 1044,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/courage-candy.png"
         },
         {
             "name": "quick-candy",
             "id": 1045,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-candy.png"
         },
         {
             "name": "health-candy-l",
             "id": 1046,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/health-candy-l.png"
         },
         {
             "name": "mighty-candy-l",
             "id": 1047,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mighty-candy-l.png"
         },
         {
             "name": "tough-candy-l",
             "id": 1048,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tough-candy-l.png"
         },
         {
             "name": "smart-candy-l",
             "id": 1049,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/smart-candy-l.png"
         },
         {
             "name": "courage-candy-l",
             "id": 1050,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/courage-candy-l.png"
         },
         {
             "name": "quick-candy-l",
             "id": 1051,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-candy-l.png"
         },
         {
             "name": "health-candy-xl",
             "id": 1052,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/health-candy-xl.png"
         },
         {
             "name": "mighty-candy-xl",
             "id": 1053,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mighty-candy-xl.png"
         },
         {
             "name": "tough-candy-xl",
             "id": 1054,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tough-candy-xl.png"
         },
         {
             "name": "smart-candy-xl",
             "id": 1055,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/smart-candy-xl.png"
         },
         {
             "name": "courage-candy-xl",
             "id": 1056,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/courage-candy-xl.png"
         },
         {
             "name": "quick-candy-xl",
             "id": 1057,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-candy-xl.png"
         },
         {
             "name": "bulbasaur-candy",
             "id": 1058,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bulbasaur-candy.png"
         },
         {
             "name": "charmander-candy",
             "id": 1059,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charmander-candy.png"
         },
         {
             "name": "squirtle-candy",
             "id": 1060,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/squirtle-candy.png"
         },
         {
             "name": "caterpie-candy",
             "id": 1061,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/caterpie-candy.png"
         },
         {
             "name": "weedle-candy",
             "id": 1062,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/weedle-candy.png"
         },
         {
             "name": "pidgey-candy",
             "id": 1063,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pidgey-candy.png"
         },
         {
             "name": "rattata-candy",
             "id": 1064,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rattata-candy.png"
         },
         {
             "name": "spearow-candy",
             "id": 1065,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/spearow-candy.png"
         },
         {
             "name": "ekans-candy",
             "id": 1066,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ekans-candy.png"
         },
         {
             "name": "pikachu-candy",
             "id": 1067,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pikachu-candy.png"
         },
         {
             "name": "sandshrew-candy",
             "id": 1068,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sandshrew-candy.png"
         },
         {
             "name": "nidoran-f-candy",
             "id": 1069,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nidoran-f-candy.png"
         },
         {
             "name": "nidoran-m-candy",
             "id": 1070,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nidoran-m-candy.png"
         },
         {
             "name": "clefairy-candy",
             "id": 1071,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/clefairy-candy.png"
         },
         {
             "name": "vulpix-candy",
             "id": 1072,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/vulpix-candy.png"
         },
         {
             "name": "jigglypuff-candy",
             "id": 1073,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/jigglypuff-candy.png"
         },
         {
             "name": "zubat-candy",
             "id": 1074,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/zubat-candy.png"
         },
         {
             "name": "oddish-candy",
             "id": 1075,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oddish-candy.png"
         },
         {
             "name": "paras-candy",
             "id": 1076,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/paras-candy.png"
         },
         {
             "name": "venonat-candy",
             "id": 1077,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/venonat-candy.png"
         },
         {
             "name": "diglett-candy",
             "id": 1078,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/diglett-candy.png"
         },
         {
             "name": "meowth-candy",
             "id": 1079,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/meowth-candy.png"
         },
         {
             "name": "psyduck-candy",
             "id": 1080,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/psyduck-candy.png"
         },
         {
             "name": "mankey-candy",
             "id": 1081,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mankey-candy.png"
         },
         {
             "name": "growlithe-candy",
             "id": 1082,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/growlithe-candy.png"
         },
         {
             "name": "poliwag-candy",
             "id": 1083,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poliwag-candy.png"
         },
         {
             "name": "abra-candy",
             "id": 1084,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/abra-candy.png"
         },
         {
             "name": "machop-candy",
             "id": 1085,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/machop-candy.png"
         },
         {
             "name": "bellsprout-candy",
             "id": 1086,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bellsprout-candy.png"
         },
         {
             "name": "tentacool-candy",
             "id": 1087,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tentacool-candy.png"
         },
         {
             "name": "geodude-candy",
             "id": 1088,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/geodude-candy.png"
         },
         {
             "name": "ponyta-candy",
             "id": 1089,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ponyta-candy.png"
         },
         {
             "name": "slowpoke-candy",
             "id": 1090,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/slowpoke-candy.png"
         },
         {
             "name": "magnemite-candy",
             "id": 1091,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/magnemite-candy.png"
         },
         {
             "name": "farfetchd-candy",
             "id": 1092,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/farfetchd-candy.png"
         },
         {
             "name": "doduo-candy",
             "id": 1093,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/doduo-candy.png"
         },
         {
             "name": "seel-candy",
             "id": 1094,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/seel-candy.png"
         },
         {
             "name": "grimer-candy",
             "id": 1095,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/grimer-candy.png"
         },
         {
             "name": "shellder-candy",
             "id": 1096,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shellder-candy.png"
         },
         {
             "name": "gastly-candy",
             "id": 1097,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gastly-candy.png"
         },
         {
             "name": "onix-candy",
             "id": 1098,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/onix-candy.png"
         },
         {
             "name": "drowzee-candy",
             "id": 1099,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/drowzee-candy.png"
         },
         {
             "name": "krabby-candy",
             "id": 1100,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/krabby-candy.png"
         },
         {
             "name": "voltorb-candy",
             "id": 1101,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/voltorb-candy.png"
         },
         {
             "name": "exeggcute-candy",
             "id": 1102,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/exeggcute-candy.png"
         },
         {
             "name": "cubone-candy",
             "id": 1103,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cubone-candy.png"
         },
         {
             "name": "hitmonlee-candy",
             "id": 1104,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hitmonlee-candy.png"
         },
         {
             "name": "hitmonchan-candy",
             "id": 1105,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hitmonchan-candy.png"
         },
         {
             "name": "lickitung-candy",
             "id": 1106,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lickitung-candy.png"
         },
         {
             "name": "koffing-candy",
             "id": 1107,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/koffing-candy.png"
         },
         {
             "name": "rhyhorn-candy",
             "id": 1108,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rhyhorn-candy.png"
         },
         {
             "name": "chansey-candy",
             "id": 1109,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chansey-candy.png"
         },
         {
             "name": "tangela-candy",
             "id": 1110,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tangela-candy.png"
         },
         {
             "name": "kangaskhan-candy",
             "id": 1111,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kangaskhan-candy.png"
         },
         {
             "name": "horsea-candy",
             "id": 1112,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/horsea-candy.png"
         },
         {
             "name": "goldeen-candy",
             "id": 1113,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/goldeen-candy.png"
         },
         {
             "name": "staryu-candy",
             "id": 1114,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/staryu-candy.png"
         },
         {
             "name": "mr-mime-candy",
             "id": 1115,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mr-mime-candy.png"
         },
         {
             "name": "scyther-candy",
             "id": 1116,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/scyther-candy.png"
         },
         {
             "name": "jynx-candy",
             "id": 1117,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/jynx-candy.png"
         },
         {
             "name": "electabuzz-candy",
             "id": 1118,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/electabuzz-candy.png"
         },
         {
             "name": "pinsir-candy",
             "id": 1119,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pinsir-candy.png"
         },
         {
             "name": "tauros-candy",
             "id": 1120,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tauros-candy.png"
         },
         {
             "name": "magikarp-candy",
             "id": 1121,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/magikarp-candy.png"
         },
         {
             "name": "lapras-candy",
             "id": 1122,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lapras-candy.png"
         },
         {
             "name": "ditto-candy",
             "id": 1123,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ditto-candy.png"
         },
         {
             "name": "eevee-candy",
             "id": 1124,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eevee-candy.png"
         },
         {
             "name": "porygon-candy",
             "id": 1125,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/porygon-candy.png"
         },
         {
             "name": "omanyte-candy",
             "id": 1126,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/omanyte-candy.png"
         },
         {
             "name": "kabuto-candy",
             "id": 1127,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kabuto-candy.png"
         },
         {
             "name": "aerodactyl-candy",
             "id": 1128,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aerodactyl-candy.png"
         },
         {
             "name": "snorlax-candy",
             "id": 1129,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/snorlax-candy.png"
         },
         {
             "name": "articuno-candy",
             "id": 1130,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/articuno-candy.png"
         },
         {
             "name": "zapdos-candy",
             "id": 1131,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/zapdos-candy.png"
         },
         {
             "name": "moltres-candy",
             "id": 1132,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moltres-candy.png"
         },
         {
             "name": "dratini-candy",
             "id": 1133,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dratini-candy.png"
         },
         {
             "name": "mewtwo-candy",
             "id": 1134,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mewtwo-candy.png"
         },
         {
             "name": "mew-candy",
             "id": 1135,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mew-candy.png"
         },
         {
             "name": "meltan-candy",
             "id": 1136,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/meltan-candy.png"
         },
         {
             "name": "magmar-candy",
             "id": 1137,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/magmar-candy.png"
         },
         {
             "name": "endorsement",
             "id": 1138,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/endorsement.png"
         },
         {
             "name": "pokemon-box-link",
             "id": 1139,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pokemon-box-link.png"
         },
         {
             "name": "wishing-star",
             "id": 1140,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wishing-star.png"
         },
         {
             "name": "dynamax-band",
             "id": 1141,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-band.png"
         },
         {
             "name": "fishing-rod--galar",
             "id": 1142,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fishing-rod--galar.png"
         },
         {
             "name": "rotom-bike",
             "id": 1143,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rotom-bike.png"
         },
         {
             "name": "sausages",
             "id": 1144,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sausages.png"
         },
         {
             "name": "bobs-food-tin",
             "id": 1145,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bobs-food-tin.png"
         },
         {
             "name": "bachs-food-tin",
             "id": 1146,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bachs-food-tin.png"
         },
         {
             "name": "tin-of-beans",
             "id": 1147,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tin-of-beans.png"
         },
         {
             "name": "bread",
             "id": 1148,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bread.png"
         },
         {
             "name": "pasta",
             "id": 1149,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pasta.png"
         },
         {
             "name": "mixed-mushrooms",
             "id": 1150,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mixed-mushrooms.png"
         },
         {
             "name": "smoke-poke-tail",
             "id": 1151,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/smoke-poke-tail.png"
         },
         {
             "name": "large-leek",
             "id": 1152,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/large-leek.png"
         },
         {
             "name": "fancy-apple",
             "id": 1153,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fancy-apple.png"
         },
         {
             "name": "brittle-bones",
             "id": 1154,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/brittle-bones.png"
         },
         {
             "name": "pack-of-potatoes",
             "id": 1155,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pack-of-potatoes.png"
         },
         {
             "name": "pungent-root",
             "id": 1156,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pungent-root.png"
         },
         {
             "name": "salad-mix",
             "id": 1157,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/salad-mix.png"
         },
         {
             "name": "fried-food",
             "id": 1158,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fried-food.png"
         },
         {
             "name": "boiled-egg",
             "id": 1159,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/boiled-egg.png"
         },
         {
             "name": "camping-gear",
             "id": 1160,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/camping-gear.png"
         },
         {
             "name": "rusted-sword",
             "id": 1161,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rusted-sword.png"
         },
         {
             "name": "rusted-shield",
             "id": 1162,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rusted-shield.png"
         },
         {
             "name": "fossilized-bird",
             "id": 1163,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fossilized-bird.png"
         },
         {
             "name": "fossilized-fish",
             "id": 1164,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fossilized-fish.png"
         },
         {
             "name": "fossilized-drake",
             "id": 1165,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fossilized-drake.png"
         },
         {
             "name": "fossilized-dino",
             "id": 1166,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fossilized-dino.png"
         },
         {
             "name": "strawberry-sweet",
             "id": 1167,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/strawberry-sweet.png"
         },
         {
             "name": "love-sweet",
             "id": 1168,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/love-sweet.png"
         },
         {
             "name": "berry-sweet",
             "id": 1169,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/berry-sweet.png"
         },
         {
             "name": "clover-sweet",
             "id": 1170,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/clover-sweet.png"
         },
         {
             "name": "flower-sweet",
             "id": 1171,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/flower-sweet.png"
         },
         {
             "name": "star-sweet",
             "id": 1172,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/star-sweet.png"
         },
         {
             "name": "ribbon-sweet",
             "id": 1173,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ribbon-sweet.png"
         },
         {
             "name": "sweet-apple",
             "id": 1174,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sweet-apple.png"
         },
         {
             "name": "tart-apple",
             "id": 1175,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tart-apple.png"
         },
         {
             "name": "throat-spray",
             "id": 1176,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/throat-spray.png"
         },
         {
             "name": "eject-pack",
             "id": 1177,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eject-pack.png"
         },
         {
             "name": "heavy-duty-boots",
             "id": 1178,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heavy-duty-boots.png"
         },
         {
             "name": "blunder-policy",
             "id": 1179,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/blunder-policy.png"
         },
         {
             "name": "room-service",
             "id": 1180,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/room-service.png"
         },
         {
             "name": "utility-umbrella",
             "id": 1181,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/utility-umbrella.png"
         },
         {
             "name": "exp-candy-xs",
             "id": 1182,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/exp-candy-xs.png"
         },
         {
             "name": "exp-candy-s",
             "id": 1183,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/exp-candy-s.png"
         },
         {
             "name": "exp-candy-m",
             "id": 1184,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/exp-candy-m.png"
         },
         {
             "name": "exp-candy-l",
             "id": 1185,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/exp-candy-l.png"
         },
         {
             "name": "exp-candy-xl",
             "id": 1186,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/exp-candy-xl.png"
         },
         {
             "name": "dynamax-candy",
             "id": 1187,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-candy.png"
         },
         {
             "name": "tr00",
             "id": 1188,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr00.png"
         },
         {
             "name": "tr01",
             "id": 1189,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr01.png"
         },
         {
             "name": "tr02",
             "id": 1190,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr02.png"
         },
         {
             "name": "tr03",
             "id": 1191,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr03.png"
         },
         {
             "name": "tr04",
             "id": 1192,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr04.png"
         },
         {
             "name": "tr05",
             "id": 1193,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr05.png"
         },
         {
             "name": "tr06",
             "id": 1194,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr06.png"
         },
         {
             "name": "tr07",
             "id": 1195,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr07.png"
         },
         {
             "name": "tr08",
             "id": 1196,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr08.png"
         },
         {
             "name": "tr09",
             "id": 1197,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr09.png"
         },
         {
             "name": "tr10",
             "id": 1198,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr10.png"
         },
         {
             "name": "tr11",
             "id": 1199,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr11.png"
         },
         {
             "name": "tr12",
             "id": 1200,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr12.png"
         },
         {
             "name": "tr13",
             "id": 1201,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr13.png"
         },
         {
             "name": "tr14",
             "id": 1202,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr14.png"
         },
         {
             "name": "tr15",
             "id": 1203,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr15.png"
         },
         {
             "name": "tr16",
             "id": 1204,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr16.png"
         },
         {
             "name": "tr17",
             "id": 1205,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr17.png"
         },
         {
             "name": "tr18",
             "id": 1206,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr18.png"
         },
         {
             "name": "tr19",
             "id": 1207,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr19.png"
         },
         {
             "name": "tr20",
             "id": 1208,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr20.png"
         },
         {
             "name": "tr21",
             "id": 1209,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr21.png"
         },
         {
             "name": "tr22",
             "id": 1210,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr22.png"
         },
         {
             "name": "tr23",
             "id": 1211,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr23.png"
         },
         {
             "name": "tr24",
             "id": 1212,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr24.png"
         },
         {
             "name": "tr25",
             "id": 1213,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr25.png"
         },
         {
             "name": "tr26",
             "id": 1214,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr26.png"
         },
         {
             "name": "tr27",
             "id": 1215,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr27.png"
         },
         {
             "name": "tr28",
             "id": 1216,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr28.png"
         },
         {
             "name": "tr29",
             "id": 1217,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr29.png"
         },
         {
             "name": "tr30",
             "id": 1218,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr30.png"
         },
         {
             "name": "tr31",
             "id": 1219,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr31.png"
         },
         {
             "name": "tr32",
             "id": 1220,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr32.png"
         },
         {
             "name": "tr33",
             "id": 1221,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr33.png"
         },
         {
             "name": "tr34",
             "id": 1222,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr34.png"
         },
         {
             "name": "tr35",
             "id": 1223,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr35.png"
         },
         {
             "name": "tr36",
             "id": 1224,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr36.png"
         },
         {
             "name": "tr37",
             "id": 1225,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr37.png"
         },
         {
             "name": "tr38",
             "id": 1226,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr38.png"
         },
         {
             "name": "tr39",
             "id": 1227,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr39.png"
         },
         {
             "name": "tr40",
             "id": 1228,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr40.png"
         },
         {
             "name": "tr41",
             "id": 1229,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr41.png"
         },
         {
             "name": "tr42",
             "id": 1230,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr42.png"
         },
         {
             "name": "tr43",
             "id": 1231,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr43.png"
         },
         {
             "name": "tr44",
             "id": 1232,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr44.png"
         },
         {
             "name": "tr45",
             "id": 1233,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr45.png"
         },
         {
             "name": "tr46",
             "id": 1234,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr46.png"
         },
         {
             "name": "tr47",
             "id": 1235,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr47.png"
         },
         {
             "name": "tr48",
             "id": 1236,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr48.png"
         },
         {
             "name": "tr49",
             "id": 1237,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr49.png"
         },
         {
             "name": "tr50",
             "id": 1238,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr50.png"
         },
         {
             "name": "tr51",
             "id": 1239,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr51.png"
         },
         {
             "name": "tr52",
             "id": 1240,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr52.png"
         },
         {
             "name": "tr53",
             "id": 1241,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr53.png"
         },
         {
             "name": "tr54",
             "id": 1242,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr54.png"
         },
         {
             "name": "tr55",
             "id": 1243,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr55.png"
         },
         {
             "name": "tr56",
             "id": 1244,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr56.png"
         },
         {
             "name": "tr57",
             "id": 1245,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr57.png"
         },
         {
             "name": "tr58",
             "id": 1246,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr58.png"
         },
         {
             "name": "tr59",
             "id": 1247,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr59.png"
         },
         {
             "name": "tr60",
             "id": 1248,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr60.png"
         },
         {
             "name": "tr61",
             "id": 1249,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr61.png"
         },
         {
             "name": "tr62",
             "id": 1250,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr62.png"
         },
         {
             "name": "tr63",
             "id": 1251,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr63.png"
         },
         {
             "name": "tr64",
             "id": 1252,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr64.png"
         },
         {
             "name": "tr65",
             "id": 1253,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr65.png"
         },
         {
             "name": "tr66",
             "id": 1254,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr66.png"
         },
         {
             "name": "tr67",
             "id": 1255,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr67.png"
         },
         {
             "name": "tr68",
             "id": 1256,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr68.png"
         },
         {
             "name": "tr69",
             "id": 1257,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr69.png"
         },
         {
             "name": "tr70",
             "id": 1258,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr70.png"
         },
         {
             "name": "tr71",
             "id": 1259,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr71.png"
         },
         {
             "name": "tr72",
             "id": 1260,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr72.png"
         },
         {
             "name": "tr73",
             "id": 1261,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr73.png"
         },
         {
             "name": "tr74",
             "id": 1262,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr74.png"
         },
         {
             "name": "tr75",
             "id": 1263,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr75.png"
         },
         {
             "name": "tr76",
             "id": 1264,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr76.png"
         },
         {
             "name": "tr77",
             "id": 1265,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr77.png"
         },
         {
             "name": "tr78",
             "id": 1266,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr78.png"
         },
         {
             "name": "tr79",
             "id": 1267,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr79.png"
         },
         {
             "name": "tr80",
             "id": 1268,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr80.png"
         },
         {
             "name": "tr81",
             "id": 1269,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr81.png"
         },
         {
             "name": "tr82",
             "id": 1270,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr82.png"
         },
         {
             "name": "tr83",
             "id": 1271,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr83.png"
         },
         {
             "name": "tr84",
             "id": 1272,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr84.png"
         },
         {
             "name": "tr85",
             "id": 1273,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr85.png"
         },
         {
             "name": "tr86",
             "id": 1274,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr86.png"
         },
         {
             "name": "tr87",
             "id": 1275,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr87.png"
         },
         {
             "name": "tr88",
             "id": 1276,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr88.png"
         },
         {
             "name": "tr89",
             "id": 1277,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr89.png"
         },
         {
             "name": "tr90",
             "id": 1278,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr90.png"
         },
         {
             "name": "tr91",
             "id": 1279,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr91.png"
         },
         {
             "name": "tr92",
             "id": 1280,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr92.png"
         },
         {
             "name": "tr93",
             "id": 1281,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr93.png"
         },
         {
             "name": "tr94",
             "id": 1282,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr94.png"
         },
         {
             "name": "tr95",
             "id": 1283,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr95.png"
         },
         {
             "name": "tr96",
             "id": 1284,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr96.png"
         },
         {
             "name": "tr97",
             "id": 1285,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr97.png"
         },
         {
             "name": "tr98",
             "id": 1286,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr98.png"
         },
         {
             "name": "tr99",
             "id": 1287,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr99.png"
         },
         {
             "name": "tm00",
@@ -17973,1887 +17973,1887 @@
         {
             "name": "lonely-mint",
             "id": 1289,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lonely-mint.png"
         },
         {
             "name": "adamant-mint",
             "id": 1290,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/adamant-mint.png"
         },
         {
             "name": "naughty-mint",
             "id": 1291,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/naughty-mint.png"
         },
         {
             "name": "brave-mint",
             "id": 1292,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/brave-mint.png"
         },
         {
             "name": "bold-mint",
             "id": 1293,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bold-mint.png"
         },
         {
             "name": "impish-mint",
             "id": 1294,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/impish-mint.png"
         },
         {
             "name": "lax-mint",
             "id": 1295,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lax-mint.png"
         },
         {
             "name": "relaxed-mint",
             "id": 1296,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/relaxed-mint.png"
         },
         {
             "name": "modest-mint",
             "id": 1297,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/modest-mint.png"
         },
         {
             "name": "mild-mint",
             "id": 1298,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mild-mint.png"
         },
         {
             "name": "rash-mint",
             "id": 1299,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rash-mint.png"
         },
         {
             "name": "quiet-mint",
             "id": 1300,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quiet-mint.png"
         },
         {
             "name": "calm-mint",
             "id": 1301,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/calm-mint.png"
         },
         {
             "name": "gentle-mint",
             "id": 1302,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gentle-mint.png"
         },
         {
             "name": "careful-mint",
             "id": 1303,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/careful-mint.png"
         },
         {
             "name": "sassy-mint",
             "id": 1304,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sassy-mint.png"
         },
         {
             "name": "timid-mint",
             "id": 1305,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/timid-mint.png"
         },
         {
             "name": "hasty-mint",
             "id": 1306,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hasty-mint.png"
         },
         {
             "name": "jolly-mint",
             "id": 1307,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/jolly-mint.png"
         },
         {
             "name": "naive-mint",
             "id": 1308,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/naive-mint.png"
         },
         {
             "name": "serious-mint",
             "id": 1309,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/serious-mint.png"
         },
         {
             "name": "wishing-piece",
             "id": 1310,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wishing-piece.png"
         },
         {
             "name": "cracked-pot",
             "id": 1311,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cracked-pot.png"
         },
         {
             "name": "chipped-pot",
             "id": 1312,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chipped-pot.png"
         },
         {
             "name": "hi-tech-earbuds",
             "id": 1313,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hi-tech-earbuds.png"
         },
         {
             "name": "fruit-bunch",
             "id": 1314,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fruit-bunch.png"
         },
         {
             "name": "moomoo-cheese",
             "id": 1315,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moomoo-cheese.png"
         },
         {
             "name": "spice-mix",
             "id": 1316,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/spice-mix.png"
         },
         {
             "name": "fresh-cream",
             "id": 1317,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fresh-cream.png"
         },
         {
             "name": "packaged-curry",
             "id": 1318,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/packaged-curry.png"
         },
         {
             "name": "coconut-milk",
             "id": 1319,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/coconut-milk.png"
         },
         {
             "name": "instant-noodles",
             "id": 1320,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/instant-noodles.png"
         },
         {
             "name": "precooked-burger",
             "id": 1321,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/precooked-burger.png"
         },
         {
             "name": "gigantamix",
             "id": 1322,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gigantamix.png"
         },
         {
             "name": "wishing-chip",
             "id": 1323,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wishing-chip.png"
         },
         {
             "name": "rotom-bike--water-mode",
             "id": 1324,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rotom-bike--water-mode.png"
         },
         {
             "name": "catching-charm",
             "id": 1325,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/catching-charm.png"
         },
         {
             "name": "old-letter",
             "id": 1326,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/old-letter.png"
         },
         {
             "name": "band-autograph",
             "id": 1327,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/band-autograph.png"
         },
         {
             "name": "sonias-book",
             "id": 1328,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sonias-book.png"
         },
         {
             "name": "rotom-catalog",
             "id": 1329,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rotom-catalog.png"
         },
         {
             "name": "dynamax-crystal-and458",
             "id": 1330,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-and458.png"
         },
         {
             "name": "dynamax-crystal-and15",
             "id": 1331,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-and15.png"
         },
         {
             "name": "dynamax-crystal-and337",
             "id": 1332,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-and337.png"
         },
         {
             "name": "dynamax-crystal-and603",
             "id": 1333,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-and603.png"
         },
         {
             "name": "dynamax-crystal-and390",
             "id": 1334,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-and390.png"
         },
         {
             "name": "dynamax-crystal-sgr6879",
             "id": 1335,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sgr6879.png"
         },
         {
             "name": "dynamax-crystal-sgr6859",
             "id": 1336,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sgr6859.png"
         },
         {
             "name": "dynamax-crystal-sgr6913",
             "id": 1337,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sgr6913.png"
         },
         {
             "name": "dynamax-crystal-sgr7348",
             "id": 1338,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sgr7348.png"
         },
         {
             "name": "dynamax-crystal-sgr7121",
             "id": 1339,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sgr7121.png"
         },
         {
             "name": "dynamax-crystal-sgr6746",
             "id": 1340,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sgr6746.png"
         },
         {
             "name": "dynamax-crystal-sgr7194",
             "id": 1341,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sgr7194.png"
         },
         {
             "name": "dynamax-crystal-sgr7337",
             "id": 1342,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sgr7337.png"
         },
         {
             "name": "dynamax-crystal-sgr7343",
             "id": 1343,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sgr7343.png"
         },
         {
             "name": "dynamax-crystal-sgr6812",
             "id": 1344,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sgr6812.png"
         },
         {
             "name": "dynamax-crystal-sgr7116",
             "id": 1345,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sgr7116.png"
         },
         {
             "name": "dynamax-crystal-sgr7264",
             "id": 1346,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sgr7264.png"
         },
         {
             "name": "dynamax-crystal-sgr7597",
             "id": 1347,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sgr7597.png"
         },
         {
             "name": "dynamax-crystal-del7882",
             "id": 1348,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-del7882.png"
         },
         {
             "name": "dynamax-crystal-del7906",
             "id": 1349,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-del7906.png"
         },
         {
             "name": "dynamax-crystal-del7852",
             "id": 1350,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-del7852.png"
         },
         {
             "name": "dynamax-crystal-psc596",
             "id": 1351,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-psc596.png"
         },
         {
             "name": "dynamax-crystal-psc361",
             "id": 1352,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-psc361.png"
         },
         {
             "name": "dynamax-crystal-psc510",
             "id": 1353,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-psc510.png"
         },
         {
             "name": "dynamax-crystal-psc437",
             "id": 1354,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-psc437.png"
         },
         {
             "name": "dynamax-crystal-psc8773",
             "id": 1355,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-psc8773.png"
         },
         {
             "name": "dynamax-crystal-lep1865",
             "id": 1356,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-lep1865.png"
         },
         {
             "name": "dynamax-crystal-lep1829",
             "id": 1357,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-lep1829.png"
         },
         {
             "name": "dynamax-crystal-boo5340",
             "id": 1358,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-boo5340.png"
         },
         {
             "name": "dynamax-crystal-boo5506",
             "id": 1359,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-boo5506.png"
         },
         {
             "name": "dynamax-crystal-boo5435",
             "id": 1360,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-boo5435.png"
         },
         {
             "name": "dynamax-crystal-boo5602",
             "id": 1361,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-boo5602.png"
         },
         {
             "name": "dynamax-crystal-boo5733",
             "id": 1362,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-boo5733.png"
         },
         {
             "name": "dynamax-crystal-boo5235",
             "id": 1363,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-boo5235.png"
         },
         {
             "name": "dynamax-crystal-boo5351",
             "id": 1364,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-boo5351.png"
         },
         {
             "name": "dynamax-crystal-hya3748",
             "id": 1365,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-hya3748.png"
         },
         {
             "name": "dynamax-crystal-hya3903",
             "id": 1366,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-hya3903.png"
         },
         {
             "name": "dynamax-crystal-hya3418",
             "id": 1367,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-hya3418.png"
         },
         {
             "name": "dynamax-crystal-hya3482",
             "id": 1368,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-hya3482.png"
         },
         {
             "name": "dynamax-crystal-hya3845",
             "id": 1369,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-hya3845.png"
         },
         {
             "name": "dynamax-crystal-eri1084",
             "id": 1370,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-eri1084.png"
         },
         {
             "name": "dynamax-crystal-eri472",
             "id": 1371,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-eri472.png"
         },
         {
             "name": "dynamax-crystal-eri1666",
             "id": 1372,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-eri1666.png"
         },
         {
             "name": "dynamax-crystal-eri897",
             "id": 1373,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-eri897.png"
         },
         {
             "name": "dynamax-crystal-eri1231",
             "id": 1374,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-eri1231.png"
         },
         {
             "name": "dynamax-crystal-eri874",
             "id": 1375,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-eri874.png"
         },
         {
             "name": "dynamax-crystal-eri1298",
             "id": 1376,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-eri1298.png"
         },
         {
             "name": "dynamax-crystal-eri1325",
             "id": 1377,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-eri1325.png"
         },
         {
             "name": "dynamax-crystal-eri984",
             "id": 1378,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-eri984.png"
         },
         {
             "name": "dynamax-crystal-eri1464",
             "id": 1379,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-eri1464.png"
         },
         {
             "name": "dynamax-crystal-eri1393",
             "id": 1380,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-eri1393.png"
         },
         {
             "name": "dynamax-crystal-eri850",
             "id": 1381,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-eri850.png"
         },
         {
             "name": "dynamax-crystal-tau1409",
             "id": 1382,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-tau1409.png"
         },
         {
             "name": "dynamax-crystal-tau1457",
             "id": 1383,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-tau1457.png"
         },
         {
             "name": "dynamax-crystal-tau1165",
             "id": 1384,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-tau1165.png"
         },
         {
             "name": "dynamax-crystal-tau1791",
             "id": 1385,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-tau1791.png"
         },
         {
             "name": "dynamax-crystal-tau1910",
             "id": 1386,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-tau1910.png"
         },
         {
             "name": "dynamax-crystal-tau1346",
             "id": 1387,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-tau1346.png"
         },
         {
             "name": "dynamax-crystal-tau1373",
             "id": 1388,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-tau1373.png"
         },
         {
             "name": "dynamax-crystal-tau1412",
             "id": 1389,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-tau1412.png"
         },
         {
             "name": "dynamax-crystal-cma2491",
             "id": 1390,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cma2491.png"
         },
         {
             "name": "dynamax-crystal-cma2693",
             "id": 1391,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cma2693.png"
         },
         {
             "name": "dynamax-crystal-cma2294",
             "id": 1392,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cma2294.png"
         },
         {
             "name": "dynamax-crystal-cma2827",
             "id": 1393,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cma2827.png"
         },
         {
             "name": "dynamax-crystal-cma2282",
             "id": 1394,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cma2282.png"
         },
         {
             "name": "dynamax-crystal-cma2618",
             "id": 1395,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cma2618.png"
         },
         {
             "name": "dynamax-crystal-cma2657",
             "id": 1396,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cma2657.png"
         },
         {
             "name": "dynamax-crystal-cma2646",
             "id": 1397,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cma2646.png"
         },
         {
             "name": "dynamax-crystal-uma4905",
             "id": 1398,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-uma4905.png"
         },
         {
             "name": "dynamax-crystal-uma4301",
             "id": 1399,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-uma4301.png"
         },
         {
             "name": "dynamax-crystal-uma5191",
             "id": 1400,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-uma5191.png"
         },
         {
             "name": "dynamax-crystal-uma5054",
             "id": 1401,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-uma5054.png"
         },
         {
             "name": "dynamax-crystal-uma4295",
             "id": 1402,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-uma4295.png"
         },
         {
             "name": "dynamax-crystal-uma4660",
             "id": 1403,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-uma4660.png"
         },
         {
             "name": "dynamax-crystal-uma4554",
             "id": 1404,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-uma4554.png"
         },
         {
             "name": "dynamax-crystal-uma4069",
             "id": 1405,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-uma4069.png"
         },
         {
             "name": "dynamax-crystal-uma3569",
             "id": 1406,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-uma3569.png"
         },
         {
             "name": "dynamax-crystal-uma3323",
             "id": 1407,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-uma3323.png"
         },
         {
             "name": "dynamax-crystal-uma4033",
             "id": 1408,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-uma4033.png"
         },
         {
             "name": "dynamax-crystal-uma4377",
             "id": 1409,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-uma4377.png"
         },
         {
             "name": "dynamax-crystal-uma4375",
             "id": 1410,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-uma4375.png"
         },
         {
             "name": "dynamax-crystal-uma4518",
             "id": 1411,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-uma4518.png"
         },
         {
             "name": "dynamax-crystal-uma3594",
             "id": 1412,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-uma3594.png"
         },
         {
             "name": "dynamax-crystal-vir5056",
             "id": 1413,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-vir5056.png"
         },
         {
             "name": "dynamax-crystal-vir4825",
             "id": 1414,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-vir4825.png"
         },
         {
             "name": "dynamax-crystal-vir4932",
             "id": 1415,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-vir4932.png"
         },
         {
             "name": "dynamax-crystal-vir4540",
             "id": 1416,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-vir4540.png"
         },
         {
             "name": "dynamax-crystal-vir4689",
             "id": 1417,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-vir4689.png"
         },
         {
             "name": "dynamax-crystal-vir5338",
             "id": 1418,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-vir5338.png"
         },
         {
             "name": "dynamax-crystal-vir4910",
             "id": 1419,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-vir4910.png"
         },
         {
             "name": "dynamax-crystal-vir5315",
             "id": 1420,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-vir5315.png"
         },
         {
             "name": "dynamax-crystal-vir5359",
             "id": 1421,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-vir5359.png"
         },
         {
             "name": "dynamax-crystal-vir5409",
             "id": 1422,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-vir5409.png"
         },
         {
             "name": "dynamax-crystal-vir5107",
             "id": 1423,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-vir5107.png"
         },
         {
             "name": "dynamax-crystal-ari617",
             "id": 1424,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-ari617.png"
         },
         {
             "name": "dynamax-crystal-ari553",
             "id": 1425,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-ari553.png"
         },
         {
             "name": "dynamax-crystal-ari546",
             "id": 1426,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-ari546.png"
         },
         {
             "name": "dynamax-crystal-ari951",
             "id": 1427,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-ari951.png"
         },
         {
             "name": "dynamax-crystal-ori1713",
             "id": 1428,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-ori1713.png"
         },
         {
             "name": "dynamax-crystal-ori2061",
             "id": 1429,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-ori2061.png"
         },
         {
             "name": "dynamax-crystal-ori1790",
             "id": 1430,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-ori1790.png"
         },
         {
             "name": "dynamax-crystal-ori1903",
             "id": 1431,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-ori1903.png"
         },
         {
             "name": "dynamax-crystal-ori1948",
             "id": 1432,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-ori1948.png"
         },
         {
             "name": "dynamax-crystal-ori2004",
             "id": 1433,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-ori2004.png"
         },
         {
             "name": "dynamax-crystal-ori1852",
             "id": 1434,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-ori1852.png"
         },
         {
             "name": "dynamax-crystal-ori1879",
             "id": 1435,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-ori1879.png"
         },
         {
             "name": "dynamax-crystal-ori1899",
             "id": 1436,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-ori1899.png"
         },
         {
             "name": "dynamax-crystal-ori1543",
             "id": 1437,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-ori1543.png"
         },
         {
             "name": "dynamax-crystal-cas21",
             "id": 1438,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cas21.png"
         },
         {
             "name": "dynamax-crystal-cas168",
             "id": 1439,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cas168.png"
         },
         {
             "name": "dynamax-crystal-cas403",
             "id": 1440,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cas403.png"
         },
         {
             "name": "dynamax-crystal-cas153",
             "id": 1441,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cas153.png"
         },
         {
             "name": "dynamax-crystal-cas542",
             "id": 1442,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cas542.png"
         },
         {
             "name": "dynamax-crystal-cas219",
             "id": 1443,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cas219.png"
         },
         {
             "name": "dynamax-crystal-cas265",
             "id": 1444,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cas265.png"
         },
         {
             "name": "dynamax-crystal-cnc3572",
             "id": 1445,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cnc3572.png"
         },
         {
             "name": "dynamax-crystal-cnc3208",
             "id": 1446,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cnc3208.png"
         },
         {
             "name": "dynamax-crystal-cnc3461",
             "id": 1447,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cnc3461.png"
         },
         {
             "name": "dynamax-crystal-cnc3449",
             "id": 1448,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cnc3449.png"
         },
         {
             "name": "dynamax-crystal-cnc3429",
             "id": 1449,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cnc3429.png"
         },
         {
             "name": "dynamax-crystal-cnc3627",
             "id": 1450,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cnc3627.png"
         },
         {
             "name": "dynamax-crystal-cnc3268",
             "id": 1451,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cnc3268.png"
         },
         {
             "name": "dynamax-crystal-cnc3249",
             "id": 1452,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cnc3249.png"
         },
         {
             "name": "dynamax-crystal-com4968",
             "id": 1453,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-com4968.png"
         },
         {
             "name": "dynamax-crystal-crv4757",
             "id": 1454,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-crv4757.png"
         },
         {
             "name": "dynamax-crystal-crv4623",
             "id": 1455,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-crv4623.png"
         },
         {
             "name": "dynamax-crystal-crv4662",
             "id": 1456,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-crv4662.png"
         },
         {
             "name": "dynamax-crystal-crv4786",
             "id": 1457,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-crv4786.png"
         },
         {
             "name": "dynamax-crystal-aur1708",
             "id": 1458,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aur1708.png"
         },
         {
             "name": "dynamax-crystal-aur2088",
             "id": 1459,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aur2088.png"
         },
         {
             "name": "dynamax-crystal-aur1605",
             "id": 1460,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aur1605.png"
         },
         {
             "name": "dynamax-crystal-aur2095",
             "id": 1461,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aur2095.png"
         },
         {
             "name": "dynamax-crystal-aur1577",
             "id": 1462,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aur1577.png"
         },
         {
             "name": "dynamax-crystal-aur1641",
             "id": 1463,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aur1641.png"
         },
         {
             "name": "dynamax-crystal-aur1612",
             "id": 1464,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aur1612.png"
         },
         {
             "name": "dynamax-crystal-pav7790",
             "id": 1465,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-pav7790.png"
         },
         {
             "name": "dynamax-crystal-cet911",
             "id": 1466,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cet911.png"
         },
         {
             "name": "dynamax-crystal-cet681",
             "id": 1467,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cet681.png"
         },
         {
             "name": "dynamax-crystal-cet188",
             "id": 1468,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cet188.png"
         },
         {
             "name": "dynamax-crystal-cet539",
             "id": 1469,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cet539.png"
         },
         {
             "name": "dynamax-crystal-cet804",
             "id": 1470,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cet804.png"
         },
         {
             "name": "dynamax-crystal-cep8974",
             "id": 1471,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cep8974.png"
         },
         {
             "name": "dynamax-crystal-cep8162",
             "id": 1472,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cep8162.png"
         },
         {
             "name": "dynamax-crystal-cep8238",
             "id": 1473,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cep8238.png"
         },
         {
             "name": "dynamax-crystal-cep8417",
             "id": 1474,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cep8417.png"
         },
         {
             "name": "dynamax-crystal-cen5267",
             "id": 1475,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cen5267.png"
         },
         {
             "name": "dynamax-crystal-cen5288",
             "id": 1476,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cen5288.png"
         },
         {
             "name": "dynamax-crystal-cen551",
             "id": 1477,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cen551.png"
         },
         {
             "name": "dynamax-crystal-cen5459",
             "id": 1478,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cen5459.png"
         },
         {
             "name": "dynamax-crystal-cen5460",
             "id": 1479,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cen5460.png"
         },
         {
             "name": "dynamax-crystal-cmi2943",
             "id": 1480,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cmi2943.png"
         },
         {
             "name": "dynamax-crystal-cmi2845",
             "id": 1481,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cmi2845.png"
         },
         {
             "name": "dynamax-crystal-equ8131",
             "id": 1482,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-equ8131.png"
         },
         {
             "name": "dynamax-crystal-vul7405",
             "id": 1483,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-vul7405.png"
         },
         {
             "name": "dynamax-crystal-umi424",
             "id": 1484,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-umi424.png"
         },
         {
             "name": "dynamax-crystal-umi5563",
             "id": 1485,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-umi5563.png"
         },
         {
             "name": "dynamax-crystal-umi5735",
             "id": 1486,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-umi5735.png"
         },
         {
             "name": "dynamax-crystal-umi6789",
             "id": 1487,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-umi6789.png"
         },
         {
             "name": "dynamax-crystal-crt4287",
             "id": 1488,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-crt4287.png"
         },
         {
             "name": "dynamax-crystal-lyr7001",
             "id": 1489,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-lyr7001.png"
         },
         {
             "name": "dynamax-crystal-lyr7178",
             "id": 1490,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-lyr7178.png"
         },
         {
             "name": "dynamax-crystal-lyr7106",
             "id": 1491,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-lyr7106.png"
         },
         {
             "name": "dynamax-crystal-lyr7298",
             "id": 1492,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-lyr7298.png"
         },
         {
             "name": "dynamax-crystal-ara6585",
             "id": 1493,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-ara6585.png"
         },
         {
             "name": "dynamax-crystal-sco6134",
             "id": 1494,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sco6134.png"
         },
         {
             "name": "dynamax-crystal-sco6527",
             "id": 1495,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sco6527.png"
         },
         {
             "name": "dynamax-crystal-sco6553",
             "id": 1496,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sco6553.png"
         },
         {
             "name": "dynamax-crystal-sco5953",
             "id": 1497,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sco5953.png"
         },
         {
             "name": "dynamax-crystal-sco5984",
             "id": 1498,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sco5984.png"
         },
         {
             "name": "dynamax-crystal-sco6508",
             "id": 1499,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sco6508.png"
         },
         {
             "name": "dynamax-crystal-sco6084",
             "id": 1500,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sco6084.png"
         },
         {
             "name": "dynamax-crystal-sco5944",
             "id": 1501,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sco5944.png"
         },
         {
             "name": "dynamax-crystal-sco6630",
             "id": 1502,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sco6630.png"
         },
         {
             "name": "dynamax-crystal-sco6027",
             "id": 1503,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sco6027.png"
         },
         {
             "name": "dynamax-crystal-sco6247",
             "id": 1504,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sco6247.png"
         },
         {
             "name": "dynamax-crystal-sco6252",
             "id": 1505,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sco6252.png"
         },
         {
             "name": "dynamax-crystal-sco5928",
             "id": 1506,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sco5928.png"
         },
         {
             "name": "dynamax-crystal-sco6241",
             "id": 1507,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sco6241.png"
         },
         {
             "name": "dynamax-crystal-sco6165",
             "id": 1508,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sco6165.png"
         },
         {
             "name": "dynamax-crystal-tri544",
             "id": 1509,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-tri544.png"
         },
         {
             "name": "dynamax-crystal-leo3982",
             "id": 1510,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-leo3982.png"
         },
         {
             "name": "dynamax-crystal-leo4534",
             "id": 1511,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-leo4534.png"
         },
         {
             "name": "dynamax-crystal-leo4357",
             "id": 1512,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-leo4357.png"
         },
         {
             "name": "dynamax-crystal-leo4057",
             "id": 1513,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-leo4057.png"
         },
         {
             "name": "dynamax-crystal-leo4359",
             "id": 1514,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-leo4359.png"
         },
         {
             "name": "dynamax-crystal-leo4031",
             "id": 1515,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-leo4031.png"
         },
         {
             "name": "dynamax-crystal-leo3852",
             "id": 1516,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-leo3852.png"
         },
         {
             "name": "dynamax-crystal-leo3905",
             "id": 1517,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-leo3905.png"
         },
         {
             "name": "dynamax-crystal-leo3773",
             "id": 1518,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-leo3773.png"
         },
         {
             "name": "dynamax-crystal-gru8425",
             "id": 1519,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-gru8425.png"
         },
         {
             "name": "dynamax-crystal-gru8636",
             "id": 1520,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-gru8636.png"
         },
         {
             "name": "dynamax-crystal-gru8353",
             "id": 1521,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-gru8353.png"
         },
         {
             "name": "dynamax-crystal-lib5685",
             "id": 1522,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-lib5685.png"
         },
         {
             "name": "dynamax-crystal-lib5531",
             "id": 1523,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-lib5531.png"
         },
         {
             "name": "dynamax-crystal-lib5787",
             "id": 1524,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-lib5787.png"
         },
         {
             "name": "dynamax-crystal-lib5603",
             "id": 1525,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-lib5603.png"
         },
         {
             "name": "dynamax-crystal-pup3165",
             "id": 1526,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-pup3165.png"
         },
         {
             "name": "dynamax-crystal-pup3185",
             "id": 1527,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-pup3185.png"
         },
         {
             "name": "dynamax-crystal-pup3045",
             "id": 1528,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-pup3045.png"
         },
         {
             "name": "dynamax-crystal-cyg7924",
             "id": 1529,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cyg7924.png"
         },
         {
             "name": "dynamax-crystal-cyg7417",
             "id": 1530,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cyg7417.png"
         },
         {
             "name": "dynamax-crystal-cyg7796",
             "id": 1531,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cyg7796.png"
         },
         {
             "name": "dynamax-crystal-cyg8301",
             "id": 1532,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cyg8301.png"
         },
         {
             "name": "dynamax-crystal-cyg7949",
             "id": 1533,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cyg7949.png"
         },
         {
             "name": "dynamax-crystal-cyg7528",
             "id": 1534,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cyg7528.png"
         },
         {
             "name": "dynamax-crystal-oct7228",
             "id": 1535,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-oct7228.png"
         },
         {
             "name": "dynamax-crystal-col1956",
             "id": 1536,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-col1956.png"
         },
         {
             "name": "dynamax-crystal-col2040",
             "id": 1537,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-col2040.png"
         },
         {
             "name": "dynamax-crystal-col2177",
             "id": 1538,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-col2177.png"
         },
         {
             "name": "dynamax-crystal-gem2990",
             "id": 1539,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-gem2990.png"
         },
         {
             "name": "dynamax-crystal-gem2891",
             "id": 1540,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-gem2891.png"
         },
         {
             "name": "dynamax-crystal-gem2421",
             "id": 1541,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-gem2421.png"
         },
         {
             "name": "dynamax-crystal-gem2473",
             "id": 1542,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-gem2473.png"
         },
         {
             "name": "dynamax-crystal-gem2216",
             "id": 1543,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-gem2216.png"
         },
         {
             "name": "dynamax-crystal-gem2777",
             "id": 1544,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-gem2777.png"
         },
         {
             "name": "dynamax-crystal-gem2650",
             "id": 1545,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-gem2650.png"
         },
         {
             "name": "dynamax-crystal-gem2286",
             "id": 1546,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-gem2286.png"
         },
         {
             "name": "dynamax-crystal-gem2484",
             "id": 1547,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-gem2484.png"
         },
         {
             "name": "dynamax-crystal-gem2930",
             "id": 1548,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-gem2930.png"
         },
         {
             "name": "dynamax-crystal-peg8775",
             "id": 1549,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-peg8775.png"
         },
         {
             "name": "dynamax-crystal-peg8781",
             "id": 1550,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-peg8781.png"
         },
         {
             "name": "dynamax-crystal-peg39",
             "id": 1551,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-peg39.png"
         },
         {
             "name": "dynamax-crystal-peg8308",
             "id": 1552,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-peg8308.png"
         },
         {
             "name": "dynamax-crystal-peg8650",
             "id": 1553,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-peg8650.png"
         },
         {
             "name": "dynamax-crystal-peg8634",
             "id": 1554,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-peg8634.png"
         },
         {
             "name": "dynamax-crystal-peg8684",
             "id": 1555,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-peg8684.png"
         },
         {
             "name": "dynamax-crystal-peg8450",
             "id": 1556,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-peg8450.png"
         },
         {
             "name": "dynamax-crystal-peg8880",
             "id": 1557,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-peg8880.png"
         },
         {
             "name": "dynamax-crystal-peg8905",
             "id": 1558,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-peg8905.png"
         },
         {
             "name": "dynamax-crystal-oph6556",
             "id": 1559,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-oph6556.png"
         },
         {
             "name": "dynamax-crystal-oph6378",
             "id": 1560,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-oph6378.png"
         },
         {
             "name": "dynamax-crystal-oph6603",
             "id": 1561,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-oph6603.png"
         },
         {
             "name": "dynamax-crystal-oph6149",
             "id": 1562,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-oph6149.png"
         },
         {
             "name": "dynamax-crystal-oph6056",
             "id": 1563,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-oph6056.png"
         },
         {
             "name": "dynamax-crystal-oph6075",
             "id": 1564,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-oph6075.png"
         },
         {
             "name": "dynamax-crystal-ser5854",
             "id": 1565,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-ser5854.png"
         },
         {
             "name": "dynamax-crystal-ser7141",
             "id": 1566,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-ser7141.png"
         },
         {
             "name": "dynamax-crystal-ser5879",
             "id": 1567,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-ser5879.png"
         },
         {
             "name": "dynamax-crystal-her6406",
             "id": 1568,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-her6406.png"
         },
         {
             "name": "dynamax-crystal-her6148",
             "id": 1569,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-her6148.png"
         },
         {
             "name": "dynamax-crystal-her6410",
             "id": 1570,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-her6410.png"
         },
         {
             "name": "dynamax-crystal-her6526",
             "id": 1571,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-her6526.png"
         },
         {
             "name": "dynamax-crystal-her6117",
             "id": 1572,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-her6117.png"
         },
         {
             "name": "dynamax-crystal-her6008",
             "id": 1573,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-her6008.png"
         },
         {
             "name": "dynamax-crystal-per936",
             "id": 1574,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-per936.png"
         },
         {
             "name": "dynamax-crystal-per1017",
             "id": 1575,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-per1017.png"
         },
         {
             "name": "dynamax-crystal-per1131",
             "id": 1576,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-per1131.png"
         },
         {
             "name": "dynamax-crystal-per1228",
             "id": 1577,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-per1228.png"
         },
         {
             "name": "dynamax-crystal-per834",
             "id": 1578,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-per834.png"
         },
         {
             "name": "dynamax-crystal-per941",
             "id": 1579,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-per941.png"
         },
         {
             "name": "dynamax-crystal-phe99",
             "id": 1580,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-phe99.png"
         },
         {
             "name": "dynamax-crystal-phe338",
             "id": 1581,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-phe338.png"
         },
         {
             "name": "dynamax-crystal-vel3634",
             "id": 1582,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-vel3634.png"
         },
         {
             "name": "dynamax-crystal-vel3485",
             "id": 1583,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-vel3485.png"
         },
         {
             "name": "dynamax-crystal-vel3734",
             "id": 1584,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-vel3734.png"
         },
         {
             "name": "dynamax-crystal-aqr8232",
             "id": 1585,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aqr8232.png"
         },
         {
             "name": "dynamax-crystal-aqr8414",
             "id": 1586,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aqr8414.png"
         },
         {
             "name": "dynamax-crystal-aqr8709",
             "id": 1587,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aqr8709.png"
         },
         {
             "name": "dynamax-crystal-aqr8518",
             "id": 1588,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aqr8518.png"
         },
         {
             "name": "dynamax-crystal-aqr7950",
             "id": 1589,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aqr7950.png"
         },
         {
             "name": "dynamax-crystal-aqr8499",
             "id": 1590,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aqr8499.png"
         },
         {
             "name": "dynamax-crystal-aqr8610",
             "id": 1591,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aqr8610.png"
         },
         {
             "name": "dynamax-crystal-aqr8264",
             "id": 1592,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aqr8264.png"
         },
         {
             "name": "dynamax-crystal-cru4853",
             "id": 1593,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cru4853.png"
         },
         {
             "name": "dynamax-crystal-cru4730",
             "id": 1594,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cru4730.png"
         },
         {
             "name": "dynamax-crystal-cru4763",
             "id": 1595,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cru4763.png"
         },
         {
             "name": "dynamax-crystal-cru4700",
             "id": 1596,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cru4700.png"
         },
         {
             "name": "dynamax-crystal-cru4656",
             "id": 1597,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cru4656.png"
         },
         {
             "name": "dynamax-crystal-psa8728",
             "id": 1598,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-psa8728.png"
         },
         {
             "name": "dynamax-crystal-tra6217",
             "id": 1599,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-tra6217.png"
         },
         {
             "name": "dynamax-crystal-cap7776",
             "id": 1600,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cap7776.png"
         },
         {
             "name": "dynamax-crystal-cap7754",
             "id": 1601,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cap7754.png"
         },
         {
             "name": "dynamax-crystal-cap8278",
             "id": 1602,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cap8278.png"
         },
         {
             "name": "dynamax-crystal-cap8322",
             "id": 1603,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cap8322.png"
         },
         {
             "name": "dynamax-crystal-cap7773",
             "id": 1604,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cap7773.png"
         },
         {
             "name": "dynamax-crystal-sge7479",
             "id": 1605,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-sge7479.png"
         },
         {
             "name": "dynamax-crystal-car2326",
             "id": 1606,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-car2326.png"
         },
         {
             "name": "dynamax-crystal-car3685",
             "id": 1607,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-car3685.png"
         },
         {
             "name": "dynamax-crystal-car3307",
             "id": 1608,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-car3307.png"
         },
         {
             "name": "dynamax-crystal-car3699",
             "id": 1609,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-car3699.png"
         },
         {
             "name": "dynamax-crystal-dra5744",
             "id": 1610,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-dra5744.png"
         },
         {
             "name": "dynamax-crystal-dra5291",
             "id": 1611,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-dra5291.png"
         },
         {
             "name": "dynamax-crystal-dra6705",
             "id": 1612,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-dra6705.png"
         },
         {
             "name": "dynamax-crystal-dra6536",
             "id": 1613,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-dra6536.png"
         },
         {
             "name": "dynamax-crystal-dra7310",
             "id": 1614,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-dra7310.png"
         },
         {
             "name": "dynamax-crystal-dra6688",
             "id": 1615,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-dra6688.png"
         },
         {
             "name": "dynamax-crystal-dra4434",
             "id": 1616,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-dra4434.png"
         },
         {
             "name": "dynamax-crystal-dra6370",
             "id": 1617,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-dra6370.png"
         },
         {
             "name": "dynamax-crystal-dra7462",
             "id": 1618,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-dra7462.png"
         },
         {
             "name": "dynamax-crystal-dra6396",
             "id": 1619,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-dra6396.png"
         },
         {
             "name": "dynamax-crystal-dra6132",
             "id": 1620,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-dra6132.png"
         },
         {
             "name": "dynamax-crystal-dra6636",
             "id": 1621,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-dra6636.png"
         },
         {
             "name": "dynamax-crystal-cvn4915",
             "id": 1622,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cvn4915.png"
         },
         {
             "name": "dynamax-crystal-cvn4785",
             "id": 1623,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cvn4785.png"
         },
         {
             "name": "dynamax-crystal-cvn4846",
             "id": 1624,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-cvn4846.png"
         },
         {
             "name": "dynamax-crystal-aql7595",
             "id": 1625,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aql7595.png"
         },
         {
             "name": "dynamax-crystal-aql7557",
             "id": 1626,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aql7557.png"
         },
         {
             "name": "dynamax-crystal-aql7525",
             "id": 1627,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aql7525.png"
         },
         {
             "name": "dynamax-crystal-aql7602",
             "id": 1628,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aql7602.png"
         },
         {
             "name": "dynamax-crystal-aql7235",
             "id": 1629,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-aql7235.png"
         },
         {
             "name": "max-honey",
             "id": 1630,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-honey.png"
         },
         {
             "name": "max-mushrooms",
             "id": 1631,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-mushrooms.png"
         },
         {
             "name": "galarica-twig",
             "id": 1632,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/galarica-twig.png"
         },
         {
             "name": "galarica-cuff",
             "id": 1633,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/galarica-cuff.png"
         },
         {
             "name": "style-card",
             "id": 1634,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/style-card.png"
         },
         {
             "name": "armor-pass",
             "id": 1635,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/armor-pass.png"
         },
         {
             "name": "rotom-bike--sparkling-white",
             "id": 1636,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rotom-bike--sparkling-white.png"
         },
         {
             "name": "rotom-bike--glistening-black",
             "id": 1637,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rotom-bike--glistening-black.png"
         },
         {
             "name": "exp-charm",
             "id": 1638,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/exp-charm.png"
         },
         {
             "name": "armorite-ore",
             "id": 1639,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/armorite-ore.png"
         },
         {
             "name": "mark-charm",
             "id": 1640,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mark-charm.png"
         },
         {
             "name": "reins-of-unity--merge",
             "id": 1641,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/reins-of-unity--merge.png"
         },
         {
             "name": "reins-of-unity--split",
             "id": 1642,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/reins-of-unity--split.png"
         },
         {
             "name": "galarica-wreath",
             "id": 1643,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/galarica-wreath.png"
         },
         {
             "name": "legendary-clue-1",
             "id": 1644,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/legendary-clue-1.png"
         },
         {
             "name": "legendary-clue-2",
             "id": 1645,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/legendary-clue-2.png"
         },
         {
             "name": "legendary-clue-3",
             "id": 1646,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/legendary-clue-3.png"
         },
         {
             "name": "legendary-clue-question",
             "id": 1647,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/legendary-clue-question.png"
         },
         {
             "name": "crown-pass",
             "id": 1648,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/crown-pass.png"
         },
         {
             "name": "wooden-crown",
             "id": 1649,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wooden-crown.png"
         },
         {
             "name": "radiant-petal",
             "id": 1650,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/radiant-petal.png"
         },
         {
             "name": "white-mane-hair",
             "id": 1651,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-mane-hair.png"
         },
         {
             "name": "black-mane-hair",
             "id": 1652,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-mane-hair.png"
         },
         {
             "name": "iceroot-carrot",
             "id": 1653,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/iceroot-carrot.png"
         },
         {
             "name": "shaderoot-carrot",
             "id": 1654,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shaderoot-carrot.png"
         },
         {
             "name": "dynite-ore",
             "id": 1655,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynite-ore.png"
         },
         {
             "name": "carrot-seeds",
             "id": 1656,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/carrot-seeds.png"
         },
         {
             "name": "ability-patch",
             "id": 1657,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ability-patch.png"
         },
         {
             "name": "reins-of-unity",
             "id": 1658,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/reins-of-unity.png"
         },
         {
             "name": "adamant-crystal",
             "id": 1659,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/adamant-crystal.png"
         },
         {
             "name": "lustrous-globe",
             "id": 1660,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lustrous-globe.png"
         },
         {
             "name": "griseous-core",
             "id": 1661,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/griseous-core.png"
         },
         {
             "name": "blank-plate",
             "id": 1662,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/blank-plate.png"
         },
         {
             "name": "strange-ball",
             "id": 1663,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/strange-ball.png"
         },
         {
             "name": "legend-plate",
             "id": 1664,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/legend-plate.png"
         },
         {
             "name": "linking-cord",
             "id": 2160,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/linking-cord.png"
         },
         {
             "name": "lastrange-ball",
@@ -19913,12 +19913,12 @@
         {
             "name": "black-augurite",
             "id": 2230,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-augurite.png"
         },
         {
             "name": "peat-block",
             "id": 2231,
-            "sprite": null
+            "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/peat-block.png"
         }
     ]
 }

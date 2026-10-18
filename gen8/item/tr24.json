@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user rampages and attacks for two to three turns. The user then becomes confused."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr24.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

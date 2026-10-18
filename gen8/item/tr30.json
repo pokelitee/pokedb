@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user compels the target to keep using the move it encored for three turns."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr30.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

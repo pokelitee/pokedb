@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "Mane hair that belonged to the King of Bountiful Harvests’ beloved steed, Glastrier. The hair is strong and very flexible."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-mane-hair.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

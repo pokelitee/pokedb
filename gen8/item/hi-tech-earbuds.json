@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "Strange earbuds that allow you to freely control the volume of various sounds."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hi-tech-earbuds.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

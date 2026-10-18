@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr05.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

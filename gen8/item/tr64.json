@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user heightens its mental focus and unleashes its power. This may also lower the target’s Sp. Def stat."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr64.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "One of the many ingredients that can be used for cooking at your camp. A mysterious spice. Even a tiny sprinkle is sure to make a curry gigantic."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gigantamix.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

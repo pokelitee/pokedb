@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A wreath made from woven-together Galarica Twigs. Placing it on the head of a Galarian Slowpoke makes the Pokémon very happy."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/galarica-wreath.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The target is slammed with a steel-hard tail. This may also lower the target’s Defense stat."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr31.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

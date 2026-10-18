@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A big candy that is packed with energy. When given to a Pokémon at Lv. 30 or higher, it will increase that Pokémon’s Sp. Def stat."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/courage-candy-l.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user cloaks itself in fire and charges the target. This also damages the user quite a lot. This attack may leave the target with a burn."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr55.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

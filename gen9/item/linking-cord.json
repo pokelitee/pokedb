@@ -22,6 +22,6 @@
     "effect": "The Linking Cord triggers the evolution of certain Pokémon (all of which can alternatively evolve when traded) upon use. This consumes the Linking Cord.",
     "short_effect": "Allows a Pokemon whose evolution is usually triggered by trading to evolve",
     "flavor_text": {},
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/linking-cord.png",
     "unverified_historical_fields": []
 }

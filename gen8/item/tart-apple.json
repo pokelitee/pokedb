@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A peculiar apple that can make a certain species of Pokémon evolve. It’s exceptionally tart."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tart-apple.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

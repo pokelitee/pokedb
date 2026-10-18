@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user crunches up the target with sharp fangs. This may also lower the target’s Defense stat."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr32.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

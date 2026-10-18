@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user teleports using a strange power and switches places with one of its allies."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr83.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

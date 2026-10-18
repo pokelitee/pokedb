@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A candy that is packed with energy. When consumed, it will raise the Dynamax Level of a single Pokémon by one. A higher level means higher HP when Dynamaxed."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-candy.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

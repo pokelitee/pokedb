@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user crashes into its target while rotating its body like a drill. Critical hits land more easily."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr87.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

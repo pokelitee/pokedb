@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "An item that causes [VAR (0000)] to appear from the Watchtower Lair in the Wild Area until the end of the day."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-crystal-tau1346.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

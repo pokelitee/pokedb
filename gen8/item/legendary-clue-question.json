@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A mysterious clue that Peony seems to have dropped. There’s a photo attached to it showing a shining hole opening above the Max Lair."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/legendary-clue-question.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

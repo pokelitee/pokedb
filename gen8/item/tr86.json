@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user shrouds itself in electricity and smashes into its target. This also damages the user a little."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr86.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

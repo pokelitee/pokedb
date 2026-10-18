@@ -16,7 +16,7 @@
     "flavor_text": {
         "lets-go-pikachu-lets-go-eevee": "A glass bottle of perfume that makes rare Pokémon more likely to appear. It lasts longer than a Lure."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/super-lure.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

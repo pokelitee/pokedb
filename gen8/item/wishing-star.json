@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A stone found in the Galar region with a mysterious power. It’s said that your dreams come true if you find one."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wishing-star.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user charges at the target and may make it flinch."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr16.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

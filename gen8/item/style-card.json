@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A card that increases the selection in boutiques and hair salons."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/style-card.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

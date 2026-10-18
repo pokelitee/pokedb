@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user lets loose a blast of aura power from deep within its body at the target. This attack never misses."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr56.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

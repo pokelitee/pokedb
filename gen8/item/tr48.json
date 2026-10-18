@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr48.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

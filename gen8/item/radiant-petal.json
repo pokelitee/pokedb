@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A single petal that the King of Bountiful Harvests gave you. It radiates faint light."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/radiant-petal.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

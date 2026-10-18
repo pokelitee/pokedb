@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user slams its target with its flame-covered body. The more the user outweighs the target, the greater the move’s power."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr88.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

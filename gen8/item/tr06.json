@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr06.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

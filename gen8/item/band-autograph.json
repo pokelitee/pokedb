@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "It’s signed by all members of the Galar region’s most charismatic band, the Maximizers."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/band-autograph.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

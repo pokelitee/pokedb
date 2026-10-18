@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The fossil of an ancient Pokémon that once soared through the sky. What it looked like is a mystery."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fossilized-bird.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

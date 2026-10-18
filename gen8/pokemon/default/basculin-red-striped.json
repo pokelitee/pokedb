@@ -45,10 +45,6 @@
     },
     "sprites": {
         "versions": {
-            "icons": {
-                "front_female": null,
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/550.png"
-            },
             "sword-shield": {
                 "icons": {
                     "front_female": null,

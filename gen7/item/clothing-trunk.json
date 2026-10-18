@@ -16,7 +16,7 @@
     "flavor_text": {
         "lets-go-pikachu-lets-go-eevee": "A very light trunk that can carry clothing for you and your Pokémon."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/clothing-trunk.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

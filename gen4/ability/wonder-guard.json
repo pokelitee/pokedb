@@ -5,9 +5,9 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "diamond-pearl": "Fire Fang and moves that inflict typeless damage ignore this ability regardless of type.",
-        "platinum": "Fire Fang and moves that inflict typeless damage ignore this ability regardless of type.",
-        "heartgold-soulsilver": "Fire Fang and moves that inflict typeless damage ignore this ability regardless of type."
+        "diamond-pearl": "This Pokemon is only damaged by Fire Fang, supereffective moves, indirect damage.",
+        "platinum": "This Pokemon is only damaged by Fire Fang, supereffective moves, indirect damage.",
+        "heartgold-soulsilver": "This Pokemon is only damaged by Fire Fang, supereffective moves, indirect damage."
     },
     "short_effect": {
         "diamond-pearl": "Protects against damaging moves that are not super effective.",

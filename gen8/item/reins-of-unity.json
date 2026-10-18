@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "Cords that shine when you hold them up to the light. The people of old times presented these to the King of Bountiful Harvests to express their gratitude."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/reins-of-unity.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

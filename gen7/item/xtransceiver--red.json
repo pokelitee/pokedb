@@ -17,7 +17,7 @@
         "ultra-sun-ultra-moon": "A high-tech transceiver with a camera function. It allows up to four-way calls.",
         "lets-go-pikachu-lets-go-eevee": "A high-tech transceiver with a camera function. It allows up to four-way calls."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/xtransceiver--red.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "Everything you need to set up a tent and get cooking in a Wild Area or at a camping spot."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/camping-gear.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "One of the many ingredients that can be used for cooking at your camp. Potatoes help mellow out a spicy taste, to make a dish more mild."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pack-of-potatoes.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

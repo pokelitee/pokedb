@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr69.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

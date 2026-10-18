@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "One of the many ingredients that can be used for cooking at your camp. When a Slowpoke’s tail falls off, it grows back quickly."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/smoke-poke-tail.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

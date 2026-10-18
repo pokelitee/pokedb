@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A candy that is packed with energy. When consumed, it will grant a single Pokémon a very large amount of Exp. Points."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/exp-candy-xl.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

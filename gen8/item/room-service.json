@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "An item to be held by a Pokémon. Lowers Speed when Trick Room takes effect."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/room-service.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

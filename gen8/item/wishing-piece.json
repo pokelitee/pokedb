@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "Throw one into a Pokémon Den to attract a wild Dynamax Pokémon."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wishing-piece.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

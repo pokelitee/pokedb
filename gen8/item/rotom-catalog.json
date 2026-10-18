@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A catalog of devices that Rotom like. Use the catalog to have Rotom hop in and out of the various devices listed within."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rotom-catalog.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

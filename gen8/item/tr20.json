@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user creates a substitute for itself using some of its HP. The substitute serves as the user’s decoy."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr20.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

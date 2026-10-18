@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A star-shaped sweet. When a Milcery holds this, it spins around happily."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/star-sweet.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

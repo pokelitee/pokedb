@@ -5,9 +5,9 @@
     "is_main_series": true,
     "generation": "generation-iv",
     "effect": {
-        "diamond-pearl": "Rest works as usual during strong sunlight.",
-        "platinum": "Rest works as usual during strong sunlight.",
-        "heartgold-soulsilver": "Rest works as usual during strong sunlight."
+        "diamond-pearl": "This Pokémon cannot be given a major status ailment during strong sunlight. This ability does not heal prior status ailments. Rest works as usual during strong sunlight. Yawn will immediately fail if used on this Pokémon during strong sunlight, and an already-used Yawn will fail if the weather turns to strong sunlight in the meantime.",
+        "platinum": "This Pokémon cannot be given a major status ailment during strong sunlight. This ability does not heal prior status ailments. Rest works as usual during strong sunlight. Yawn will immediately fail if used on this Pokémon during strong sunlight, and an already-used Yawn will fail if the weather turns to strong sunlight in the meantime.",
+        "heartgold-soulsilver": "This Pokémon cannot be given a major status ailment during strong sunlight. This ability does not heal prior status ailments. Rest works as usual during strong sunlight. Yawn will immediately fail if used on this Pokémon during strong sunlight, and an already-used Yawn will fail if the weather turns to strong sunlight in the meantime."
     },
     "short_effect": {
         "diamond-pearl": "Protects against major status ailments during strong sunlight.",

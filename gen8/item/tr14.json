@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user waggles a finger and stimulates its brain into randomly using nearly any move."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr14.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

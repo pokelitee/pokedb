@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "This bike can do a turbo boost and run on the water using Rotom’s power. It’s a sparkling white that shines brilliantly."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rotom-bike--sparkling-white.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

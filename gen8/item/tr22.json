@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "Unsanitary sludge is hurled at the target. This may also poison the target."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr22.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

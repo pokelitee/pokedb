@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "A device that allows you to access the Pokémon storage system. There are some places where it won’t work."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pokemon-box-link.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

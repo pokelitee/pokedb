@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user turns the target’s power against it. The higher the target’s Attack stat, the greater the damage it deals."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr81.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

@@ -16,7 +16,7 @@
     "flavor_text": {
         "lets-go-pikachu-lets-go-eevee": "A letter written on a leaf. Something is written using Pikachu’s footprints."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leaf-letter--pikachu.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

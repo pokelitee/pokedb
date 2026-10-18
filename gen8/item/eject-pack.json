@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "An item to be held by a Pokémon. When the holder’s stats are lowered, it will be switched out of battle."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eject-pack.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

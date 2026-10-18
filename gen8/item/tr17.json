@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "The user temporarily empties its mind to forget its concerns. This sharply raises the user’s Sp. Def stat."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tr17.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

@@ -16,7 +16,7 @@
     "flavor_text": {
         "lets-go-pikachu-lets-go-eevee": "A Berry that makes it drastically easier to catch Pokémon when given to them."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/golden-razz-berry.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "When a Pokémon smells this mint, all of its stats will grow at an equal rate."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/serious-mint.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",

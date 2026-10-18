@@ -18,7 +18,7 @@
     "flavor_text": {
         "sword-shield": "Reins that people presented to the king. They enhance Calyrex’s power over bountiful harvests and unite Calyrex with its beloved steed."
     },
-    "sprite": null,
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/reins-of-unity--merge.png",
     "unverified_historical_fields": [
         "fling_power",
         "fling_effect",
