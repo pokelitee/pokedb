@@ -5,11 +5,11 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "ruby-sapphire": "Has no effect in battle.",
-        "emerald": "Has no effect in battle.",
-        "firered-leafgreen": "Has no effect in battle.",
-        "colosseum": "Has no effect in battle.",
-        "xd": "Has no effect in battle."
+        "ruby-sapphire": "After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one. The items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level. This ability is checked after the battle ends, at which point any temporary ability changes have worn off.",
+        "emerald": "After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one. The items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level. This ability is checked after the battle ends, at which point any temporary ability changes have worn off.",
+        "firered-leafgreen": "After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one. The items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level. This ability is checked after the battle ends, at which point any temporary ability changes have worn off.",
+        "colosseum": "After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one. The items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level. This ability is checked after the battle ends, at which point any temporary ability changes have worn off.",
+        "xd": "After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one. The items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level. This ability is checked after the battle ends, at which point any temporary ability changes have worn off."
     },
     "short_effect": {
         "ruby-sapphire": "Picks up other Pokémon's used and Flung held items. May also pick up an item after battle.",

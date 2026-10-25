@@ -5,7 +5,7 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "ruby-sapphire": "Has no overworld effect.",
+        "ruby-sapphire": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being burned.",
         "emerald": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being burned. Overworld: If any Pokémon in the party has this ability, each egg in the party has its hatch counter decreased by 2 (rather than 1) each step cycle, making eggs hatch roughly twice as quickly. This effect does not stack if multiple Pokémon have this ability or Magma Armor.",
         "firered-leafgreen": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being burned. Overworld: If any Pokémon in the party has this ability, each egg in the party has its hatch counter decreased by 2 (rather than 1) each step cycle, making eggs hatch roughly twice as quickly. This effect does not stack if multiple Pokémon have this ability or Magma Armor.",
         "colosseum": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being burned. Overworld: If any Pokémon in the party has this ability, each egg in the party has its hatch counter decreased by 2 (rather than 1) each step cycle, making eggs hatch roughly twice as quickly. This effect does not stack if multiple Pokémon have this ability or Magma Armor.",

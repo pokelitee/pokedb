@@ -5,9 +5,9 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "diamond-pearl": "Has no effect in battle.",
-        "platinum": "Has no effect in battle.",
-        "heartgold-soulsilver": "Has no effect in battle."
+        "diamond-pearl": "After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one. The items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level. This ability is checked after the battle ends, at which point any temporary ability changes have worn off.",
+        "platinum": "After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one. The items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level. This ability is checked after the battle ends, at which point any temporary ability changes have worn off.",
+        "heartgold-soulsilver": "After each battle, this Pokémon has a 10% chance of picking up an item if it is not already holding one. The items that may be found vary by game, and, since Pokémon Emerald, by the Pokémon's level. This ability is checked after the battle ends, at which point any temporary ability changes have worn off."
     },
     "short_effect": {
         "diamond-pearl": "Picks up other Pokémon's used and Flung held items. May also pick up an item after battle.",

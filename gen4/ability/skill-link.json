@@ -5,9 +5,9 @@
     "is_main_series": true,
     "generation": "generation-iv",
     "effect": {
-        "diamond-pearl": "Triple Kick is unaffected.",
-        "platinum": "Triple Kick is unaffected.",
-        "heartgold-soulsilver": "Triple Kick is unaffected."
+        "diamond-pearl": "This Pokémon always hits five times with two-to-five-hit moves, such as Icicle Spear.",
+        "platinum": "This Pokémon always hits five times with two-to-five-hit moves, such as Icicle Spear.",
+        "heartgold-soulsilver": "This Pokémon always hits five times with two-to-five-hit moves, such as Icicle Spear."
     },
     "short_effect": {
         "diamond-pearl": "Extends two-to-five-hit moves and Triple Kick to their full length every time.",

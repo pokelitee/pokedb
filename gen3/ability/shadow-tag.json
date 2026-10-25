@@ -5,11 +5,11 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "ruby-sapphire": "Affects other Pokémon with this ability.",
-        "emerald": "Affects other Pokémon with this ability.",
-        "firered-leafgreen": "Affects other Pokémon with this ability.",
-        "colosseum": "Affects other Pokémon with this ability.",
-        "xd": "Affects other Pokémon with this ability."
+        "ruby-sapphire": "While this Pokémon is in battle, opposing Pokémon cannot flee or switch out. Pokémon with Run Away can still flee.",
+        "emerald": "While this Pokémon is in battle, opposing Pokémon cannot flee or switch out. Pokémon with Run Away can still flee.",
+        "firered-leafgreen": "While this Pokémon is in battle, opposing Pokémon cannot flee or switch out. Pokémon with Run Away can still flee.",
+        "colosseum": "While this Pokémon is in battle, opposing Pokémon cannot flee or switch out. Pokémon with Run Away can still flee.",
+        "xd": "While this Pokémon is in battle, opposing Pokémon cannot flee or switch out. Pokémon with Run Away can still flee."
     },
     "short_effect": {
         "ruby-sapphire": "Prevents opponents from fleeing or switching out.",

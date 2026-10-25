@@ -5,11 +5,11 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "ruby-sapphire": "Powers up only when paired with Plus.",
-        "emerald": "Powers up only when paired with Plus.",
-        "firered-leafgreen": "Powers up only when paired with Plus.",
-        "colosseum": "Powers up only when paired with Plus.",
-        "xd": "Powers up only when paired with Plus."
+        "ruby-sapphire": "This Pokémon has 1.5× its Special Attack if any friendly Pokémon has Plus.",
+        "emerald": "This Pokémon has 1.5× its Special Attack if any friendly Pokémon has Plus.",
+        "firered-leafgreen": "This Pokémon has 1.5× its Special Attack if any friendly Pokémon has Plus.",
+        "colosseum": "This Pokémon has 1.5× its Special Attack if any friendly Pokémon has Plus.",
+        "xd": "This Pokémon has 1.5× its Special Attack if any friendly Pokémon has Plus."
     },
     "short_effect": {
         "ruby-sapphire": "Increases Special Attack to 1.5× when a friendly Pokémon has Plus or Minus.",

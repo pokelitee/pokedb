@@ -5,11 +5,11 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "ruby-sapphire": "Inflicts only 1/16 of the attacker's maximum HP in damage.",
-        "emerald": "Inflicts only 1/16 of the attacker's maximum HP in damage.",
-        "firered-leafgreen": "Inflicts only 1/16 of the attacker's maximum HP in damage.",
-        "colosseum": "Inflicts only 1/16 of the attacker's maximum HP in damage.",
-        "xd": "Inflicts only 1/16 of the attacker's maximum HP in damage."
+        "ruby-sapphire": "Whenever a move makes contact with this Pokémon, the move's user takes 1/16 of its maximum HP in damage.",
+        "emerald": "Whenever a move makes contact with this Pokémon, the move's user takes 1/16 of its maximum HP in damage.",
+        "firered-leafgreen": "Whenever a move makes contact with this Pokémon, the move's user takes 1/16 of its maximum HP in damage.",
+        "colosseum": "Whenever a move makes contact with this Pokémon, the move's user takes 1/16 of its maximum HP in damage.",
+        "xd": "Whenever a move makes contact with this Pokémon, the move's user takes 1/16 of its maximum HP in damage."
     },
     "short_effect": {
         "ruby-sapphire": "Damages attacking Pokémon for 1/8 their max HP on contact.",

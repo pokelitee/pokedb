@@ -5,11 +5,11 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "ruby-sapphire": "Does not absorb non-damaging Electric moves, i.e. Thunder Wave.",
-        "emerald": "Does not absorb non-damaging Electric moves, i.e. Thunder Wave.",
-        "firered-leafgreen": "Does not absorb non-damaging Electric moves, i.e. Thunder Wave.",
-        "colosseum": "Does not absorb non-damaging Electric moves, i.e. Thunder Wave.",
-        "xd": "Does not absorb non-damaging Electric moves, i.e. Thunder Wave."
+        "ruby-sapphire": "This Pokemon is immune to damaging Electric-type moves and restores 1/4 of its maximum HP, rounded down, when hit by one.",
+        "emerald": "This Pokemon is immune to damaging Electric-type moves and restores 1/4 of its maximum HP, rounded down, when hit by one.",
+        "firered-leafgreen": "This Pokemon is immune to damaging Electric-type moves and restores 1/4 of its maximum HP, rounded down, when hit by one.",
+        "colosseum": "This Pokemon is immune to damaging Electric-type moves and restores 1/4 of its maximum HP, rounded down, when hit by one.",
+        "xd": "This Pokemon is immune to damaging Electric-type moves and restores 1/4 of its maximum HP, rounded down, when hit by one."
     },
     "short_effect": {
         "ruby-sapphire": "Absorbs Electric moves, healing for 1/4 max HP.",

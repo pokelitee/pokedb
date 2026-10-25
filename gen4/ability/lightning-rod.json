@@ -5,9 +5,9 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "diamond-pearl": "Redirects Electric moves without negating them or granting any Special Attack boost. Does not redirect Hidden Power.",
-        "platinum": "Redirects Electric moves without negating them or granting any Special Attack boost. Does not redirect Hidden Power.",
-        "heartgold-soulsilver": "Redirects Electric moves without negating them or granting any Special Attack boost. Does not redirect Hidden Power."
+        "diamond-pearl": "If this Pokemon is not the target of a single-target Electric-type move used by another Pokemon, this Pokemon redirects that move to itself. Does not redirect Hidden Power or Judgement.",
+        "platinum": "If this Pokemon is not the target of a single-target Electric-type move used by another Pokemon, this Pokemon redirects that move to itself. Does not redirect Hidden Power or Judgement.",
+        "heartgold-soulsilver": "If this Pokemon is not the target of a single-target Electric-type move used by another Pokemon, this Pokemon redirects that move to itself. Does not redirect Hidden Power or Judgement."
     },
     "short_effect": {
         "diamond-pearl": "Redirects single-target Electric moves to this Pokémon where possible. Absorbs Electric moves, raising Special Attack one stage.",

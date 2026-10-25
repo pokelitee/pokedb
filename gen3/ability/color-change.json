@@ -5,11 +5,11 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "ruby-sapphire": "Triggers on every hit of multiple-hit moves.",
-        "emerald": "Triggers on every hit of multiple-hit moves.",
-        "firered-leafgreen": "Triggers on every hit of multiple-hit moves.",
-        "colosseum": "Triggers on every hit of multiple-hit moves.",
-        "xd": "Triggers on every hit of multiple-hit moves."
+        "ruby-sapphire": "Whenever this Pokémon takes damage from a move, the Pokémon's type changes to match the move. If the Pokémon has two types, both are overridden. The Pokémon must directly take damage; for example, moves blocked by a Substitute will not trigger this ability, nor will moves that deal damage indirectly, such as Spikes. In Pokémon Colosseum and XD: Gale of Darkness, this ability does not take effect on Shadow-type moves.",
+        "emerald": "Whenever this Pokémon takes damage from a move, the Pokémon's type changes to match the move. If the Pokémon has two types, both are overridden. The Pokémon must directly take damage; for example, moves blocked by a Substitute will not trigger this ability, nor will moves that deal damage indirectly, such as Spikes. In Pokémon Colosseum and XD: Gale of Darkness, this ability does not take effect on Shadow-type moves.",
+        "firered-leafgreen": "Whenever this Pokémon takes damage from a move, the Pokémon's type changes to match the move. If the Pokémon has two types, both are overridden. The Pokémon must directly take damage; for example, moves blocked by a Substitute will not trigger this ability, nor will moves that deal damage indirectly, such as Spikes. In Pokémon Colosseum and XD: Gale of Darkness, this ability does not take effect on Shadow-type moves.",
+        "colosseum": "Whenever this Pokémon takes damage from a move, the Pokémon's type changes to match the move. If the Pokémon has two types, both are overridden. The Pokémon must directly take damage; for example, moves blocked by a Substitute will not trigger this ability, nor will moves that deal damage indirectly, such as Spikes. In Pokémon Colosseum and XD: Gale of Darkness, this ability does not take effect on Shadow-type moves.",
+        "xd": "Whenever this Pokémon takes damage from a move, the Pokémon's type changes to match the move. If the Pokémon has two types, both are overridden. The Pokémon must directly take damage; for example, moves blocked by a Substitute will not trigger this ability, nor will moves that deal damage indirectly, such as Spikes. In Pokémon Colosseum and XD: Gale of Darkness, this ability does not take effect on Shadow-type moves."
     },
     "short_effect": {
         "ruby-sapphire": "Changes type to match when hit by a damaging move.",

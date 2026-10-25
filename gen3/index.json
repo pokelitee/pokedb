@@ -11,23 +11,15 @@
             "variant"
         ],
         "resource_provenance": {
-            "pokemon": {
-                "version": "2.0.0",
-                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
-                "dependencies": {
-                    "requests": "2.34.2",
-                    "tqdm": "4.70.1"
-                }
-            },
-            "ability": {
-                "version": "2.0.0",
-                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
-                "dependencies": {
-                    "requests": "2.34.2",
-                    "tqdm": "4.70.1"
-                }
-            },
             "cosmetic": {
+                "version": "2.0.0",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.70.1"
+                }
+            },
+            "move": {
                 "version": "2.0.0",
                 "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
                 "dependencies": {
@@ -43,7 +35,15 @@
                     "tqdm": "4.70.1"
                 }
             },
-            "move": {
+            "pokemon": {
+                "version": "2.0.0",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.70.1"
+                }
+            },
+            "ability": {
                 "version": "2.0.0",
                 "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
                 "dependencies": {
@@ -68,7 +68,7 @@
                 }
             }
         },
-        "content_sha256": "02b5dda6ead3ed97d1a5741067919072c984eb13b857b5c14905c9bf12d549cc",
+        "content_sha256": "6ad22b934ee802d96c46233400e8d4805959a45753baae9fb425b48c77a394a4",
         "source": "pokeapi",
         "api_base_url": "https://pokeapi.co/api/v2/",
         "is_historical": true,
@@ -89,7 +89,7 @@
             "sapphire",
             "xd"
         ],
-        "created_at": "2026-10-18T04:09:07.457460+00:00",
+        "created_at": "2026-10-25T04:18:03.350002+00:00",
         "counts": {
             "ability": 76,
             "move": 372,

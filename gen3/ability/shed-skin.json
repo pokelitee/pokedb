@@ -5,11 +5,11 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "ruby-sapphire": "Chance of taking effect is 33%.",
-        "emerald": "Chance of taking effect is 33%.",
-        "firered-leafgreen": "Chance of taking effect is 33%.",
-        "colosseum": "Chance of taking effect is 33%.",
-        "xd": "Chance of taking effect is 33%."
+        "ruby-sapphire": "After each turn, this Pokémon has a 33% of being cured of any major status ailment.",
+        "emerald": "After each turn, this Pokémon has a 33% of being cured of any major status ailment.",
+        "firered-leafgreen": "After each turn, this Pokémon has a 33% of being cured of any major status ailment.",
+        "colosseum": "After each turn, this Pokémon has a 33% of being cured of any major status ailment.",
+        "xd": "After each turn, this Pokémon has a 33% of being cured of any major status ailment."
     },
     "short_effect": {
         "ruby-sapphire": "Has a 33% chance of curing any major status ailment after each turn.",

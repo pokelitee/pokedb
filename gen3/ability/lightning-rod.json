@@ -5,11 +5,11 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "ruby-sapphire": "Has no overworld effect.",
-        "emerald": "Does not affect non-damaging Electric moves, i.e. Thunder Wave. Increases the frequency of Match Call calls on the overworld if any party Pokémon has this ability.",
-        "firered-leafgreen": "Does not affect non-damaging Electric moves, i.e. Thunder Wave. Increases the frequency of Match Call calls on the overworld if any party Pokémon has this ability.",
-        "colosseum": "Does not affect non-damaging Electric moves, i.e. Thunder Wave. Increases the frequency of Match Call calls on the overworld if any party Pokémon has this ability.",
-        "xd": "Does not affect non-damaging Electric moves, i.e. Thunder Wave. Increases the frequency of Match Call calls on the overworld if any party Pokémon has this ability."
+        "ruby-sapphire": "If this Pokemon is not the target of a single-target Electric-type move used by another Pokemon, this Pokemon redirects that move to itself. Does not redirect Hidden Power.",
+        "emerald": "If this Pokemon is not the target of a single-target Electric-type move used by another Pokemon, this Pokemon redirects that move to itself. Does not redirect Hidden Power. Overworld: Increases the frequency of Match Call calls on the overworld if any party Pokémon has this ability.",
+        "firered-leafgreen": "If this Pokemon is not the target of a single-target Electric-type move used by another Pokemon, this Pokemon redirects that move to itself. Does not redirect Hidden Power. Overworld: Increases the frequency of Match Call calls on the overworld if any party Pokémon has this ability.",
+        "colosseum": "If this Pokemon is not the target of a single-target Electric-type move used by another Pokemon, this Pokemon redirects that move to itself. Does not redirect Hidden Power. Overworld: Increases the frequency of Match Call calls on the overworld if any party Pokémon has this ability.",
+        "xd": "If this Pokemon is not the target of a single-target Electric-type move used by another Pokemon, this Pokemon redirects that move to itself. Does not redirect Hidden Power. Overworld: Increases the frequency of Match Call calls on the overworld if any party Pokémon has this ability."
     },
     "short_effect": {
         "ruby-sapphire": "Redirects single-target Electric moves to this Pokémon where possible. Absorbs Electric moves, raising Special Attack one stage.",

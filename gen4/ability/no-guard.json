@@ -5,7 +5,7 @@
     "is_main_series": true,
     "generation": "generation-iv",
     "effect": {
-        "diamond-pearl": "Due to a glitch, moves affected by this ability have a (100 - accuracy)% chance to hit through Detect or Protect.",
+        "diamond-pearl": "Moves used by or against this Pokémon never miss. One-hit KO moves are unaffected. Moves affected by this ability can hit Pokémon during the preparation turn of moves like Dig or Fly. Due to a glitch, moves affected by this ability have a (100 - accuracy)% chance to hit through Detect or Protect. Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled.",
         "platinum": "Moves used by or against this Pokémon never miss. One-hit KO moves are unaffected. Moves affected by this ability can hit Pokémon during the preparation turn of moves like Dig or Fly. Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled.",
         "heartgold-soulsilver": "Moves used by or against this Pokémon never miss. One-hit KO moves are unaffected. Moves affected by this ability can hit Pokémon during the preparation turn of moves like Dig or Fly. Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled."
     },

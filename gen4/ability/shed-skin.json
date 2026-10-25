@@ -5,9 +5,9 @@
     "is_main_series": true,
     "generation": "generation-iii",
     "effect": {
-        "diamond-pearl": "Chance of taking effect is 30%.",
-        "platinum": "Chance of taking effect is 30%.",
-        "heartgold-soulsilver": "Chance of taking effect is 30%."
+        "diamond-pearl": "After each turn, this Pokémon has a 30% of being cured of any major status ailment.",
+        "platinum": "After each turn, this Pokémon has a 30% of being cured of any major status ailment.",
+        "heartgold-soulsilver": "After each turn, this Pokémon has a 30% of being cured of any major status ailment."
     },
     "short_effect": {
         "diamond-pearl": "Has a 33% chance of curing any major status ailment after each turn.",
