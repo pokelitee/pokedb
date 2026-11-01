@@ -11,7 +11,7 @@
             "variant"
         ],
         "resource_provenance": {
-            "cosmetic": {
+            "pokemon": {
                 "version": "2.0.0",
                 "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
                 "dependencies": {
@@ -19,7 +19,7 @@
                     "tqdm": "4.70.1"
                 }
             },
-            "move": {
+            "transformation": {
                 "version": "2.0.0",
                 "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
                 "dependencies": {
@@ -35,22 +35,6 @@
                     "tqdm": "4.70.1"
                 }
             },
-            "pokemon": {
-                "version": "2.0.0",
-                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
-                "dependencies": {
-                    "requests": "2.34.2",
-                    "tqdm": "4.70.1"
-                }
-            },
-            "ability": {
-                "version": "2.0.0",
-                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
-                "dependencies": {
-                    "requests": "2.34.2",
-                    "tqdm": "4.70.1"
-                }
-            },
             "item": {
                 "version": "2.0.0",
                 "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
@@ -59,7 +43,23 @@
                     "tqdm": "4.70.1"
                 }
             },
-            "transformation": {
+            "move": {
+                "version": "2.0.0",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.70.1"
+                }
+            },
+            "cosmetic": {
+                "version": "2.0.0",
+                "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
+                "dependencies": {
+                    "requests": "2.34.2",
+                    "tqdm": "4.70.1"
+                }
+            },
+            "ability": {
                 "version": "2.0.0",
                 "commit": "209329c4fab81432104d2c293442d5fd7a819a06",
                 "dependencies": {
